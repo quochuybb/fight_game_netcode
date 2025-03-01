@@ -1,0 +1,597 @@
+=================================================
+Log File Created: 2025-02-27 10:08:17 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-02-27 10:08:17] [Log] [SYSTEM] Logger initialized
+[2025-02-27 10:08:34] [Log] Client started
+[2025-02-27 10:08:34] [Log] Player 0
+[2025-02-27 10:08:34] [Log] Player 1
+[2025-02-27 10:08:34] [Warning] [Netcode] Cannot start Client while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1008)
+UIManager/<>c:<Start>b__6_1 () (at Assets/Script/UI/UIManager.cs:41)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-02-27 10:08:34] [Log] Client failed to start
+[2025-02-27 10:08:36] [Error] moveVelocity(5.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:36] [Error] Move(1.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:36] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:36] [Error] [ERROR] send position to client(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:39] [Error] moveVelocity(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:39] [Error] Move(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:39] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:39] [Error] [ERROR] send position to client(0.10, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:40] [Error] moveVelocity(5.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:40] [Error] Move(1.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:40] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:40] [Error] [ERROR] send position to client(0.10, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:40] [Error] moveVelocity(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:40] [Error] Move(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:40] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:40] [Error] [ERROR] send position to client(0.20, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:41] [Error] moveVelocity(5.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:41] [Error] Move(1.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:41] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:41] [Error] [ERROR] send position to client(0.20, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:42] [Error] moveVelocity(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:42] [Error] Move(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:42] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:42] [Error] [ERROR] send position to client(0.20, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:43] [Error] moveVelocity(5.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:43] [Error] Move(1.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:43] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:43] [Error] [ERROR] send position to client(0.20, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:43] [Error] moveVelocity(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:43] [Error] Move(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:43] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:43] [Error] [ERROR] send position to client(0.30, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:45] [Error] moveVelocity(5.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:45] [Error] Move(1.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:45] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:45] [Error] [ERROR] send position to client(0.30, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:49] [Error] moveVelocity(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:49] [Error] Move(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:49] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:49] [Error] moveVelocity(-5.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:49] [Error] Move(-1.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:49] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:49] [Error] [ERROR] send position to client(0.40, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-02-27 10:08:50] [Error] moveVelocity(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:44)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:50] [Error] Move(0.00, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:45)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:50] [Error] Speed5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:46)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:75)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-27 10:08:50] [Error] [ERROR] send position to client(0.30, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+GameLogger:LogError (string,string) (at Assets/Script/Logger/GameLogger.cs:150)
+CharacterMovement:UpdatePositionClientRpc (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:99)
+CharacterMovement:__rpc_handler_2095802612 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ClientRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:159)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ClientRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+

@@ -1,0 +1,80 @@
+=================================================
+Log File Created: 2025-02-18 03:58:24 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-02-18 03:58:24] [Log] [SYSTEM] Logger initialized
+[2025-02-18 03:58:37] [Log] Client started
+[2025-02-18 03:58:37] [Log] Player 0
+[2025-02-18 03:58:37] [Log] Player 1
+[2025-02-18 03:58:39] [Log] [CUSTOM] send position to client(-0.14, 0.00)
+[2025-02-18 03:58:39] [Log] [CUSTOM] send position to client(-0.14, 0.00)
+[2025-02-18 03:58:46] [Log] [CUSTOM] send position to client(-0.14, 0.00)
+[2025-02-18 03:58:46] [Log] [CUSTOM] send position to client(-0.14, 0.00)
+[2025-02-18 03:58:46] [Log] [CUSTOM] send position to client(-0.14, 0.00)
+[2025-02-18 03:58:46] [Log] [CUSTOM] send position to client(-0.20, 0.00)
+[2025-02-18 03:58:46] [Log] [CUSTOM] send position to client(-0.14, 0.00)
+[2025-02-18 03:58:46] [Log] [CUSTOM] send position to client(-0.16, 0.00)
+[2025-02-18 03:58:46] [Log] [CUSTOM] send position to client(-0.16, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.16, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.16, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.16, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.19, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.16, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.17, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.17, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.20, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.17, 0.00)
+[2025-02-18 03:58:47] [Log] [CUSTOM] send position to client(-0.21, 0.00)
+[2025-02-18 03:58:48] [Log] [CUSTOM] send position to client(-0.18, 0.00)
+[2025-02-18 03:58:48] [Log] [CUSTOM] send position to client(-0.18, 0.00)
+[2025-02-18 03:58:48] [Log] [CUSTOM] send position to client(-0.25, 0.00)
+[2025-02-18 03:58:48] [Log] [CUSTOM] send position to client(-0.19, 0.00)
+[2025-02-18 03:58:48] [Log] [CUSTOM] send position to client(-0.27, 0.00)
+[2025-02-18 03:58:48] [Log] [CUSTOM] send position to client(-0.21, 0.00)
+[2025-02-18 03:58:48] [Log] [CUSTOM] send position to client(-0.23, 0.00)
+[2025-02-18 03:58:48] [Log] [CUSTOM] send position to client(-0.22, 0.00)
+[2025-02-18 03:58:49] [Log] [CUSTOM] send position to client(-0.29, 0.00)
+[2025-02-18 03:58:49] [Log] [CUSTOM] send position to client(-0.24, 0.00)
+[2025-02-18 03:58:49] [Log] [CUSTOM] send position to client(-0.25, 0.00)
+[2025-02-18 03:58:49] [Log] [CUSTOM] send position to client(-0.28, 0.00)
+[2025-02-18 03:58:49] [Log] [CUSTOM] send position to client(-0.25, 0.00)
+[2025-02-18 03:58:49] [Log] [CUSTOM] send position to client(-0.29, 0.00)
+[2025-02-18 03:58:49] [Log] [CUSTOM] send position to client(-0.26, 0.00)
+[2025-02-18 03:58:49] [Log] [CUSTOM] send position to client(-0.30, 0.00)
+[2025-02-18 03:58:52] [Log] [CUSTOM] send position to client(-0.28, 0.00)
+[2025-02-18 03:58:52] [Log] [CUSTOM] send position to client(-0.32, 0.00)
+[2025-02-18 03:58:52] [Log] [CUSTOM] send position to client(-0.28, 0.00)
+[2025-02-18 03:58:52] [Log] [CUSTOM] send position to client(-0.29, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.29, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.32, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.36, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.33, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.39, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.33, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.35, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.38, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.35, 0.00)
+[2025-02-18 03:58:53] [Log] [CUSTOM] send position to client(-0.35, 0.00)
+[2025-02-18 03:58:54] [Log] [CUSTOM] send position to client(-0.42, 0.00)
+[2025-02-18 04:00:01] [Warning] Assets/Script/Animation/Animation Controller.cs(13,45): warning CS0108: 'AnimationController.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-02-18 04:00:01] [Warning] Assets/Script/Spawn/SpawnEnemy.cs(9,45): warning CS0108: 'SpawnEnemy.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-02-18 04:00:01] [Warning] Assets/Script/Spawn/SpawnEnemy.cs(15,18): warning CS0114: 'SpawnEnemy.Awake()' hides inherited member 'CharacterController.Awake()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-02-18 04:00:01] [Warning] Assets/Script/Spawn/SpawnEnemy.cs(20,18): warning CS0114: 'SpawnEnemy.Update()' hides inherited member 'CharacterController.Update()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/PlayerInput.cs(12,18): warning CS0114: 'PlayerInput.Awake()' hides inherited member 'CharacterController.Awake()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-02-18 04:00:01] [Warning] Assets/Script/Attack/BulletManager.cs(8,45): warning CS0108: 'BulletManager.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/EnemyController.cs(37,26): warning CS0168: The variable 'e' is declared but never used
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/CharacterMovement.cs(17,19): warning CS0414: The field 'CharacterMovement.dashCooldown' is assigned but its value is never used
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/CharacterMovement.cs(14,18): warning CS0414: The field 'CharacterMovement.isDashing' is assigned but its value is never used
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/CharacterMovement.cs(15,19): warning CS0414: The field 'CharacterMovement.dashDuration' is assigned but its value is never used
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/PlayerInput.cs(12,18): warning CS0114: 'PlayerInput.Awake()' hides inherited member 'CharacterController.Awake()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-02-18 04:00:01] [Warning] Assets/Script/Attack/BulletManager.cs(8,45): warning CS0108: 'BulletManager.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/EnemyController.cs(37,26): warning CS0168: The variable 'e' is declared but never used
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/CharacterMovement.cs(17,19): warning CS0414: The field 'CharacterMovement.dashCooldown' is assigned but its value is never used
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/CharacterMovement.cs(14,18): warning CS0414: The field 'CharacterMovement.isDashing' is assigned but its value is never used
+[2025-02-18 04:00:01] [Warning] Assets/Script/Movement/CharacterMovement.cs(15,19): warning CS0414: The field 'CharacterMovement.dashDuration' is assigned but its value is never used

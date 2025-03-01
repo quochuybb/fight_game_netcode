@@ -1,0 +1,108 @@
+=================================================
+Log File Created: 2025-02-18 04:00:36 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-02-18 04:00:36] [Log] [SYSTEM] Logger initialized
+[2025-02-18 04:00:47] [Log] Client 0 connected
+[2025-02-18 04:00:47] [Log] Host started
+[2025-02-18 04:00:48] [Log] Player 0
+[2025-02-18 04:00:50] [Log] test
+[2025-02-18 04:00:50] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 0
+[2025-02-18 04:00:51] [Log] test
+[2025-02-18 04:00:51] [Log] [CUSTOM] send position to server(-2.70, 0.00), serverRpcParams: 0
+[2025-02-18 04:00:55] [Log] test
+[2025-02-18 04:00:55] [Log] [CUSTOM] send position to server(-2.70, 0.00), serverRpcParams: 0
+[2025-02-18 04:00:56] [Log] test
+[2025-02-18 04:00:56] [Log] [CUSTOM] send position to server(-2.70, -0.70), serverRpcParams: 0
+[2025-02-18 04:00:56] [Log] test
+[2025-02-18 04:00:56] [Log] [CUSTOM] send position to server(-2.70, -0.70), serverRpcParams: 0
+[2025-02-18 04:00:56] [Log] test
+[2025-02-18 04:00:56] [Log] [CUSTOM] send position to server(-2.70, -1.30), serverRpcParams: 0
+[2025-02-18 04:00:56] [Log] test
+[2025-02-18 04:00:56] [Log] [CUSTOM] send position to server(-2.70, -1.30), serverRpcParams: 0
+[2025-02-18 04:00:56] [Log] test
+[2025-02-18 04:00:56] [Log] [CUSTOM] send position to server(-2.10, -1.30), serverRpcParams: 0
+[2025-02-18 04:00:56] [Log] test
+[2025-02-18 04:00:56] [Log] [CUSTOM] send position to server(-2.10, -1.30), serverRpcParams: 0
+[2025-02-18 04:00:57] [Log] test
+[2025-02-18 04:00:57] [Log] [CUSTOM] send position to server(-2.90, -1.30), serverRpcParams: 0
+[2025-02-18 04:00:57] [Log] test
+[2025-02-18 04:00:57] [Log] [CUSTOM] send position to server(-2.20, -1.30), serverRpcParams: 0
+[2025-02-18 04:00:57] [Log] test
+[2025-02-18 04:00:57] [Log] [CUSTOM] send position to server(-2.20, -0.60), serverRpcParams: 0
+[2025-02-18 04:00:57] [Log] test
+[2025-02-18 04:00:57] [Log] [CUSTOM] send position to server(-2.20, -0.60), serverRpcParams: 0
+[2025-02-18 04:00:58] [Log] test
+[2025-02-18 04:00:58] [Log] [CUSTOM] send position to server(-5.10, -0.60), serverRpcParams: 0
+[2025-02-18 04:00:58] [Log] test
+[2025-02-18 04:00:58] [Log] [CUSTOM] send position to server(-5.10, -0.60), serverRpcParams: 0
+[2025-02-18 04:00:58] [Log] test
+[2025-02-18 04:00:58] [Log] [CUSTOM] send position to server(-5.10, -2.30), serverRpcParams: 0
+[2025-02-18 04:00:58] [Log] test
+[2025-02-18 04:00:58] [Log] [CUSTOM] send position to server(-4.40, -2.30), serverRpcParams: 0
+[2025-02-18 04:00:58] [Log] test
+[2025-02-18 04:00:58] [Log] [CUSTOM] send position to server(-4.26, -1.06), serverRpcParams: 0
+[2025-02-18 04:00:59] [Log] test
+[2025-02-18 04:00:59] [Log] [CUSTOM] send position to server(-5.66, -1.06), serverRpcParams: 0
+[2025-02-18 04:00:59] [Log] test
+[2025-02-18 04:00:59] [Log] [CUSTOM] send position to server(-5.87, -1.27), serverRpcParams: 0
+[2025-02-18 04:00:59] [Log] test
+[2025-02-18 04:00:59] [Log] [CUSTOM] send position to server(-5.87, -1.77), serverRpcParams: 0
+[2025-02-18 04:00:59] [Log] test
+[2025-02-18 04:00:59] [Log] [CUSTOM] send position to server(-4.90, -1.84), serverRpcParams: 0
+[2025-02-18 04:00:59] [Log] test
+[2025-02-18 04:00:59] [Log] [CUSTOM] send position to server(-4.69, -1.63), serverRpcParams: 0
+[2025-02-18 04:00:59] [Log] test
+[2025-02-18 04:00:59] [Log] [CUSTOM] send position to server(-4.69, -1.33), serverRpcParams: 0
+[2025-02-18 04:01:08] [Log] Player 1
+[2025-02-18 04:01:11] [Log] Client 1 connected
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(-0.10, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(-0.10, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.10, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.10, 0.00)
+[2025-02-18 04:01:11] [Log] test
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to server(0.00, 0.00), serverRpcParams: 1
+[2025-02-18 04:01:11] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 04:01:15] [Log] Client 1 disconnected
+[2025-02-18 04:01:17] [Log] Client 0 disconnected

@@ -1,0 +1,34 @@
+=================================================
+Log File Created: 2025-02-18 04:13:25 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxPlayer
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-02-18 04:13:25] [Log] [SYSTEM] Logger initialized
+[2025-02-18 04:19:31] [Log] Client 0 connected
+[2025-02-18 04:19:31] [Log] Host started
+[2025-02-18 04:19:31] [Log] Player 0
+[2025-02-18 04:19:34] [Log] Player 1
+[2025-02-18 04:19:34] [Log] Client 1 connected
+[2025-02-18 04:19:38] [Log] test
+[2025-02-18 04:19:38] [Log] [CUSTOM] send position to server(-0.14, 0.00), serverRpcParams: 1
+[2025-02-18 04:19:38] [Log] test
+[2025-02-18 04:19:38] [Log] [CUSTOM] send position to server(-0.14, 0.00), serverRpcParams: 1
+[2025-02-18 04:19:48] [Log] test
+[2025-02-18 04:19:48] [Log] [CUSTOM] send position to server(-0.14, 0.00), serverRpcParams: 1
+[2025-02-18 04:19:48] [Log] test
+[2025-02-18 04:19:48] [Log] [CUSTOM] send position to server(-0.14, 0.00), serverRpcParams: 1
+[2025-02-18 04:19:50] [Log] test
+[2025-02-18 04:19:50] [Log] [CUSTOM] send position to server(-0.14, 0.00), serverRpcParams: 1
+[2025-02-18 04:19:50] [Log] test
+[2025-02-18 04:19:50] [Log] [CUSTOM] send position to server(-0.14, 0.00), serverRpcParams: 1
+[2025-02-18 04:19:50] [Log] test
+[2025-02-18 04:19:50] [Log] [CUSTOM] send position to server(-0.14, 0.00), serverRpcParams: 1
+[2025-02-18 04:19:50] [Log] test
+[2025-02-18 04:19:50] [Log] [CUSTOM] send position to server(-0.20, 0.00), serverRpcParams: 1
+[2025-02-18 04:20:07] [Log] Client 1 disconnected
+[2025-02-18 04:20:40] [Log] Client 0 disconnected

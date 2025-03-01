@@ -1,0 +1,596 @@
+=================================================
+Log File Created: 2025-02-18 04:21:15 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-02-18 04:21:15] [Log] [SYSTEM] Logger initialized
+[2025-02-18 04:21:20] [Log] Client started
+[2025-02-18 04:21:21] [Log] Player 0
+[2025-02-18 04:21:21] [Log] Player 1
+[2025-02-18 04:21:23] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:23] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:23] [Log] [CUSTOM] send position to client(-0.14, 0.00)
+[2025-02-18 04:21:23] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:23] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:23] [Log] [CUSTOM] send position to client(-0.09, -0.01)
+[2025-02-18 04:21:32] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:32] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:32] [Log] [CUSTOM] send position to client(-0.11, -0.01)
+[2025-02-18 04:21:32] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:32] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:32] [Log] [CUSTOM] send position to client(-0.11, -0.01)
+[2025-02-18 04:21:32] [Log] Move(-5.00, 0.00)
+[2025-02-18 04:21:32] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:32] [Log] [CUSTOM] send position to client(-0.08, -0.01)
+[2025-02-18 04:21:32] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:32] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:32] [Log] [CUSTOM] send position to client(-0.11, -0.01)
+[2025-02-18 04:21:32] [Log] Move(0.00, 5.00)
+[2025-02-18 04:21:32] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:32] [Log] [CUSTOM] send position to client(-0.10, -0.01)
+[2025-02-18 04:21:32] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:32] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:32] [Log] [CUSTOM] send position to client(-0.10, -0.01)
+[2025-02-18 04:21:33] [Log] Move(0.00, -5.00)
+[2025-02-18 04:21:33] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:33] [Log] [CUSTOM] send position to client(-0.11, -0.01)
+[2025-02-18 04:21:33] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:33] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:33] [Log] [CUSTOM] send position to client(-0.10, -0.01)
+[2025-02-18 04:21:33] [Log] Move(0.00, 5.00)
+[2025-02-18 04:21:33] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:33] [Log] [CUSTOM] send position to client(-0.11, -0.01)
+[2025-02-18 04:21:33] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:33] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:33] [Log] [CUSTOM] send position to client(-0.11, 0.09)
+[2025-02-18 04:21:33] [Log] Move(0.00, -5.00)
+[2025-02-18 04:21:33] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:33] [Log] [CUSTOM] send position to client(-0.11, 0.04)
+[2025-02-18 04:21:33] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:33] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:33] [Log] [CUSTOM] send position to client(-0.11, 0.07)
+[2025-02-18 04:21:33] [Log] Move(0.00, 5.00)
+[2025-02-18 04:21:33] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:33] [Log] [CUSTOM] send position to client(-0.11, 0.05)
+[2025-02-18 04:21:33] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:33] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:33] [Log] [CUSTOM] send position to client(-0.11, 0.06)
+[2025-02-18 04:21:34] [Log] Move(0.00, -5.00)
+[2025-02-18 04:21:34] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:34] [Log] [CUSTOM] send position to client(-0.11, 0.06)
+[2025-02-18 04:21:34] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:34] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:34] [Log] [CUSTOM] send position to client(-0.11, -0.04)
+[2025-02-18 04:21:34] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:34] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:34] [Log] [CUSTOM] send position to client(-0.11, 0.06)
+[2025-02-18 04:21:34] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:34] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:34] [Log] Move(-5.00, 0.00)
+[2025-02-18 04:21:34] [Log] [CUSTOM] send position to client(-0.11, 0.02)
+[2025-02-18 04:21:34] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:34] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:34] [Log] [CUSTOM] send position to client(-0.15, 0.04)
+[2025-02-18 04:21:34] [Log] Move(0.00, 5.00)
+[2025-02-18 04:21:34] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:34] [Log] [CUSTOM] send position to client(-0.11, 0.03)
+[2025-02-18 04:21:34] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:34] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:34] [Log] [CUSTOM] send position to client(-0.13, 0.13)
+[2025-02-18 04:21:34] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:34] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:34] [Log] [CUSTOM] send position to client(-0.12, 0.05)
+[2025-02-18 04:21:34] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:34] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:34] [Log] [CUSTOM] send position to client(-0.12, 0.11)
+[2025-02-18 04:21:34] [Log] Move(0.00, 5.00)
+[2025-02-18 04:21:35] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:35] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:35] [Log] [CUSTOM] send position to client(-0.12, 0.09)
+[2025-02-18 04:21:35] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:35] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:35] [Log] [CUSTOM] send position to client(-0.12, 0.09)
+[2025-02-18 04:21:35] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:35] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:35] [Log] [CUSTOM] send position to client(-0.12, 0.09)
+[2025-02-18 04:21:35] [Log] Move(-5.00, 0.00)
+[2025-02-18 04:21:35] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:35] [Log] [CUSTOM] send position to client(-0.10, 0.09)
+[2025-02-18 04:21:35] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:35] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:35] [Log] [CUSTOM] send position to client(-0.16, 0.09)
+[2025-02-18 04:21:35] [Log] Move(0.00, 5.00)
+[2025-02-18 04:21:35] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:35] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:36] [Log] [CUSTOM] send position to client(-0.13, 0.19)
+[2025-02-18 04:21:36] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:36] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:36] [Log] [CUSTOM] send position to client(-0.13, 0.11)
+[2025-02-18 04:21:36] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:36] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:36] [Log] Move(0.00, 5.00)
+[2025-02-18 04:21:36] [Log] [CUSTOM] send position to client(-0.13, 0.15)
+[2025-02-18 04:21:36] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:36] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:36] [Log] [CUSTOM] send position to client(-0.13, 0.14)
+[2025-02-18 04:21:38] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:38] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:38] [Log] [CUSTOM] send position to client(-0.19, 0.54)
+[2025-02-18 04:21:38] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:38] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:38] [Log] [CUSTOM] send position to client(-0.19, 0.56)
+[2025-02-18 04:21:38] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:38] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:38] [Log] [CUSTOM] send position to client(-0.19, 0.56)
+[2025-02-18 04:21:39] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:39] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:39] [Log] Move(-5.00, 0.00)
+[2025-02-18 04:21:39] [Log] [CUSTOM] send position to client(-0.19, 0.56)
+[2025-02-18 04:21:39] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:39] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:39] [Log] Move(0.00, 5.00)
+[2025-02-18 04:21:39] [Log] [CUSTOM] send position to client(-0.19, 0.56)
+[2025-02-18 04:21:39] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:39] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:39] [Log] [CUSTOM] send position to client(-0.19, 0.66)
+[2025-02-18 04:21:39] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:39] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:39] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:39] [Log] Move(0.00, -5.00)
+[2025-02-18 04:21:39] [Log] [CUSTOM] send position to client(-0.19, 0.59)
+[2025-02-18 04:21:39] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:39] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:39] [Log] Move(5.00, 0.00)
+[2025-02-18 04:21:39] [Log] [CUSTOM] send position to client(-0.19, 0.50)
+[2025-02-18 04:21:39] [Log] Move(3.54, 3.54)
+[2025-02-18 04:21:39] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:39] [Log] Move(0.00, 5.00)
+[2025-02-18 04:21:39] [Log] [CUSTOM] send position to client(-0.19, 0.60)
+[2025-02-18 04:21:39] [Log] Move(0.00, 0.00)
+[2025-02-18 04:21:39] [Error] Calling...
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:HandleOwnerMovement () (at Assets/Script/Movement/CharacterMovement.cs:51)
+CharacterMovement:OnMove (UnityEngine.Vector2) (at Assets/Script/Movement/CharacterMovement.cs:70)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Vector2>:Invoke (UnityEngine.Vector2)
+PlayerInput:OnMovement (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:20)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-02-18 04:21:39] [Log] [CUSTOM] send position to client(-0.19, 0.65)

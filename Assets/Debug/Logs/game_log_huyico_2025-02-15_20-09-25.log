@@ -1,0 +1,39 @@
+=================================================
+Log File Created: 2025-02-15 20:09:25 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-02-15 20:09:25] [Log] [SYSTEM] Logger initialized
+[2025-02-15 20:09:27] [Log] Client 0 connected
+[2025-02-15 20:09:27] [Log] Host started
+[2025-02-15 20:09:30] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:09:31] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:09:55] [Log] Client 1 connected
+[2025-02-15 20:10:15] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:16] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:17] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:17] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:18] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:18] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:18] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:19] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:19] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:20] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:20] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:20] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:21] [Log] [CUSTOM] TestOnMove
+[2025-02-15 20:10:33] [Log] Client 1 disconnected

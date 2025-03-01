@@ -1,0 +1,36 @@
+=================================================
+Log File Created: 2025-02-18 01:29:45 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-02-18 01:29:45] [Log] [SYSTEM] Logger initialized
+[2025-02-18 01:29:47] [Exception] ArgumentException: Serialization has not been generated for type System.String. This can be addressed by adding a [GenerateSerializationForGenericParameterAttribute] to your generic class that serializes this value (if you are using one), adding [GenerateSerializationForTypeAttribute(typeof(System.String)] to the class or method that is attempting to serialize it, or creating a field on a NetworkBehaviour of type NetworkVariable. If this error continues to appear after doing one of those things and this is a type you can change, then either implement INetworkSerializable or mark it as serializable by memcpy by adding INetworkSerializeByMemcpy to its interface list to enable automatic serialization generation. If not, assign serialization code to UserNetworkVariableSerialization.WriteValue, UserNetworkVariableSerialization.ReadValue, and UserNetworkVariableSerialization.DuplicateValue, or if it's serializable by memcpy (contains no pointers), wrap it in ForceNetworkSerializeByMemcpy`1.
+Stack Trace:
+Unity.Netcode.FallbackSerializer`1[T].ThrowArgumentError () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableSerialization.cs:1176)
+Unity.Netcode.FallbackSerializer`1[T].Duplicate (T& value, T& duplicatedValue) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableSerialization.cs:1235)
+Unity.Netcode.FallbackSerializer`1[T].Unity.Netcode.INetworkVariableSerializer<T>.Duplicate (T& value, T& duplicatedValue) (at <8bd93932106e4262a86a89942faeff5a>:0)
+Unity.Netcode.NetworkVariableSerialization`1[T].Duplicate (T& value, T& duplicatedValue) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableSerialization.cs:1694)
+Unity.Netcode.NetworkVariable`1[T].OnInitialize () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:44)
+Unity.Netcode.NetworkVariableBase.Initialize (Unity.Netcode.NetworkBehaviour networkBehaviour) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:82)
+PlayersManager.__initializeVariables () (at <94cef6ca40424004b98e38d595dc6cfb>:0)
+Unity.Netcode.NetworkBehaviour.InitializeVariables () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:867)
+Unity.Netcode.NetworkBehaviour.InternalOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:685)
+Unity.Netcode.NetworkObject.InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1384)
+Unity.Netcode.NetworkSpawnManager.SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject networkObject, System.UInt64 networkId, System.Boolean sceneObject, System.Boolean playerObject, System.UInt64 ownerClientId, System.Boolean destroyWithScene) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager.SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject networkObject, System.UInt64 networkId, System.Boolean sceneObject, System.Boolean playerObject, System.UInt64 ownerClientId, System.Boolean destroyWithScene) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:643)
+Unity.Netcode.NetworkSpawnManager.ServerSpawnSceneObjectsOnStartSweep () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:979)
+Unity.Netcode.NetworkManager.HostServerInitialize () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1117)
+Unity.Netcode.NetworkManager.StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1069)
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkManager:StartHost() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1074)
+<>c:<Start>b__7_0() (at Assets/Script/UI/UIManager.cs:33)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-02-18 01:29:47] [Log] Host failed to start
+[2025-02-18 01:29:47] [Log] Player 0

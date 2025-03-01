@@ -1,0 +1,36 @@
+=================================================
+Log File Created: 2025-02-18 02:01:41 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-02-18 02:01:41] [Log] [SYSTEM] Logger initialized
+[2025-02-18 02:01:59] [Log] Client started
+[2025-02-18 02:02:00] [Log] Player 0
+[2025-02-18 02:02:00] [Log] Player 1
+[2025-02-18 02:02:01] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 02:02:01] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 02:02:14] [Log] [CUSTOM] send position to client(0.00, 0.00)
+[2025-02-18 02:02:15] [Log] [CUSTOM] send position to client(-0.10, 0.00)
+[2025-02-18 02:02:15] [Log] [CUSTOM] send position to client(-0.09, 0.00)
+[2025-02-18 02:02:15] [Log] [CUSTOM] send position to client(-0.20, 0.00)
+[2025-02-18 02:02:15] [Log] [CUSTOM] send position to client(-0.19, 0.00)
+[2025-02-18 02:02:15] [Log] [CUSTOM] send position to client(-0.19, 0.00)
+[2025-02-18 02:02:16] [Log] [CUSTOM] send position to client(-0.19, 0.00)
+[2025-02-18 02:02:17] [Log] [CUSTOM] send position to client(-0.19, 0.00)
+[2025-02-18 02:02:17] [Log] [CUSTOM] send position to client(-0.19, 0.00)
+[2025-02-18 02:02:17] [Log] [CUSTOM] send position to client(-0.09, 0.00)
+[2025-02-18 02:02:18] [Log] [CUSTOM] send position to client(-0.10, 0.00)
+[2025-02-18 02:02:18] [Log] [CUSTOM] send position to client(0.01, 0.00)
+[2025-02-18 02:02:18] [Log] [CUSTOM] send position to client(-0.04, 0.00)
+[2025-02-18 02:02:18] [Log] [CUSTOM] send position to client(0.09, 0.00)
+[2025-02-18 02:02:18] [Log] [CUSTOM] send position to client(-0.01, 0.00)
+[2025-02-18 02:02:18] [Log] [CUSTOM] send position to client(0.14, 0.00)
+[2025-02-18 02:02:18] [Log] [CUSTOM] send position to client(0.03, 0.00)
+[2025-02-18 02:02:19] [Log] [CUSTOM] send position to client(0.18, 0.00)
+[2025-02-18 02:02:19] [Log] [CUSTOM] send position to client(0.07, 0.00)
+[2025-02-18 02:02:19] [Log] [CUSTOM] send position to client(0.13, 0.00)
