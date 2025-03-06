@@ -1,0 +1,205 @@
+=================================================
+Log File Created: 2025-03-05 13:16:47 UTC
+User: darkpotato
+Unity Version: 2022.3.52f1
+Platform: WindowsEditor
+System Language: English
+Device Model: Nitro AN515-57 (Acer)
+Operating System: Windows 11  (10.0.22631) 64bit
+=================================================
+
+[2025-03-05 13:16:47] [Log] [SYSTEM] Logger initialized
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:16:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+EnemyController.FindPlayer () (at Assets/Script/Movement/EnemyController.cs:28)
+EnemyController.Awake () (at Assets/Script/Movement/EnemyController.cs:13)
+UnityEngine.Object:Instantiate(GameObject)
+EnemyPool:Start() (at Assets/Script/Spawn/EnemyPool.cs:26)
+
+
+[2025-03-05 13:17:04] [Log] Server started
+[2025-03-05 13:17:06] [Warning] [Netcode] Cannot start Server while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartServer () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:962)
+UIManager/<>c:<Start>b__6_2 () (at Assets/Script/UI/UIManager.cs:52)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-03-05 13:17:06] [Log] Server failed to start
+[2025-03-05 13:17:07] [Warning] [Netcode] Cannot start Client while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1008)
+UIManager/<>c:<Start>b__6_1 () (at Assets/Script/UI/UIManager.cs:41)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-03-05 13:17:07] [Log] Client failed to start
+[2025-03-05 13:17:08] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager/<>c:<Start>b__6_0 () (at Assets/Script/UI/UIManager.cs:30)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-03-05 13:17:08] [Log] Host failed to start
