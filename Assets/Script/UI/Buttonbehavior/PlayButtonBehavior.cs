@@ -7,19 +7,19 @@ using UnityEngine.SceneManagement;
 public class ClickStartButton : MonoBehaviour
 {
     [SerializeField] private Button myButton;
-    [SerializeField] private AudioSource clickSound; // For sound effects
     [SerializeField] private Animator buttonAnimator; // For animations
-
+    AudioManager audioManager;
     void Start()
     {
         myButton.onClick.AddListener(OnButtonClick);
+        audioManager =GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void OnButtonClick()
     {
         Debug.Log("Play Clicked!");
-        if (clickSound) clickSound.Play();  // Play sound
-        if (buttonAnimator) buttonAnimator.SetTrigger("Click");  // Play animation
+        audioManager.PlaySFX(audioManager.clickbutton);
+        //if (buttonAnimator) buttonAnimator.SetTrigger("Click");  // Play animation
     }
 }
 

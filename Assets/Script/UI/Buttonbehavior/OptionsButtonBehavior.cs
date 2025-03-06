@@ -7,18 +7,21 @@ using UnityEngine.SceneManagement;
 public class OptionsButtonBehavior : MonoBehaviour
 {
     [SerializeField] private Button myButton;
-    [SerializeField] private AudioSource clickSound;
     [SerializeField] private Animator buttonAnimator;
-
+    private UIManager uiManager;
+    AudioManager audioManager;
     void Start()
     {
         myButton.onClick.AddListener(OnButtonClick);
+        uiManager = FindObjectOfType<UIManager>();
+        audioManager =GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void OnButtonClick()
     {
-        Debug.Log("Quit Clicked!");
-        if (clickSound) clickSound.Play();  // Play sound
-        if (buttonAnimator) buttonAnimator.SetTrigger("Click");  // Play animation
+        Debug.Log("Option Clicked!");
+        audioManager.PlaySFX(audioManager.clickbutton);
+        //if (buttonAnimator) buttonAnimator.SetTrigger("Click");  // Play animation
+        uiManager.showoptionsmenu();
     }
 }

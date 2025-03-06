@@ -7,19 +7,20 @@ using UnityEngine.SceneManagement;
 public class QuitButtonBehavior : MonoBehaviour
 {
     [SerializeField] private Button myButton;
-    [SerializeField] private AudioSource clickSound;
     [SerializeField] private Animator buttonAnimator;
-
+    AudioManager audioManager;
     void Start()
     {
         myButton.onClick.AddListener(OnButtonClick);
+        audioManager =GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void OnButtonClick()
     {
         Debug.Log("Quit Clicked!");
-        if (clickSound) clickSound.Play();  // Play sound
+        audioManager.PlaySFX(audioManager.clickbutton);
         if (buttonAnimator) buttonAnimator.SetTrigger("Click");  // Play animation
+        
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false; // Stop Play Mode in Editor
         #else
