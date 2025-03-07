@@ -26,5 +26,6 @@ public class QuitButtonBehavior : MonoBehaviour
         #else
         Application.Quit(); // Quit the actual game
         #endif
+        
     }
 }

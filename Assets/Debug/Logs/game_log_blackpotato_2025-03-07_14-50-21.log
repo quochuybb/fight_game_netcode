@@ -1,0 +1,401 @@
+=================================================
+Log File Created: 2025-03-07 14:50:21 UTC
+User: blackpotato
+Unity Version: 2022.3.59f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Arch Linux  64bit
+=================================================
+
+[2025-03-07 14:50:21] [Log] [SYSTEM] Logger initialized
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Start () (at Assets/Script/UI/UIManager.cs:32)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+PlayersManager.Start () (at Assets/Script/Network/PlayersManager.cs:19)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+
+[2025-03-07 14:50:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+UIManager.Update () (at Assets/Script/UI/UIManager.cs:27)
+
+

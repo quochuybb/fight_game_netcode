@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class OptionsButtonBehavior : MonoBehaviour
 {
     [SerializeField] private Button myButton;
-    [SerializeField] private Animator buttonAnimator;
+  //  [SerializeField] private Animator buttonAnimator;
     private UIManager uiManager;
     AudioManager audioManager;
     void Start()

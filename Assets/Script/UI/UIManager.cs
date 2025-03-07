@@ -14,6 +14,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI playerInGameText;
     [SerializeField] private GameObject mainmenu;
     [SerializeField] private GameObject optionmenu;
+    [SerializeField] private GameObject playmenu;
+
 
     private void Awake()
     {
@@ -63,15 +65,31 @@ public class UIManager : MonoBehaviour
     }
     public void showoptionsmenu()
     {
+        playmenu.SetActive(false);    
         if (mainmenu.activeSelf)
         {
             mainmenu.SetActive(false);
             optionmenu.SetActive(true);
+
         }
         else
         {
             mainmenu.SetActive(true);
             optionmenu.SetActive(false);
+        }
+    }
+    public void showplaymenu()
+    {
+        optionmenu.SetActive(false);
+        if (mainmenu.activeSelf)
+        {
+            mainmenu.SetActive(false);
+            playmenu.SetActive(true);
+        }
+        else
+        {
+            mainmenu.SetActive(true);
+            playmenu.SetActive(false);
         }
     }
 

@@ -31,4 +31,5 @@ public class VolumeSetting : MonoBehaviour
         float volume=SFXVolumeSlider.value;
         soundmixer.SetFloat("SFX",Mathf.Log10(volume)*20);
     }
+
 }
