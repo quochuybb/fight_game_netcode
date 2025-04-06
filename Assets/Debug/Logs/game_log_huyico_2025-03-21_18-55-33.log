@@ -1,0 +1,66 @@
+=================================================
+Log File Created: 2025-03-21 18:55:33 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-21 18:55:33] [Log] [SYSTEM] Logger initialized
+[2025-03-21 18:55:33] [Warning] [Netcode] NetworkPrefab "Ghost" is missing a NetworkObject component (entry will be ignored).
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkPrefab:Validate (int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefab.cs:141)
+Unity.Netcode.NetworkPrefabs:AddPrefabRegistration (Unity.Netcode.NetworkPrefab) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefabs.cs:281)
+Unity.Netcode.NetworkPrefabs:Initialize (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefabs.cs:122)
+Unity.Netcode.NetworkConfig:InitializePrefabs () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkConfig.cs:281)
+Unity.Netcode.NetworkManager:Awake () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:712)
+
+
+[2025-03-21 18:55:33] [Warning] [Netcode] Removing invalid prefabs from Network Prefab registration: {SourceHash: 0, TargetHash: 0}
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkPrefabs:Initialize (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefabs.cs:151)
+Unity.Netcode.NetworkConfig:InitializePrefabs () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkConfig.cs:281)
+Unity.Netcode.NetworkManager:Awake () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:712)
+
+
+[2025-03-21 18:55:36] [Warning] [Netcode] NetworkPrefab "Ghost" is missing a NetworkObject component (entry will be ignored).
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkPrefab:Validate (int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefab.cs:141)
+Unity.Netcode.NetworkPrefabs:AddPrefabRegistration (Unity.Netcode.NetworkPrefab) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefabs.cs:281)
+Unity.Netcode.NetworkPrefabs:Initialize (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefabs.cs:122)
+Unity.Netcode.NetworkConfig:InitializePrefabs () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkConfig.cs:281)
+Unity.Netcode.NetworkManager:Initialize (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:897)
+Unity.Netcode.NetworkManager:StartClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1015)
+UIManager/<>c:<Start>b__6_1 () (at Assets/Script/UI/UIManager.cs:41)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-03-21 18:55:36] [Warning] [Netcode] Removing invalid prefabs from Network Prefab registration: {SourceHash: 0, TargetHash: 0}
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkPrefabs:Initialize (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefabs.cs:151)
+Unity.Netcode.NetworkConfig:InitializePrefabs () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkConfig.cs:281)
+Unity.Netcode.NetworkManager:Initialize (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:897)
+Unity.Netcode.NetworkManager:StartClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1015)
+UIManager/<>c:<Start>b__6_1 () (at Assets/Script/UI/UIManager.cs:41)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-03-21 18:55:36] [Log] Client started
+[2025-03-21 18:55:36] [Log] Player 0
+[2025-03-21 18:55:36] [Log] Player 1
+[2025-03-21 18:55:45] [Log] True
+[2025-03-21 18:55:46] [Log] True
+[2025-03-21 18:55:47] [Log] True
+[2025-03-21 18:55:48] [Log] True
+[2025-03-21 18:55:49] [Log] True
+[2025-03-21 18:55:51] [Log] True

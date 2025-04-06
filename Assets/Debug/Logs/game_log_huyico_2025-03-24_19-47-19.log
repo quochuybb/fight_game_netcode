@@ -1,0 +1,130 @@
+=================================================
+Log File Created: 2025-03-24 19:47:19 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-24 19:47:19] [Log] [SYSTEM] Logger initialized
+[2025-03-24 19:47:20] [Log] Client 0 connected
+[2025-03-24 19:47:20] [Log] Host started
+[2025-03-24 19:47:20] [Log] Player 0
+[2025-03-24 19:47:20] [Log] 5
+[2025-03-24 19:47:21] [Log] 5
+[2025-03-24 19:47:22] [Log] 5
+[2025-03-24 19:47:22] [Log] 5
+[2025-03-24 19:47:23] [Log] 5
+[2025-03-24 19:47:23] [Log] 5
+[2025-03-24 19:47:24] [Error] Init success
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:33)
+ItemController:Init (ItemNetworkSerializable) (at Assets/Script/Item/ItemController.cs:26)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:75)
+ItemManager:__rpc_handler_3610971263 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:73)
+ItemManager:Update () (at Assets/Script/Item/ItemManager.cs:52)
+
+
+[2025-03-24 19:47:25] [Log] True
+[2025-03-24 19:47:26] [Log] 5
+[2025-03-24 19:47:26] [Log] 5
+[2025-03-24 19:47:27] [Log] 5
+[2025-03-24 19:47:28] [Error] Init success
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:33)
+ItemController:Init (ItemNetworkSerializable) (at Assets/Script/Item/ItemController.cs:26)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:75)
+ItemManager:__rpc_handler_3610971263 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:73)
+ItemManager:Update () (at Assets/Script/Item/ItemManager.cs:52)
+
+
+[2025-03-24 19:47:28] [Log] 5
+[2025-03-24 19:47:28] [Log] 5
+[2025-03-24 19:47:28] [Log] 5
+[2025-03-24 19:47:28] [Log] 5
+[2025-03-24 19:47:29] [Log] 5
+[2025-03-24 19:47:29] [Log] 5
+[2025-03-24 19:47:29] [Log] 5
+[2025-03-24 19:47:30] [Log] 5
+[2025-03-24 19:47:31] [Log] 5
+[2025-03-24 19:47:31] [Log] 5
+[2025-03-24 19:47:31] [Log] 5
+[2025-03-24 19:47:32] [Error] Init success
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:33)
+ItemController:Init (ItemNetworkSerializable) (at Assets/Script/Item/ItemController.cs:26)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:75)
+ItemManager:__rpc_handler_3610971263 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:73)
+ItemManager:Update () (at Assets/Script/Item/ItemManager.cs:52)
+
+
+[2025-03-24 19:47:32] [Log] 5
+[2025-03-24 19:47:32] [Log] 5
+[2025-03-24 19:47:32] [Log] 5
+[2025-03-24 19:47:33] [Log] 5
+[2025-03-24 19:47:36] [Error] Init success
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:33)
+ItemController:Init (ItemNetworkSerializable) (at Assets/Script/Item/ItemController.cs:26)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:75)
+ItemManager:__rpc_handler_3610971263 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:73)
+ItemManager:Update () (at Assets/Script/Item/ItemManager.cs:52)
+
+
+[2025-03-24 19:47:38] [Log] 5
+[2025-03-24 19:47:38] [Log] 5
+[2025-03-24 19:47:38] [Log] 5
+[2025-03-24 19:47:38] [Log] 5
+[2025-03-24 19:47:38] [Log] 5
+[2025-03-24 19:47:39] [Log] 5
+[2025-03-24 19:47:40] [Error] Init success
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:33)
+ItemController:Init (ItemNetworkSerializable) (at Assets/Script/Item/ItemController.cs:26)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:75)
+ItemManager:__rpc_handler_3610971263 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:73)
+ItemManager:Update () (at Assets/Script/Item/ItemManager.cs:52)
+
+
+[2025-03-24 19:47:44] [Error] Init success
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:33)
+ItemController:Init (ItemNetworkSerializable) (at Assets/Script/Item/ItemController.cs:26)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:75)
+ItemManager:__rpc_handler_3610971263 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+ItemManager:SpawnItemServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,ItemNetworkSerializable) (at Assets/Script/Item/ItemManager.cs:73)
+ItemManager:Update () (at Assets/Script/Item/ItemManager.cs:52)
+
+
+[2025-03-24 19:47:46] [Log] Client 0 disconnected

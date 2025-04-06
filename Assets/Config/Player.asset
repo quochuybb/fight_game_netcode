@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bba7eaa75e291b7ee9f3b7f4fc3a768d, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  speed: 5
-  damage: 3
+  healthPoint: 10
+  damagePercentage: 0
+  speedMove: 5
   color: {r: 0, g: 0, b: 0, a: 0}

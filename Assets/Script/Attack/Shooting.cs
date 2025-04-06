@@ -8,46 +8,77 @@ public class Shooting : NetworkBehaviour
 {
     [SerializeField] private Transform firePoint;
     private CharacterController controller;
-    private Vector2 aimDirection = Vector2.right;
-    private BulletManager bulletManager;
-    private BulletController bulletController;
+    private NetworkVariable<Vector2> networkAimDirection = new NetworkVariable<Vector2>( Vector2.right, 
+        NetworkVariableReadPermission.Everyone, 
+        NetworkVariableWritePermission.Owner);
 
+    [SerializeField] private Bullet bulletConfig;
+    private BulletNetworkSerializable bulletNetworkSerializable = new BulletNetworkSerializable();
+    private BulletManager bulletManager;
+    private float lastTimeShoot;
+    private bool canShoot;
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
+        bulletManager = BulletManager.instance;
+        canShoot = false;
     }
-
-    private void Start()
+    
+    public override void OnNetworkSpawn()
     {
-        bulletManager = BulletManager.instance; 
-        controller.onAttackGunEvent.AddListener(OnShooting);
-        controller.onLookEvent.AddListener(OnLookMouse);
-    }
-
-    private void OnShooting(Bullet bulletConfig)
-    {
-        float HalfOfSumAngleBullet = -(bulletConfig.numberOfBulletsPerShoot/2f) * bulletConfig.multipleBulletAngle + 0.5f * bulletConfig.multipleBulletAngle;
-        for (int i = 0; i < bulletConfig.numberOfBulletsPerShoot; i++)
+        bulletNetworkSerializable = bulletConfig.MappingToStruct();
+        if (IsOwner)
         {
-            float angle = HalfOfSumAngleBullet + i * bulletConfig.multipleBulletAngle;
-            CreateBullet(bulletConfig, angle);
+            controller.onAttackGunEvent.AddListener(OnShooting);
+            controller.onLookEvent.AddListener(OnLookMouse);
         }
+        
+    }
+
+    private void Update()
+    {
+        HandleDelayTime();
+    }
+
+    private void OnShooting()
+    {
+        if (!canShoot)
+        {
+            return;
+        }
+        canShoot = false;
+        float HalfOfSumAngleBullet = -(bulletNetworkSerializable.numberOfBulletsPerShoot/2f) * bulletNetworkSerializable.multipleBulletAngle + 0.5f * bulletNetworkSerializable.multipleBulletAngle;
+        for (int i = 0; i < bulletNetworkSerializable.numberOfBulletsPerShoot; i++)
+        {
+            float angle = HalfOfSumAngleBullet + i * bulletNetworkSerializable.multipleBulletAngle;
+            CreateBullet(bulletNetworkSerializable, angle);
+        }
+
     }
 
     private void OnLookMouse(Vector2 aimDirection)
     {
-        this.aimDirection = aimDirection;
+        this.networkAimDirection.Value = aimDirection;
     }
 
-    private void CreateBullet(Bullet bulletConfig, float angle)
+    private void CreateBullet(BulletNetworkSerializable bulletNetwork, float angle)
     {
-        bulletManager.ShootBullet(firePoint.position, RotateDirection(aimDirection,angle), bulletConfig);
+        bulletManager.ShootBulletServerRpc(firePoint.position, transform.rotation, bulletNetwork,RotateDirection(networkAimDirection.Value, angle));
     }
 
     private Vector2 RotateDirection(Vector2 aimDirection, float angle)
     {
-        return Quaternion.Euler(0,0,angle) * aimDirection;
+        return Quaternion.Euler(0, 0, angle) * aimDirection;    
     }
-    
+    public void HandleDelayTime()
+    {
+        lastTimeShoot += Time.deltaTime;
+        if (lastTimeShoot > bulletNetworkSerializable.delay)
+        {
+            lastTimeShoot = 0f;
+            canShoot=true;
+        }
+        
+    }
     
 }

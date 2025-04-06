@@ -1,0 +1,50 @@
+=================================================
+Log File Created: 2025-03-14 01:17:59 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-14 01:17:59] [Log] [SYSTEM] Logger initialized
+[2025-03-14 01:18:01] [Log] Client 0 connected
+[2025-03-14 01:18:01] [Log] Host started
+[2025-03-14 01:18:01] [Log] Player 0
+[2025-03-14 01:18:03] [Log] ObjectPoolManager
+[2025-03-14 01:18:04] [Exception] InvalidOperationException: Trying to release an object that has already been released to the pool.
+Stack Trace:
+UnityEngine.Pool.ObjectPool`1[T].Release (T element) (at /home/bokken/build/output/unity/unity/Runtime/Export/ObjectPool/ObjectPools.cs:119)
+NetworkPooling.ReturnNetworkObject (Unity.Netcode.NetworkObject networkObject, UnityEngine.GameObject prefab) (at Assets/Script/Network/NetworkPooling.cs:78)
+BulletManager.DestroyBulletServerRpc () (at Assets/Script/Attack/BulletManager.cs:37)
+BulletManager.__rpc_handler_2767184670 (Unity.Netcode.NetworkBehaviour target, Unity.Netcode.FastBufferReader reader, Unity.Netcode.__RpcParams rpcParams) (at <dde5c7bd34d14c47bfff421d578e48b1>:0)
+Unity.Netcode.RpcMessageHelpers.Handle (Unity.Netcode.NetworkContext& context, Unity.Netcode.RpcMetadata& metadata, Unity.Netcode.FastBufferReader& payload, Unity.Netcode.__RpcParams& rpcParams) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Rethrow as Exception: Unhandled RPC exception!
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.RpcMessageHelpers:Handle(NetworkContext&, RpcMetadata&, FastBufferReader&, __RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:74)
+Unity.Netcode.ServerRpcMessage:Handle(NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc(FastBufferWriter&, UInt32, ServerRpcParams, RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc() (at Assets/Script/Attack/BulletManager.cs:37)
+BulletController:DestroyBullet(Vector3, Boolean) (at Assets/Script/Attack/BulletController.cs:90)
+BulletController:Update() (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 01:18:05] [Exception] InvalidOperationException: Trying to release an object that has already been released to the pool.
+Stack Trace:
+UnityEngine.Pool.ObjectPool`1[T].Release (T element) (at /home/bokken/build/output/unity/unity/Runtime/Export/ObjectPool/ObjectPools.cs:119)
+NetworkPooling.ReturnNetworkObject (Unity.Netcode.NetworkObject networkObject, UnityEngine.GameObject prefab) (at Assets/Script/Network/NetworkPooling.cs:78)
+BulletManager.DestroyBulletServerRpc () (at Assets/Script/Attack/BulletManager.cs:37)
+BulletManager.__rpc_handler_2767184670 (Unity.Netcode.NetworkBehaviour target, Unity.Netcode.FastBufferReader reader, Unity.Netcode.__RpcParams rpcParams) (at <dde5c7bd34d14c47bfff421d578e48b1>:0)
+Unity.Netcode.RpcMessageHelpers.Handle (Unity.Netcode.NetworkContext& context, Unity.Netcode.RpcMetadata& metadata, Unity.Netcode.FastBufferReader& payload, Unity.Netcode.__RpcParams& rpcParams) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Rethrow as Exception: Unhandled RPC exception!
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.RpcMessageHelpers:Handle(NetworkContext&, RpcMetadata&, FastBufferReader&, __RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:74)
+Unity.Netcode.ServerRpcMessage:Handle(NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc(FastBufferWriter&, UInt32, ServerRpcParams, RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc() (at Assets/Script/Attack/BulletManager.cs:37)
+BulletController:DestroyBullet(Vector3, Boolean) (at Assets/Script/Attack/BulletController.cs:90)
+BulletController:Update() (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 01:18:06] [Log] Bullet(Clone)

@@ -9,7 +9,9 @@ public class RotateCharacter : NetworkBehaviour
     [SerializeField] private List<SpriteRenderer> spriteRenderers = new List<SpriteRenderer>();
     [SerializeField] private SpriteRenderer gun;
     [SerializeField] private Transform spawnBullet;
-    private Vector2 direction = Vector2.zero;
+    private NetworkVariable<Vector2> networkAimDirection = new NetworkVariable<Vector2>( Vector2.right, 
+        NetworkVariableReadPermission.Everyone, 
+        NetworkVariableWritePermission.Owner);
     
     private CharacterController player;
 
@@ -19,14 +21,22 @@ public class RotateCharacter : NetworkBehaviour
     }
     
 
-    private void Start()
+    public override void OnNetworkSpawn()
     {
-        player.onLookEvent.AddListener(OnLookMouse);
+        if (IsOwner)
+        {
+            player.onLookEvent.AddListener(OnLookMouse);
+        }
+        networkAimDirection.OnValueChanged += HandleAimDirectionChanged;
     }
 
     private void OnLookMouse(Vector2 direction)
     {
-        RotateAim(direction);
+        networkAimDirection.Value = direction;
+    }
+    private void HandleAimDirectionChanged(Vector2 previousValue, Vector2 newValue)
+    {
+        RotateAim(newValue);
     }
 
     private void RotateAim(Vector2 direction)

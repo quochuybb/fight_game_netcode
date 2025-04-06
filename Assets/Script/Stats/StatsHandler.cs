@@ -1,52 +1,96 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using Unity.Netcode;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.UI;
-using Random = System.Random;
+using DG.Tweening;
 
 public class StatsHandler : NetworkBehaviour
 {
-
+    public static StatsHandler Instance;
     [SerializeField] public CharacterStats stats;
     private CharacterController characterController;
-    [SerializeField] public Bullet bullet;
-    public CharacterStats CurrentHealth { get; private set; }
+    public CharacterStatsNetwork currentStatsHost { get; private set; }
+    public CharacterStatsNetwork currentStatsClient { get; private set; }
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+        currentStatsHost = stats.MappingToStruct();
+        currentStatsClient = stats.MappingToStruct();
+        characterController.onDamgeEvent.AddListener(ChangedHealthServerRpc);
+        characterController.onCleanEvent.AddListener(Death);
+        characterController.onBuffEvent.AddListener(BuffStatsServerRpc);
     }
 
     private void Start()
     {
-        CurrentHealth = stats.Clone();
-        characterController.onDamgeEvent.AddListener(ChangedHealth);
-        characterController.onCleanEvent.AddListener(Death);
+        Instance = this;
     }
-
-    public void ChangedHealth(float damage)
+    [ServerRpc(RequireOwnership = false)]
+    public void ChangedHealthServerRpc(float damage)
     {
-
-        CurrentHealth.maxHealth -= damage;
-        if (CurrentHealth.maxHealth <= 0)
+        currentStatsHost.healthPoint -= damage;
+        if (currentStatsHost.healthPoint <= 0)
         {
-
-            characterController.isClean = true;
+            this.gameObject.SetActive(false);
         }
     }
 
-    public void ChangedDamage(float damage)
+    [ServerRpc(RequireOwnership = false)]
+    public void BuffStatsServerRpc(ItemNetworkSerializable item,bool isHost, ServerRpcParams rpcParams = default)
     {
-        bullet.damage += damage;
+        ulong senderId = rpcParams.Receive.SenderClientId;
+        if (senderId == NetworkManager.Singleton.LocalClientId && isHost)
+        {
+            currentStatsHost.damagePercentage += 3;
+            var hostRpcParams = new ClientRpcParams
+            {
+                Send = new ClientRpcSendParams { TargetClientIds = new List<ulong> { senderId } }
+                
+            };
+            UpdateClientBuffClientRpc(currentStatsHost.damagePercentage, true, hostRpcParams);
+            Debug.LogError("Server buff updated: Server " + currentStatsHost.damagePercentage);
+            Debug.LogError("Server buff updated: Client " + currentStatsClient.damagePercentage);
+
+        }
+        else
+        {
+            currentStatsClient.damagePercentage += 3;
+            var clientRpcParams = new ClientRpcParams
+            {
+                Send = new ClientRpcSendParams { TargetClientIds = new List<ulong> { senderId } }
+            };
+            UpdateClientBuffClientRpc(currentStatsClient.damagePercentage, false, clientRpcParams);
+            Debug.LogError("Client buff updated: Server " + currentStatsHost.damagePercentage);
+            Debug.LogError("Client buff updated: Client " + currentStatsClient.damagePercentage);
+        }
     }
 
+    [ClientRpc]
+    public void UpdateClientBuffClientRpc(float buff,bool isHost, ClientRpcParams clientRpcParams = default)
+    {
+        if (NetworkManager.Singleton.IsServer && isHost)
+        {
+            return;
+        }
+        if (isHost) 
+        {
+            currentStatsHost.damagePercentage = buff;
+        }
+        else
+        {
+            currentStatsClient.damagePercentage = buff;
+        }
+        Debug.LogError("IsHost " + isHost);
+        Debug.LogError("UpdateClientBuffClientRpc buff updated: Host " + currentStatsHost.damagePercentage);
+        Debug.LogError("UpdateClientBuffClientRpc buff updated: Client " + currentStatsClient.damagePercentage);
+    }
     public void ChangedNumberBullet(int amount)
     {
-        bullet.numberOfBulletsPerShoot += amount + 1;
+        //bullet.numberOfBulletsPerShoot += amount + 1;
     }
 
     public void Death()
@@ -55,7 +99,6 @@ public class StatsHandler : NetworkBehaviour
         {
             Time.timeScale = 0;        
         }
-        
     }
 
 }

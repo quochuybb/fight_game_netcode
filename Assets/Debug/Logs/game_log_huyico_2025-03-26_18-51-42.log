@@ -1,0 +1,42 @@
+=================================================
+Log File Created: 2025-03-26 18:51:42 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-26 18:51:42] [Log] [SYSTEM] Logger initialized
+[2025-03-26 18:51:46] [Log] Client started
+[2025-03-26 18:51:46] [Log] Player 0
+[2025-03-26 18:51:46] [Log] Player 1
+[2025-03-26 18:51:49] [Warning] Buff Stats calledsa
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+StatsHandler:BuffStats (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:41)
+UnityEngine.Events.UnityEvent`1<ItemNetworkSerializable>:Invoke (ItemNetworkSerializable)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-03-26 18:51:49] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.DestroyItem (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Item/ItemController.cs:55)
+ItemController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Item/ItemController.cs:27)
+
+
+[2025-03-26 18:51:50] [Warning] Buff Stats calledsa
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+StatsHandler:BuffStats (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:41)
+UnityEngine.Events.UnityEvent`1<ItemNetworkSerializable>:Invoke (ItemNetworkSerializable)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-03-26 18:51:50] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.DestroyItem (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Item/ItemController.cs:55)
+ItemController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Item/ItemController.cs:27)
+
+

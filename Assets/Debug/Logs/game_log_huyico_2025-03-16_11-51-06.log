@@ -1,0 +1,25 @@
+=================================================
+Log File Created: 2025-03-16 11:51:06 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-16 11:51:06] [Log] [SYSTEM] Logger initialized
+[2025-03-16 11:51:08] [Log] Client started
+[2025-03-16 11:51:08] [Log] Player 0
+[2025-03-16 11:51:08] [Log] Player 2
+[2025-03-16 11:51:15] [Error] Only the owner can invoke a ServerRpc that requires ownership!
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:51)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:40)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:40)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:25)
+
+

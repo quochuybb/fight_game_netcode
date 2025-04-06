@@ -1,0 +1,93 @@
+=================================================
+Log File Created: 2025-03-16 11:50:20 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-16 11:50:20] [Log] [SYSTEM] Logger initialized
+[2025-03-16 11:50:24] [Log] Client started
+[2025-03-16 11:50:24] [Log] Player 0
+[2025-03-16 11:50:24] [Log] Player 1
+[2025-03-16 11:50:25] [Error] Only the owner can invoke a ServerRpc that requires ownership!
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:51)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:40)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:40)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:25)
+
+
+[2025-03-16 11:50:28] [Error] Only the owner can invoke a ServerRpc that requires ownership!
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:51)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:40)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:40)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:25)
+
+
+[2025-03-16 11:50:29] [Error] Only the owner can invoke a ServerRpc that requires ownership!
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:51)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:40)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:40)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:25)
+
+
+[2025-03-16 11:50:31] [Log] Bullet(Clone)
+[2025-03-16 11:50:31] [Log] Bullet
+[2025-03-16 11:50:31] [Log] Bullet(Clone)
+[2025-03-16 11:50:31] [Log] Bullet
+[2025-03-16 11:50:32] [Log] Bullet(Clone)
+[2025-03-16 11:50:32] [Log] Bullet
+[2025-03-16 11:50:33] [Log] Bullet(Clone)
+[2025-03-16 11:50:33] [Log] Bullet
+[2025-03-16 11:50:34] [Log] Bullet(Clone)
+[2025-03-16 11:50:34] [Log] Bullet
+[2025-03-16 11:50:35] [Log] Bullet(Clone)
+[2025-03-16 11:50:35] [Log] Bullet
+[2025-03-16 11:50:35] [Log] Bullet(Clone)
+[2025-03-16 11:50:35] [Log] Bullet
+[2025-03-16 11:50:36] [Log] Bullet(Clone)
+[2025-03-16 11:50:36] [Log] Bullet
+[2025-03-16 11:50:36] [Log] Bullet(Clone)
+[2025-03-16 11:50:36] [Log] Bullet
+[2025-03-16 11:50:37] [Log] Bullet(Clone)
+[2025-03-16 11:50:37] [Log] Bullet
+[2025-03-16 11:50:37] [Log] Bullet(Clone)
+[2025-03-16 11:50:37] [Log] Bullet
+[2025-03-16 11:50:38] [Log] Bullet(Clone)
+[2025-03-16 11:50:38] [Log] Bullet
+[2025-03-16 11:50:40] [Log] Bullet(Clone)
+[2025-03-16 11:50:40] [Log] Bullet
+[2025-03-16 11:50:40] [Log] Bullet(Clone)
+[2025-03-16 11:50:40] [Log] Bullet
+[2025-03-16 11:50:41] [Log] Bullet(Clone)
+[2025-03-16 11:50:41] [Log] Bullet
+[2025-03-16 11:50:41] [Log] Bullet(Clone)
+[2025-03-16 11:50:41] [Log] Bullet
+[2025-03-16 11:50:42] [Log] Bullet(Clone)
+[2025-03-16 11:50:42] [Log] Bullet
+[2025-03-16 11:50:42] [Log] Bullet(Clone)
+[2025-03-16 11:50:42] [Log] Bullet
+[2025-03-16 11:50:43] [Log] Bullet(Clone)
+[2025-03-16 11:50:43] [Log] Bullet
+[2025-03-16 11:50:43] [Log] Bullet(Clone)
+[2025-03-16 11:50:43] [Log] Bullet
+[2025-03-16 11:50:44] [Log] Bullet(Clone)
+[2025-03-16 11:50:44] [Log] Bullet
+[2025-03-16 11:50:44] [Log] Bullet(Clone)
+[2025-03-16 11:50:44] [Log] Bullet
+[2025-03-16 11:50:45] [Log] Bullet(Clone)
+[2025-03-16 11:50:45] [Log] Bullet

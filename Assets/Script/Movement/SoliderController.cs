@@ -27,7 +27,7 @@ public class SoliderController : EnemyController
 
             if (DistanceToTarget(target) < 7f && gameObject.layer == LayerMask.NameToLayer("Enemy"))
             {
-                if (lastTimeAttack >= bulletConfig.delay)
+                if (lastTimeAttack >= 0.5f)
                 {
                     lastTimeAttack = 0f;
                     useGun = true;

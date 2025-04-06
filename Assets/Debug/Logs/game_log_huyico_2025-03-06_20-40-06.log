@@ -1,0 +1,28 @@
+=================================================
+Log File Created: 2025-03-06 20:40:06 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-06 20:40:06] [Log] [SYSTEM] Logger initialized
+[2025-03-06 20:40:09] [Log] Client 0 connected
+[2025-03-06 20:40:09] [Log] Host started
+[2025-03-06 20:40:09] [Log] Player 0
+[2025-03-06 20:40:11] [Exception] KeyNotFoundException: The given key 'BulletManager' was not present in the dictionary.
+Stack Trace:
+System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+Unity.Netcode.NetworkBehaviour.__endSendServerRpc (Unity.Netcode.FastBufferWriter& bufferWriter, System.UInt32 rpcMethodId, Unity.Netcode.ServerRpcParams serverRpcParams, Unity.Netcode.RpcDelivery rpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:127)
+BulletManager.ShootBulletServerRpc (UnityEngine.Vector2 startPos, UnityEngine.Vector2 direction, Bullet bulletConfig) (at Assets/Script/Attack/BulletManager.cs:35)
+Shooting.CreateBullet (Bullet bulletConfig, System.Single angle) (at Assets/Script/Attack/Shooting.cs:52)
+Shooting.OnShooting (Bullet bulletConfig) (at Assets/Script/Attack/Shooting.cs:41)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:219)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_1.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:42)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:27)
+
+
+[2025-03-06 20:40:28] [Log] Client 0 disconnected

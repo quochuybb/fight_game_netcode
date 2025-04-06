@@ -1,0 +1,53 @@
+=================================================
+Log File Created: 2025-03-24 21:09:56 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-24 21:09:56] [Log] [SYSTEM] Logger initialized
+[2025-03-24 21:09:59] [Log] Client 0 connected
+[2025-03-24 21:09:59] [Log] Host started
+[2025-03-24 21:09:59] [Log] False
+[2025-03-24 21:09:59] [Log] Player 0
+[2025-03-24 21:09:59] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager/<>c:<Start>b__6_0 () (at Assets/Script/UI/UIManager.cs:30)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-03-24 21:09:59] [Log] Host failed to start
+[2025-03-24 21:10:03] [Error] BaseTele(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:10:04] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:10:07] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:10:10] [Log] True
+[2025-03-24 21:10:12] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:10:17] [Log] True
+[2025-03-24 21:11:17] [Log] Client 0 disconnected

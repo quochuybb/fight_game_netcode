@@ -1,25 +1,25 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class BulletManager : MonoBehaviour
+public class BulletManager : NetworkBehaviour
 {
+
     [SerializeField] private ParticleSystem particleSystem;
     public static BulletManager instance;
-    private ObjectPool objectPool;
+    [SerializeField] private GameObject bulletPrefab;
+    private NetworkObject bulletNetworkObject;
 
     private void Awake()
     {
         instance = this;
-    }
 
-    private void Start()
-    {
-        objectPool = ObjectPool.ObjectPoolInstance;
     }
-
-    public void CreateEffectDestroyBullet(Vector3 position, Bullet bullet)
+    
+    [ClientRpc]
+    public void CreateEffectDestroyBulletClientRpc(Vector3 position, BulletNetworkSerializable bullet)
     {
         particleSystem.transform.position = position;
         ParticleSystem.EmissionModule em = particleSystem.emission;
@@ -30,12 +30,32 @@ public class BulletManager : MonoBehaviour
         particleSystem.Play();
     }
 
-    public void ShootBullet(Vector2 startPos, Vector2 direction, Bullet bulletConfig)
+    public void RequestDestroyFromBullet(NetworkObject networkObject)
     {
-        GameObject bullet = objectPool.GetObject();
-        bullet.transform.position = startPos;
-        BulletController bulletController = bullet.GetComponent<BulletController>();
-        bulletController.InitConfigBullet(bulletConfig,direction,this);
-        bullet.SetActive(true);
+        this.bulletNetworkObject = networkObject;
+        DestroyBulletServerRpc();
     }
+
+    [ServerRpc]
+    public void DestroyBulletServerRpc()
+    {
+        if (bulletNetworkObject.IsSpawned)
+        {
+            bulletNetworkObject.Despawn();
+        }
+        if (!bulletNetworkObject.gameObject.activeInHierarchy)
+        {
+            return;
+        }
+        NetworkPooling.Singleton.ReturnNetworkObject(this.bulletNetworkObject,bulletPrefab);
+    }
+    [ServerRpc(RequireOwnership = false)]
+    public void ShootBulletServerRpc(Vector2 startPos, Quaternion rotation, BulletNetworkSerializable bulletNetwork, Vector2 direction)
+    {
+        NetworkObject bullet = NetworkPooling.Singleton.GetNetworkObject(bulletPrefab,startPos, rotation);
+        BulletController bulletController = bullet.gameObject.GetComponent<BulletController>();
+        bulletController.InitConfigBullet(bulletNetwork,direction);
+        bullet.Spawn();
+    }
+    
 }

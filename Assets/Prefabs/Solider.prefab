@@ -58,7 +58,7 @@ Transform:
   m_GameObject: {fileID: 1166537607685537196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.12612975}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.79999995, y: 0.79999995, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5249,6 +5249,7 @@ GameObject:
   - component: {fileID: 5833023455976425801}
   - component: {fileID: 1974224007219942008}
   - component: {fileID: 1846603245923763426}
+  - component: {fileID: -1897320752580323524}
   - component: {fileID: 974498949395792152}
   - component: {fileID: 7229970425370388547}
   - component: {fileID: 116602585143468740}
@@ -5382,6 +5383,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1897320752580323524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8760058890482170825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 1306785751
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!114 &974498949395792152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5398,7 +5420,6 @@ MonoBehaviour:
   useMelee: 0
   isClean: 0
   canThrow: 0
-  bulletConfig: {fileID: 11400000, guid: bfbce9daae704005087c12cb701f1d15, type: 2}
 --- !u!114 &7229970425370388547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5456,7 +5477,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: cd30e8d2d4924cfa396eb8b221cc0ee6, type: 2}
-  bullet: {fileID: 11400000, guid: bfbce9daae704005087c12cb701f1d15, type: 2}
 --- !u!114 &5723873415575664248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5470,3 +5490,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 8459104400100099910}
+  bulletConfig: {fileID: 0}

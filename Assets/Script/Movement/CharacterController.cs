@@ -13,8 +13,8 @@ public class CharacterController : NetworkBehaviour
     public bool canThrow = false;
     private float lastTimeShoot;
     protected float lastTimeAttack = 0;
-    [SerializeField] protected Bullet bulletConfig;
-    [SerializeField] protected BombConfig bombConfig;
+    public static readonly ServerRpcParams DefaultServerRpcParams = new ServerRpcParams();
+
 
     public virtual void Awake()
     {
@@ -34,25 +34,16 @@ public class CharacterController : NetworkBehaviour
 
     public void HandleDelayTime()
     {
-        lastTimeShoot += Time.deltaTime;
-        if (useGun && lastTimeShoot > bulletConfig.delay)
+        if (useGun)
         {
-            lastTimeShoot = 0f;
             useGun = false;
-            onAttackGunEvent.Invoke(bulletConfig);
+            onAttackGunEvent.Invoke();
         }
-
-        //if (canThrow)
-        //{
-        //    canThrow = false;
-        //    onThrow.Invoke();
-        //}
-        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Bubble"))
+        if (other.gameObject.layer == LayerMask.NameToLayer("Bullet"))
         {   
             BulletController bulletController = other.gameObject.GetComponent<BulletController>();
             if (bulletController != null && !isClean)
@@ -63,13 +54,20 @@ public class CharacterController : NetworkBehaviour
         else if (other.gameObject.layer == LayerMask.NameToLayer("TelePort") && gameObject.tag == "Clean")
         {
             gameObject.SetActive(false);
-        } 
-
-        //else if (other.gameObject.layer == LayerMask.NameToLayer("Bomb"))
-        //{
-        //    Debug.Log(other.gameObject.name);
-        //    onDamgeEvent.Invoke(bombConfig.damage);
-        //}
+        }
+        else if (other.gameObject.layer == LayerMask.NameToLayer("Item"))
+        {
+            ItemController itemController = other.gameObject.GetComponent<ItemController>();
+            if (!NetworkManager.Singleton.IsHost)
+            {
+                onBuffEvent.Invoke(itemController.GetConfig(),false,DefaultServerRpcParams);
+            }
+            else
+            {
+                onBuffEvent.Invoke(itemController.GetConfig(),true,DefaultServerRpcParams);
+            }
+        }
+        
     }
 
     private readonly MoveEvent _moveEvent = new MoveEvent();
@@ -80,6 +78,7 @@ public class CharacterController : NetworkBehaviour
     private UnityEvent OnHealthChanged = new UnityEvent();
     private UnityEvent<float> OnDamge  = new UnityEvent<float>();
     private UnityEvent _onDash = new UnityEvent();
+    private readonly BuffEvent _onBuff = new BuffEvent();
 
     public ThrowEvent onThrow => _throwEvent;
     public UnityEvent onDash => _onDash;
@@ -89,4 +88,5 @@ public class CharacterController : NetworkBehaviour
     public UnityEvent onCleanEvent => OnClean;
     public UnityEvent onHealthChangedEvent => OnHealthChanged;
     public UnityEvent<float> onDamgeEvent => OnDamge;
+    public BuffEvent onBuffEvent => _onBuff;
 }

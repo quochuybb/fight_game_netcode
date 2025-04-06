@@ -1,0 +1,22 @@
+=================================================
+Log File Created: 2025-03-24 20:56:38 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-24 20:56:38] [Log] [SYSTEM] Logger initialized
+[2025-03-24 20:56:39] [Log] Client 0 connected
+[2025-03-24 20:56:39] [Log] Host started
+[2025-03-24 20:56:39] [Log] Player 0
+[2025-03-24 20:56:43] [Log] True
+[2025-03-24 20:56:55] [Error] BaseTele(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:25)
+
+
+[2025-03-24 20:56:56] [Log] Client 0 disconnected

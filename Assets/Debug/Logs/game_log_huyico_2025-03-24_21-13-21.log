@@ -1,0 +1,57 @@
+=================================================
+Log File Created: 2025-03-24 21:13:21 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-24 21:13:21] [Log] [SYSTEM] Logger initialized
+[2025-03-24 21:13:24] [Log] Client 0 connected
+[2025-03-24 21:13:24] [Log] Host started
+[2025-03-24 21:13:24] [Log] Player 0
+[2025-03-24 21:13:29] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:13:30] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:13:32] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:13:33] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:13:35] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:13:38] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:13:40] [Error] Player(Clone)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 21:13:42] [Log] Client 0 disconnected

@@ -1,0 +1,48 @@
+=================================================
+Log File Created: 2025-03-24 19:25:08 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-24 19:25:08] [Log] [SYSTEM] Logger initialized
+[2025-03-24 19:25:08] [Warning] [Netcode] NetworkPrefab "Ghost" is missing a NetworkObject component (entry will be ignored).
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkPrefab:Validate (int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefab.cs:141)
+Unity.Netcode.NetworkPrefabs:AddPrefabRegistration (Unity.Netcode.NetworkPrefab) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefabs.cs:281)
+Unity.Netcode.NetworkPrefabs:Initialize (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefabs.cs:122)
+Unity.Netcode.NetworkConfig:InitializePrefabs () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkConfig.cs:281)
+Unity.Netcode.NetworkManager:Awake () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:712)
+
+
+[2025-03-24 19:25:08] [Warning] [Netcode] Removing invalid prefabs from Network Prefab registration: {SourceHash: 0, TargetHash: 0}
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkPrefabs:Initialize (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkPrefabs.cs:151)
+Unity.Netcode.NetworkConfig:InitializePrefabs () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Configuration/NetworkConfig.cs:281)
+Unity.Netcode.NetworkManager:Awake () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:712)
+
+
+[2025-03-24 19:25:09] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemManager.Start () (at Assets/Script/Item/ItemManager.cs:29)
+
+
+[2025-03-24 19:25:13] [Exception] InvalidOperationException: The list is empty or null.
+Stack Trace:
+ItemManager.GetRandomElement[T] (System.Collections.Generic.List`1[T] list) (at Assets/Script/Item/ItemManager.cs:85)
+ItemManager.Update () (at Assets/Script/Item/ItemManager.cs:51)
+
+
+[2025-03-24 19:25:17] [Exception] InvalidOperationException: The list is empty or null.
+Stack Trace:
+ItemManager.GetRandomElement[T] (System.Collections.Generic.List`1[T] list) (at Assets/Script/Item/ItemManager.cs:85)
+ItemManager.Update () (at Assets/Script/Item/ItemManager.cs:51)
+
+

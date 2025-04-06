@@ -5016,6 +5016,7 @@ GameObject:
   - component: {fileID: 4539229842105785517}
   - component: {fileID: 2606039592189969057}
   - component: {fileID: 7568720027829085051}
+  - component: {fileID: 5257720553743463972}
   - component: {fileID: 5143143449871142064}
   - component: {fileID: 8372138775479386846}
   - component: {fileID: 2158123189734009177}
@@ -5148,6 +5149,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5257720553743463972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8151856039690206164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 269854682
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!114 &5143143449871142064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5191,7 +5213,6 @@ MonoBehaviour:
   useMelee: 0
   isClean: 0
   canThrow: 0
-  bulletConfig: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
 --- !u!114 &6051611536794252274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5221,7 +5242,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 7b4af1a0bf0de0a129adb69177f56906, type: 2}
-  bullet: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
 --- !u!1 &8415110034768770767
 GameObject:
   m_ObjectHideFlags: 0

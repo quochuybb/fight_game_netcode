@@ -4,17 +4,17 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Character Stats", menuName = "Stats/Character Stats")]
 public class CharacterStats : ScriptableObject
 {
-    public float maxHealth;
-    public float speed;
-    public float damage;
+    public float healthPoint;
+    public float damagePercentage;
+    public float speedMove;
     public Color color;
-    
-    public CharacterStats Clone()
+
+    public CharacterStatsNetwork MappingToStruct()
     {
-        CharacterStats clone = CreateInstance<CharacterStats>();
-        clone.maxHealth = this.maxHealth; 
-        clone.speed = this.speed;
-        clone.damage = this.damage;
-        return clone;
+        CharacterStatsNetwork serializable = new CharacterStatsNetwork();
+        serializable.healthPoint = this.healthPoint;
+        serializable.damagePercentage = this.damagePercentage;
+        serializable.speedMove = this.speedMove;
+        return serializable;
     }
 }

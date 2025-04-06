@@ -1,0 +1,77 @@
+=================================================
+Log File Created: 2025-03-26 12:53:49 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-26 12:53:49] [Log] [SYSTEM] Logger initialized
+[2025-03-26 12:53:54] [Log] Client started
+[2025-03-26 12:53:54] [Log] Player 0
+[2025-03-26 12:53:54] [Log] Player 1
+[2025-03-26 12:54:02] [Warning] Buff Stats calledsa
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+StatsHandler:BuffStats (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:41)
+UnityEngine.Events.UnityEvent`1<ItemNetworkSerializable>:Invoke (ItemNetworkSerializable)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-03-26 12:54:02] [Warning] ItemManager is null
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+ItemController:DestroyItem (UnityEngine.Vector3,bool) (at Assets/Script/Item/ItemController.cs:56)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:27)
+
+
+[2025-03-26 12:54:02] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.DestroyItem (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Item/ItemController.cs:60)
+ItemController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Item/ItemController.cs:27)
+
+
+[2025-03-26 12:54:08] [Warning] ItemManager is null
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+ItemController:DestroyItem (UnityEngine.Vector3,bool) (at Assets/Script/Item/ItemController.cs:56)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:27)
+
+
+[2025-03-26 12:54:08] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.DestroyItem (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Item/ItemController.cs:60)
+ItemController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Item/ItemController.cs:27)
+
+
+[2025-03-26 12:54:08] [Warning] Buff Stats calledsa
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+StatsHandler:BuffStats (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:41)
+UnityEngine.Events.UnityEvent`1<ItemNetworkSerializable>:Invoke (ItemNetworkSerializable)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-03-26 12:54:16] [Warning] Buff Stats calledsa
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+StatsHandler:BuffStats (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:41)
+UnityEngine.Events.UnityEvent`1<ItemNetworkSerializable>:Invoke (ItemNetworkSerializable)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-03-26 12:54:16] [Warning] ItemManager is null
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+ItemController:DestroyItem (UnityEngine.Vector3,bool) (at Assets/Script/Item/ItemController.cs:56)
+ItemController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:27)
+
+
+[2025-03-26 12:54:16] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.DestroyItem (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Item/ItemController.cs:60)
+ItemController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Item/ItemController.cs:27)
+
+

@@ -1,0 +1,109 @@
+=================================================
+Log File Created: 2025-03-06 21:12:12 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-06 21:12:12] [Log] [SYSTEM] Logger initialized
+[2025-03-06 21:12:15] [Log] Client 0 connected
+[2025-03-06 21:12:15] [Log] Host started
+[2025-03-06 21:12:15] [Log] Player 0
+[2025-03-06 21:12:15] [Warning] Bullet must be instantiated using the ScriptableObject.CreateInstance method instead of new Bullet.
+Stack Trace:
+UnityEngine.ScriptableObject:.ctor ()
+AttackConfig:.ctor ()
+Bullet:.ctor ()
+System.Activator:CreateInstance<Bullet> ()
+Unity.Netcode.FastBufferReader:ReadNetworkSerializable<Bullet> (Bullet&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Serialization/FastBufferReader.cs:443)
+BulletManager:__rpc_handler_3556332080 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Vector2,Bullet) (at Assets/Script/Attack/BulletManager.cs:37)
+Shooting:CreateBullet (Bullet,single) (at Assets/Script/Attack/Shooting.cs:54)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:41)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:41)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:26)
+
+
+[2025-03-06 21:12:17] [Warning] Bullet must be instantiated using the ScriptableObject.CreateInstance method instead of new Bullet.
+Stack Trace:
+UnityEngine.ScriptableObject:.ctor ()
+AttackConfig:.ctor ()
+Bullet:.ctor ()
+System.Activator:CreateInstance<Bullet> ()
+Unity.Netcode.FastBufferReader:ReadNetworkSerializable<Bullet> (Bullet&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Serialization/FastBufferReader.cs:443)
+BulletManager:__rpc_handler_3556332080 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Vector2,Bullet) (at Assets/Script/Attack/BulletManager.cs:37)
+Shooting:CreateBullet (Bullet,single) (at Assets/Script/Attack/Shooting.cs:54)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:41)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:41)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:26)
+
+
+[2025-03-06 21:12:17] [Warning] Bullet must be instantiated using the ScriptableObject.CreateInstance method instead of new Bullet.
+Stack Trace:
+UnityEngine.ScriptableObject:.ctor ()
+AttackConfig:.ctor ()
+Bullet:.ctor ()
+System.Activator:CreateInstance<Bullet> ()
+Unity.Netcode.FastBufferReader:ReadNetworkSerializable<Bullet> (Bullet&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Serialization/FastBufferReader.cs:443)
+BulletManager:__rpc_handler_3556332080 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Vector2,Bullet) (at Assets/Script/Attack/BulletManager.cs:37)
+Shooting:CreateBullet (Bullet,single) (at Assets/Script/Attack/Shooting.cs:54)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:41)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:41)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:26)
+
+
+[2025-03-06 21:12:18] [Warning] Bullet must be instantiated using the ScriptableObject.CreateInstance method instead of new Bullet.
+Stack Trace:
+UnityEngine.ScriptableObject:.ctor ()
+AttackConfig:.ctor ()
+Bullet:.ctor ()
+System.Activator:CreateInstance<Bullet> ()
+Unity.Netcode.FastBufferReader:ReadNetworkSerializable<Bullet> (Bullet&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Serialization/FastBufferReader.cs:443)
+BulletManager:__rpc_handler_3556332080 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Vector2,Bullet) (at Assets/Script/Attack/BulletManager.cs:37)
+Shooting:CreateBullet (Bullet,single) (at Assets/Script/Attack/Shooting.cs:54)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:41)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:41)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:26)
+
+
+[2025-03-06 21:12:18] [Warning] Bullet must be instantiated using the ScriptableObject.CreateInstance method instead of new Bullet.
+Stack Trace:
+UnityEngine.ScriptableObject:.ctor ()
+AttackConfig:.ctor ()
+Bullet:.ctor ()
+System.Activator:CreateInstance<Bullet> ()
+Unity.Netcode.FastBufferReader:ReadNetworkSerializable<Bullet> (Bullet&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Serialization/FastBufferReader.cs:443)
+BulletManager:__rpc_handler_3556332080 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Vector2,Bullet) (at Assets/Script/Attack/BulletManager.cs:37)
+Shooting:CreateBullet (Bullet,single) (at Assets/Script/Attack/Shooting.cs:54)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:41)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:41)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:26)
+
+

@@ -1,0 +1,918 @@
+=================================================
+Log File Created: 2025-03-24 20:49:23 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-24 20:49:23] [Log] [SYSTEM] Logger initialized
+[2025-03-24 20:49:26] [Log] Client 0 connected
+[2025-03-24 20:49:26] [Log] Host started
+[2025-03-24 20:49:27] [Log] Player 0
+[2025-03-24 20:49:34] [Log] True
+[2025-03-24 20:49:40] [Log] True
+[2025-03-24 20:49:44] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:44] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:44] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:44] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:44] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:45] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:47] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:47] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:48] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:49:57] [Log] True
+[2025-03-24 20:50:12] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:12] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:12] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:12] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:13] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:17] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:19] [Error] OnTriggerStay2D
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:OnTriggerStay2D (UnityEngine.Collider2D) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-03-24 20:50:29] [Log] Client 0 disconnected

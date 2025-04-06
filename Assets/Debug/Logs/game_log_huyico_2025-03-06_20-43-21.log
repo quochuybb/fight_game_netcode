@@ -1,0 +1,53 @@
+=================================================
+Log File Created: 2025-03-06 20:43:21 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-06 20:43:21] [Log] [SYSTEM] Logger initialized
+[2025-03-06 20:43:27] [Log] Client 0 connected
+[2025-03-06 20:43:27] [Log] Host started
+[2025-03-06 20:43:27] [Log] Player 0
+[2025-03-06 20:43:29] [Warning] Bullet must be instantiated using the ScriptableObject.CreateInstance method instead of new Bullet.
+Stack Trace:
+UnityEngine.ScriptableObject:.ctor ()
+AttackConfig:.ctor ()
+Bullet:.ctor ()
+System.Activator:CreateInstance<Bullet> ()
+Unity.Netcode.FastBufferReader:ReadNetworkSerializable<Bullet> (Bullet&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Serialization/FastBufferReader.cs:443)
+BulletManager:__rpc_handler_3556332080 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Vector2,Bullet) (at Assets/Script/Attack/BulletManager.cs:35)
+Shooting:CreateBullet (Bullet,single) (at Assets/Script/Attack/Shooting.cs:52)
+Shooting:OnShooting (Bullet) (at Assets/Script/Attack/Shooting.cs:41)
+UnityEngine.Events.UnityEvent`1<Bullet>:Invoke (Bullet)
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:42)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:27)
+
+
+[2025-03-06 20:43:32] [Warning] Bullet must be instantiated using the ScriptableObject.CreateInstance method instead of new Bullet.
+Stack Trace:
+UnityEngine.ScriptableObject:.ctor ()
+AttackConfig:.ctor ()
+Bullet:.ctor ()
+System.Activator:CreateInstance<Bullet> ()
+Unity.Netcode.FastBufferReader:ReadNetworkSerializable<Bullet> (Bullet&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Serialization/FastBufferReader.cs:443)
+BulletManager:__rpc_handler_3556332080 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Vector2,Bullet) (at Assets/Script/Attack/BulletManager.cs:35)
+Shooting:CreateBullet (Bullet,single) (at Assets/Script/Attack/Shooting.cs:52)
+Shooting:OnShooting (Bullet) (at Assets/Script/Attack/Shooting.cs:41)
+UnityEngine.Events.UnityEvent`1<Bullet>:Invoke (Bullet)
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:42)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:27)
+
+
+[2025-03-06 20:44:00] [Log] Client 0 disconnected

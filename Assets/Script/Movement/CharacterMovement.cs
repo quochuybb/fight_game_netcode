@@ -19,7 +19,7 @@ public class CharacterMovement : NetworkBehaviour
     private NetworkVariable<Vector2> networkPosition = new NetworkVariable<Vector2>(); 
     private float lastServerSyncTime;
     private float lastNetworkUpdate;
-    private const float NETWORK_UPDATE_INTERVAL = 0.05f; 
+    private const float NETWORK_UPDATE_INTERVAL = 0.001f; 
 
     
     private void Awake()
@@ -44,17 +44,21 @@ public class CharacterMovement : NetworkBehaviour
         characterController.onDash.AddListener(Dashing);
         
     }
+
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+    }
+
     private void OnNetworkPositionChanged(Vector2 oldValue, Vector2 newValue)
     {
-        Debug.Log($"OnNetworkPositionChanged old: {oldValue}, new: {newValue}");
         transform.position = newValue;
     } 
     private void HandleOwnerMovement(Vector2 movement)
     {
-        Vector2 moveVelocity = movement * speed;
+        Vector2 moveVelocity = movement * 5f;
         rb.velocity = moveVelocity;
-
-
         if (Time.time - lastNetworkUpdate >= NETWORK_UPDATE_INTERVAL)
         {
 
@@ -71,6 +75,7 @@ public class CharacterMovement : NetworkBehaviour
             Time.deltaTime * 15f
         );
     }
+
     private void OnMove(Vector2 movement)
     {
         this.movement = movement;
@@ -81,13 +86,12 @@ public class CharacterMovement : NetworkBehaviour
         else
         {
             HandleClientMovement();
-        }
+        }  
 
     }
     [ServerRpc]
     private void UpdatePositionServerRpc(Vector2 newPosition, ServerRpcParams serverRpcParams = default)
     {
-        GameLogger.Instance.LogError("send position to server" + newPosition + ", serverRpcParams: " + serverRpcParams.Receive.SenderClientId);
         networkPosition.Value = newPosition;
         transform.position = newPosition;
         UpdatePositionClientRpc(newPosition);
@@ -95,7 +99,6 @@ public class CharacterMovement : NetworkBehaviour
     [ClientRpc]
     private void UpdatePositionClientRpc(Vector2 newPosition)
     {
-        GameLogger.Instance.LogError("send position to client" + newPosition);
         transform.position = newPosition;
         
     }

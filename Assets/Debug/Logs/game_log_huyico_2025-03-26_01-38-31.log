@@ -1,0 +1,31 @@
+=================================================
+Log File Created: 2025-03-26 01:38:31 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-26 01:38:31] [Log] [SYSTEM] Logger initialized
+[2025-03-26 01:38:34] [Log] Client 0 connected
+[2025-03-26 01:38:34] [Log] Host started
+[2025-03-26 01:38:34] [Log] Player 0
+[2025-03-26 01:38:38] [Warning] Buff Stats calledsa
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+StatsHandler:BuffStats (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:41)
+UnityEngine.Events.UnityEvent`1<ItemNetworkSerializable>:Invoke (ItemNetworkSerializable)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-03-26 01:38:39] [Warning] Buff Stats calledsa
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+StatsHandler:BuffStats (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:41)
+UnityEngine.Events.UnityEvent`1<ItemNetworkSerializable>:Invoke (ItemNetworkSerializable)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-03-26 01:38:40] [Log] Client 0 disconnected

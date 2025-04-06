@@ -1,0 +1,304 @@
+=================================================
+Log File Created: 2025-03-28 13:00:06 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-28 13:00:06] [Log] [SYSTEM] Logger initialized
+[2025-03-28 13:00:14] [Log] Client started
+[2025-03-28 13:00:14] [Error] Sprite Manager is already set
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:48)
+ItemController:OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject,ulong,bool,bool,ulong,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject,Unity.Netcode.NetworkObject/SceneObject&,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.SceneEventData:SynchronizeSceneNetworkObjects (Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/SceneEventData.cs:986)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2117)
+Unity.Netcode.NetworkSceneManager:ClientLoadedSynchronization (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2013)
+Unity.Netcode.NetworkSceneManager:OnClientBeginSync (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:1941)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2099)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent (ulong,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2351)
+Unity.Netcode.SceneEventMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/SceneEventMessage.cs:26)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.SceneEventMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:14] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:54)
+ItemController.OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour.VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:697)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon(NetworkObject, UInt64, Boolean, Boolean, UInt64, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally(NetworkObject, SceneObject&, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject(SceneObject&, FastBufferReader, NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.SceneEventData:SynchronizeSceneNetworkObjects(NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/SceneEventData.cs:986)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent(UInt32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2117)
+Unity.Netcode.NetworkSceneManager:ClientLoadedSynchronization(UInt32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2013)
+Unity.Netcode.NetworkSceneManager:OnClientBeginSync(UInt32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:1941)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent(UInt32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2099)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent(UInt64, FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2351)
+Unity.Netcode.SceneEventMessage:Handle(NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/SceneEventMessage.cs:26)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage(FastBufferReader, NetworkContext&, NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage(NetworkMessageHeader&, FastBufferReader, UInt64, Single, Int32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.<>c:<CreateLoopSystem>b__0_0() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:14] [Error] Sprite Manager is already set
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:48)
+ItemController:OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject,ulong,bool,bool,ulong,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject,Unity.Netcode.NetworkObject/SceneObject&,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.SceneEventData:SynchronizeSceneNetworkObjects (Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/SceneEventData.cs:986)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2117)
+Unity.Netcode.NetworkSceneManager:ClientLoadedSynchronization (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2013)
+Unity.Netcode.NetworkSceneManager:OnClientBeginSync (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:1941)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2099)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent (ulong,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2351)
+Unity.Netcode.SceneEventMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/SceneEventMessage.cs:26)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.SceneEventMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:14] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:54)
+ItemController.OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour.VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:697)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon(NetworkObject, UInt64, Boolean, Boolean, UInt64, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally(NetworkObject, SceneObject&, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject(SceneObject&, FastBufferReader, NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.SceneEventData:SynchronizeSceneNetworkObjects(NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/SceneEventData.cs:986)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent(UInt32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2117)
+Unity.Netcode.NetworkSceneManager:ClientLoadedSynchronization(UInt32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2013)
+Unity.Netcode.NetworkSceneManager:OnClientBeginSync(UInt32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:1941)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent(UInt32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2099)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent(UInt64, FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2351)
+Unity.Netcode.SceneEventMessage:Handle(NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/SceneEventMessage.cs:26)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage(FastBufferReader, NetworkContext&, NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage(NetworkMessageHeader&, FastBufferReader, UInt64, Single, Int32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.<>c:<CreateLoopSystem>b__0_0() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:14] [Log] Player 0
+[2025-03-28 13:00:14] [Log] Player 1
+[2025-03-28 13:00:16] [Error] Sprite Manager is already set
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:48)
+ItemController:OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject,ulong,bool,bool,ulong,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject,Unity.Netcode.NetworkObject/SceneObject&,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.CreateObjectMessage:CreateObject (Unity.Netcode.NetworkManager&,ulong,uint,Unity.Netcode.NetworkObject/SceneObject,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:54)
+Unity.Netcode.CreateObjectMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:45)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.CreateObjectMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:16] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:54)
+ItemController.OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour.VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:697)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon(NetworkObject, UInt64, Boolean, Boolean, UInt64, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally(NetworkObject, SceneObject&, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject(SceneObject&, FastBufferReader, NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.CreateObjectMessage:CreateObject(NetworkManager&, UInt64, UInt32, SceneObject, FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:54)
+Unity.Netcode.CreateObjectMessage:Handle(NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:45)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage(FastBufferReader, NetworkContext&, NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage(NetworkMessageHeader&, FastBufferReader, UInt64, Single, Int32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.<>c:<CreateLoopSystem>b__0_0() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:16] [Error] Sprite Manager is already set
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:48)
+ItemController:OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject,ulong,bool,bool,ulong,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject,Unity.Netcode.NetworkObject/SceneObject&,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.CreateObjectMessage:CreateObject (Unity.Netcode.NetworkManager&,ulong,uint,Unity.Netcode.NetworkObject/SceneObject,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:54)
+Unity.Netcode.CreateObjectMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:45)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.CreateObjectMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:16] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:54)
+ItemController.OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour.VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:697)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon(NetworkObject, UInt64, Boolean, Boolean, UInt64, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally(NetworkObject, SceneObject&, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject(SceneObject&, FastBufferReader, NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.CreateObjectMessage:CreateObject(NetworkManager&, UInt64, UInt32, SceneObject, FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:54)
+Unity.Netcode.CreateObjectMessage:Handle(NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:45)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage(FastBufferReader, NetworkContext&, NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage(NetworkMessageHeader&, FastBufferReader, UInt64, Single, Int32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.<>c:<CreateLoopSystem>b__0_0() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:20] [Error] Sprite Manager is already set
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:48)
+ItemController:OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject,ulong,bool,bool,ulong,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject,Unity.Netcode.NetworkObject/SceneObject&,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.CreateObjectMessage:CreateObject (Unity.Netcode.NetworkManager&,ulong,uint,Unity.Netcode.NetworkObject/SceneObject,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:54)
+Unity.Netcode.CreateObjectMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:45)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.CreateObjectMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:20] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:54)
+ItemController.OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour.VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:697)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon(NetworkObject, UInt64, Boolean, Boolean, UInt64, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally(NetworkObject, SceneObject&, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject(SceneObject&, FastBufferReader, NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.CreateObjectMessage:CreateObject(NetworkManager&, UInt64, UInt32, SceneObject, FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:54)
+Unity.Netcode.CreateObjectMessage:Handle(NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:45)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage(FastBufferReader, NetworkContext&, NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage(NetworkMessageHeader&, FastBufferReader, UInt64, Single, Int32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.<>c:<CreateLoopSystem>b__0_0() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:20] [Error] Sprite Manager is already set
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemController:UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:48)
+ItemController:OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject,ulong,bool,bool,ulong,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject,Unity.Netcode.NetworkObject/SceneObject&,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.CreateObjectMessage:CreateObject (Unity.Netcode.NetworkManager&,ulong,uint,Unity.Netcode.NetworkObject/SceneObject,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:54)
+Unity.Netcode.CreateObjectMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:45)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.CreateObjectMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:20] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.UpdateSpriteItem () (at Assets/Script/Item/ItemController.cs:54)
+ItemController.OnNetworkSpawn () (at Assets/Script/Item/ItemController.cs:40)
+Unity.Netcode.NetworkBehaviour.VisibleOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:693)
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkBehaviour:VisibleOnNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:697)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkSpawn() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1395)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocallyCommon(NetworkObject, UInt64, Boolean, Boolean, UInt64, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager:SpawnNetworkObjectLocally(NetworkObject, SceneObject&, Boolean) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:668)
+Unity.Netcode.NetworkObject:AddSceneObject(SceneObject&, FastBufferReader, NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1946)
+Unity.Netcode.CreateObjectMessage:CreateObject(NetworkManager&, UInt64, UInt32, SceneObject, FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:54)
+Unity.Netcode.CreateObjectMessage:Handle(NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/CreateObjectMessage.cs:45)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage(FastBufferReader, NetworkContext&, NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage(NetworkMessageHeader&, FastBufferReader, UInt64, Single, Int32) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage(NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.<>c:<CreateLoopSystem>b__0_0() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-03-28 13:00:51] [Warning] Assets/Script/Animation/Animation Controller.cs(13,45): warning CS0108: 'AnimationController.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Item/ItemController.cs(10,42): warning CS0108: 'ItemController.rigidbody2D' hides inherited member 'Component.rigidbody2D'. Use the new keyword if hiding was intended.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/PlayerInput.cs(12,18): warning CS0114: 'PlayerInput.Awake()' hides inherited member 'CharacterController.Awake()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Attack/BulletManager.cs(10,45): warning CS0108: 'BulletManager.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Item/ItemManager.cs(12,45): warning CS0108: 'ItemManager.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Spawn/SpawnEnemy.cs(9,45): warning CS0108: 'SpawnEnemy.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Spawn/SpawnEnemy.cs(15,18): warning CS0114: 'SpawnEnemy.Awake()' hides inherited member 'CharacterController.Awake()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Spawn/SpawnEnemy.cs(20,18): warning CS0114: 'SpawnEnemy.Update()' hides inherited member 'CharacterController.Update()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/EnemyController.cs(37,26): warning CS0168: The variable 'e' is declared but never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/CharacterMovement.cs(12,19): warning CS0414: The field 'CharacterMovement.speed' is assigned but its value is never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/CharacterMovement.cs(15,19): warning CS0414: The field 'CharacterMovement.dashDuration' is assigned but its value is never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Item/ItemController.cs(16,18): warning CS0414: The field 'ItemController.isSpawned' is assigned but its value is never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/CharacterMovement.cs(14,18): warning CS0414: The field 'CharacterMovement.isDashing' is assigned but its value is never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/CharacterMovement.cs(17,19): warning CS0414: The field 'CharacterMovement.dashCooldown' is assigned but its value is never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Item/ItemManager.cs(12,45): warning CS0108: 'ItemManager.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Spawn/SpawnEnemy.cs(9,45): warning CS0108: 'SpawnEnemy.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Spawn/SpawnEnemy.cs(15,18): warning CS0114: 'SpawnEnemy.Awake()' hides inherited member 'CharacterController.Awake()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Spawn/SpawnEnemy.cs(20,18): warning CS0114: 'SpawnEnemy.Update()' hides inherited member 'CharacterController.Update()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/EnemyController.cs(37,26): warning CS0168: The variable 'e' is declared but never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/CharacterMovement.cs(12,19): warning CS0414: The field 'CharacterMovement.speed' is assigned but its value is never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/CharacterMovement.cs(15,19): warning CS0414: The field 'CharacterMovement.dashDuration' is assigned but its value is never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Item/ItemController.cs(16,18): warning CS0414: The field 'ItemController.isSpawned' is assigned but its value is never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/CharacterMovement.cs(14,18): warning CS0414: The field 'CharacterMovement.isDashing' is assigned but its value is never used
+[2025-03-28 13:00:51] [Warning] Assets/Script/Movement/CharacterMovement.cs(17,19): warning CS0414: The field 'CharacterMovement.dashCooldown' is assigned but its value is never used

@@ -1,0 +1,63 @@
+=================================================
+Log File Created: 2025-03-16 09:28:47 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-16 09:28:47] [Log] [SYSTEM] Logger initialized
+[2025-03-16 09:28:48] [Log] Client 0 connected
+[2025-03-16 09:28:48] [Log] Host started
+[2025-03-16 09:28:48] [Log] Player 0
+[2025-03-16 09:28:50] [Log] Bullet(Clone)
+[2025-03-16 09:28:50] [Log] Bullet
+[2025-03-16 09:28:50] [Warning] DestroyBulletServerRpc: bulletNetworkObject is not active
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+BulletManager:DestroyBulletServerRpc () (at Assets/Script/Attack/BulletManager.cs:48)
+BulletManager:__rpc_handler_2767184670 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc () (at Assets/Script/Attack/BulletManager.cs:42)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject) (at Assets/Script/Attack/BulletManager.cs:36)
+BulletController:DestroyBullet (UnityEngine.Vector3,bool) (at Assets/Script/Attack/BulletController.cs:90)
+BulletController:Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-16 09:28:51] [Log] Bullet(Clone)
+[2025-03-16 09:28:51] [Log] Bullet
+[2025-03-16 09:28:51] [Warning] DestroyBulletServerRpc: bulletNetworkObject is not active
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+BulletManager:DestroyBulletServerRpc () (at Assets/Script/Attack/BulletManager.cs:48)
+BulletManager:__rpc_handler_2767184670 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc () (at Assets/Script/Attack/BulletManager.cs:42)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject) (at Assets/Script/Attack/BulletManager.cs:36)
+BulletController:DestroyBullet (UnityEngine.Vector3,bool) (at Assets/Script/Attack/BulletController.cs:90)
+BulletController:Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-16 09:28:52] [Log] Bullet(Clone)
+[2025-03-16 09:28:52] [Log] Bullet
+[2025-03-16 09:28:52] [Warning] DestroyBulletServerRpc: bulletNetworkObject is not active
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+BulletManager:DestroyBulletServerRpc () (at Assets/Script/Attack/BulletManager.cs:48)
+BulletManager:__rpc_handler_2767184670 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc () (at Assets/Script/Attack/BulletManager.cs:42)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject) (at Assets/Script/Attack/BulletManager.cs:36)
+BulletController:DestroyBullet (UnityEngine.Vector3,bool) (at Assets/Script/Attack/BulletController.cs:90)
+BulletController:Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-16 09:28:53] [Log] Client 0 disconnected

@@ -1,0 +1,2312 @@
+=================================================
+Log File Created: 2025-03-14 00:52:49 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-03-14 00:52:49] [Log] [SYSTEM] Logger initialized
+[2025-03-14 00:52:51] [Log] Client 0 connected
+[2025-03-14 00:52:51] [Log] Host started
+[2025-03-14 00:52:51] [Log] Player 0
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
+[2025-03-14 00:52:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Attack/BulletController.cs:88)
+BulletController.Update () (at Assets/Script/Attack/BulletController.cs:35)
+
+
