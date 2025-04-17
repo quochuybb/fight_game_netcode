@@ -1,43 +1,30 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Reflection;
 using Unity.Netcode;
-using Unity.VisualScripting;
 using UnityEngine;
-using DG.Tweening;
 
 public class StatsHandler : NetworkBehaviour
 {
     public static StatsHandler Instance;
     [SerializeField] public CharacterStats stats;
     [SerializeField] public Bullet statsAttack;
-    private CharacterController characterController;
-    public NetworkVariable<CharacterStatsNetwork> currentStatsNetworkVariableClient = new NetworkVariable<CharacterStatsNetwork>(new CharacterStatsNetwork(), 
-        NetworkVariableReadPermission.Everyone, 
-        NetworkVariableWritePermission.Server);
-    public NetworkVariable<BulletNetworkSerializable> currentStatsAttackNetworkVariableClient = new NetworkVariable<BulletNetworkSerializable>(new BulletNetworkSerializable(), 
-        NetworkVariableReadPermission.Everyone, 
-        NetworkVariableWritePermission.Server);    
-    public NetworkVariable<CharacterStatsNetwork> currentStatsNetworkVariableHost = new NetworkVariable<CharacterStatsNetwork>(new CharacterStatsNetwork(), 
-        NetworkVariableReadPermission.Everyone, 
-        NetworkVariableWritePermission.Server);
-    public NetworkVariable<BulletNetworkSerializable> currentStatsAttackNetworkVariableHost = new NetworkVariable<BulletNetworkSerializable>(new BulletNetworkSerializable(), 
-        NetworkVariableReadPermission.Everyone, 
-        NetworkVariableWritePermission.Server);
-    public CharacterStatsNetwork currentClient = new CharacterStatsNetwork();
-    public BulletNetworkSerializable currentAttackClient = new BulletNetworkSerializable();
-    public CharacterStatsNetwork currentHost = new CharacterStatsNetwork();
-    public BulletNetworkSerializable currentAttackHost = new BulletNetworkSerializable();
+    private CharacterController _characterController;
+    public NetworkVariable<CharacterStatsNetwork> currentStatsNetworkVariableClient = new NetworkVariable<CharacterStatsNetwork>(new CharacterStatsNetwork());
+    public NetworkVariable<BulletNetworkSerializable> currentStatsAttackNetworkVariableClient = new NetworkVariable<BulletNetworkSerializable>(new BulletNetworkSerializable());    
+    public NetworkVariable<CharacterStatsNetwork> currentStatsNetworkVariableHost = new NetworkVariable<CharacterStatsNetwork>(new CharacterStatsNetwork());
+    public NetworkVariable<BulletNetworkSerializable> currentStatsAttackNetworkVariableHost = new NetworkVariable<BulletNetworkSerializable>(new BulletNetworkSerializable());
+    public CharacterStatsNetwork CurrentClient = new CharacterStatsNetwork();
+    public BulletNetworkSerializable CurrentAttackClient = new BulletNetworkSerializable();
+    public CharacterStatsNetwork CurrentHost = new CharacterStatsNetwork();
+    public BulletNetworkSerializable CurrentAttackHost = new BulletNetworkSerializable();
 
-    private const float BUFF_UPDATE_INTERVAL = 0.1f;
-    private float lastBuffUpdateTime = 0f;
+    private const float BuffUpdateInterval = 0.1f;
+    private float _lastBuffUpdateTime ;
     private void Awake()
     {
-        characterController = GetComponent<CharacterController>();
-        characterController.onDamgeEvent.AddListener(ChangedHealthServerRpc);
-        characterController.onCleanEvent.AddListener(Death);
-        characterController.onBuffEvent.AddListener(BuffStats);
+        _characterController = GetComponent<CharacterController>();
+        _characterController.onDamgeEvent.AddListener(Injured);
+        _characterController.onBuffEvent.AddListener(BuffStats);
 
     }
     public override void OnNetworkSpawn()
@@ -47,12 +34,12 @@ public class StatsHandler : NetworkBehaviour
         {
             currentStatsNetworkVariableHost.Value = stats.Mapping();
             currentStatsNetworkVariableClient.Value = stats.Mapping();
-            currentHost= stats.Mapping();
-            currentClient = stats.Mapping();
+            CurrentHost= stats.Mapping();
+            CurrentClient = stats.Mapping();
             currentStatsAttackNetworkVariableClient.Value = statsAttack.Mapping();
             currentStatsAttackNetworkVariableHost.Value = statsAttack.Mapping();
-            currentAttackClient= statsAttack.Mapping();
-            currentAttackHost = statsAttack.Mapping();
+            CurrentAttackClient= statsAttack.Mapping();
+            CurrentAttackHost = statsAttack.Mapping();
         }
     }
 
@@ -67,30 +54,41 @@ public class StatsHandler : NetworkBehaviour
     }
     private void OnStatsHostChanged(CharacterStatsNetwork previous, CharacterStatsNetwork current)
     {
-        currentHost = current;
+        CurrentHost = current;
     }
     private void OnStatsClientChanged(CharacterStatsNetwork previous, CharacterStatsNetwork current)
     {
-        currentClient = current;
+        CurrentClient = current;
     }
     private void OnStatsAttackHostChanged(BulletNetworkSerializable previous, BulletNetworkSerializable current)
     {
-        currentAttackHost = current;
+        CurrentAttackHost = current;
     }
     private void OnStatsAttackClientChanged(BulletNetworkSerializable previous, BulletNetworkSerializable current)
     {
-        currentAttackClient = current;
+        CurrentAttackClient = current;
     }
 
+    public void Injured(float damage)
+    {
+        if (IsOwner)
+        {
+            ChangeHealthServerRpc(damage);
+        }
+        else
+        {
+            ChangeHealthClient(damage);
 
-    [ServerRpc(RequireOwnership = false)]
-    public void ChangedHealthServerRpc(float damage)
+        }
+    }
+    private void ChangeHealthClient(float damage)
     {
         currentStatsNetworkVariableClient.Value.healthPoint -= damage;
-        if (currentStatsNetworkVariableClient.Value.healthPoint <= 0)
-        {
-            this.gameObject.SetActive(false);
-        }
+    }
+    [ServerRpc]
+    public void ChangeHealthServerRpc(float damage)
+    {
+        currentStatsNetworkVariableHost.Value.healthPoint -= damage;
     }
 
     public void BuffStats(ItemNetworkSerializable item, ServerRpcParams rpcParams = default)
@@ -114,9 +112,9 @@ public class StatsHandler : NetworkBehaviour
     }
     private void HandleOwnerBuff(ItemNetworkSerializable item)
     {
-        if (Time.time - lastBuffUpdateTime >= BUFF_UPDATE_INTERVAL)
+        if (Time.time - _lastBuffUpdateTime >= BuffUpdateInterval)
         {
-            lastBuffUpdateTime = Time.time;
+            _lastBuffUpdateTime = Time.time;
             if (IsOwner)
             {
                 UpdateBuffServerRpc(item);
@@ -127,12 +125,11 @@ public class StatsHandler : NetworkBehaviour
 
     private void HandleClientBuffAttack()
     {
-        currentAttackClient= currentStatsAttackNetworkVariableClient.Value;
-
+        CurrentAttackClient= currentStatsAttackNetworkVariableClient.Value;
     }
     private void HandleClientBuff()
     {
-        currentClient= currentStatsNetworkVariableClient.Value;
+        CurrentClient= currentStatsNetworkVariableClient.Value;
 
     }
     public void SetFieldByName(object obj, string targetFieldName, float newValue)
@@ -154,7 +151,6 @@ public class StatsHandler : NetworkBehaviour
                     float value = currentValue + newValue;
                     field.SetValue(obj, value);
                 }
-
             }
         }
         
@@ -169,14 +165,12 @@ public class StatsHandler : NetworkBehaviour
             if (item.typeBuff == 1)
             {
                 SetFieldByName(currentStatsAttackNetworkVariableHost.Value, item.nameStatsBuff, item.statsBuff);
-                SetFieldByName(currentAttackHost, item.nameStatsBuff, item.statsBuff);
-                Debug.LogError(currentStatsAttackNetworkVariableHost.Value.numberOfBulletsPerShoot);
-                
+                SetFieldByName(CurrentAttackHost, item.nameStatsBuff, item.statsBuff);
             }
             else
             {
                 SetFieldByName(currentStatsNetworkVariableHost.Value, item.nameStatsBuff, item.statsBuff);
-                SetFieldByName(currentHost, item.nameStatsBuff, item.statsBuff);
+                SetFieldByName(CurrentHost, item.nameStatsBuff, item.statsBuff);
             }
             //UpdateBuffClientRpc(newBuff);
         }
@@ -185,38 +179,18 @@ public class StatsHandler : NetworkBehaviour
             if (item.typeBuff == 1)
             {
                 SetFieldByName(currentStatsAttackNetworkVariableClient.Value, item.nameStatsBuff, item.statsBuff);
-                SetFieldByName(currentAttackClient, item.nameStatsBuff, item.statsBuff);
+                SetFieldByName(CurrentAttackClient, item.nameStatsBuff, item.statsBuff);
+
                 
             }
             else
             {
                 SetFieldByName(currentStatsNetworkVariableClient.Value, item.nameStatsBuff, item.statsBuff);
-                SetFieldByName(currentClient, item.nameStatsBuff, item.statsBuff);
+                SetFieldByName(CurrentClient, item.nameStatsBuff, item.statsBuff);
             }
-            Debug.LogError(currentStatsAttackNetworkVariableClient.Value.numberOfBulletsPerShoot);
 
         }
 
-    }
-    [ClientRpc]
-    private void UpdateBuffClientRpc(CharacterStatsNetwork newBuff)
-    {
-
-        currentHost = newBuff;
-        
-    } 
-    
-    public void ChangedNumberBullet(int amount)
-    {
-        //bullet.numberOfBulletsPerShoot += amount + 1;
-    }
-
-    public void Death()
-    {
-        if (gameObject.layer == LayerMask.NameToLayer("Player"))
-        {
-            Time.timeScale = 0;        
-        }
     }
 
 }

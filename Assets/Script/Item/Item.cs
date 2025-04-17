@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Netcode;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "ItemConfig", menuName = "ItemConfig")]
@@ -11,7 +8,6 @@ public class Item : ScriptableObject
     public string nameStatsBuff;
     public float statsBuff;
     public int typeBuff;
-
     public ItemNetworkSerializable Mapping()
     {
         ItemNetworkSerializable item = new ItemNetworkSerializable();

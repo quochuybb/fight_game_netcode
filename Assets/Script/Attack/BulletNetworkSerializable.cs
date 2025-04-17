@@ -16,7 +16,8 @@ public class BulletNetworkSerializable : IEquatable<BulletNetworkSerializable>,I
     public float numberOfBulletsPerShoot;
     public bool Equals(BulletNetworkSerializable other)
     {
-        return size == other.size && damage == other.damage && speed == other.speed && delay == other.delay && timeExist == other.timeExist && colorBullet == other.colorBullet && multipleBulletAngle == other.multipleBulletAngle && numberOfBulletsPerShoot==other.numberOfBulletsPerShoot;
+        return size == other.size && damage == other.damage && speed == other.speed && delay == other.delay && timeExist == other.timeExist && colorBullet == other.colorBullet 
+               && multipleBulletAngle == other.multipleBulletAngle && numberOfBulletsPerShoot==other.numberOfBulletsPerShoot;
     }
 
     public override bool Equals(object obj)
@@ -29,7 +30,7 @@ public class BulletNetworkSerializable : IEquatable<BulletNetworkSerializable>,I
     }
     public override int GetHashCode()
     {
-        return HashCode.Combine(size, damage, speed, delay, timeExist, colorBullet, multipleBulletAngle, numberOfBulletsPerShoot);
+        return HashCode.Combine(size, damage, speed, delay, timeExist, colorBullet,numberOfBulletsPerShoot, multipleBulletAngle);
     }
 
     public static bool operator ==(BulletNetworkSerializable left, BulletNetworkSerializable right)

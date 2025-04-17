@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: item1
   itemName: bag
-  nameStatsBuff: numberOfBulletsPerShoot
+  nameStatsBuff: damage
   statsBuff: 3
   typeBuff: 1

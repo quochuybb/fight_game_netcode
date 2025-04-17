@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using Unity.Netcode;
-using UnityEngine;
 
 public class ItemNetworkSerializable : INetworkSerializable
 {
@@ -17,5 +14,6 @@ public class ItemNetworkSerializable : INetworkSerializable
         serializer.SerializeValue(ref nameStatsBuff);
         serializer.SerializeValue(ref statsBuff);
         serializer.SerializeValue(ref typeBuff);
+        
     }
 }

@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -12,9 +9,7 @@ public class Shooting : NetworkBehaviour
         NetworkVariableReadPermission.Everyone, 
         NetworkVariableWritePermission.Owner);
 
-    [SerializeField] private Bullet bulletConfig;
     [SerializeField] private StatsHandler statsHandler;
-    private BulletNetworkSerializable bulletNetworkSerializable = new BulletNetworkSerializable();
     private BulletManager bulletManager;
     private float lastTimeShoot;
     private bool canShoot;
@@ -27,7 +22,6 @@ public class Shooting : NetworkBehaviour
     
     public override void OnNetworkSpawn()
     {
-        bulletNetworkSerializable = bulletConfig.Mapping();
         if (IsOwner)
         {
             controller.onAttackGunEvent.AddListener(OnShooting);
@@ -48,13 +42,27 @@ public class Shooting : NetworkBehaviour
             return;
         }
         canShoot = false;
-        float HalfOfSumAngleBullet = -(bulletNetworkSerializable.numberOfBulletsPerShoot/2f) * bulletNetworkSerializable.multipleBulletAngle + 0.5f * bulletNetworkSerializable.multipleBulletAngle;
-        for (int i = 0; i < bulletNetworkSerializable.numberOfBulletsPerShoot; i++)
+        if (IsServer)
         {
-            float angle = HalfOfSumAngleBullet + i * bulletNetworkSerializable.multipleBulletAngle;
-            CreateBullet(bulletNetworkSerializable, angle);
+            CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableHost.Value);
+        }
+        else
+        {
+            CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableClient.Value);
         }
 
+
+    }
+
+    private void CreateAngleAndBullet(BulletNetworkSerializable bullet)
+    {
+        float HalfOfSumAngleBullet = -(bullet.numberOfBulletsPerShoot/2f) * bullet.multipleBulletAngle
+                                     + 0.5f * bullet.multipleBulletAngle;
+        for (int i = 0; i < bullet.numberOfBulletsPerShoot; i++)
+        {
+            float angle = HalfOfSumAngleBullet + i * bullet.multipleBulletAngle;
+            CreateBullet(bullet, angle);
+        }
     }
 
     private void OnLookMouse(Vector2 aimDirection)
@@ -74,7 +82,7 @@ public class Shooting : NetworkBehaviour
     public void HandleDelayTime()
     {
         lastTimeShoot += Time.deltaTime;
-        if (lastTimeShoot > bulletNetworkSerializable.delay)
+        if (lastTimeShoot > statsHandler.currentStatsAttackNetworkVariableHost.Value.delay)
         {
             lastTimeShoot = 0f;
             canShoot=true;

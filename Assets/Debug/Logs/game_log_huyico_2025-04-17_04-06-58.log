@@ -1,0 +1,30 @@
+=================================================
+Log File Created: 2025-04-17 04:06:58 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-04-17 04:06:58] [Log] [SYSTEM] Logger initialized
+[2025-04-17 04:07:00] [Log] Client 0 connected
+[2025-04-17 04:07:00] [Log] Host started
+[2025-04-17 04:07:00] [Log] Player 0
+[2025-04-17 04:07:11] [Error] 4
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:UpdateBuffServerRpc (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:173)
+StatsHandler:__rpc_handler_3552832111 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:UpdateBuffServerRpc (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:166)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:122)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:100)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-17 04:07:14] [Log] Client 0 disconnected

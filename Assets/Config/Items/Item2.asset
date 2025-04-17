@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: item2
   itemName: eye
-  nameStatsBuff: numberOfBulletsPerShoot
-  statsBuff: 4
+  nameStatsBuff: damage
+  statsBuff: 5
   typeBuff: 1

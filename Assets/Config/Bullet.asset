@@ -20,3 +20,4 @@ MonoBehaviour:
   colorBullet: {r: 1, g: 1, b: 1, a: 1}
   multipleBulletAngle: 10
   numberOfBulletsPerShoot: 2
+  amountOfBullets: 3

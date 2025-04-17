@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2397789681
+  GlobalObjectIdHash: 3663135386
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -309,6 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 5072447225562995095}
   dashTrail: {fileID: 3771981424342332909}
+  statsHandler: {fileID: 4374207123347795698}
 --- !u!96 &3771981424342332909
 TrailRenderer:
   serializedVersion: 3
@@ -448,7 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 390785709051878692}
-  bulletConfig: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
+  statsHandler: {fileID: 4374207123347795698}
 --- !u!114 &4211215701518520210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,7 +474,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad16511d7a7e85abdbcbd4c20ab11d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 0}
+  stats: {fileID: 11400000, guid: 664f55b7f5755ddeba149c9fa5e7db1d, type: 2}
+  statsAttack: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
 --- !u!1 &3017111907521831266
 GameObject:
   m_ObjectHideFlags: 0
@@ -5489,7 +5491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 390785709051878692}
   m_Layer: 7
-  m_Name: SpanwBullet
+  m_Name: SpawnBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

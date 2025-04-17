@@ -1,11 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Netcode;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Bullet", menuName = "Bullet")]
-public class Bullet : AttackConfig 
+public class Bullet : ScriptableObject 
 {
+    public float size;
+    public float damage;
+    public float speed;
+    public float delay;
     public float timeExist;
     public Color colorBullet;
     public float multipleBulletAngle;
