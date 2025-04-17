@@ -1,0 +1,39 @@
+=================================================
+Log File Created: 2025-04-08 18:20:00 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-04-08 18:20:00] [Log] [SYSTEM] Logger initialized
+[2025-04-08 18:20:01] [Log] Client started
+[2025-04-08 18:20:04] [Log] Player 0
+[2025-04-08 18:20:04] [Log] Player 1
+[2025-04-08 18:20:10] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:BuffStats (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:65)
+UnityEngine.Events.UnityEvent`3<ItemNetworkSerializable, bool, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:63)
+
+
+[2025-04-08 18:20:15] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:BuffStats (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:65)
+UnityEngine.Events.UnityEvent`3<ItemNetworkSerializable, bool, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:63)
+
+
+[2025-04-08 18:20:20] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:BuffStats (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:65)
+UnityEngine.Events.UnityEvent`3<ItemNetworkSerializable, bool, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:63)
+
+
+[2025-04-08 18:20:43] [Warning] Assets/Script/Animation/Animation Controller.cs(13,45): warning CS0108: 'AnimationController.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.

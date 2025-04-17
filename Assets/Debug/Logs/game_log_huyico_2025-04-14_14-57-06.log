@@ -1,0 +1,32 @@
+=================================================
+Log File Created: 2025-04-14 14:57:06 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-04-14 14:57:06] [Log] [SYSTEM] Logger initialized
+[2025-04-14 14:57:09] [Log] Client started
+[2025-04-14 14:57:10] [Log] Player 0
+[2025-04-14 14:57:10] [Log] Player 1
+[2025-04-14 14:57:17] [Log] CreateEffectDestroyItemClientRpc
+[2025-04-14 14:57:18] [Log] CreateEffectDestroyItemClientRpc
+[2025-04-14 14:57:25] [Log] CreateEffectDestroyItemClientRpc
+[2025-04-14 14:57:29] [Log] CreateEffectDestroyItemClientRpc
+[2025-04-14 14:57:37] [Log] CreateEffectDestroyItemClientRpc
+[2025-04-14 14:57:46] [Log] CreateEffectDestroyItemClientRpc
+[2025-04-14 14:57:48] [Log] CreateEffectDestroyItemClientRpc
+[2025-04-14 14:57:50] [Log] CreateEffectDestroyItemClientRpc
+[2025-04-14 14:57:55] [Log] CreateEffectDestroyItemClientRpc
+[2025-04-14 14:57:59] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+

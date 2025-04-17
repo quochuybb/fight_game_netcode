@@ -13,6 +13,7 @@ public class Shooting : NetworkBehaviour
         NetworkVariableWritePermission.Owner);
 
     [SerializeField] private Bullet bulletConfig;
+    [SerializeField] private StatsHandler statsHandler;
     private BulletNetworkSerializable bulletNetworkSerializable = new BulletNetworkSerializable();
     private BulletManager bulletManager;
     private float lastTimeShoot;
@@ -26,7 +27,7 @@ public class Shooting : NetworkBehaviour
     
     public override void OnNetworkSpawn()
     {
-        bulletNetworkSerializable = bulletConfig.MappingToStruct();
+        bulletNetworkSerializable = bulletConfig.Mapping();
         if (IsOwner)
         {
             controller.onAttackGunEvent.AddListener(OnShooting);

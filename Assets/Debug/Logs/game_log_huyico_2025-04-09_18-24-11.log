@@ -1,0 +1,295 @@
+=================================================
+Log File Created: 2025-04-09 18:24:11 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-04-09 18:24:11] [Log] [SYSTEM] Logger initialized
+[2025-04-09 18:24:17] [Log] Client started
+[2025-04-09 18:24:20] [Log] Player 0
+[2025-04-09 18:24:20] [Log] Player 1
+[2025-04-09 18:24:25] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+CharacterController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:24:25] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+ItemController.DestroyItem (UnityEngine.Vector3 pos, System.Boolean animate) (at Assets/Script/Item/ItemController.cs:59)
+ItemController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Item/ItemController.cs:26)
+
+
+[2025-04-09 18:24:27] [Error] item12
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:24:27] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:24:30] [Error] item6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:24:30] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:24:34] [Error] item2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:24:34] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:24:41] [Error] item5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:24:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:24:51] [Error] item7
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:24:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:24:56] [Error] item1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:24:56] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:00] [Error] item1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:00] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:14] [Error] item12
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:14] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:18] [Error] item8
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:18] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:22] [Error] item12
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:22] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:31] [Error] item12
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:31] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:31] [Error] item12
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:31] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:34] [Error] item8
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:34] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:42] [Error] item12
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:44] [Error] item12
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:49] [Error] item5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:25:54] [Error] item2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:25:54] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+
+[2025-04-09 18:26:04] [Error] item1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:60)
+
+
+[2025-04-09 18:26:04] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:HandleOwnerBuff (ItemNetworkSerializable) (at Assets/Script/Stats/StatsHandler.cs:73)
+StatsHandler:BuffStats (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:64)
+UnityEngine.Events.UnityEvent`2<ItemNetworkSerializable, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:61)
+
+

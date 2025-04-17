@@ -1,0 +1,7418 @@
+=================================================
+Log File Created: 2025-04-08 19:47:33 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-04-08 19:47:33] [Log] [SYSTEM] Logger initialized
+[2025-04-08 19:47:38] [Log] Client started
+[2025-04-08 19:47:40] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:40] [Log] Player 0
+[2025-04-08 19:47:40] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:40] [Log] Player 1
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:41] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:42] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:43] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:44] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:45] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:BuffStats (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:78)
+UnityEngine.Events.UnityEvent`3<ItemNetworkSerializable, bool, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:63)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:BuffStats (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:78)
+UnityEngine.Events.UnityEvent`3<ItemNetworkSerializable, bool, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:63)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:46] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:47] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:BuffStats (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:78)
+UnityEngine.Events.UnityEvent`3<ItemNetworkSerializable, bool, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:63)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:48] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:49] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:50] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+
+[2025-04-08 19:47:51] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:Update () (at Assets/Script/Stats/StatsHandler.cs:54)
+
+

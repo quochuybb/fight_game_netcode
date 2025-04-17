@@ -9,9 +9,9 @@ public class Bullet : AttackConfig
     public float timeExist;
     public Color colorBullet;
     public float multipleBulletAngle;
-    public int numberOfBulletsPerShoot;
+    public float numberOfBulletsPerShoot;
     
-    public BulletNetworkSerializable MappingToStruct()
+    public BulletNetworkSerializable Mapping()
     {
         BulletNetworkSerializable serializable = new BulletNetworkSerializable();
         serializable.damage = this.damage;

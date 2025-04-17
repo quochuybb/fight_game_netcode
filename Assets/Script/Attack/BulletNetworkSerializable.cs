@@ -1,9 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
 
-public struct BulletNetworkSerializable : INetworkSerializable
+public class BulletNetworkSerializable : IEquatable<BulletNetworkSerializable>,INetworkSerializable
 {
     public float size;
     public float damage;
@@ -12,7 +13,34 @@ public struct BulletNetworkSerializable : INetworkSerializable
     public float timeExist;
     public Color colorBullet;
     public float multipleBulletAngle;
-    public int numberOfBulletsPerShoot;
+    public float numberOfBulletsPerShoot;
+    public bool Equals(BulletNetworkSerializable other)
+    {
+        return size == other.size && damage == other.damage && speed == other.speed && delay == other.delay && timeExist == other.timeExist && colorBullet == other.colorBullet && multipleBulletAngle == other.multipleBulletAngle && numberOfBulletsPerShoot==other.numberOfBulletsPerShoot;
+    }
+
+    public override bool Equals(object obj)
+    {
+        if (obj is BulletNetworkSerializable other)
+        {
+            return Equals(other);
+        }
+        return false;
+    }
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(size, damage, speed, delay, timeExist, colorBullet, multipleBulletAngle, numberOfBulletsPerShoot);
+    }
+
+    public static bool operator ==(BulletNetworkSerializable left, BulletNetworkSerializable right)
+    {
+        return left.Equals(right);
+    }
+
+    public static bool operator !=(BulletNetworkSerializable left, BulletNetworkSerializable right)
+    {
+        return !(left == right);
+    }
 
     public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
     {

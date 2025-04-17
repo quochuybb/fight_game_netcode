@@ -1,0 +1,23 @@
+=================================================
+Log File Created: 2025-04-16 18:38:55 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-04-16 18:38:55] [Log] [SYSTEM] Logger initialized
+[2025-04-16 18:38:58] [Log] Client started
+[2025-04-16 18:39:00] [Log] Player 0
+[2025-04-16 18:39:00] [Log] Player 1
+[2025-04-16 18:41:03] [Warning] Unity.Tutorials.Core.Editor.BuildStartedCriterion must be instantiated using the ScriptableObject.CreateInstance method instead of new BuildStartedCriterion.
+Stack Trace:
+UnityEngine.ScriptableObject:.ctor ()
+Unity.Tutorials.Core.Editor.Criterion:.ctor () (at ./Library/PackageCache/com.unity.learn.iet-framework@3.1.3/Editor/Criteria/Criterion.cs:43)
+Unity.Tutorials.Core.Editor.PreprocessBuildCriterion:.ctor ()
+Unity.Tutorials.Core.Editor.BuildStartedCriterion:.ctor ()
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+

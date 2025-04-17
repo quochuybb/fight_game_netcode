@@ -1,0 +1,33 @@
+=================================================
+Log File Created: 2025-04-16 21:10:55 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-04-16 21:10:55] [Log] [SYSTEM] Logger initialized
+[2025-04-16 21:10:58] [Log] Client 0 connected
+[2025-04-16 21:10:58] [Log] Host started
+[2025-04-16 21:10:58] [Log] Player 0
+[2025-04-16 21:10:59] [Error] 5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:50)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:40)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:27)
+
+
+[2025-04-16 21:11:01] [Error] 5
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:50)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:40)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:27)
+
+
+[2025-04-16 21:11:02] [Log] Client 0 disconnected

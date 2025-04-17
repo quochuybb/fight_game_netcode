@@ -57,15 +57,7 @@ public class CharacterController : NetworkBehaviour
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("Item"))
         {
-            ItemController itemController = other.gameObject.GetComponent<ItemController>();
-            if (!NetworkManager.Singleton.IsHost)
-            {
-                onBuffEvent.Invoke(itemController.GetConfig(),false,DefaultServerRpcParams);
-            }
-            else
-            {
-                onBuffEvent.Invoke(itemController.GetConfig(),true,DefaultServerRpcParams);
-            }
+            onBuffEvent.Invoke(other.gameObject.GetComponent<ItemController>().GetConfig(),DefaultServerRpcParams);
         }
         
     }

@@ -1,0 +1,1755 @@
+=================================================
+Log File Created: 2025-04-08 17:07:38 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-04-08 17:07:38] [Log] [SYSTEM] Logger initialized
+[2025-04-08 17:07:39] [Warning] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkVariableBase:MarkNetworkBehaviourDirty () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:196)
+Unity.Netcode.NetworkVariableBase:SetDirty (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:169)
+Unity.Netcode.NetworkVariable`1<CharacterStatsNetwork>:set_Value (CharacterStatsNetwork) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:104)
+StatsHandler:Awake () (at Assets/Script/Stats/StatsHandler.cs:24)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject)
+Unity.Netcode.NetworkSpawnManager:GetNetworkObjectToSpawn (uint,ulong,UnityEngine.Vector3,UnityEngine.Quaternion,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:478)
+Unity.Netcode.NetworkSpawnManager:CreateLocalNetworkObject (Unity.Netcode.NetworkObject/SceneObject) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:507)
+Unity.Netcode.NetworkConnectionManager:HandleConnectionApproval (ulong,Unity.Netcode.NetworkManager/ConnectionApprovalResponse) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Connection/NetworkConnectionManager.cs:762)
+Unity.Netcode.NetworkManager:HostServerInitialize () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1114)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1069)
+UIManager/<>c:<Start>b__6_0 () (at Assets/Script/UI/UIManager.cs:30)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-04-08 17:07:39] [Warning] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkVariableBase:MarkNetworkBehaviourDirty () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:196)
+Unity.Netcode.NetworkVariableBase:SetDirty (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:169)
+Unity.Netcode.NetworkVariable`1<CharacterStatsNetwork>:set_Value (CharacterStatsNetwork) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:104)
+StatsHandler:Awake () (at Assets/Script/Stats/StatsHandler.cs:25)
+UnityEngine.Object:Instantiate<UnityEngine.GameObject> (UnityEngine.GameObject)
+Unity.Netcode.NetworkSpawnManager:GetNetworkObjectToSpawn (uint,ulong,UnityEngine.Vector3,UnityEngine.Quaternion,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:478)
+Unity.Netcode.NetworkSpawnManager:CreateLocalNetworkObject (Unity.Netcode.NetworkObject/SceneObject) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:507)
+Unity.Netcode.NetworkConnectionManager:HandleConnectionApproval (ulong,Unity.Netcode.NetworkManager/ConnectionApprovalResponse) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Connection/NetworkConnectionManager.cs:762)
+Unity.Netcode.NetworkManager:HostServerInitialize () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1114)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1069)
+UIManager/<>c:<Start>b__6_0 () (at Assets/Script/UI/UIManager.cs:30)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-04-08 17:07:39] [Exception] ArgumentException: Serialization has not been generated for type CharacterStatsNetwork. This can be addressed by adding a [GenerateSerializationForGenericParameterAttribute] to your generic class that serializes this value (if you are using one), adding [GenerateSerializationForTypeAttribute(typeof(CharacterStatsNetwork)] to the class or method that is attempting to serialize it, or creating a field on a NetworkBehaviour of type NetworkVariable. If this error continues to appear after doing one of those things and this is a type you can change, then either implement INetworkSerializable or mark it as serializable by memcpy by adding INetworkSerializeByMemcpy to its interface list to enable automatic serialization generation. If not, assign serialization code to UserNetworkVariableSerialization.WriteValue, UserNetworkVariableSerialization.ReadValue, and UserNetworkVariableSerialization.DuplicateValue, or if it's serializable by memcpy (contains no pointers), wrap it in ForceNetworkSerializeByMemcpy`1.
+Stack Trace:
+Unity.Netcode.FallbackSerializer`1[T].ThrowArgumentError () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableSerialization.cs:1176)
+Unity.Netcode.FallbackSerializer`1[T].Duplicate (T& value, T& duplicatedValue) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableSerialization.cs:1235)
+Unity.Netcode.FallbackSerializer`1[T].Unity.Netcode.INetworkVariableSerializer<T>.Duplicate (T& value, T& duplicatedValue) (at <6bf0b0b4cb534399b3f0696cca98b14c>:0)
+Unity.Netcode.NetworkVariableSerialization`1[T].Duplicate (T& value, T& duplicatedValue) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableSerialization.cs:1694)
+Unity.Netcode.NetworkVariable`1[T].OnInitialize () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:44)
+Unity.Netcode.NetworkVariableBase.Initialize (Unity.Netcode.NetworkBehaviour networkBehaviour) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:82)
+StatsHandler.__initializeVariables () (at <5d3e9b64fbda4993954b051d022abb5c>:0)
+Unity.Netcode.NetworkBehaviour.InitializeVariables () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:867)
+Unity.Netcode.NetworkBehaviour.InternalOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:685)
+Unity.Netcode.NetworkObject.InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1384)
+Unity.Netcode.NetworkSpawnManager.SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject networkObject, System.UInt64 networkId, System.Boolean sceneObject, System.Boolean playerObject, System.UInt64 ownerClientId, System.Boolean destroyWithScene) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager.SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject networkObject, System.UInt64 networkId, System.Boolean sceneObject, System.Boolean playerObject, System.UInt64 ownerClientId, System.Boolean destroyWithScene) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:643)
+Unity.Netcode.NetworkConnectionManager.HandleConnectionApproval (System.UInt64 ownerClientId, Unity.Netcode.NetworkManager+ConnectionApprovalResponse response) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Connection/NetworkConnectionManager.cs:765)
+Unity.Netcode.NetworkManager.HostServerInitialize () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1114)
+Unity.Netcode.NetworkManager.StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1069)
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkManager:StartHost() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1074)
+<>c:<Start>b__6_0() (at Assets/Script/UI/UIManager.cs:30)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-04-08 17:07:39] [Log] Host failed to start
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+
+[2025-04-08 17:07:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Unity.Netcode.Components.NetworkTransform.UpdateInterpolation () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3082)
+Unity.Netcode.Components.NetworkTransform.Update () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Components/NetworkTransform.cs:3128)
+
+

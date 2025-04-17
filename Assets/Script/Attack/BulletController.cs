@@ -37,7 +37,12 @@ public class BulletController : NetworkBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        DestroyBullet(transform.position, true);
+        if (!other.CompareTag("Bullet"))
+        {
+            DestroyBullet(transform.position, true);
+
+        }
+
     }
 
     public void InitConfigBullet(BulletNetworkSerializable bulletNetwork, Vector2 direction)

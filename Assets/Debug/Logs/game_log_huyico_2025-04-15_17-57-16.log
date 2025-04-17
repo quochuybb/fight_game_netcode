@@ -1,0 +1,35 @@
+=================================================
+Log File Created: 2025-04-15 17:57:16 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-04-15 17:57:16] [Log] [SYSTEM] Logger initialized
+[2025-04-15 17:57:20] [Log] Client started
+[2025-04-15 17:57:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+CharacterMovement.Start () (at Assets/Script/Movement/CharacterMovement.cs:48)
+
+
+[2025-04-15 17:57:22] [Log] Player 0
+[2025-04-15 17:57:22] [Log] Player 1
+[2025-04-15 17:57:29] [Error] |Client-1|Player(Clone)|speedNet| Write permissions (Server) for this client instance is not allowed!
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Unity.Netcode.NetworkVariableBase:LogWritePermissionError () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:49)
+Unity.Netcode.NetworkVariable`1<single>:set_Value (single) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:95)
+CharacterMovement:OnStatsHostChanged (CharacterStatsNetwork,CharacterStatsNetwork) (at Assets/Script/Movement/CharacterMovement.cs:65)
+Unity.Netcode.NetworkVariable`1<CharacterStatsNetwork>:ReadDelta (Unity.Netcode.FastBufferReader,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:254)
+Unity.Netcode.NetworkVariableDeltaMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/NetworkVariableDeltaMessage.cs:205)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.NetworkVariableDeltaMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+

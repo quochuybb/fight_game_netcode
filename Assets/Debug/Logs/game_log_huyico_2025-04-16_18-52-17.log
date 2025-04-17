@@ -1,0 +1,22 @@
+=================================================
+Log File Created: 2025-04-16 18:52:17 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-04-16 18:52:17] [Log] [SYSTEM] Logger initialized
+[2025-04-16 18:52:26] [Log] Client started
+[2025-04-16 18:52:28] [Exception] KeyNotFoundException: The given key 'ItemManager' was not present in the dictionary.
+Stack Trace:
+System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+Unity.Netcode.NetworkBehaviour.__endSendServerRpc (Unity.Netcode.FastBufferWriter& bufferWriter, System.UInt32 rpcMethodId, Unity.Netcode.ServerRpcParams serverRpcParams, Unity.Netcode.RpcDelivery rpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:127)
+ItemManager.SpawnItemServerRpc (UnityEngine.Vector2 startPos, UnityEngine.Quaternion rotation, ItemNetworkSerializable itemNetwork) (at Assets/Script/Item/ItemManager.cs:89)
+ItemManager.Update () (at Assets/Script/Item/ItemManager.cs:58)
+
+
+[2025-04-16 18:52:31] [Log] Player 0
+[2025-04-16 18:52:31] [Log] Player 1

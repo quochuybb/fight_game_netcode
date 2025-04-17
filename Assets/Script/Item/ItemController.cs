@@ -53,11 +53,7 @@ public class ItemController : NetworkBehaviour, INetworkSerializable
     }
     public void DestroyItem(Vector3 pos, bool animate)
     {
-
-        if (animate)
-        {
-            itemManager.CreateEffectDestroyItemClientRpc(pos);
-        }
+        itemManager.CreateEffectDestroyItemClientRpc(pos);
         itemManager.RequestDestroyFromItem(this.NetworkObject);
     }
     public ItemNetworkSerializable GetConfig()

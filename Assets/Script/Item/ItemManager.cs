@@ -15,14 +15,12 @@ public class ItemManager : NetworkBehaviour
     [SerializeField] private List<Item> items;
     private List<ItemNetworkSerializable> listItemNetworkSerializables = new List<ItemNetworkSerializable>();
     private float timer;
-    private int count = 0;
 
 
     private void Awake()
     {
         instance = this;
         timer = 0f;
-        count = 0;
     }
 
     private void Start()
@@ -35,8 +33,12 @@ public class ItemManager : NetworkBehaviour
 
     public void RequestDestroyFromItem(NetworkObject networkObject)
     {
-        this.itemNetworkObject = networkObject;
-        DestroyItemServerRpc();
+        if (IsOwner)
+        {
+            this.itemNetworkObject = networkObject;
+            DestroyItemServerRpc();
+        }
+        
     }
     public Vector2 GetRandomPosition()
     {
@@ -48,18 +50,16 @@ public class ItemManager : NetworkBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
-        if (timer > 10f && count < 4)
+        if (timer > 10f)
         {
             timer = 0f;
-            count+=1;
-            Debug.Log(count);
             int randomIndex = Random.Range(0, listItemNetworkSerializables.Count);
             ItemNetworkSerializable itemNetworkSerializable = listItemNetworkSerializables[randomIndex];
             SpawnItemServerRpc(GetRandomPosition(),transform.rotation,itemNetworkSerializable);
         }
     }
     [ClientRpc]
-    public void CreateEffectDestroyItemClientRpc(Vector3 position )
+    public void CreateEffectDestroyItemClientRpc(Vector3 position)
     {
         particleSystem.transform.position = position;
         ParticleSystem.EmissionModule em = particleSystem.emission;
@@ -70,7 +70,7 @@ public class ItemManager : NetworkBehaviour
         particleSystem.Play();
     }
 
-    [ServerRpc(RequireOwnership = false)]
+    [ServerRpc]
     public void DestroyItemServerRpc()
     {
         if (itemNetworkObject.IsSpawned)
@@ -87,7 +87,7 @@ public class ItemManager : NetworkBehaviour
     public void SpawnItemServerRpc(Vector2 startPos, Quaternion rotation, ItemNetworkSerializable itemNetwork)
     {
         NetworkObject item = NetworkPooling.Singleton.GetNetworkObject(itemPrefab,startPos, rotation);
-        ItemController itemController = item.gameObject.GetComponent<ItemController>();
+        ItemController itemController = item.gameObject.GetComponent<ItemController>(); 
         itemController.Init(itemNetwork);
         item.Spawn();
         itemController.UpdateItemClientRpc(itemNetwork);

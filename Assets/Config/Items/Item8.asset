@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: item8
   itemName: map
-  typeItemBuff: size
+  nameStatsBuff: speedMove
   statsBuff: 1
+  typeBuff: 0

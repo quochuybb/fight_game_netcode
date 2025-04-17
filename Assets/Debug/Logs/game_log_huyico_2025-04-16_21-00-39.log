@@ -1,0 +1,39 @@
+=================================================
+Log File Created: 2025-04-16 21:00:39 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-04-16 21:00:39] [Log] [SYSTEM] Logger initialized
+[2025-04-16 21:00:40] [Log] Client 0 connected
+[2025-04-16 21:00:40] [Log] Host started
+[2025-04-16 21:00:40] [Log] Player 0
+[2025-04-16 21:00:41] [Error] Test
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:40)
+
+
+[2025-04-16 21:00:41] [Error] Test
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:40)
+
+
+[2025-04-16 21:00:45] [Error] Test
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:40)
+
+
+[2025-04-16 21:00:45] [Error] Test
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:40)
+
+
+[2025-04-16 21:00:47] [Log] Client 0 disconnected

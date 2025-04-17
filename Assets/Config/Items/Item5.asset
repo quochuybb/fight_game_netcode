@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: item5
   itemName: armor
-  typeItemBuff: hp
+  nameStatsBuff: numberOfBulletsPerShoot
   statsBuff: 3
+  typeBuff: 1

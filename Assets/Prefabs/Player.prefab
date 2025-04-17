@@ -5423,7 +5423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 4158436438
+  GlobalObjectIdHash: 3315883500
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -5567,6 +5567,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 5987438281487256932}
   dashTrail: {fileID: 5491581623398590005}
+  speedNet:
+    m_InternalValue: 0
+  statsHandler: {fileID: 2550834758016538152}
 --- !u!96 &5491581623398590005
 TrailRenderer:
   serializedVersion: 3
@@ -5707,6 +5710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1971177049017897011}
   bulletConfig: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
+  statsHandler: {fileID: 2550834758016538152}
 --- !u!114 &2550834758016538152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5720,6 +5724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 61f46c652fba061f4b0d95470bf58495, type: 2}
+  statsAttack: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
 --- !u!114 &1718384834758205499
 MonoBehaviour:
   m_ObjectHideFlags: 0

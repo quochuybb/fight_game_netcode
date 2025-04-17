@@ -1,0 +1,30 @@
+=================================================
+Log File Created: 2025-04-08 18:37:01 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.13 Garuda Linux  64bit
+=================================================
+
+[2025-04-08 18:37:01] [Log] [SYSTEM] Logger initialized
+[2025-04-08 18:37:03] [Log] Client started
+[2025-04-08 18:37:05] [Log] Player 0
+[2025-04-08 18:37:05] [Log] Player 1
+[2025-04-08 18:37:12] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:BuffStats (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:68)
+UnityEngine.Events.UnityEvent`3<ItemNetworkSerializable, bool, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:63)
+
+
+[2025-04-08 18:37:14] [Error] 3
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:BuffStats (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams) (at Assets/Script/Stats/StatsHandler.cs:68)
+UnityEngine.Events.UnityEvent`3<ItemNetworkSerializable, bool, Unity.Netcode.ServerRpcParams>:Invoke (ItemNetworkSerializable,bool,Unity.Netcode.ServerRpcParams)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:63)
+
+

@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: item12
   itemName: star
-  typeItemBuff: damge
+  nameStatsBuff: speedMove
   statsBuff: 6
+  typeBuff: 0

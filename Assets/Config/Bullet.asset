@@ -19,4 +19,4 @@ MonoBehaviour:
   timeExist: 1
   colorBullet: {r: 1, g: 1, b: 1, a: 1}
   multipleBulletAngle: 10
-  numberOfBulletsPerShoot: 1
+  numberOfBulletsPerShoot: 2

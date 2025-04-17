@@ -9,7 +9,7 @@ public class CharacterMovement : NetworkBehaviour
     [SerializeField] private Rigidbody2D rb;
     private Vector2 movement = Vector2.zero;
     private CharacterController characterController;
-    private float speed = 5;
+    private float speed = 0;
     private bool canDash = true;
     private bool isDashing;
     private float dashDuration = 1f;
@@ -20,7 +20,7 @@ public class CharacterMovement : NetworkBehaviour
     private float lastServerSyncTime;
     private float lastNetworkUpdate;
     private const float NETWORK_UPDATE_INTERVAL = 0.001f; 
-
+    [SerializeField] private StatsHandler statsHandler;
     
     private void Awake()
     {
@@ -42,7 +42,7 @@ public class CharacterMovement : NetworkBehaviour
         networkPosition.OnValueChanged += OnNetworkPositionChanged;
         characterController.onMoveEvent.AddListener(OnMove);
         characterController.onDash.AddListener(Dashing);
-        
+
     }
 
     public override void OnNetworkSpawn()
@@ -55,9 +55,20 @@ public class CharacterMovement : NetworkBehaviour
     {
         transform.position = newValue;
     } 
+
     private void HandleOwnerMovement(Vector2 movement)
     {
-        Vector2 moveVelocity = movement * 5f;
+
+        Vector2 moveVelocity = movement;
+        if (IsServer)
+        {
+            moveVelocity = movement * statsHandler.currentStatsNetworkVariableHost.Value.speedMove;
+
+        }
+        else
+        {
+            moveVelocity = movement * statsHandler.currentStatsNetworkVariableClient.Value.speedMove;
+        }
         rb.velocity = moveVelocity;
         if (Time.time - lastNetworkUpdate >= NETWORK_UPDATE_INTERVAL)
         {
@@ -78,6 +89,7 @@ public class CharacterMovement : NetworkBehaviour
 
     private void OnMove(Vector2 movement)
     {
+
         this.movement = movement;
         if (IsOwner)
         {
@@ -99,6 +111,7 @@ public class CharacterMovement : NetworkBehaviour
     [ClientRpc]
     private void UpdatePositionClientRpc(Vector2 newPosition)
     {
+
         transform.position = newPosition;
         
     }
