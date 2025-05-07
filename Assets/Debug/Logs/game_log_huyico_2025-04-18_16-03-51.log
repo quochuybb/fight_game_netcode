@@ -1,0 +1,66 @@
+=================================================
+Log File Created: 2025-04-18 16:03:51 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-04-18 16:03:51] [Log] [SYSTEM] Logger initialized
+[2025-04-18 16:03:53] [Log] Client started
+[2025-04-18 16:03:56] [Error] [Netcode] NetworkPrefab hash was not found! In-Scene placed NetworkObject soft synchronization failure for Hash: 2258378114!
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Unity.Netcode.NetworkLog:LogError (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:34)
+Unity.Netcode.NetworkSpawnManager:CreateLocalNetworkObject (Unity.Netcode.NetworkObject/SceneObject) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:517)
+Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1909)
+Unity.Netcode.SceneEventData:SynchronizeSceneNetworkObjects (Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/SceneEventData.cs:986)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2117)
+Unity.Netcode.NetworkSceneManager:ClientLoadedSynchronization (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2013)
+Unity.Netcode.NetworkSceneManager:OnClientBeginSync (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:1941)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2099)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent (ulong,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2351)
+Unity.Netcode.SceneEventMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/SceneEventMessage.cs:26)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.SceneEventMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-04-18 16:03:56] [Error] [Netcode] Failed to spawn NetworkObject for Hash 2258378114.
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Unity.Netcode.NetworkLog:LogError (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:34)
+Unity.Netcode.NetworkObject:AddSceneObject (Unity.Netcode.NetworkObject/SceneObject&,Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1916)
+Unity.Netcode.SceneEventData:SynchronizeSceneNetworkObjects (Unity.Netcode.NetworkManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/SceneEventData.cs:986)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2117)
+Unity.Netcode.NetworkSceneManager:ClientLoadedSynchronization (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2013)
+Unity.Netcode.NetworkSceneManager:OnClientBeginSync (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:1941)
+Unity.Netcode.NetworkSceneManager:HandleClientSceneEvent (uint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2099)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent (ulong,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2351)
+Unity.Netcode.SceneEventMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/SceneEventMessage.cs:26)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.SceneEventMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-04-18 16:03:56] [Log] Player 0
+[2025-04-18 16:03:56] [Log] Player 1
+[2025-04-18 16:04:06] [Warning] [Netcode] Deferred messages were received for a trigger of type OnSpawn with key 2, but that trigger was not received within within 10 second(s).
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.DeferredMessageManager:PurgeTrigger (Unity.Netcode.IDeferredNetworkMessageManager/TriggerType,ulong,Unity.Netcode.DeferredMessageManager/TriggerInfo) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/DeferredMessageManager.cs:97)
+Unity.Netcode.DeferredMessageManager:CleanupStaleTriggers () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/DeferredMessageManager.cs:82)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:82)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkPostLateUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:287)
+
+

@@ -1,0 +1,65 @@
+=================================================
+Log File Created: 2025-05-01 19:35:42 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-01 19:35:42] [Log] [SYSTEM] Logger initialized
+[2025-05-01 19:35:45] [Error] HandleClientConnected: 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+PlayerCard:HandleClientConnected (ulong) (at Assets/Script/UI/PlayerCard.cs:45)
+Unity.Netcode.NetworkConnectionManager:InvokeOnClientConnectedCallback (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Connection/NetworkConnectionManager.cs:87)
+Unity.Netcode.NetworkManager:HostServerInitialize () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1125)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1069)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:34)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-01 19:35:45] [Log] Host started
+[2025-05-01 19:35:45] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-01 19:35:46] [Log] Camera Spawned
+[2025-05-01 19:35:46] [Log] Player 0
+[2025-05-01 19:36:06] [Error] HandleClientConnected: 1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+PlayerCard:HandleClientConnected (ulong) (at Assets/Script/UI/PlayerCard.cs:45)
+Unity.Netcode.NetworkConnectionManager:InvokeOnClientConnectedCallback (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Connection/NetworkConnectionManager.cs:87)
+Unity.Netcode.NetworkSceneManager:HandleServerSceneEvent (uint,ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2284)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent (ulong,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2355)
+Unity.Netcode.SceneEventMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/SceneEventMessage.cs:26)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.SceneEventMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-01 19:36:06] [Log] Camera Spawned
+[2025-05-01 19:36:06] [Log] Client 1 connected
+[2025-05-01 19:36:06] [Error] HandleClientConnected: 1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+PlayerCard:HandleClientConnected (ulong) (at Assets/Script/UI/PlayerCard.cs:45)
+Unity.Netcode.NetworkConnectionManager:InvokeOnClientConnectedCallback (ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Connection/NetworkConnectionManager.cs:87)
+Unity.Netcode.NetworkSceneManager:HandleServerSceneEvent (uint,ulong) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2284)
+Unity.Netcode.NetworkSceneManager:HandleSceneEvent (ulong,Unity.Netcode.FastBufferReader) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/SceneManagement/NetworkSceneManager.cs:2355)
+Unity.Netcode.SceneEventMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/SceneEventMessage.cs:26)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.SceneEventMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-01 19:36:06] [Log] Camera Spawned
+[2025-05-01 19:36:06] [Log] Player 1
+[2025-05-01 19:36:06] [Log] Player 1
+[2025-05-01 19:36:31] [Log] Client 1 disconnected
+[2025-05-01 19:37:02] [Log] Client 0 disconnected

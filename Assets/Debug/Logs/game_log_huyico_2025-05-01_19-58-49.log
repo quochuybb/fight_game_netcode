@@ -1,0 +1,26 @@
+=================================================
+Log File Created: 2025-05-01 19:58:49 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-01 19:58:49] [Log] [SYSTEM] Logger initialized
+[2025-05-01 19:58:52] [Log] Host started
+[2025-05-01 19:58:52] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-01 19:58:52] [Log] Player 0
+[2025-05-01 19:58:53] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - ): the tween will now be killed ► The object of type 'RectTransform' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.Options.VectorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.Options.VectorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.Options.VectorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+

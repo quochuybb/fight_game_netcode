@@ -1,0 +1,171 @@
+=================================================
+Log File Created: 2025-05-01 17:12:31 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-01 17:12:31] [Log] [SYSTEM] Logger initialized
+[2025-05-01 17:12:38] [Log] Camera Spawned
+[2025-05-01 17:12:38] [Log] Client 0 connected
+[2025-05-01 17:12:38] [Log] Host started
+[2025-05-01 17:12:38] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-01 17:12:38] [Log] Player 0
+[2025-05-01 17:12:48] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:51] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:51] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:52] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:57] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:57] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:57] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:58] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:58] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:59] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:12:59] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:13:00] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:13:00] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+Shooting.CreateBullet (BulletNetworkSerializable bulletNetwork, System.Single angle) (at Assets/Script/Attack/Shooting.cs:75)
+Shooting.CreateAngleAndBullet (BulletNetworkSerializable bullet) (at Assets/Script/Attack/Shooting.cs:64)
+Shooting.OnShooting () (at Assets/Script/Attack/Shooting.cs:47)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+CharacterController.HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController.Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-01 17:13:16] [Log] Client 0 disconnected

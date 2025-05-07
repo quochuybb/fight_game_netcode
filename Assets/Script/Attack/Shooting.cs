@@ -1,5 +1,6 @@
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Shooting : NetworkBehaviour
 {
@@ -19,9 +20,11 @@ public class Shooting : NetworkBehaviour
         bulletManager = BulletManager.instance;
         canShoot = false;
     }
+
     
     public override void OnNetworkSpawn()
     {
+
         if (IsOwner)
         {
             controller.onAttackGunEvent.AddListener(OnShooting);

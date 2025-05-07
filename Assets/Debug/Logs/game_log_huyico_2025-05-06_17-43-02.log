@@ -1,0 +1,16 @@
+=================================================
+Log File Created: 2025-05-06 17:43:02 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-06 17:43:02] [Log] [SYSTEM] Logger initialized
+[2025-05-06 17:43:05] [Log] Client 0 connected
+[2025-05-06 17:43:05] [Log] Host started
+[2025-05-06 17:43:05] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-06 17:43:05] [Log] Player 0
+[2025-05-06 17:43:10] [Log] Client 0 disconnected

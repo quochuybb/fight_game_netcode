@@ -1,0 +1,1129 @@
+=================================================
+Log File Created: 2025-04-25 07:47:11 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-04-25 07:47:11] [Log] [SYSTEM] Logger initialized
+[2025-04-25 07:47:11] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+HoverMenu.Start () (at Assets/Script/UI/HoverMenu.cs:23)
+
+
+[2025-04-25 07:47:11] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+HoverMenu.Start () (at Assets/Script/UI/HoverMenu.cs:23)
+
+
+[2025-04-25 07:47:14] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:14] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:14] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:14] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:14] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:14] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:16] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:16] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:24] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:25] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:25] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:25] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:25] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:25] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:25] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:26] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:26] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:27] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:27] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:27] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:27] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:27] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:27] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:28] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:28] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:29] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:29] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:29] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:29] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:30] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:31] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:31] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:31] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:31] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:31] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:31] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:32] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:32] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:32] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:32] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:32] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:32] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:32] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:33] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:33] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:33] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:33] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:33] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:34] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:34] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:35] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:35] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:35] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:35] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:40] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:40] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:41] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:41] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:43] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:43] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:43] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:43] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:43] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:43] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:46] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:46] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:46] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:46] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:46] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:46] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:47] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:47] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:49] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:49] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - UnityEngine.Color <DOColor>b__0()): the tween will now be killed ► Object reference not set to an instance of an object
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeCapturedError (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:61)
+DG.Tweening.Tweener:DoStartup<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions> (DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Tweener.cs:143)
+DG.Tweening.Core.TweenerCore`3<UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions>:Startup () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenerCore.cs:250)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.Tween,single,single,bool) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:533)
+DG.Tweening.Core.TweenManager:Update (DG.Tweening.UpdateType,single,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:417)
+DG.Tweening.Core.DOTweenComponent:Update () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:75)
+
+
+[2025-04-25 07:47:50] [Warning] <color=#ff7337><color=#0099bc><b>DOTWEEN ► </b></color> SAFE MODE ►</color> DOTween's safe mode captured 100 errors. This is usually ok (it's what safe mode is there for) but if your game is encountering issues you should set Log Behaviour to Default in DOTween Utility Panel in order to get detailed warnings when an error is captured (consider that these errors are always on the user side).
+- 100 startup errors
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogSafeModeReport (object) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:80)
+DG.Tweening.Core.DOTweenComponent:OnDestroy () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/DOTweenComponent.cs:156)
+
+

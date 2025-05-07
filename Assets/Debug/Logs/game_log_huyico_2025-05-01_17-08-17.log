@@ -1,0 +1,827 @@
+=================================================
+Log File Created: 2025-05-01 17:08:17 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-01 17:08:17] [Log] [SYSTEM] Logger initialized
+[2025-05-01 17:08:19] [Log] Camera Spawned
+[2025-05-01 17:08:19] [Log] Client 0 connected
+[2025-05-01 17:08:19] [Log] Host started
+[2025-05-01 17:08:19] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-01 17:08:19] [Exception] MissingReferenceException: The object of type 'Camera' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass10_0:<set_onBeforeUpdate>b__0(NativeInputUpdateType)
+UnityEngineInternal.Input.NativeInputSystem:NotifyBeforeUpdate(NativeInputUpdateType) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:105)
+
+
+[2025-05-01 17:08:19] [Exception] MissingReferenceException: The object of type 'Camera' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:19] [Log] Player 0
+[2025-05-01 17:08:19] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:20] [Exception] MissingReferenceException: The variable _camera of PlayerInput doesn't exist anymore.
+You probably need to reassign the _camera variable of the 'PlayerInput' script in the inspector.
+Stack Trace:
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position, UnityEngine.Camera+MonoOrStereoscopicEye eye) (at <6509a27a65f3404eb57f287ffec06097>:0)
+UnityEngine.Camera.ScreenToWorldPoint (UnityEngine.Vector3 position) (at /home/bokken/build/output/unity/unity/Runtime/Export/Camera/Camera.bindings.cs:187)
+PlayerInput.OnLook (UnityEngine.InputSystem.InputValue value) (at Assets/Script/Movement/PlayerInput.cs:24)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-01 17:08:26] [Log] Client 0 disconnected

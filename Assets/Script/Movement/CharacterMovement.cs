@@ -39,7 +39,6 @@ public class CharacterMovement : NetworkBehaviour
         networkPosition.OnValueChanged += OnNetworkPositionChanged;
         characterController.onMoveEvent.AddListener(OnMove);
         characterController.onDash.AddListener(Dashing);
-
     }
 
     public override void OnNetworkSpawn()

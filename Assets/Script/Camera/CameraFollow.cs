@@ -1,14 +1,26 @@
+using Unity.Netcode;
 using UnityEngine;
+using Cinemachine;
+using UnityEngine.SceneManagement;
 
-public class CameraFollow : MonoBehaviour
+public class CameraFollow : NetworkBehaviour
 {
-    public Transform target;
-    public float followSpeed;
+    [SerializeField] private CinemachineVirtualCamera cameraPrefab;
 
-    private void Update()
+    private CinemachineVirtualCamera _virtualCamera;
+
+    public override void OnNetworkSpawn()
     {
-        Vector3 targetPosition = new Vector3(target.position.x, target.position.y, -5f);
-        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * followSpeed);
-    }
-}
+        base.OnNetworkDespawn();
+        if (!IsOwner) return;          
 
+        _virtualCamera = Instantiate(cameraPrefab);
+        Transform target = transform.Find("CameraTarget");
+        _virtualCamera.Follow = target;
+        _virtualCamera.LookAt = target;
+
+        _virtualCamera.transform.SetParent(null);
+        
+    }
+    
+}

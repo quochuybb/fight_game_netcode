@@ -7,7 +7,6 @@ public class GenerateSpawner : MonoBehaviour
 
     private void Awake()
     {
-        Instantiate(BaseTele, new Vector3(0,0,0), Quaternion.identity);
         //Instantiate(Player, new Vector3(1,0,0), Quaternion.identity);
 
     }

@@ -2,16 +2,19 @@ using System;
 using System.Collections;
 using TMPro;
 using Unity.Netcode;
+using Unity.Netcode.Transports.UTP;
 using UnityEngine;
 using UnityEngine.UI;
 using Cursor = UnityEngine.Cursor;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] private Button startServerButton;
     [SerializeField] private Button startClientButton;
     [SerializeField] private Button startHostButton; 
-    [SerializeField] private TextMeshProUGUI playerInGameText;
+    [SerializeField] private TextMeshProUGUI idLobby;
+    [SerializeField] private UnityTransport _transport;
+    [SerializeField] private string joinCode;
+    [SerializeField] private TMP_InputField inputField;
 
     private void Awake()
     {
@@ -20,7 +23,9 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        playerInGameText.text = $"Players in game: {PlayersManager.Instance.PlayersInGame}";
+        idLobby.text = joinCode;
+
+
     }
 
     private void Start()
@@ -30,6 +35,10 @@ public class UIManager : MonoBehaviour
             if (NetworkManager.Singleton.StartHost())
             {
                 Debug.Log("Host started");
+                string ip = _transport.ConnectionData.Address;
+                ushort port = _transport.ConnectionData.Port;
+                joinCode = $"{ip}:{port}";
+                Debug.Log($"Lobby code: {joinCode}");
             }
             else
             {
@@ -38,25 +47,14 @@ public class UIManager : MonoBehaviour
         }); 
         startClientButton.onClick.AddListener(() =>
         {
-            if (NetworkManager.Singleton.StartClient())
-            {
-                Debug.Log("Client started");
-            }
-            else
-            {
-                Debug.Log("Client failed to start");
-            }
+            joinCode = inputField.text;
+            var parts = joinCode.Split(':');
+            string ip = parts[0];
+            ushort port = ushort.Parse(parts[1]);
+            _transport.SetConnectionData(ip, port, null);                 
+            NetworkManager.Singleton.StartClient();    
         }); 
-        startServerButton.onClick.AddListener(() =>
-        {
-            if (NetworkManager.Singleton.StartServer())
-            {
-                Debug.Log("Server started");
-            }
-            else
-            {
-                Debug.Log("Server failed to start");
-            }
-        }); 
+
     }
+
 }

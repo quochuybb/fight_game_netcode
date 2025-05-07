@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerInput : CharacterController
 {
@@ -7,6 +8,24 @@ public class PlayerInput : CharacterController
     private void Awake()
     {
         _camera = Camera.main;
+    }
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded; 
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;    
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Player")
+        {
+            _camera = Camera.main;
+
+        }
     }
     
     public void OnMovement(InputValue value)

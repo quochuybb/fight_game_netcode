@@ -5088,6 +5088,37 @@ Transform:
   - {fileID: 6728596931616071133}
   m_Father: {fileID: 7826958460962163390}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2186258094594363325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7359357637601704439}
+  m_Layer: 6
+  m_Name: CameraTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7359357637601704439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2186258094594363325}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7826958460962163390}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2720110742516026603
 GameObject:
   m_ObjectHideFlags: 0
@@ -5281,6 +5312,7 @@ GameObject:
   - component: {fileID: 4414767248746112625}
   - component: {fileID: 2550834758016538152}
   - component: {fileID: 1718384834758205499}
+  - component: {fileID: 6409752004528236821}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -5306,6 +5338,7 @@ Transform:
   - {fileID: 5297703394163254872}
   - {fileID: 985360089947797334}
   - {fileID: 670427682667667656}
+  - {fileID: 7359357637601704439}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &5987438281487256932
@@ -5567,8 +5600,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 5987438281487256932}
   dashTrail: {fileID: 5491581623398590005}
-  speedNet:
-    m_InternalValue: 0
   statsHandler: {fileID: 2550834758016538152}
 --- !u!96 &5491581623398590005
 TrailRenderer:
@@ -5709,7 +5740,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1971177049017897011}
-  bulletConfig: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
   statsHandler: {fileID: 2550834758016538152}
 --- !u!114 &2550834758016538152
 MonoBehaviour:
@@ -5737,6 +5767,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8cdbcc2d5f57876bc00f2088e7540f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6409752004528236821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5729047136385410059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dfaf9647277087b9a0723a7f72fae0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraPrefab: {fileID: 1688683127569052790, guid: 3c22c144c8c336cbc9acae957c7e665d, type: 3}
 --- !u!1 &6605771319678859289
 GameObject:
   m_ObjectHideFlags: 0

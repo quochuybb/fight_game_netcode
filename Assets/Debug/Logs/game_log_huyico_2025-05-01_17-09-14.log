@@ -1,0 +1,17 @@
+=================================================
+Log File Created: 2025-05-01 17:09:14 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-01 17:09:14] [Log] [SYSTEM] Logger initialized
+[2025-05-01 17:09:19] [Log] Camera Spawned
+[2025-05-01 17:09:19] [Log] Client 0 connected
+[2025-05-01 17:09:19] [Log] Host started
+[2025-05-01 17:09:19] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-01 17:09:19] [Log] Player 0
+[2025-05-01 17:09:46] [Log] Client 0 disconnected

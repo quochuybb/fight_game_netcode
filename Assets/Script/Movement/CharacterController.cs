@@ -18,7 +18,6 @@ public class CharacterController : NetworkBehaviour
         useGun = false;
         useMelee = false;
     }
-
     public virtual void Update()
     {
         HandleDelayTime();

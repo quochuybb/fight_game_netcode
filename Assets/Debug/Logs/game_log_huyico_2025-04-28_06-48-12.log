@@ -1,0 +1,81 @@
+=================================================
+Log File Created: 2025-04-28 06:48:12 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-04-28 06:48:12] [Log] [SYSTEM] Logger initialized
+[2025-04-28 06:48:19] [Exception] ArgumentException: Serialization has not been generated for type System.String. This can be addressed by adding a [GenerateSerializationForGenericParameterAttribute] to your generic class that serializes this value (if you are using one), adding [GenerateSerializationForTypeAttribute(typeof(System.String)] to the class or method that is attempting to serialize it, or creating a field on a NetworkBehaviour of type NetworkVariable. If this error continues to appear after doing one of those things and this is a type you can change, then either implement INetworkSerializable or mark it as serializable by memcpy by adding INetworkSerializeByMemcpy to its interface list to enable automatic serialization generation. If not, assign serialization code to UserNetworkVariableSerialization.WriteValue, UserNetworkVariableSerialization.ReadValue, and UserNetworkVariableSerialization.DuplicateValue, or if it's serializable by memcpy (contains no pointers), wrap it in ForceNetworkSerializeByMemcpy`1.
+Stack Trace:
+Unity.Netcode.FallbackSerializer`1[T].ThrowArgumentError () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableSerialization.cs:1176)
+Unity.Netcode.FallbackSerializer`1[T].Duplicate (T& value, T& duplicatedValue) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableSerialization.cs:1235)
+Unity.Netcode.FallbackSerializer`1[T].Unity.Netcode.INetworkVariableSerializer<T>.Duplicate (T& value, T& duplicatedValue) (at <6bf0b0b4cb534399b3f0696cca98b14c>:0)
+Unity.Netcode.NetworkVariableSerialization`1[T].Duplicate (T& value, T& duplicatedValue) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableSerialization.cs:1694)
+Unity.Netcode.NetworkVariable`1[T].OnInitialize () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:44)
+Unity.Netcode.NetworkVariableBase.Initialize (Unity.Netcode.NetworkBehaviour networkBehaviour) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:82)
+PlayersManager.__initializeVariables () (at <a23442474e0f4f3a8bf13f437e4636bb>:0)
+Unity.Netcode.NetworkBehaviour.InitializeVariables () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:867)
+Unity.Netcode.NetworkBehaviour.InternalOnNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:685)
+Unity.Netcode.NetworkObject.InvokeBehaviourNetworkSpawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1384)
+Unity.Netcode.NetworkSpawnManager.SpawnNetworkObjectLocallyCommon (Unity.Netcode.NetworkObject networkObject, System.UInt64 networkId, System.Boolean sceneObject, System.Boolean playerObject, System.UInt64 ownerClientId, System.Boolean destroyWithScene) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:752)
+Unity.Netcode.NetworkSpawnManager.SpawnNetworkObjectLocally (Unity.Netcode.NetworkObject networkObject, System.UInt64 networkId, System.Boolean sceneObject, System.Boolean playerObject, System.UInt64 ownerClientId, System.Boolean destroyWithScene) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:643)
+Unity.Netcode.NetworkSpawnManager.ServerSpawnSceneObjectsOnStartSweep () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:979)
+Unity.Netcode.NetworkManager.HostServerInitialize () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1117)
+Unity.Netcode.NetworkManager.StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1069)
+UnityEngine.Debug:LogException(Exception)
+Unity.Netcode.NetworkManager:StartHost() (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1074)
+UIManager:<Start>b__9_0() (at Assets/Script/UI/UIManager.cs:36)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-04-28 06:48:19] [Log] Host failed to start
+[2025-04-28 06:48:25] [Exception] IndexOutOfRangeException: Index was outside the bounds of the array.
+Stack Trace:
+UIManager.<Start>b__9_1 () (at Assets/Script/UI/UIManager.cs:58)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-04-28 06:48:27] [Error] [Netcode] Host is shutting down due to network transport start failure of UnityTransport!
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Unity.Netcode.NetworkLog:LogError (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:34)
+Unity.Netcode.NetworkConnectionManager:TransportFailureEventHandler (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Connection/NetworkConnectionManager.cs:544)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1064)
+UIManager:<Start>b__9_0 () (at Assets/Script/UI/UIManager.cs:36)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-04-28 06:48:27] [Warning] Trying to destroy object 2 but it doesn't seem to exist anymore!
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkSpawnManager:OnDespawnObject (Unity.Netcode.NetworkObject,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:1006)
+Unity.Netcode.NetworkSpawnManager:DespawnAndDestroyNetworkObjects () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:914)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1213)
+Unity.Netcode.NetworkConnectionManager:TransportFailureEventHandler (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Connection/NetworkConnectionManager.cs:551)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1064)
+UIManager:<Start>b__9_0 () (at Assets/Script/UI/UIManager.cs:36)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-04-28 06:48:27] [Log] Host failed to start
+[2025-04-28 06:48:29] [Error] [Netcode] Host is shutting down due to network transport start failure of UnityTransport!
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Unity.Netcode.NetworkLog:LogError (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:34)
+Unity.Netcode.NetworkConnectionManager:TransportFailureEventHandler (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Connection/NetworkConnectionManager.cs:544)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1064)
+UIManager:<Start>b__9_0 () (at Assets/Script/UI/UIManager.cs:36)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-04-28 06:48:29] [Log] Host failed to start
