@@ -53,6 +53,24 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Dash"",
+                    ""type"": ""Button"",
+                    ""id"": ""096c2307-463e-4006-8003-4f707c021274"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Setting"",
+                    ""type"": ""Button"",
+                    ""id"": ""8e2b5847-9706-47b8-9c77-47ca9ff96c33"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -132,6 +150,28 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
                     ""action"": ""AttackRange"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""dcbd3631-412f-4c12-ad6d-aa2171cce570"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Dash"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5c625422-98ed-4f2b-8cea-6839f5a4a658"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Setting"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -143,6 +183,8 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
         m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_AttackRange = m_Player.FindAction("AttackRange", throwIfNotFound: true);
+        m_Player_Dash = m_Player.FindAction("Dash", throwIfNotFound: true);
+        m_Player_Setting = m_Player.FindAction("Setting", throwIfNotFound: true);
     }
 
     ~@InputSystem()
@@ -212,6 +254,8 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Movement;
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_AttackRange;
+    private readonly InputAction m_Player_Dash;
+    private readonly InputAction m_Player_Setting;
     public struct PlayerActions
     {
         private @InputSystem m_Wrapper;
@@ -219,6 +263,8 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
         public InputAction @Movement => m_Wrapper.m_Player_Movement;
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @AttackRange => m_Wrapper.m_Player_AttackRange;
+        public InputAction @Dash => m_Wrapper.m_Player_Dash;
+        public InputAction @Setting => m_Wrapper.m_Player_Setting;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -237,6 +283,12 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
             @AttackRange.started += instance.OnAttackRange;
             @AttackRange.performed += instance.OnAttackRange;
             @AttackRange.canceled += instance.OnAttackRange;
+            @Dash.started += instance.OnDash;
+            @Dash.performed += instance.OnDash;
+            @Dash.canceled += instance.OnDash;
+            @Setting.started += instance.OnSetting;
+            @Setting.performed += instance.OnSetting;
+            @Setting.canceled += instance.OnSetting;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -250,6 +302,12 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
             @AttackRange.started -= instance.OnAttackRange;
             @AttackRange.performed -= instance.OnAttackRange;
             @AttackRange.canceled -= instance.OnAttackRange;
+            @Dash.started -= instance.OnDash;
+            @Dash.performed -= instance.OnDash;
+            @Dash.canceled -= instance.OnDash;
+            @Setting.started -= instance.OnSetting;
+            @Setting.performed -= instance.OnSetting;
+            @Setting.canceled -= instance.OnSetting;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -272,5 +330,7 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
         void OnMovement(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
         void OnAttackRange(InputAction.CallbackContext context);
+        void OnDash(InputAction.CallbackContext context);
+        void OnSetting(InputAction.CallbackContext context);
     }
 }

@@ -6,7 +6,6 @@ public class CharacterController : NetworkBehaviour
 {
     public bool useGun;
     public bool useMelee;
-    public bool isClean = false;
     public bool canThrow = false;
     private float lastTimeShoot;
     protected float lastTimeAttack = 0;
@@ -21,11 +20,7 @@ public class CharacterController : NetworkBehaviour
     public virtual void Update()
     {
         HandleDelayTime();
-        if (isClean)
-        {
-            onCleanEvent.Invoke();
-            isClean = false;
-        }
+
     }
 
     public void HandleDelayTime()
@@ -40,14 +35,15 @@ public class CharacterController : NetworkBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Bullet"))
-        {   
+        {
+
             BulletController bulletController = other.gameObject.GetComponent<BulletController>();
-            if (bulletController != null && !isClean)
+            if (bulletController != null)
             {
                 onDamgeEvent.Invoke(bulletController.GetDamage());
             }
         }
-        else if (other.gameObject.layer == LayerMask.NameToLayer("TelePort") && gameObject.tag == "Clean")
+        else if (other.gameObject.layer == LayerMask.NameToLayer("TelePort"))
         {
             gameObject.SetActive(false);
         }
@@ -67,6 +63,7 @@ public class CharacterController : NetworkBehaviour
     private UnityEvent<float> OnDamge  = new UnityEvent<float>();
     private UnityEvent _onDash = new UnityEvent();
     private readonly BuffEvent _onBuff = new BuffEvent();
+    
 
     public ThrowEvent onThrow => _throwEvent;
     public UnityEvent onDash => _onDash;

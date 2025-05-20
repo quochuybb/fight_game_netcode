@@ -1,13 +1,17 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
 using TMPro;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using Cursor = UnityEngine.Cursor;
 
-public class UIManager : MonoBehaviour
+public class UIManager : NetworkBehaviour
 {
     [SerializeField] private Button startClientButton;
     [SerializeField] private Button startHostButton; 
@@ -15,7 +19,11 @@ public class UIManager : MonoBehaviour
     [SerializeField] private UnityTransport _transport;
     [SerializeField] private string joinCode;
     [SerializeField] private TMP_InputField inputField;
+    [SerializeField] private TextMeshProUGUI error;
 
+
+
+    
     private void Awake()
     {
         Cursor.visible = true;
@@ -30,15 +38,13 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+        var host = Dns.GetHostEntry(Dns.GetHostName());
+        joinCode = host.AddressList[0].ToString();
         startHostButton.onClick.AddListener(() =>
         {
             if (NetworkManager.Singleton.StartHost())
             {
-                Debug.Log("Host started");
-                string ip = _transport.ConnectionData.Address;
-                ushort port = _transport.ConnectionData.Port;
-                joinCode = $"{ip}:{port}";
-                Debug.Log($"Lobby code: {joinCode}");
+                
             }
             else
             {
@@ -47,12 +53,32 @@ public class UIManager : MonoBehaviour
         }); 
         startClientButton.onClick.AddListener(() =>
         {
-            joinCode = inputField.text;
-            var parts = joinCode.Split(':');
-            string ip = parts[0];
-            ushort port = ushort.Parse(parts[1]);
-            _transport.SetConnectionData(ip, port, null);                 
-            NetworkManager.Singleton.StartClient();    
+            if (!IPAddress.TryParse(inputField.text, out var ipAddress))
+            {
+                error.text = "Invalid IP address format. Please enter a valid IPv4 or IPv6 address.";
+                return;
+            }
+            try
+            {
+                _transport.SetConnectionData(ipAddress.ToString(), 7777, null);                 
+
+                if (!NetworkManager.Singleton.StartClient())
+                {
+                    error.text = "Network is not ready or already connected.";
+                }
+            }
+            catch (InvalidOperationException)
+            {
+                error.text = "Network is not ready or already connected.";
+            }
+            catch (SocketException)
+            {
+                error.text = "Unable to open network connection.";
+            }
+            catch (Exception ex)
+            {
+                error.text = $"Unexpected error: {ex.Message}";
+            }
         }); 
 
     }

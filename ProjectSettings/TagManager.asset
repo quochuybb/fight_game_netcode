@@ -9,11 +9,17 @@ TagManager:
   - TelePort
   - Bullet
   - Item
+  - Chest
+  - Wall
+  - SpawnHost1
+  - SpawnClient1
+  - SpawnHost2
+  - SpawnClient2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Wall
   - Water
   - UI
   - Player

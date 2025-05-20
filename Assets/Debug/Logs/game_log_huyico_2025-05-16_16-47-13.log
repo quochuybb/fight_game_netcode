@@ -1,0 +1,41 @@
+=================================================
+Log File Created: 2025-05-16 16:47:13 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-16 16:47:13] [Log] [SYSTEM] Logger initialized
+[2025-05-16 16:47:18] [Log] Player 0
+[2025-05-16 16:47:18] [Log] Player 1
+[2025-05-16 16:47:18] [Warning] [Netcode] Cannot start Client while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1008)
+UIManager:<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-16 16:48:01] [Warning] Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+[2025-05-16 16:48:03] [Warning] Assets/Script/Movement/PlayerInput.cs(10,18): warning CS0114: 'PlayerInput.Awake()' hides inherited member 'CharacterController.Awake()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-05-16 16:48:03] [Warning] Assets/Script/Item/ItemController.cs(7,42): warning CS0108: 'ItemController.rigidbody2D' hides inherited member 'Component.rigidbody2D'. Use the new keyword if hiding was intended.
+[2025-05-16 16:48:03] [Warning] Assets/Script/Item/ItemManager.cs(10,45): warning CS0108: 'ItemManager.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-05-16 16:48:03] [Warning] Assets/Script/Attack/BulletManager.cs(7,45): warning CS0108: 'BulletManager.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-05-16 16:48:03] [Warning] Assets/Script/Animation/Animation Controller.cs(10,45): warning CS0108: 'AnimationController.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-05-16 16:48:03] [Warning] Assets/Script/Movement/EnemyController.cs(37,26): warning CS0168: The variable 'e' is declared but never used
+[2025-05-16 16:48:03] [Warning] Assets/Script/Item/ItemController.cs(13,18): warning CS0414: The field 'ItemController.isSpawned' is assigned but its value is never used
+[2025-05-16 16:48:03] [Warning] Assets/Script/Item/ItemManager.cs(16,19): warning CS0414: The field 'ItemManager.timer' is assigned but its value is never used
+[2025-05-16 16:48:03] [Warning] Assets/Script/Movement/CharacterMovement.cs(11,18): warning CS0414: The field 'CharacterMovement.canDash' is assigned but its value is never used
+[2025-05-16 16:48:03] [Warning] Assets/Script/Movement/CharacterMovement.cs(12,18): warning CS0414: The field 'CharacterMovement.isDashing' is assigned but its value is never used
+[2025-05-16 16:48:03] [Warning] Animation/Animation Controller.cs(10,45): warning CS0108: 'AnimationController.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-05-16 16:48:03] [Warning] Assets/Script/Movement/EnemyController.cs(37,26): warning CS0168: The variable 'e' is declared but never used
+[2025-05-16 16:48:03] [Warning] Assets/Script/Item/ItemController.cs(13,18): warning CS0414: The field 'ItemController.isSpawned' is assigned but its value is never used
+[2025-05-16 16:48:03] [Warning] Assets/Script/Item/ItemManager.cs(16,19): warning CS0414: The field 'ItemManager.timer' is assigned but its value is never used
+[2025-05-16 16:48:03] [Warning] Assets/Script/Movement/CharacterMovement.cs(11,18): warning CS0414: The field 'CharacterMovement.canDash' is assigned but its value is never used
+[2025-05-16 16:48:03] [Warning] Assets/Script/Movement/CharacterMovement.cs(12,18): warning CS0414: The field 'CharacterMovement.isDashing' is assigned but its value is never used

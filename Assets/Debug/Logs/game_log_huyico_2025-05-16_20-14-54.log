@@ -1,0 +1,1290 @@
+=================================================
+Log File Created: 2025-05-16 20:14:54 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-16 20:14:54] [Log] [SYSTEM] Logger initialized
+[2025-05-16 20:15:07] [Exception] KeyNotFoundException: The given key 'ItemManager' was not present in the dictionary.
+Stack Trace:
+System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+Unity.Netcode.NetworkBehaviour.__endSendServerRpc (Unity.Netcode.FastBufferWriter& bufferWriter, System.UInt32 rpcMethodId, Unity.Netcode.ServerRpcParams serverRpcParams, Unity.Netcode.RpcDelivery rpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:127)
+ItemManager.SpawnItemServerRpc (UnityEngine.Vector2 startPos, UnityEngine.Quaternion rotation, ItemNetworkSerializable itemNetwork) (at Assets/Script/Item/ItemManager.cs:84)
+ItemManager.OpenChest (UnityEngine.Transform chestTransform) (at Assets/Script/Item/ItemManager.cs:54)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:219)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_1.cs:57)
+ChestController.Update () (at Assets/Script/Item/ChestController.cs:22)
+
+
+[2025-05-16 20:15:07] [Log] Player 0
+[2025-05-16 20:15:07] [Log] Player 1
+[2025-05-16 20:15:09] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:12] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:12] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:13] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:13] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:14] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:14] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:14] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:14] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:15] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:17] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:18] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:20] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:22] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:23] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:24] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:24] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:24] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:25] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:25] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:25] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:25] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:25] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:26] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:26] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:26] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:26] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:26] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:26] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:26] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:27] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:27] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:27] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:27] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:27] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:27] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:27] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:27] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:27] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:28] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:28] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:28] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:28] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:28] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:28] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:28] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:28] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:28] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:29] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:32] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:35] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:36] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:38] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:39] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:41] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:42] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:43] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:45] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+
+[2025-05-16 20:15:46] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet () (at Assets/Script/Attack/BulletController.cs:158)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:116)
+
+

@@ -1,0 +1,966 @@
+=================================================
+Log File Created: 2025-05-13 22:13:09 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-13 22:13:09] [Log] [SYSTEM] Logger initialized
+[2025-05-13 22:13:11] [Log] Client 0 connected
+[2025-05-13 22:13:11] [Log] Host started
+[2025-05-13 22:13:11] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-13 22:13:11] [Log] Player 0
+[2025-05-13 22:13:11] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:38)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-13 22:13:11] [Log] Host failed to start
+[2025-05-13 22:13:13] [Log] Player 1
+[2025-05-13 22:13:14] [Log] Client 1 connected
+[2025-05-13 22:14:00] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:16] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:16] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:16] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:17] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:17] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:17] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:20] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:20] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:20] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:20] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:20] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:20] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:21] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:21] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:21] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:22] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:22] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:22] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:23] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:23] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:23] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:24] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:24] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:24] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:24] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:25] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:26] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:26] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:26] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:26] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:26] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:26] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:27] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:27] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:27] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:27] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:27] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:27] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:31] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:31] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:31] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:31] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:31] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:31] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:32] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:32] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:32] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:32] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:32] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:32] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:33] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:34] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:35] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:36] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:36] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:36] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:36] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:36] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:36] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 22:14:39] [Log] Client 1 disconnected
+[2025-05-13 22:14:41] [Log] Client 0 disconnected

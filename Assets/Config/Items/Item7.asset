@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: item7
   itemName: feather
-  nameStatsBuff: damage
-  statsBuff: 2
-  typeBuff: 1
+  nameStatsBuff: speedMove
+  statsBuff: 3
+  typeBuff: 0

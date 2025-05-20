@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: item2
   itemName: eye
-  nameStatsBuff: damage
-  statsBuff: 5
+  nameStatsBuff: speed
+  statsBuff: 3
   typeBuff: 1

@@ -1,0 +1,51 @@
+=================================================
+Log File Created: 2025-05-08 17:55:35 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-08 17:55:35] [Log] [SYSTEM] Logger initialized
+[2025-05-08 17:55:40] [Error] 'SpawnItem 1 ' AnimationEvent has no function name specified!
+[2025-05-08 17:55:40] [Error] 'SpawnItem 2' AnimationEvent has no function name specified!
+[2025-05-08 17:55:40] [Error] 'SpawnItem 4' AnimationEvent has no function name specified!
+[2025-05-08 17:55:40] [Error] 'SpawnItem 3' AnimationEvent has no function name specified!
+[2025-05-08 17:55:44] [Log] Client 0 connected
+[2025-05-08 17:55:44] [Log] Host started
+[2025-05-08 17:55:44] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-08 17:55:44] [Log] Player 0
+[2025-05-08 17:55:44] [Error] 'SpawnItem 1 ' AnimationEvent has no function name specified!
+[2025-05-08 17:55:44] [Error] 'SpawnItem 2' AnimationEvent has no function name specified!
+[2025-05-08 17:55:44] [Error] 'SpawnItem 4' AnimationEvent has no function name specified!
+[2025-05-08 17:55:44] [Error] 'SpawnItem 3' AnimationEvent has no function name specified!
+[2025-05-08 17:55:48] [Error] 'SpawnItem 1 ' AnimationEvent has no function name specified!
+[2025-05-08 17:55:48] [Error] 'SpawnItem 2' AnimationEvent has no function name specified!
+[2025-05-08 17:55:48] [Error] 'SpawnItem 4' AnimationEvent has no function name specified!
+[2025-05-08 17:55:48] [Error] 'SpawnItem 3' AnimationEvent has no function name specified!
+[2025-05-08 17:55:52] [Error] 'SpawnItem 1 ' AnimationEvent has no function name specified!
+[2025-05-08 17:55:52] [Error] 'SpawnItem 2' AnimationEvent has no function name specified!
+[2025-05-08 17:55:52] [Error] 'SpawnItem 4' AnimationEvent has no function name specified!
+[2025-05-08 17:55:52] [Error] 'SpawnItem 3' AnimationEvent has no function name specified!
+[2025-05-08 17:55:56] [Error] 'SpawnItem 1 ' AnimationEvent has no function name specified!
+[2025-05-08 17:55:56] [Error] 'SpawnItem 2' AnimationEvent has no function name specified!
+[2025-05-08 17:55:56] [Error] 'SpawnItem 4' AnimationEvent has no function name specified!
+[2025-05-08 17:55:56] [Error] 'SpawnItem 3' AnimationEvent has no function name specified!
+[2025-05-08 17:56:00] [Error] 'SpawnItem 1 ' AnimationEvent has no function name specified!
+[2025-05-08 17:56:00] [Error] 'SpawnItem 2' AnimationEvent has no function name specified!
+[2025-05-08 17:56:00] [Error] 'SpawnItem 4' AnimationEvent has no function name specified!
+[2025-05-08 17:56:00] [Error] 'SpawnItem 3' AnimationEvent has no function name specified!
+[2025-05-08 17:56:00] [Log] Player 1
+[2025-05-08 17:56:01] [Log] Client 1 connected
+[2025-05-08 17:56:04] [Error] 'SpawnItem 1 ' AnimationEvent has no function name specified!
+[2025-05-08 17:56:04] [Error] 'SpawnItem 2' AnimationEvent has no function name specified!
+[2025-05-08 17:56:04] [Error] 'SpawnItem 4' AnimationEvent has no function name specified!
+[2025-05-08 17:56:04] [Error] 'SpawnItem 3' AnimationEvent has no function name specified!
+[2025-05-08 17:56:06] [Log] Client 1 disconnected
+[2025-05-08 17:56:08] [Error] 'SpawnItem 1 ' AnimationEvent has no function name specified!
+[2025-05-08 17:56:08] [Error] 'SpawnItem 2' AnimationEvent has no function name specified!
+[2025-05-08 17:56:08] [Error] 'SpawnItem 4' AnimationEvent has no function name specified!
+[2025-05-08 17:56:08] [Error] 'SpawnItem 3' AnimationEvent has no function name specified!
+[2025-05-08 17:56:09] [Log] Client 0 disconnected

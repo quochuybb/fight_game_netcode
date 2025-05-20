@@ -1,0 +1,129 @@
+=================================================
+Log File Created: 2025-05-11 14:41:48 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-11 14:41:48] [Log] [SYSTEM] Logger initialized
+[2025-05-11 14:41:51] [Log] Client 0 connected
+[2025-05-11 14:41:51] [Log] Host started
+[2025-05-11 14:41:51] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-11 14:41:51] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:38)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-11 14:41:51] [Log] Host failed to start
+[2025-05-11 14:41:51] [Log] Player 0
+[2025-05-11 14:41:52] [Error] Dashing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:Dashing () (at Assets/Script/Movement/CharacterMovement.cs:129)
+UnityEngine.Events.UnityEvent:Invoke ()
+PlayerInput:OnDash (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:51)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-11 14:41:52] [Exception] IndexOutOfRangeException: Index was outside the bounds of the array.
+Stack Trace:
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnSubmit (UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:150)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.ISubmitHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:134)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-11 14:42:01] [Error] Dashing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:Dashing () (at Assets/Script/Movement/CharacterMovement.cs:129)
+UnityEngine.Events.UnityEvent:Invoke ()
+PlayerInput:OnDash (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:51)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-11 14:42:03] [Error] Dashing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:Dashing () (at Assets/Script/Movement/CharacterMovement.cs:129)
+UnityEngine.Events.UnityEvent:Invoke ()
+PlayerInput:OnDash (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:51)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-11 14:42:04] [Error] Dashing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:Dashing () (at Assets/Script/Movement/CharacterMovement.cs:129)
+UnityEngine.Events.UnityEvent:Invoke ()
+PlayerInput:OnDash (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:51)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-11 14:42:04] [Error] Dashing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:Dashing () (at Assets/Script/Movement/CharacterMovement.cs:129)
+UnityEngine.Events.UnityEvent:Invoke ()
+PlayerInput:OnDash (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:51)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-11 14:42:04] [Error] Dashing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:Dashing () (at Assets/Script/Movement/CharacterMovement.cs:129)
+UnityEngine.Events.UnityEvent:Invoke ()
+PlayerInput:OnDash (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:51)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-11 14:42:04] [Error] Dashing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:Dashing () (at Assets/Script/Movement/CharacterMovement.cs:129)
+UnityEngine.Events.UnityEvent:Invoke ()
+PlayerInput:OnDash (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:51)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-11 14:42:05] [Error] Dashing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:Dashing () (at Assets/Script/Movement/CharacterMovement.cs:129)
+UnityEngine.Events.UnityEvent:Invoke ()
+PlayerInput:OnDash (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:51)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-11 14:42:06] [Error] Dashing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterMovement:Dashing () (at Assets/Script/Movement/CharacterMovement.cs:129)
+UnityEngine.Events.UnityEvent:Invoke ()
+PlayerInput:OnDash (UnityEngine.InputSystem.InputValue) (at Assets/Script/Movement/PlayerInput.cs:51)
+UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0 (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /home/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+
+
+[2025-05-11 14:42:07] [Log] Client 0 disconnected

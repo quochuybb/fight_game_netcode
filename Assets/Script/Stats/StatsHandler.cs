@@ -8,6 +8,7 @@ public class StatsHandler : NetworkBehaviour
     public static StatsHandler Instance;
     [SerializeField] public CharacterStats stats;
     [SerializeField] public Bullet statsAttack;
+    [SerializeField] public ParticleSystem dieEffect;
     private CharacterController _characterController;
     public NetworkVariable<CharacterStatsNetwork> currentStatsNetworkVariableClient = new NetworkVariable<CharacterStatsNetwork>(new CharacterStatsNetwork());
     public NetworkVariable<BulletNetworkSerializable> currentStatsAttackNetworkVariableClient = new NetworkVariable<BulletNetworkSerializable>(new BulletNetworkSerializable());    
@@ -17,9 +18,11 @@ public class StatsHandler : NetworkBehaviour
     public BulletNetworkSerializable CurrentAttackClient = new BulletNetworkSerializable();
     public CharacterStatsNetwork CurrentHost = new CharacterStatsNetwork();
     public BulletNetworkSerializable CurrentAttackHost = new BulletNetworkSerializable();
-
+    public NetworkVariable<Vector2> networkPosition;
     private const float BuffUpdateInterval = 0.1f;
     private float _lastBuffUpdateTime ;
+    private float lastNetworkUpdate;
+    
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
@@ -51,6 +54,7 @@ public class StatsHandler : NetworkBehaviour
         currentStatsAttackNetworkVariableClient.OnValueChanged += OnStatsAttackClientChanged;
         currentStatsAttackNetworkVariableHost.OnValueChanged += OnStatsAttackHostChanged;
 
+
     }
     private void OnStatsHostChanged(CharacterStatsNetwork previous, CharacterStatsNetwork current)
     {
@@ -58,7 +62,7 @@ public class StatsHandler : NetworkBehaviour
     }
     private void OnStatsClientChanged(CharacterStatsNetwork previous, CharacterStatsNetwork current)
     {
-        CurrentClient = current;
+        CurrentClient = current;        
     }
     private void OnStatsAttackHostChanged(BulletNetworkSerializable previous, BulletNetworkSerializable current)
     {
@@ -83,14 +87,77 @@ public class StatsHandler : NetworkBehaviour
     }
     private void ChangeHealthClient(float damage)
     {
-        currentStatsNetworkVariableClient.Value.healthPoint -= damage;
+        if (currentStatsNetworkVariableClient.Value.armor > 0)
+        {
+            currentStatsNetworkVariableClient.Value.armor -= damage;
+            if (currentStatsNetworkVariableClient.Value.armor <= 0)
+            {
+                currentStatsNetworkVariableClient.Value.armor = 0;
+            }
+        }
+        else
+        {
+            currentStatsNetworkVariableClient.Value.healthPoint -= damage;
+
+        }        
+        if (currentStatsNetworkVariableClient.Value.healthPoint <= 0)
+        {
+            currentStatsNetworkVariableClient.Value.alive -= 1;
+            currentStatsNetworkVariableClient.Value.healthPoint = stats.Mapping().healthPoint + 5;
+            currentStatsNetworkVariableClient.Value.armor += 2;
+            currentStatsAttackNetworkVariableClient.Value.damage += 2;
+            currentStatsAttackNetworkVariableClient.Value.speed += 3;
+            RunDieEffectClientRpc();
+            if (currentStatsNetworkVariableClient.Value.alive <= 0)
+            {
+                NetworkManager.Singleton.Shutdown();
+
+            }
+        }
     }
+    
+
+
+
     [ServerRpc]
     public void ChangeHealthServerRpc(float damage)
     {
-        currentStatsNetworkVariableHost.Value.healthPoint -= damage;
+        if (currentStatsNetworkVariableHost.Value.armor > 0)
+        {
+            currentStatsNetworkVariableHost.Value.armor -= damage;
+            if (currentStatsNetworkVariableHost.Value.armor <= 0)
+            {
+                currentStatsNetworkVariableHost.Value.armor = 0;
+            }
+        }
+        else
+        {
+            currentStatsNetworkVariableHost.Value.healthPoint -= damage;
+
+        }
+        if (currentStatsNetworkVariableHost.Value.healthPoint <= 0)
+        {
+            currentStatsNetworkVariableHost.Value.alive -= 1;
+            currentStatsNetworkVariableHost.Value.healthPoint = stats.Mapping().healthPoint + 5;
+            currentStatsNetworkVariableHost.Value.armor += 2;
+            currentStatsAttackNetworkVariableHost.Value.damage += 2;
+            currentStatsAttackNetworkVariableHost.Value.speed += 3;
+            RunDieEffectClientRpc();
+            if (currentStatsNetworkVariableHost.Value.alive <= 0)
+            {
+                NetworkManager.Singleton.Shutdown();
+
+            }
+        }
     }
 
+    [ClientRpc]
+    public void RunDieEffectClientRpc()
+    {
+        dieEffect.Stop();
+        dieEffect.Play();
+    }
+    
     public void BuffStats(ItemNetworkSerializable item, ServerRpcParams rpcParams = default)
     {
         if (IsOwner)
@@ -172,7 +239,6 @@ public class StatsHandler : NetworkBehaviour
                 SetFieldByName(currentStatsNetworkVariableHost.Value, item.nameStatsBuff, item.statsBuff);
                 SetFieldByName(CurrentHost, item.nameStatsBuff, item.statsBuff);
             }
-            //UpdateBuffClientRpc(newBuff);
         }
         else
         {

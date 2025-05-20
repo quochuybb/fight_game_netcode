@@ -1,0 +1,257 @@
+=================================================
+Log File Created: 2025-05-15 01:50:21 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-15 01:50:21] [Log] [SYSTEM] Logger initialized
+[2025-05-15 01:50:24] [Log] Client 0 connected
+[2025-05-15 01:50:24] [Log] Host started
+[2025-05-15 01:50:24] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-15 01:50:24] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:38)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-15 01:50:24] [Log] Host failed to start
+[2025-05-15 01:50:24] [Log] Player 0
+[2025-05-15 01:50:25] [Log] 0.25
+[2025-05-15 01:50:25] [Error] (-155.84, -6.01, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:25] [Error] (-156.31, -6.38)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:28] [Log] 0.25
+[2025-05-15 01:50:28] [Error] (-155.04, -7.70, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:28] [Error] (-155.03, -8.30)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:29] [Log] 0.25
+[2025-05-15 01:50:29] [Error] (-155.04, -7.70, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:29] [Error] (-155.03, -8.30)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:29] [Log] 0.25
+[2025-05-15 01:50:29] [Error] (-155.04, -7.70, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:29] [Error] (-155.03, -8.30)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:30] [Log] 0.25
+[2025-05-15 01:50:30] [Error] (-155.04, -7.70, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:30] [Error] (-155.03, -8.30)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:30] [Log] 0.25
+[2025-05-15 01:50:30] [Error] (-155.04, -7.70, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:30] [Error] (-155.03, -8.30)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:31] [Log] 0.25
+[2025-05-15 01:50:31] [Error] (-154.08, -8.34, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:31] [Error] (-153.49, -8.31)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:32] [Log] 0.25
+[2025-05-15 01:50:32] [Error] (-154.08, -8.34, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:32] [Error] (-153.49, -8.31)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:32] [Log] 0.25
+[2025-05-15 01:50:32] [Error] (-154.08, -8.34, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:32] [Error] (-153.49, -8.31)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:33] [Log] 0.25
+[2025-05-15 01:50:33] [Error] (-154.08, -8.34, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:86)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:33] [Error] (-153.49, -8.31)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:89)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-15 01:50:34] [Log] Client 0 disconnected

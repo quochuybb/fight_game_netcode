@@ -1,0 +1,351 @@
+=================================================
+Log File Created: 2025-05-14 21:07:12 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-14 21:07:12] [Log] [SYSTEM] Logger initialized
+[2025-05-14 21:07:14] [Log] Client 0 connected
+[2025-05-14 21:07:14] [Log] Host started
+[2025-05-14 21:07:14] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-14 21:07:14] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:38)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-14 21:07:14] [Log] Host failed to start
+[2025-05-14 21:07:14] [Log] Player 0
+[2025-05-14 21:07:16] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:16] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:17] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:17] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:20] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:20] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:21] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:21] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:23] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:24] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:25] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:25] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:27] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:27] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:28] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:29] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:29] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:30] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:30] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:30] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:32] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:32] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:35] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:35] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:36] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:37] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:38] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:38] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:38] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:38] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:39] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:39] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:39] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:39] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:40] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:40] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:40] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:40] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:41] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:41] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:41] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:41] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:42] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:42] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:42] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:42] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:43] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:43] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:43] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:44] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:45] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:45] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:45] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:07:45] [Error] Bouncing
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:54)
+
+
+[2025-05-14 21:08:21] [Log] Client 0 disconnected

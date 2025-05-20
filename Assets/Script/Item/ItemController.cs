@@ -20,6 +20,10 @@ public class ItemController : NetworkBehaviour, INetworkSerializable
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.CompareTag("Chest"))
+        {
+            return;
+        }
         DestroyItem(transform.position,true);
     }
     public void Init(ItemNetworkSerializable config)

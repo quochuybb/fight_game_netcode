@@ -8,7 +8,7 @@ public class Bullet : ScriptableObject
     public float speed;
     public float delay;
     public float timeExist;
-    public Color colorBullet;
+    public float bouncing;
     public float multipleBulletAngle;
     public float numberOfBulletsPerShoot;
     
@@ -19,7 +19,7 @@ public class Bullet : ScriptableObject
         serializable.timeExist = this.timeExist;
         serializable.numberOfBulletsPerShoot = this.numberOfBulletsPerShoot;
         serializable.multipleBulletAngle = this.multipleBulletAngle;
-        serializable.colorBullet = this.colorBullet;
+        serializable.bouncing = this.bouncing;
         serializable.speed = this.speed;
         serializable.delay = this.delay;
         serializable.size = this.size;

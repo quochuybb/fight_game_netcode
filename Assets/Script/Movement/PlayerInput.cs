@@ -5,34 +5,19 @@ using UnityEngine.SceneManagement;
 public class PlayerInput : CharacterController
 {
     [SerializeField] private Camera _camera;
+    [SerializeField] private MenuTransition _transition;
+    
     private void Awake()
     {
         _camera = Camera.main;
-    }
-    private void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnSceneLoaded; 
-    }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnSceneLoaded;    
-    }
-
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        if (scene.name == "Player")
-        {
-            _camera = Camera.main;
-
-        }
+        _transition = MenuTransition.instance;
     }
     
     public void OnMovement(InputValue value)
     {
         Vector2 direction = value.Get<Vector2>();
         onMoveEvent.Invoke(direction);
-        
+
     }
 
     public void OnLook(InputValue value)
@@ -67,5 +52,10 @@ public class PlayerInput : CharacterController
     public void OnDash(InputValue value)
     {
         onDash.Invoke();
+    }
+
+    public void OnSetting(InputValue value)
+    {
+        _transition.onOpenSettings.Invoke();
     }
 }

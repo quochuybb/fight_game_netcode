@@ -1,0 +1,269 @@
+=================================================
+Log File Created: 2025-05-09 13:59:01 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-09 13:59:01] [Log] [SYSTEM] Logger initialized
+[2025-05-09 13:59:05] [Warning] The character with Unicode value \u0016 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text].
+Stack Trace:
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/UnicodeChar[]) (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMPro_UGUI_Private.cs:1274)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMP_Text.cs:1902)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMPro_UGUI_Private.cs:1644)
+TMPro.TextMeshProUGUI:ForceMeshUpdate (bool,bool) (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TextMeshProUGUI.cs:547)
+TMPro.TMP_InputField:UpdateLabel () (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMP_InputField.cs:3284)
+TMPro.TMP_InputField:OnUpdateSelected (UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMP_InputField.cs:2175)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:05] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:05] [Warning] The character with Unicode value \u0016 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [ID Lobby].
+Stack Trace:
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/UnicodeChar[]) (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMPro_UGUI_Private.cs:1274)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMP_Text.cs:1902)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMPro_UGUI_Private.cs:1644)
+TMPro.TextMeshProUGUI:Rebuild (UnityEngine.UI.CanvasUpdate) (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TextMeshProUGUI.cs:216)
+UnityEngine.Canvas:SendWillRenderCanvases () (at /home/bokken/build/output/unity/unity/Modules/UI/ScriptBindings/UICanvas.bindings.cs:104)
+
+
+[2025-05-09 13:59:06] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:07] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:19] [Warning] The character with Unicode value \u0016 was not found in the [LiberationSans SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Text].
+Stack Trace:
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+TMPro.TextMeshProUGUI:SetArraySizes (TMPro.TMP_Text/UnicodeChar[]) (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMPro_UGUI_Private.cs:1274)
+TMPro.TMP_Text:ParseInputText () (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMP_Text.cs:1902)
+TMPro.TextMeshProUGUI:OnPreRenderCanvas () (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMPro_UGUI_Private.cs:1644)
+TMPro.TextMeshProUGUI:ForceMeshUpdate (bool,bool) (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TextMeshProUGUI.cs:547)
+TMPro.TMP_InputField:UpdateLabel () (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMP_InputField.cs:3284)
+TMPro.TMP_InputField:OnUpdateSelected (UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.textmeshpro@3.0.9/Scripts/Runtime/TMP_InputField.cs:2175)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:21] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:22] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:23] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:23] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:23] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:24] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:24] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:24] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:25] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:25] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-09 13:59:26] [Exception] FormatException: Input string was not in a correct format.
+Stack Trace:
+System.Number.ThrowOverflowOrFormatException (System.Boolean overflow, System.String overflowResourceKey) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.Number.ParseUInt32 (System.ReadOnlySpan`1[T] value, System.Globalization.NumberStyles styles, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.ReadOnlySpan`1[T] s, System.Globalization.NumberStyles style, System.Globalization.NumberFormatInfo info) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+System.UInt16.Parse (System.String s) (at <95484bdf32b4460c9c17cb189b98eb69>:0)
+UIManager.<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:53)
+UnityEngine.Events.InvokableCall.Invoke () (at /home/bokken/build/output/unity/unity/Runtime/Export/UnityEvent/UnityEvent.cs:178)
+UnityEngine.Events.UnityEvent.Invoke () (at /home/bokken/build/output/unity/unity/artifacts/generated/UnityEvent/UnityEvent_0.cs:57)
+UnityEngine.UI.Button.Press () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:70)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs:114)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:57)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+

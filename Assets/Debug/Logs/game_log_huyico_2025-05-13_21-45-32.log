@@ -1,0 +1,1780 @@
+=================================================
+Log File Created: 2025-05-13 21:45:32 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-13 21:45:32] [Log] [SYSTEM] Logger initialized
+[2025-05-13 21:45:38] [Log] Client 0 connected
+[2025-05-13 21:45:38] [Log] Host started
+[2025-05-13 21:45:38] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-13 21:45:38] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:38)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-13 21:45:38] [Log] Host failed to start
+[2025-05-13 21:45:38] [Log] Player 0
+[2025-05-13 21:45:46] [Log] Player 1
+[2025-05-13 21:45:46] [Log] Client 1 connected
+[2025-05-13 21:45:59] [Error] 8
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:93)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:45:59] [Error] 8
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:93)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:03] [Error] 8
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:93)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:03] [Error] 8
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:93)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:14] [Error] 14
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:93)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:14] [Error] 14
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:93)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:14] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:97)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:19] [Error] 14
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:93)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:19] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:97)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:19] [Error] 14
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:93)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:19] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:97)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:35] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:35] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:39] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:39] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:39] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:39] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:41] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:41] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:41] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:41] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:42] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:42] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:42] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:42] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:43] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:43] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:43] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:43] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:43] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:43] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:43] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:43] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:44] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:44] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:44] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:44] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:44] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:44] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:44] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:44] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:45] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:45] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:45] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:45] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:45] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:45] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:45] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:45] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:46] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:46] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:46] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:46] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:46] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:46] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:46] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:46] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:47] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:47] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:47] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:47] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:47] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:47] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:47] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:47] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:48] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:48] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:48] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:48] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:48] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:48] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:48] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:48] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:49] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:49] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:49] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:49] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:49] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:49] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:49] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:49] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:50] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:50] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:50] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:50] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:50] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:50] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:50] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:50] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:51] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:51] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:51] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:51] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:52] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:52] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:52] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:52] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:52] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:52] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:52] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:52] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:53] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:53] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:53] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:53] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:53] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:53] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:53] [Error] 17
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:53] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:58] [Error] 41
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:58] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:58] [Error] 41
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:58] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:58] [Error] 41
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:58] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:58] [Error] 41
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:58] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:59] [Error] 41
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:59] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:59] [Error] 41
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:46:59] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:47:00] [Error] 41
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:47:00] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:47:00] [Error] 41
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:47:00] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:47:03] [Error] 47
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:47:03] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:47:03] [Error] 47
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:47:03] [Error] Die
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:107)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:103)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:83)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-13 21:47:07] [Log] Client 1 disconnected

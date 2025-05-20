@@ -1,0 +1,29 @@
+=================================================
+Log File Created: 2025-05-12 21:44:32 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-12 21:44:32] [Log] [SYSTEM] Logger initialized
+[2025-05-12 21:44:34] [Warning] Port 7777 is likely already in use by another application. Socket was still created, but expect erroneous behavior. This condition will become a failure starting in version 2.0 of Unity Transport.
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Networking.Transport.BaselibNetworkInterface:Bind (Unity.Networking.Transport.NetworkInterfaceEndPoint) (at ./Library/PackageCache/com.unity.transport@1.5.0/Runtime/BaselibNetworkInterface.cs:660)
+Unity.Networking.Transport.UnityTransportProtocol:Bind (Unity.Networking.Transport.INetworkInterface,Unity.Networking.Transport.NetworkInterfaceEndPoint&) (at ./Library/PackageCache/com.unity.transport@1.5.0/Runtime/UnityTransportProtocol.cs:19)
+Unity.Networking.Transport.NetworkDriver:Bind (Unity.Networking.Transport.NetworkEndPoint) (at ./Library/PackageCache/com.unity.transport@1.5.0/Runtime/NetworkDriver.cs:1001)
+Unity.Netcode.Transports.UTP.UnityTransport:ServerBindAndListen (Unity.Networking.Transport.NetworkEndPoint) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Transports/UTP/UnityTransport.cs:575)
+Unity.Netcode.Transports.UTP.UnityTransport:StartServer () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Transports/UTP/UnityTransport.cs:1397)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1060)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:38)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-12 21:44:34] [Log] Client 0 connected
+[2025-05-12 21:44:34] [Log] Host started
+[2025-05-12 21:44:34] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-12 21:44:35] [Log] Player 0
+[2025-05-12 21:44:39] [Log] Client 0 disconnected

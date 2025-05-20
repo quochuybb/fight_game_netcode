@@ -14,6 +14,7 @@ public class Shooting : NetworkBehaviour
     private BulletManager bulletManager;
     private float lastTimeShoot;
     private bool canShoot;
+    [SerializeField] private GameObject bulletPrefab;
     private void Awake()
     {
         controller = GetComponent<CharacterController>();
@@ -75,7 +76,15 @@ public class Shooting : NetworkBehaviour
 
     private void CreateBullet(BulletNetworkSerializable bulletNetwork, float angle)
     {
-        bulletManager.ShootBulletServerRpc(firePoint.position, transform.rotation, bulletNetwork,RotateDirection(networkAimDirection.Value, angle));
+        float bulletRadius = 0.15f * bulletNetwork.size ; 
+
+        Vector2 dir = firePoint.right; 
+        
+        Vector2 offset = dir * bulletRadius;
+
+        Vector2 spawnPos = (Vector2)firePoint.position + offset;
+
+        bulletManager.ShootBulletServerRpc(spawnPos, transform.rotation, bulletNetwork,RotateDirection(networkAimDirection.Value, angle));
     }
 
     private Vector2 RotateDirection(Vector2 aimDirection, float angle)

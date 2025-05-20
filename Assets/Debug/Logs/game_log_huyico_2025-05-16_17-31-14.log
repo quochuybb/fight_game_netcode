@@ -1,0 +1,804 @@
+=================================================
+Log File Created: 2025-05-16 17:31:14 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-16 17:31:14] [Log] [SYSTEM] Logger initialized
+[2025-05-16 17:31:16] [Log] Client 0 connected
+[2025-05-16 17:31:16] [Log] Host started
+[2025-05-16 17:31:16] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-16 17:31:16] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:41)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-16 17:31:16] [Log] Host failed to start
+[2025-05-16 17:31:16] [Log] Player 0
+[2025-05-16 17:31:45] [Log] Player 1
+[2025-05-16 17:31:45] [Log] Client 1 connected
+[2025-05-16 17:31:47] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:31:47] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:31:47] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:31:48] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:31:49] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:31:49] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:31:53] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:31:56] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:31:56] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:31:56] [Error] 10
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:31:56] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:31:57] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:31:57] [Error] 8
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:31:57] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:31:58] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:31:58] [Error] 6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:31:58] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:31:59] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:31:59] [Error] 4
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:31:59] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:32:00] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:00] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:00] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:00] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:32:00] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:00] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:00] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:01] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:32:01] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:01] [Error] -2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:01] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:02] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:32:02] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:02] [Error] -4
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:02] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:03] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:32:03] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:03] [Error] -6
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:03] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:04] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:32:04] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:04] [Error] -8
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:04] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:05] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:32:05] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:05] [Error] -10
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:05] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:06] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:32:06] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:06] [Error] -12
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:87)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:06] [Error] Client
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthClient (single) (at Assets/Script/Stats/StatsHandler.cs:91)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:81)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:10] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:54)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 17:32:12] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:32:13] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:13] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:32:13] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:14] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:32:14] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:15] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:32:15] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:16] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:32:16] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:16] [Error] Host
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:100)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:97)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:77)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:17] [Error] BulletNetworkSerializable
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:75)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:56)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkMessageManager:ReceiveMessage<Unity.Netcode.ServerRpcMessage> (Unity.Netcode.FastBufferReader,Unity.Netcode.NetworkContext&,Unity.Netcode.NetworkMessageManager) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:582)
+Unity.Netcode.NetworkMessageManager:HandleMessage (Unity.Netcode.NetworkMessageHeader&,Unity.Netcode.FastBufferReader,ulong,single,int) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:446)
+Unity.Netcode.NetworkMessageManager:ProcessIncomingMessageQueue () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/NetworkMessageManager.cs:472)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:49)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkEarlyUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:215)
+
+
+[2025-05-16 17:32:17] [Error] 2
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:43)
+
+
+[2025-05-16 17:32:17] [Error] Host
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:100)
+StatsHandler:__rpc_handler_1411477339 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+StatsHandler:ChangeHealthServerRpc (single) (at Assets/Script/Stats/StatsHandler.cs:97)
+StatsHandler:Injured (single) (at Assets/Script/Stats/StatsHandler.cs:77)
+UnityEngine.Events.UnityEvent`1<single>:Invoke (single)
+CharacterController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Movement/CharacterController.cs:44)
+
+
+[2025-05-16 17:32:33] [Warning] Assets/Script/Movement/PlayerInput.cs(10,18): warning CS0114: 'PlayerInput.Awake()' hides inherited member 'CharacterController.Awake()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+[2025-05-16 17:32:33] [Warning] Assets/Script/Item/ItemController.cs(7,42): warning CS0108: 'ItemController.rigidbody2D' hides inherited member 'Component.rigidbody2D'. Use the new keyword if hiding was intended.
+[2025-05-16 17:32:33] [Warning] Assets/Script/Item/ItemManager.cs(10,45): warning CS0108: 'ItemManager.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-05-16 17:32:33] [Warning] Assets/Script/Attack/BulletManager.cs(7,45): warning CS0108: 'BulletManager.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-05-16 17:32:33] [Warning] Assets/Script/Animation/Animation Controller.cs(10,45): warning CS0108: 'AnimationController.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-05-16 17:32:33] [Warning] Assets/Script/Movement/EnemyController.cs(37,26): warning CS0168: The variable 'e' is declared but never used
+[2025-05-16 17:32:33] [Warning] Assets/Script/Movement/CharacterMovement.cs(12,18): warning CS0414: The field 'CharacterMovement.isDashing' is assigned but its value is never used
+[2025-05-16 17:32:33] [Warning] Assets/Script/Item/ItemManager.cs(16,19): warning CS0414: The field 'ItemManager.timer' is assigned but its value is never used
+[2025-05-16 17:32:33] [Warning] Assets/Script/Movement/CharacterMovement.cs(11,18): warning CS0414: The field 'CharacterMovement.canDash' is assigned but its value is never used
+[2025-05-16 17:32:33] [Warning] Assets/Script/Item/ItemController.cs(13,18): warning CS0414: The field 'ItemController.isSpawned' is assigned but its value is never used
+[2025-05-16 17:32:33] [Warning] Animation/Animation Controller.cs(10,45): warning CS0108: 'AnimationController.particleSystem' hides inherited member 'Component.particleSystem'. Use the new keyword if hiding was intended.
+[2025-05-16 17:32:33] [Warning] Assets/Script/Movement/EnemyController.cs(37,26): warning CS0168: The variable 'e' is declared but never used
+[2025-05-16 17:32:33] [Warning] Assets/Script/Movement/CharacterMovement.cs(12,18): warning CS0414: The field 'CharacterMovement.isDashing' is assigned but its value is never used
+[2025-05-16 17:32:33] [Warning] Assets/Script/Item/ItemManager.cs(16,19): warning CS0414: The field 'ItemManager.timer' is assigned but its value is never used
+[2025-05-16 17:32:33] [Warning] Assets/Script/Movement/CharacterMovement.cs(11,18): warning CS0414: The field 'CharacterMovement.canDash' is assigned but its value is never used
+[2025-05-16 17:32:33] [Warning] Assets/Script/Item/ItemController.cs(13,18): warning CS0414: The field 'ItemController.isSpawned' is assigned but its value is never used

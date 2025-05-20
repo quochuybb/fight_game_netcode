@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6d11cc4b97fa8f3c8390969171cb66f, type: 3}
   m_Name: Bullet
   m_EditorClassIdentifier: 
-  size: 1
+  size: 0.75
   damage: 2
-  speed: 15
+  speed: 10
   delay: 0.5
-  timeExist: 1
-  colorBullet: {r: 1, g: 1, b: 1, a: 1}
+  timeExist: 5
+  bouncing: 0
   multipleBulletAngle: 10
-  numberOfBulletsPerShoot: 2
-  amountOfBullets: 3
+  numberOfBulletsPerShoot: 1

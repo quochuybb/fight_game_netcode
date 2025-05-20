@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1078700980453312694}
   - component: {fileID: 322154580851956231}
   - component: {fileID: -2027935125299555557}
-  - component: {fileID: 1669616873349262685}
   - component: {fileID: -3114586830558089279}
   - component: {fileID: 776034055611043857}
+  - component: {fileID: 1669616873349262685}
   m_Layer: 8
   m_Name: Bullet
   m_TagString: Bullet
@@ -106,7 +106,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3c43e09eeddea206e8d598120427027b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -126,7 +126,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 8904649031339908051}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3c43e09eeddea206e8d598120427027b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2782802079
+  GlobalObjectIdHash: 2704582447
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -173,23 +173,6 @@ MonoBehaviour:
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &1669616873349262685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8904649031339908051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d7608dd2c1ca86a58e5ba07034b67d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody2D: {fileID: 1078700980453312694}
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 128
-  spriteRenderer: {fileID: 252821917062951825}
 --- !u!114 &-3114586830558089279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,7 +202,7 @@ MonoBehaviour:
   UseQuaternionCompression: 0
   UseHalfFloatPrecision: 0
   InLocalSpace: 0
-  Interpolate: 1
+  Interpolate: 0
   SlerpPosition: 0
 --- !u!114 &776034055611043857
 MonoBehaviour:
@@ -233,3 +216,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d7c879794dfda4687da0e400131852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1669616873349262685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8904649031339908051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7608dd2c1ca86a58e5ba07034b67d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rigidbody2D: {fileID: 1078700980453312694}
+  spriteRenderer: {fileID: 252821917062951825}

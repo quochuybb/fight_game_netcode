@@ -1,0 +1,463 @@
+=================================================
+Log File Created: 2025-05-16 16:25:03 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-16 16:25:03] [Log] [SYSTEM] Logger initialized
+[2025-05-16 16:25:14] [Log] Player 0
+[2025-05-16 16:25:14] [Log] Player 1
+[2025-05-16 16:25:16] [Error] (-154.83, -5.93, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:16] [Error] (-154.81, -6.04)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:16] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:16] [Warning] [Netcode] Cannot start Client while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1008)
+UIManager:<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-16 16:25:16] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:22] [Error] (-155.42, -5.89, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:22] [Error] (-155.45, -6.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:24] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:29] [Error] (-152.97, -8.58, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:29] [Error] (-152.86, -8.58)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:30] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:31] [Error] (-153.17, -8.05, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:31] [Error] (-153.08, -7.99)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:31] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:33] [Error] (-153.00, -8.41, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:33] [Error] (-152.89, -8.38)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:33] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:34] [Error] (-152.97, -8.75, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:34] [Error] (-152.86, -8.76)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:34] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:37] [Error] (-154.87, -8.22, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:37] [Error] (-154.97, -8.17)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:37] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:38] [Error] (-154.87, -8.22, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:38] [Error] (-154.97, -8.17)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:40] [Error] (-154.87, -8.22, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:40] [Error] (-154.97, -8.17)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:25:40] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:49] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:50] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:53] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:54] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:55] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:56] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:57] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:25:58] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:26:06] [Error] (-152.97, -8.74, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:06] [Error] (-152.86, -8.74)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:06] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:26:09] [Error] (-153.48, -9.53, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:09] [Error] (-153.43, -9.63)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:09] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:26:10] [Error] (-153.48, -9.53, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:10] [Error] (-153.43, -9.63)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:10] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:26:12] [Error] (-153.48, -9.53, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:12] [Error] (-153.43, -9.63)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:12] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:26:13] [Error] (-153.48, -9.53, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:84)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:13] [Error] (-153.43, -9.63)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:55)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:36)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:23)
+
+
+[2025-05-16 16:26:13] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+

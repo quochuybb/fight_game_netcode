@@ -1,0 +1,48 @@
+=================================================
+Log File Created: 2025-05-15 01:28:49 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-15 01:28:49] [Log] [SYSTEM] Logger initialized
+[2025-05-15 01:28:51] [Log] Client 0 connected
+[2025-05-15 01:28:51] [Log] Host started
+[2025-05-15 01:28:51] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-15 01:28:51] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:38)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-15 01:28:51] [Log] Host failed to start
+[2025-05-15 01:28:51] [Log] Player 0
+[2025-05-15 01:28:54] [Log] 1
+[2025-05-15 01:28:54] [Log] 1
+[2025-05-15 01:28:55] [Log] 1
+[2025-05-15 01:28:56] [Log] 1
+[2025-05-15 01:28:57] [Log] 1
+[2025-05-15 01:28:59] [Log] 1
+[2025-05-15 01:29:00] [Log] 1
+[2025-05-15 01:29:01] [Log] 1
+[2025-05-15 01:29:03] [Log] 1
+[2025-05-15 01:29:05] [Log] 1
+[2025-05-15 01:29:09] [Log] 1
+[2025-05-15 01:29:11] [Log] 1
+[2025-05-15 01:29:11] [Log] 1
+[2025-05-15 01:29:12] [Log] 1
+[2025-05-15 01:29:12] [Log] 1
+[2025-05-15 01:29:14] [Log] 1
+[2025-05-15 01:29:14] [Log] 1
+[2025-05-15 01:29:15] [Log] 1
+[2025-05-15 01:29:15] [Log] 1
+[2025-05-15 01:29:16] [Log] 1
+[2025-05-15 01:29:16] [Log] 1
+[2025-05-15 01:29:18] [Log] Client 0 disconnected

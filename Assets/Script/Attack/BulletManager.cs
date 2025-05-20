@@ -14,7 +14,8 @@ public class BulletManager : NetworkBehaviour
         instance = this;
 
     }
-    
+
+
     [ClientRpc]
     public void CreateEffectDestroyBulletClientRpc(Vector3 position, BulletNetworkSerializable bullet)
     {
@@ -27,28 +28,33 @@ public class BulletManager : NetworkBehaviour
         particleSystem.Play();
     }
 
-    public void RequestDestroyFromBullet(NetworkObject networkObject)
+    public void RequestDestroyFromBullet(NetworkObject networkObject,BulletNetworkSerializable bullet)
     {
         this.bulletNetworkObject = networkObject;
-        DestroyBulletServerRpc();
+        DestroyBulletServerRpc(bullet);
     }
 
     [ServerRpc]
-    public void DestroyBulletServerRpc()
+    public void DestroyBulletServerRpc(BulletNetworkSerializable bullet)
     {
         if (bulletNetworkObject.IsSpawned)
         {
+            CreateEffectDestroyBulletClientRpc(bulletNetworkObject.transform.position, bullet);
             bulletNetworkObject.Despawn();
+
         }
         if (!bulletNetworkObject.gameObject.activeInHierarchy)
         {
             return;
         }
+        CreateEffectDestroyBulletClientRpc(bulletNetworkObject.transform.position, bullet);
         NetworkPooling.Singleton.ReturnNetworkObject(this.bulletNetworkObject,bulletPrefab);
+
     }
     [ServerRpc(RequireOwnership = false)]
     public void ShootBulletServerRpc(Vector2 startPos, Quaternion rotation, BulletNetworkSerializable bulletNetwork, Vector2 direction)
     {
+        
         NetworkObject bullet = NetworkPooling.Singleton.GetNetworkObject(bulletPrefab,startPos, rotation);
         BulletController bulletController = bullet.gameObject.GetComponent<BulletController>();
         bulletController.InitConfigBullet(bulletNetwork,direction);

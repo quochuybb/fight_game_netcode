@@ -11,12 +11,12 @@ public class BulletNetworkSerializable : IEquatable<BulletNetworkSerializable>,I
     public float speed;
     public float delay;
     public float timeExist;
-    public Color colorBullet;
+    public float bouncing;
     public float multipleBulletAngle;
     public float numberOfBulletsPerShoot;
     public bool Equals(BulletNetworkSerializable other)
     {
-        return size == other.size && damage == other.damage && speed == other.speed && delay == other.delay && timeExist == other.timeExist && colorBullet == other.colorBullet 
+        return size == other.size && damage == other.damage && speed == other.speed && delay == other.delay && timeExist == other.timeExist && bouncing == other.bouncing 
                && multipleBulletAngle == other.multipleBulletAngle && numberOfBulletsPerShoot==other.numberOfBulletsPerShoot;
     }
 
@@ -30,7 +30,7 @@ public class BulletNetworkSerializable : IEquatable<BulletNetworkSerializable>,I
     }
     public override int GetHashCode()
     {
-        return HashCode.Combine(size, damage, speed, delay, timeExist, colorBullet,numberOfBulletsPerShoot, multipleBulletAngle);
+        return HashCode.Combine(size, damage, speed, delay, timeExist, bouncing,numberOfBulletsPerShoot, multipleBulletAngle);
     }
 
     public static bool operator ==(BulletNetworkSerializable left, BulletNetworkSerializable right)
@@ -50,7 +50,7 @@ public class BulletNetworkSerializable : IEquatable<BulletNetworkSerializable>,I
         serializer.SerializeValue(ref speed);
         serializer.SerializeValue(ref delay);
         serializer.SerializeValue(ref timeExist);
-        serializer.SerializeValue(ref colorBullet);
+        serializer.SerializeValue(ref bouncing);
         serializer.SerializeValue(ref multipleBulletAngle);
         serializer.SerializeValue(ref numberOfBulletsPerShoot);
     }

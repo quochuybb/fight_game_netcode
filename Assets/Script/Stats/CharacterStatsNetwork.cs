@@ -3,15 +3,16 @@ using Unity.Netcode;
 
 public class CharacterStatsNetwork : IEquatable<CharacterStatsNetwork>,INetworkSerializable
 {
+    public float alive;
     public float healthPoint;
-    public float damagePercentage;
+    public float gut;
     public float speedMove;
     public float armor;
-    public bool isPoisoning;
-    public bool isBurning;
+    public float poison;
+    public float burn;
     public bool Equals(CharacterStatsNetwork other)
     {
-        return healthPoint == other.healthPoint && damagePercentage == other.damagePercentage && speedMove == other.speedMove && armor == other.armor && isPoisoning == other.isPoisoning;
+        return healthPoint == other.healthPoint && gut == other.gut && speedMove == other.speedMove && armor == other.armor && poison == other.poison && burn == other.burn && alive == other.alive;
     }
 
     public override bool Equals(object obj)
@@ -24,7 +25,7 @@ public class CharacterStatsNetwork : IEquatable<CharacterStatsNetwork>,INetworkS
     }
     public override int GetHashCode()
     {
-        return HashCode.Combine(healthPoint, damagePercentage, speedMove, armor, isPoisoning, isBurning);
+        return HashCode.Combine(healthPoint, gut, speedMove, armor, poison, burn, alive);
     }
 
     public static bool operator ==(CharacterStatsNetwork left, CharacterStatsNetwork right)
@@ -38,11 +39,12 @@ public class CharacterStatsNetwork : IEquatable<CharacterStatsNetwork>,INetworkS
     }
     public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
     {
+        serializer.SerializeValue(ref alive);
         serializer.SerializeValue(ref healthPoint);
-        serializer.SerializeValue(ref damagePercentage);
+        serializer.SerializeValue(ref gut);
         serializer.SerializeValue(ref speedMove);
         serializer.SerializeValue(ref armor);
-        serializer.SerializeValue(ref isPoisoning);
-        serializer.SerializeValue(ref isBurning);
+        serializer.SerializeValue(ref poison);
+        serializer.SerializeValue(ref burn);
     }
 }

@@ -1,0 +1,478 @@
+=================================================
+Log File Created: 2025-05-12 22:05:05 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-12 22:05:05] [Log] [SYSTEM] Logger initialized
+[2025-05-12 22:05:30] [Log] Client 0 connected
+[2025-05-12 22:05:30] [Log] Host started
+[2025-05-12 22:05:30] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-12 22:05:30] [Log] Player 0
+[2025-05-12 22:05:31] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:38)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-12 22:05:31] [Log] Host failed to start
+[2025-05-12 22:05:31] [Error] (-154.15, -11.04, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:32] [Error] (-155.01, -16.50, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:Update () (at Assets/Script/Attack/BulletController.cs:28)
+
+
+[2025-05-12 22:05:32] [Log] Player 1
+[2025-05-12 22:05:33] [Log] Client 1 connected
+[2025-05-12 22:05:38] [Error] (-158.89, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:38] [Error] (-159.41, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:41] [Error] (-158.89, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:41] [Error] (-159.41, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:43] [Error] (-158.94, -2.01, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:43] [Error] (-158.42, -2.05, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:44] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:44] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:45] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:45] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:46] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:46] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:46] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:46] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:47] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:47] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:48] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:48] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:48] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:48] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:49] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:49] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:49] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:49] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:49] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:49] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:50] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:50] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:51] [Error] (-159.16, -2.02, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:51] [Error] (-158.63, -2.03, 0.00)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:41)
+BulletManager:__rpc_handler_1090058274 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:DestroyBulletServerRpc (BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:38)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:32)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:62)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:38)
+
+
+[2025-05-12 22:05:52] [Log] Client 1 disconnected
+[2025-05-12 22:05:54] [Log] Client 0 disconnected

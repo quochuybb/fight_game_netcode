@@ -1,0 +1,151 @@
+=================================================
+Log File Created: 2025-05-16 20:46:55 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-16 20:46:55] [Log] [SYSTEM] Logger initialized
+[2025-05-16 20:47:05] [Log] Client 0 connected
+[2025-05-16 20:47:05] [Log] Host started
+[2025-05-16 20:47:05] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-16 20:47:05] [Log] Player 0
+[2025-05-16 20:47:06] [Warning] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkVariableBase:MarkNetworkBehaviourDirty () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:196)
+Unity.Netcode.NetworkVariableBase:SetDirty (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:169)
+Unity.Netcode.NetworkVariable`1<BulletNetworkSerializable>:set_Value (BulletNetworkSerializable) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:104)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:145)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:61)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:59)
+Shooting:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/Shooting.cs:87)
+Shooting:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/Shooting.cs:68)
+Shooting:OnShooting () (at Assets/Script/Attack/Shooting.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:31)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:22)
+
+
+[2025-05-16 20:47:06] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:41)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-16 20:47:06] [Log] Host failed to start
+[2025-05-16 20:47:07] [Error] 1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:07] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:07] [Error] Test
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:33)
+BulletController:DestroyBullet () (at Assets/Script/Attack/BulletController.cs:160)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:89)
+
+
+[2025-05-16 20:47:10] [Log] Player 1
+[2025-05-16 20:47:10] [Log] Client 1 connected
+[2025-05-16 20:47:12] [Error] 1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:12] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:12] [Error] Test
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:33)
+BulletController:DestroyBullet () (at Assets/Script/Attack/BulletController.cs:160)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:89)
+
+
+[2025-05-16 20:47:14] [Error] 1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:15] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:15] [Error] Test
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:33)
+BulletController:DestroyBullet () (at Assets/Script/Attack/BulletController.cs:160)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:89)
+
+
+[2025-05-16 20:47:16] [Error] 1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:16] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:16] [Error] Test
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:33)
+BulletController:DestroyBullet () (at Assets/Script/Attack/BulletController.cs:160)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:89)
+
+
+[2025-05-16 20:47:17] [Error] 1
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:18] [Error] 0
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:84)
+
+
+[2025-05-16 20:47:18] [Error] Test
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletManager:RequestDestroyFromBullet (Unity.Netcode.NetworkObject,BulletNetworkSerializable) (at Assets/Script/Attack/BulletManager.cs:33)
+BulletController:DestroyBullet () (at Assets/Script/Attack/BulletController.cs:160)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:89)
+
+
+[2025-05-16 20:47:20] [Log] Client 1 disconnected
+[2025-05-16 20:47:21] [Log] Client 0 disconnected

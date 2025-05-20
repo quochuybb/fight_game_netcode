@@ -12,6 +12,7 @@ public class ItemManager : NetworkBehaviour
     private NetworkObject itemNetworkObject;
     [SerializeField] private List<Item> items;
     private List<ItemNetworkSerializable> listItemNetworkSerializables = new List<ItemNetworkSerializable>();
+    [SerializeField] private List<ChestController> _listChestController;
     private float timer;
 
 
@@ -23,6 +24,10 @@ public class ItemManager : NetworkBehaviour
 
     private void Start()
     {
+        foreach (var chestController in _listChestController)
+        {
+            chestController.onOpenChest.AddListener(OpenChest);
+        }
         foreach (var item in items)
         {
             listItemNetworkSerializables.Add(item.Mapping());
@@ -38,23 +43,15 @@ public class ItemManager : NetworkBehaviour
         }
         
     }
-    public Vector2 GetRandomPosition()
-    {
-        float randomX = Random.Range(-5f, 5f);
-        float randomY = Random.Range(-5f, 5f);
-        return new Vector2(randomX, randomY);
-    }
 
-    private void Update()
+    public void OpenChest(Transform chestTransform)
     {
-        timer += Time.deltaTime;
-        if (timer > 10f)
-        {
-            timer = 0f;
-            int randomIndex = Random.Range(0, listItemNetworkSerializables.Count);
-            ItemNetworkSerializable itemNetworkSerializable = listItemNetworkSerializables[randomIndex];
-            SpawnItemServerRpc(GetRandomPosition(),transform.rotation,itemNetworkSerializable);
-        }
+        float randomX = Random.Range(chestTransform.position.x-1f, chestTransform.position.x+1f);
+        float randomY = Random.Range(chestTransform.position.y-1f, chestTransform.position.y+1f);
+        Vector3 spanwItem = new Vector3(randomX, randomY, chestTransform.position.z);
+        int randomIndex = Random.Range(0, listItemNetworkSerializables.Count);
+        ItemNetworkSerializable itemNetworkSerializable = listItemNetworkSerializables[randomIndex];
+        SpawnItemServerRpc(spanwItem,transform.rotation,itemNetworkSerializable);
     }
     [ClientRpc]
     public void CreateEffectDestroyItemClientRpc(Vector3 position)

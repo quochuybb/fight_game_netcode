@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemID: item13
   itemName: question
-  nameStatsBuff: damage
-  statsBuff: 5
+  nameStatsBuff: bouncing
+  statsBuff: 1
   typeBuff: 1

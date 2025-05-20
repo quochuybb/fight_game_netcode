@@ -1,0 +1,162 @@
+=================================================
+Log File Created: 2025-05-16 16:29:25 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-16 16:29:25] [Log] [SYSTEM] Logger initialized
+[2025-05-16 16:29:42] [Log] Player 0
+[2025-05-16 16:29:42] [Log] Player 1
+[2025-05-16 16:29:44] [Warning] [Netcode] Cannot start Client while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartClient () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1008)
+UIManager:<Start>b__8_1 () (at Assets/Script/UI/UIManager.cs:58)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-16 16:29:44] [Error] Bullet(Clone) (Unity.Netcode.NetworkObject)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:124)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:125)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:127)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+CharacterController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-16 16:29:44] [Error] Bullet(Clone) (Unity.Netcode.NetworkObject)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:124)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:125)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:127)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Error] Bullet(Clone) (Unity.Netcode.NetworkObject)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:124)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:125)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:127)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:44] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+CharacterController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Movement/CharacterController.cs:47)
+
+
+[2025-05-16 16:29:45] [Error] Bullet(Clone) (Unity.Netcode.NetworkObject)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:45] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:124)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:45] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:125)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:45] [Exception] NullReferenceException: Object reference not set to an instance of an object
+Stack Trace:
+BulletController.DestroyBullet (UnityEngine.Vector3 pos) (at Assets/Script/Attack/BulletController.cs:127)
+BulletController.OnTriggerEnter2D (UnityEngine.Collider2D other) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:49] [Error] Bullet(Clone) (Unity.Netcode.NetworkObject)
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:123)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:49] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:124)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+
+[2025-05-16 16:29:49] [Error] Null
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+BulletController:DestroyBullet (UnityEngine.Vector3) (at Assets/Script/Attack/BulletController.cs:125)
+BulletController:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/Script/Attack/BulletController.cs:97)
+
+

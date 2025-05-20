@@ -1,0 +1,67 @@
+=================================================
+Log File Created: 2025-05-08 18:57:34 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-05-08 18:57:34] [Log] [SYSTEM] Logger initialized
+[2025-05-08 18:57:36] [Log] Client 0 connected
+[2025-05-08 18:57:36] [Log] Host started
+[2025-05-08 18:57:36] [Log] Lobby code: 127.0.0.1:7777
+[2025-05-08 18:57:36] [Log] Player 0
+[2025-05-08 18:57:37] [Warning] [Netcode] Cannot start Host while an instance is already running
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkLog:LogWarning (string) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Logging/NetworkLog.cs:28)
+Unity.Netcode.NetworkManager:CanStart (Unity.Netcode.NetworkManager/StartType) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:918)
+Unity.Netcode.NetworkManager:StartHost () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1051)
+UIManager:<Start>b__8_0 () (at Assets/Script/UI/UIManager.cs:38)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:530)
+
+
+[2025-05-08 18:57:37] [Log] Host failed to start
+[2025-05-08 18:57:52] [Error] OpenChest
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemManager:OpenChest (UnityEngine.Transform) (at Assets/Script/Item/ItemManager.cs:49)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Transform>:Invoke (UnityEngine.Transform)
+ChestController:Update () (at Assets/Script/Item/ChestController.cs:22)
+
+
+[2025-05-08 18:57:59] [Error] OpenChest
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemManager:OpenChest (UnityEngine.Transform) (at Assets/Script/Item/ItemManager.cs:49)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Transform>:Invoke (UnityEngine.Transform)
+ChestController:Update () (at Assets/Script/Item/ChestController.cs:22)
+
+
+[2025-05-08 18:58:00] [Error] OpenChest
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemManager:OpenChest (UnityEngine.Transform) (at Assets/Script/Item/ItemManager.cs:49)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Transform>:Invoke (UnityEngine.Transform)
+ChestController:Update () (at Assets/Script/Item/ChestController.cs:22)
+
+
+[2025-05-08 18:58:04] [Error] OpenChest
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemManager:OpenChest (UnityEngine.Transform) (at Assets/Script/Item/ItemManager.cs:49)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Transform>:Invoke (UnityEngine.Transform)
+ChestController:Update () (at Assets/Script/Item/ChestController.cs:22)
+
+
+[2025-05-08 18:58:09] [Error] OpenChest
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+ItemManager:OpenChest (UnityEngine.Transform) (at Assets/Script/Item/ItemManager.cs:49)
+UnityEngine.Events.UnityEvent`1<UnityEngine.Transform>:Invoke (UnityEngine.Transform)
+ChestController:Update () (at Assets/Script/Item/ChestController.cs:22)
+
+
+[2025-05-08 18:58:20] [Log] Client 0 disconnected
