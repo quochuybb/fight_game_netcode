@@ -10,6 +10,8 @@ public class MenuTransition : NetworkBehaviour
 {
     public static MenuTransition instance;
     [SerializeField] private RectTransform Online;
+    [SerializeField] private RectTransform MainMenu;
+    [SerializeField] private RectTransform Options;
     [SerializeField] private RectTransform Setting;
     private UnityEvent OnOpenSettings = new UnityEvent();
     public UnityEvent onOpenSettings => OnOpenSettings;
@@ -20,26 +22,49 @@ public class MenuTransition : NetworkBehaviour
         onOpenSettings.AddListener(OpenSettingButtonPressed);
     }
 
-    public void OnlineButtonPressed()
+    public void OpenOnlineScreen()
     {
-        MovePanelServerRpc();
-    }
-    public void JoinButtonPressed()
-    {
-        MovePanelServerRpc();
-    }
-    [ServerRpc(RequireOwnership = false)]
-    private void MovePanelServerRpc(ServerRpcParams rpcParams = default)
-    {
-        MovePanelClientRpc();
+        Debug.Log("Open Online Screen");
+        MovePanelToOpenOnlineScreen();
     }
 
-    [ClientRpc]
-    private void MovePanelClientRpc(ClientRpcParams rpcParams = default)
+    private void MovePanelToOpenOnlineScreen(ClientRpcParams rpcParams = default)
     {
-        Online.DOAnchorPos(new Vector2(0,2000), 1, false);
-
+        MainMenu.DOAnchorPos(new Vector2(0,-2000), 1.5f, false);
+        Online.DOAnchorPos(new Vector2(0,0), 1.5f, false);
     }
+    
+    public void BackToMainMenuFromOnlineScreen()
+    {
+        MovePanelOnlineBackMainMenu();
+    }
+    private void MovePanelOnlineBackMainMenu(ClientRpcParams rpcParams = default)
+    {
+        MainMenu.DOAnchorPos(new Vector2(0,0), 1.5f, false);
+        Online.DOAnchorPos(new Vector2(2000,0), 1.5f, false);
+    }
+    
+    public void OpenOptionsScreen()
+    {
+        MovePanelToOpenOptionsScreen();
+    }
+    private void MovePanelToOpenOptionsScreen(ClientRpcParams rpcParams = default)
+    {
+        MainMenu.DOAnchorPos(new Vector2(0,-2000), 1.5f, false);
+        Options.DOAnchorPos(new Vector2(0,0), 1.5f, false);
+    }
+    
+    public void BackToMainMenuFromOptionsScreen()
+    {
+        MovePanelOptionsBackMainMenu();
+    }
+    private void MovePanelOptionsBackMainMenu(ClientRpcParams rpcParams = default)
+    {
+        MainMenu.DOAnchorPos(new Vector2(0,0), 1.5f, false);
+        Options.DOAnchorPos(new Vector2(2000,0), 1.5f, false);
+    }
+    
+    
     public void QuitGameButtonPressed()
     {
         MovePanelBackServerRpc();
@@ -80,4 +105,5 @@ public class MenuTransition : NetworkBehaviour
             Setting.gameObject.SetActive(true);
         }
     }
+    
 }

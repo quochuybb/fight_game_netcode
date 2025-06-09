@@ -1,0 +1,36 @@
+=================================================
+Log File Created: 2025-06-03 20:10:55 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.14 Garuda Linux  64bit
+=================================================
+
+[2025-06-03 20:10:55] [Log] [SYSTEM] Logger initialized
+[2025-06-03 20:10:55] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 200/125. Use DOTween.SetTweensCapacity to set it manually at startup
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogWarning (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:40)
+DG.Tweening.Core.TweenManager:GetSequence () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:138)
+DG.Tweening.DOTween:Sequence () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:733)
+TitleRectMaskEffect:AnimateTriangle (UnityEngine.RectTransform) (at Assets/Script/UI/TitleRectMaskEffect.cs:115)
+TitleRectMaskEffect:SpawnTriangle (UnityEngine.Vector2) (at Assets/Script/UI/TitleRectMaskEffect.cs:94)
+TitleRectMaskEffect:Start () (at Assets/Script/UI/TitleRectMaskEffect.cs:41)
+
+
+[2025-06-03 20:10:57] [Warning] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/125 to 500/125. Use DOTween.SetTweensCapacity to set it manually at startup
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+DG.Tweening.Core.Debugger:LogWarning (object,DG.Tweening.Tween) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/Debugger.cs:40)
+DG.Tweening.Core.TweenManager:GetTweener<UnityEngine.Vector2, UnityEngine.Vector2, DG.Tweening.Plugins.Options.VectorOptions> () (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/Core/TweenManager.cs:109)
+DG.Tweening.DOTween:ApplyTo<UnityEngine.Vector2, UnityEngine.Vector2, DG.Tweening.Plugins.Options.VectorOptions> (DG.Tweening.Core.DOGetter`1<UnityEngine.Vector2>,DG.Tweening.Core.DOSetter`1<UnityEngine.Vector2>,UnityEngine.Vector2,single,DG.Tweening.Plugins.Core.ABSTweenPlugin`3<UnityEngine.Vector2, UnityEngine.Vector2, DG.Tweening.Plugins.Options.VectorOptions>) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:1139)
+DG.Tweening.DOTween:To (DG.Tweening.Core.DOGetter`1<UnityEngine.Vector2>,DG.Tweening.Core.DOSetter`1<UnityEngine.Vector2>,UnityEngine.Vector2,single) (at D:/DG/_Develop/__UNITY_ASSETS/_Demigiant/__DOTween/_DOTween.Assembly/DOTween/DOTween.cs:417)
+DG.Tweening.DOTweenModuleUI:DOAnchorPos (UnityEngine.RectTransform,UnityEngine.Vector2,single,bool) (at Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs:210)
+TitleRectMaskEffect:AnimateTriangle (UnityEngine.RectTransform) (at Assets/Script/UI/TitleRectMaskEffect.cs:116)
+TitleRectMaskEffect:SpawnTriangle (UnityEngine.Vector2) (at Assets/Script/UI/TitleRectMaskEffect.cs:94)
+TitleRectMaskEffect/<SpawnTrianglesGradually>d__12:MoveNext () (at Assets/Script/UI/TitleRectMaskEffect.cs:52)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+
