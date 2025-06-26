@@ -32,17 +32,15 @@ public class UIManager : NetworkBehaviour
     private void Update()
     {
         idLobby.text = joinCode;
-
-
     }
 
     private void Start()
     {
-        var host = Dns.GetHostEntry(Dns.GetHostName());
-        joinCode = host.AddressList[0].ToString();
+        var host = Dns.GetHostEntry(Dns.GetHostName()); // List IP connect Router
+        joinCode = host.AddressList[0].ToString(); // IP private PC User
         startHostButton.onClick.AddListener(() =>
         {
-            if (NetworkManager.Singleton.StartHost())
+            if (NetworkManager.Singleton.StartHost()) // Start Host in PC user
             {
                 
             }

@@ -4,7 +4,7 @@ public class VillageController : EnemyController
 {
     public override void FixedUpdate()
     {
-        lastTimeAttack += Time.fixedDeltaTime;
+        LastTimeAttack += Time.fixedDeltaTime;
         if (DistanceToTarget(FindClean()) > DistanceToTarget(FindPlayer()) && gameObject.tag != "Clean")
         {
             target = FindPlayer();
@@ -21,13 +21,13 @@ public class VillageController : EnemyController
         }
         if (CanSeeObject(target) && gameObject.tag != "Clean")
         {
-            onLookEvent.Invoke(DirectionToTarget(target));
-            onMoveEvent.Invoke(DirectionToTarget(target) * 0.5f);
+            OnLookEvent.Invoke(DirectionToTarget(target));
+            OnMoveEvent.Invoke(DirectionToTarget(target) * 0.5f);
         }
         else
         {
-            onMoveEvent.Invoke(DirectionToTarget(target) * 0.3f);
-            onLookEvent.Invoke(DirectionToTarget(target));
+            OnMoveEvent.Invoke(DirectionToTarget(target) * 0.3f);
+            OnLookEvent.Invoke(DirectionToTarget(target));
         }
     }
 

@@ -17,9 +17,6 @@ public class BulletController : NetworkBehaviour
     private CircleCollider2D col2D;
     private ContactFilter2D filter;
     private List<RaycastHit2D> results = new List<RaycastHit2D>();
-    
-    
-
 
     private void Awake()
     {

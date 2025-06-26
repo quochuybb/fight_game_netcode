@@ -16,7 +16,7 @@ public class PlayerInput : CharacterController
     public void OnMovement(InputValue value)
     {
         Vector2 direction = value.Get<Vector2>();
-        onMoveEvent.Invoke(direction);
+        OnMoveEvent.Invoke(direction);
 
     }
 
@@ -31,12 +31,12 @@ public class PlayerInput : CharacterController
 
         if (direction.magnitude >= 0.9f)
         {
-            onLookEvent.Invoke(direction);
+            OnLookEvent.Invoke(direction);
         }
     }
     public void OnAttackMelee(InputValue value)
     {
-        useMelee = value.isPressed;
+        //useMelee = value.isPressed;
     }
 
     public void OnAttackRange(InputValue value)
@@ -46,12 +46,12 @@ public class PlayerInput : CharacterController
 
     public void OnThrowItem(InputValue value)
     {
-        canThrow = value.isPressed;
+        //canThrow = value.isPressed;
     }
 
     public void OnDash(InputValue value)
     {
-        onDash.Invoke();
+        base.OnDash.Invoke();
     }
 
     public void OnSetting(InputValue value)

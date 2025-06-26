@@ -1,27 +1,27 @@
 using System.Collections;
 using Unity.Netcode;
 using UnityEngine;
-using Random = System.Random;
 
 public class CharacterMovement : NetworkBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
     private Vector2 movement = Vector2.zero;
     private CharacterController characterController;
-    private bool canDash = true;
+    private bool canDash;
     private bool isDashing;
-    private float dashDuration = 0.25f;
-    private float dashPower = 5f;
+    private readonly float dashDuration = 0.25f;
+    private readonly float dashPower = 5f;
     [SerializeField] private TrailRenderer dashTrail;
-    private NetworkVariable<Vector2> networkPosition = new NetworkVariable<Vector2>(); 
+    private NetworkVariable<Vector2> _networkPosition = new NetworkVariable<Vector2>(); 
     private float lastServerSyncTime;
     private float lastNetworkUpdate;
-    private const float NETWORK_UPDATE_INTERVAL = 0.001f; 
+    private const float NetworkUpdateInterval = 0.001f; 
     [SerializeField] private Transform spawnTransform;
     [SerializeField] private StatsHandler statsHandler;
     
     private void Awake()
     {
+        canDash = true;
         characterController = GetComponent<CharacterController>();
         rb = GetComponent<Rigidbody2D>();
         if (rb == null)
@@ -37,9 +37,9 @@ public class CharacterMovement : NetworkBehaviour
     }
     private void Start()
     {
-        networkPosition.OnValueChanged += OnNetworkPositionChanged;
-        characterController.onMoveEvent.AddListener(OnMove);
-        characterController.onDash.AddListener(RequestDashServerRpc);
+        _networkPosition.OnValueChanged += OnNetworkPositionChanged;
+        characterController.OnMoveEvent.AddListener(OnMove);
+        characterController.OnDash.AddListener(RequestDashServerRpc);
     }
 
     public override void OnNetworkSpawn()
@@ -69,21 +69,21 @@ public class CharacterMovement : NetworkBehaviour
         transform.position = newValue;
     } 
 
-    private void HandleOwnerMovement(Vector2 movement)
+    private void HandleOwnerMovement(Vector2 movementVel)
     {
 
-        Vector2 moveVelocity = movement;
+        Vector2 moveVelocity;
         if (IsServer)
         {
-            moveVelocity = movement * statsHandler.currentStatsNetworkVariableHost.Value.speedMove;
+            moveVelocity = movementVel * statsHandler.currentStatsNetworkVariableHost.Value.speedMove;
 
         }
         else
         {
-            moveVelocity = movement * statsHandler.currentStatsNetworkVariableClient.Value.speedMove;
+            moveVelocity = movementVel * statsHandler.currentStatsNetworkVariableClient.Value.speedMove;
         }
         rb.velocity = moveVelocity;
-        if (Time.time - lastNetworkUpdate >= NETWORK_UPDATE_INTERVAL)
+        if (Time.time - lastNetworkUpdate >= NetworkUpdateInterval)
         {
 
             lastNetworkUpdate = Time.time;
@@ -95,18 +95,18 @@ public class CharacterMovement : NetworkBehaviour
     {
         transform.position = Vector2.Lerp(
             transform.position, 
-            networkPosition.Value, 
+            _networkPosition.Value, 
             Time.deltaTime * 15f
         );
     }
 
-    private void OnMove(Vector2 movement)
+    private void OnMove(Vector2 movementInput)
     {
 
-        this.movement = movement;
+        this.movement = movementInput;
         if (IsOwner)
         {
-            HandleOwnerMovement(movement);
+            HandleOwnerMovement(movementInput);
         }
         else
         {
@@ -115,16 +115,17 @@ public class CharacterMovement : NetworkBehaviour
 
     }
     [ServerRpc]
-    private void UpdatePositionServerRpc(Vector2 newPosition, ServerRpcParams serverRpcParams = default)
+    private void UpdatePositionServerRpc(Vector2 newPosition)
     {
-        networkPosition.Value = newPosition;
+
+
+        _networkPosition.Value = newPosition;
         transform.position = newPosition;
         UpdatePositionClientRpc(newPosition);
     }
     [ClientRpc]
     private void UpdatePositionClientRpc(Vector2 newPosition)
     {
-
         transform.position = newPosition;
         
     }
@@ -137,7 +138,7 @@ public class CharacterMovement : NetworkBehaviour
     }
 
     [ClientRpc]
-    private void PerformDashClientRpc(ClientRpcParams rpcParams = default)
+    private void PerformDashClientRpc()
     {
         if (!IsOwner) return;
 

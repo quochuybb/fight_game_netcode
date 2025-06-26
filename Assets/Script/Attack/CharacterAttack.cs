@@ -2,7 +2,7 @@ using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Shooting : NetworkBehaviour
+public class CharacterAttack : NetworkBehaviour
 {
     [SerializeField] private Transform firePoint;
     private CharacterController controller;
@@ -28,8 +28,8 @@ public class Shooting : NetworkBehaviour
 
         if (IsOwner)
         {
-            controller.onAttackGunEvent.AddListener(OnShooting);
-            controller.onLookEvent.AddListener(OnLookMouse);
+            controller.OnAttackGunEvent.AddListener(OnShooting);
+            controller.OnLookEvent.AddListener(OnLookMouse);
         }
         
     }

@@ -19,9 +19,9 @@ public class AnimationController : NetworkBehaviour
 
     private void Start()
     {
-        CharacterController.onMoveEvent.AddListener(Move);
-        CharacterController.onMoveEvent.AddListener(Dust);
-        CharacterController.onDamgeEvent.AddListener(Hurt);
+        CharacterController.OnMoveEvent.AddListener(Move);
+        CharacterController.OnMoveEvent.AddListener(Dust);
+        CharacterController.OnDamgeEvent.AddListener(Hurt);
     }
 
     private void Move(Vector2 movement)

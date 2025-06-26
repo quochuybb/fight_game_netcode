@@ -5,17 +5,14 @@ using UnityEngine.Events;
 public class CharacterController : NetworkBehaviour
 {
     public bool useGun;
-    public bool useMelee;
-    public bool canThrow = false;
     private float lastTimeShoot;
-    protected float lastTimeAttack = 0;
-    public static readonly ServerRpcParams DefaultServerRpcParams = new ServerRpcParams();
+    protected float LastTimeAttack = 0;
+    private static readonly ServerRpcParams DefaultServerRpcParams = new ServerRpcParams();
 
 
     public virtual void Awake()
     {
         useGun = false;
-        useMelee = false;
     }
     public virtual void Update()
     {
@@ -23,12 +20,12 @@ public class CharacterController : NetworkBehaviour
 
     }
 
-    public void HandleDelayTime()
+    private void HandleDelayTime()
     {
         if (useGun)
         {
             useGun = false;
-            onAttackGunEvent.Invoke();
+            OnAttackGunEvent.Invoke();
         }
     }
 
@@ -40,7 +37,7 @@ public class CharacterController : NetworkBehaviour
             BulletController bulletController = other.gameObject.GetComponent<BulletController>();
             if (bulletController != null)
             {
-                onDamgeEvent.Invoke(bulletController.GetDamage());
+                OnDamgeEvent.Invoke(bulletController.GetDamage());
             }
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("TelePort"))
@@ -49,7 +46,7 @@ public class CharacterController : NetworkBehaviour
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("Item"))
         {
-            onBuffEvent.Invoke(other.gameObject.GetComponent<ItemController>().GetConfig(),DefaultServerRpcParams);
+            OnBuffEvent.Invoke(other.gameObject.GetComponent<ItemController>().GetConfig(),DefaultServerRpcParams);
         }
         
     }
@@ -58,20 +55,20 @@ public class CharacterController : NetworkBehaviour
     private readonly LookEvent _lookEvent = new LookEvent();
     private readonly AttackGunEvent _attackGun = new AttackGunEvent();
     private readonly ThrowEvent _throwEvent = new ThrowEvent();
-    private UnityEvent OnClean = new UnityEvent();
-    private UnityEvent OnHealthChanged = new UnityEvent();
-    private UnityEvent<float> OnDamge  = new UnityEvent<float>();
-    private UnityEvent _onDash = new UnityEvent();
+    private readonly UnityEvent _onDie = new UnityEvent();
+    private readonly UnityEvent _onHealthChanged = new UnityEvent();
+    private readonly UnityEvent<float> _onDamge  = new UnityEvent<float>();
+    private readonly UnityEvent _onDash = new UnityEvent();
     private readonly BuffEvent _onBuff = new BuffEvent();
     
 
-    public ThrowEvent onThrow => _throwEvent;
-    public UnityEvent onDash => _onDash;
-    public AttackGunEvent onAttackGunEvent => _attackGun;
-    public MoveEvent onMoveEvent => _moveEvent;
-    public LookEvent onLookEvent => _lookEvent;
-    public UnityEvent onCleanEvent => OnClean;
-    public UnityEvent onHealthChangedEvent => OnHealthChanged;
-    public UnityEvent<float> onDamgeEvent => OnDamge;
-    public BuffEvent onBuffEvent => _onBuff;
+    public ThrowEvent OnThrow => _throwEvent;
+    public UnityEvent OnDash => _onDash;
+    public AttackGunEvent OnAttackGunEvent => _attackGun;
+    public MoveEvent OnMoveEvent => _moveEvent;
+    public LookEvent OnLookEvent => _lookEvent;
+    public UnityEvent OnDieEvent => _onDie;
+    public UnityEvent OnHealthChangedEvent => _onHealthChanged;
+    public UnityEvent<float> OnDamgeEvent => _onDamge;
+    public BuffEvent OnBuffEvent => _onBuff;
 }

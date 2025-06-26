@@ -23,7 +23,7 @@ public class RotateCharacter : NetworkBehaviour
     {
         if (IsOwner)
         {
-            player.onLookEvent.AddListener(OnLookMouse);
+            player.OnLookEvent.AddListener(OnLookMouse);
         }
         networkAimDirection.OnValueChanged += HandleAimDirectionChanged;
     }

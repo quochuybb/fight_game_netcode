@@ -26,8 +26,8 @@ public class StatsHandler : NetworkBehaviour
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
-        _characterController.onDamgeEvent.AddListener(Injured);
-        _characterController.onBuffEvent.AddListener(BuffStats);
+        _characterController.OnDamgeEvent.AddListener(Injured);
+        _characterController.OnBuffEvent.AddListener(BuffStats);
 
     }
     public override void OnNetworkSpawn()

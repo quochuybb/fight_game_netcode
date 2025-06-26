@@ -15,7 +15,7 @@ public class EnemyController : CharacterController
 
     private void Start()
     {
-        onCleanEvent.AddListener(Clean);
+        OnDieEvent.AddListener(Clean);
     }
 
     public virtual void FixedUpdate()

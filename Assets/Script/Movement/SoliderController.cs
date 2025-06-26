@@ -4,7 +4,7 @@ public class SoliderController : EnemyController
 {
     public override void FixedUpdate()
     {
-        lastTimeAttack += Time.fixedDeltaTime;
+        LastTimeAttack += Time.fixedDeltaTime;
         if (DistanceToTarget(FindClean()) > DistanceToTarget(FindPlayer()) && gameObject.tag != "Clean")
         {
             target = FindPlayer();
@@ -24,28 +24,28 @@ public class SoliderController : EnemyController
 
             if (DistanceToTarget(target) < 7f && gameObject.layer == LayerMask.NameToLayer("Enemy"))
             {
-                if (lastTimeAttack >= 0.5f)
+                if (LastTimeAttack >= 0.5f)
                 {
-                    lastTimeAttack = 0f;
+                    LastTimeAttack = 0f;
                     useGun = true;
-                    onLookEvent.Invoke(DirectionToTarget(target));
+                    OnLookEvent.Invoke(DirectionToTarget(target));
                 }
                 else
                 {
-                    onLookEvent.Invoke(DirectionToTarget(target));
+                    OnLookEvent.Invoke(DirectionToTarget(target));
                 }
             } 
             else
             {
-                onLookEvent.Invoke(DirectionToTarget(target));
-                onMoveEvent.Invoke(DirectionToTarget(target) * 0.5f);
+                OnLookEvent.Invoke(DirectionToTarget(target));
+                OnMoveEvent.Invoke(DirectionToTarget(target) * 0.5f);
 
             }
         }
         else
         {
-            onMoveEvent.Invoke(DirectionToTarget(target) * 0.3f);
-            onLookEvent.Invoke(DirectionToTarget(target));
+            OnMoveEvent.Invoke(DirectionToTarget(target) * 0.3f);
+            OnLookEvent.Invoke(DirectionToTarget(target));
         }
     }
     
