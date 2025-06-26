@@ -22,5 +22,22 @@ public class CameraFollow : NetworkBehaviour
         _virtualCamera.transform.SetParent(null);
         
     }
+    public override void OnNetworkDespawn()
+    {
+        base.OnNetworkDespawn();
+        if (!IsOwner || _virtualCamera == null)
+            return;
+        _virtualCamera.Follow.position = Vector3.zero;
+        _virtualCamera.LookAt.position = Vector3.zero;
+    }
+
+    private void OnDisable()
+    {
+        if (_virtualCamera != null && IsOwner)
+        {
+            _virtualCamera.Follow.position = Vector3.zero;
+            _virtualCamera.LookAt.position = Vector3.zero;
+        }
+    }
     
 }

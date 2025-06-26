@@ -63,6 +63,15 @@ public class MenuTransition : NetworkBehaviour
         MainMenu.DOAnchorPos(new Vector2(0,0), 1.5f, false);
         Options.DOAnchorPos(new Vector2(2000,0), 1.5f, false);
     }
+    public void JoinGame()
+    {
+        MovePannelJoinGame();
+    }
+    private void MovePannelJoinGame(ClientRpcParams rpcParams = default)
+    {
+        Online.DOAnchorPos(new Vector2(20000,0), 1.5f, false);
+    }
+
     
     
     public void QuitGameButtonPressed()
@@ -78,7 +87,6 @@ public class MenuTransition : NetworkBehaviour
     [ClientRpc]
     private void MovePanelBackClientRpc(ClientRpcParams rpcParams = default)
     {
-        
         NetworkManager.Singleton.Shutdown();
         Online.DOAnchorPos(new Vector2(0,0), 1, false);
         Setting.gameObject.SetActive(false);

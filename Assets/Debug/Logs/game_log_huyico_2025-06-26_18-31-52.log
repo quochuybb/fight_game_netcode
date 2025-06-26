@@ -1,0 +1,27 @@
+=================================================
+Log File Created: 2025-06-26 18:31:52 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.15 Garuda Linux  64bit
+=================================================
+
+[2025-06-26 18:31:52] [Log] [SYSTEM] Logger initialized
+[2025-06-26 18:31:54] [Log] Open Online Screen
+[2025-06-26 18:31:55] [Log] Client 0 connected
+[2025-06-26 18:31:55] [Log] Player 0
+[2025-06-26 18:32:06] [Error] This camera has been destroyed
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CameraFollow:OnNetworkDespawn () (at Assets/Script/Camera/CameraFollow.cs:28)
+Unity.Netcode.NetworkBehaviour:InternalOnNetworkDespawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:752)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkDespawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1442)
+Unity.Netcode.NetworkSpawnManager:OnDespawnObject (Unity.Netcode.NetworkObject,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:1040)
+Unity.Netcode.NetworkSpawnManager:DespawnAndDestroyNetworkObjects () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:914)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1213)
+Unity.Netcode.NetworkManager:ModeChanged (UnityEditor.PlayModeStateChange) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:664)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /home/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:203)
+
+

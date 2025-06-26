@@ -17,7 +17,6 @@ public class PlayerInput : CharacterController
     {
         Vector2 direction = value.Get<Vector2>();
         OnMoveEvent.Invoke(direction);
-
     }
 
     public void OnLook(InputValue value)
@@ -33,10 +32,6 @@ public class PlayerInput : CharacterController
         {
             OnLookEvent.Invoke(direction);
         }
-    }
-    public void OnAttackMelee(InputValue value)
-    {
-        //useMelee = value.isPressed;
     }
 
     public void OnAttackRange(InputValue value)

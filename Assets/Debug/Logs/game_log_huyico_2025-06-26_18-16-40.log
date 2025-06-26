@@ -1,0 +1,36 @@
+=================================================
+Log File Created: 2025-06-26 18:16:40 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.15 Garuda Linux  64bit
+=================================================
+
+[2025-06-26 18:16:40] [Log] [SYSTEM] Logger initialized
+[2025-06-26 18:16:42] [Log] Open Online Screen
+[2025-06-26 18:16:48] [Log] Client 0 connected
+[2025-06-26 18:16:48] [Log] Player 0
+[2025-06-26 18:16:49] [Warning] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkVariableBase:MarkNetworkBehaviourDirty () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:196)
+Unity.Netcode.NetworkVariableBase:SetDirty (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:169)
+Unity.Netcode.NetworkVariable`1<BulletNetworkSerializable>:set_Value (BulletNetworkSerializable) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:104)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:154)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:60)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:58)
+CharacterAttack:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/CharacterAttack.cs:87)
+CharacterAttack:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/CharacterAttack.cs:68)
+CharacterAttack:OnShooting () (at Assets/Script/Attack/CharacterAttack.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:28)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:19)
+
+
+[2025-06-26 18:16:50] [Log] Client 0 disconnected

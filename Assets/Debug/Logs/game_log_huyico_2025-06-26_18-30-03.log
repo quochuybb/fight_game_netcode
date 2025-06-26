@@ -1,0 +1,51 @@
+=================================================
+Log File Created: 2025-06-26 18:30:03 UTC
+User: huyico
+Unity Version: 2022.3.52f1
+Platform: LinuxEditor
+System Language: English
+Device Model: PC
+Operating System: Linux 6.15 Garuda Linux  64bit
+=================================================
+
+[2025-06-26 18:30:03] [Log] [SYSTEM] Logger initialized
+[2025-06-26 18:30:09] [Log] Open Online Screen
+[2025-06-26 18:30:10] [Log] Client 0 connected
+[2025-06-26 18:30:10] [Log] Player 0
+[2025-06-26 18:30:12] [Warning] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+Stack Trace:
+UnityEngine.Debug:LogWarning (object)
+Unity.Netcode.NetworkVariableBase:MarkNetworkBehaviourDirty () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:196)
+Unity.Netcode.NetworkVariableBase:SetDirty (bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariableBase.cs:169)
+Unity.Netcode.NetworkVariable`1<BulletNetworkSerializable>:set_Value (BulletNetworkSerializable) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/NetworkVariable/NetworkVariable.cs:104)
+BulletController:InitConfigBullet (BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletController.cs:154)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:60)
+BulletManager:__rpc_handler_2733769380 (Unity.Netcode.NetworkBehaviour,Unity.Netcode.FastBufferReader,Unity.Netcode.__RpcParams)
+Unity.Netcode.RpcMessageHelpers:Handle (Unity.Netcode.NetworkContext&,Unity.Netcode.RpcMetadata&,Unity.Netcode.FastBufferReader&,Unity.Netcode.__RpcParams&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:70)
+Unity.Netcode.ServerRpcMessage:Handle (Unity.Netcode.NetworkContext&) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Messaging/Messages/RpcMessages.cs:125)
+Unity.Netcode.NetworkBehaviour:__endSendServerRpc (Unity.Netcode.FastBufferWriter&,uint,Unity.Netcode.ServerRpcParams,Unity.Netcode.RpcDelivery) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:117)
+BulletManager:ShootBulletServerRpc (UnityEngine.Vector2,UnityEngine.Quaternion,BulletNetworkSerializable,UnityEngine.Vector2) (at Assets/Script/Attack/BulletManager.cs:58)
+CharacterAttack:CreateBullet (BulletNetworkSerializable,single) (at Assets/Script/Attack/CharacterAttack.cs:87)
+CharacterAttack:CreateAngleAndBullet (BulletNetworkSerializable) (at Assets/Script/Attack/CharacterAttack.cs:68)
+CharacterAttack:OnShooting () (at Assets/Script/Attack/CharacterAttack.cs:51)
+UnityEngine.Events.UnityEvent:Invoke ()
+CharacterController:HandleDelayTime () (at Assets/Script/Movement/CharacterController.cs:28)
+CharacterController:Update () (at Assets/Script/Movement/CharacterController.cs:19)
+
+
+[2025-06-26 18:30:13] [Error] This camera has been destroyed
+Stack Trace:
+UnityEngine.Debug:LogError (object)
+CameraFollow:OnNetworkDespawn () (at Assets/Script/Camera/CameraFollow.cs:28)
+Unity.Netcode.NetworkBehaviour:InternalOnNetworkDespawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkBehaviour.cs:752)
+Unity.Netcode.NetworkObject:InvokeBehaviourNetworkDespawn () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkObject.cs:1442)
+Unity.Netcode.NetworkSpawnManager:OnDespawnObject (Unity.Netcode.NetworkObject,bool) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:1040)
+Unity.Netcode.NetworkSpawnManager:DespawnAndDestroyNetworkObjects () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Spawning/NetworkSpawnManager.cs:914)
+Unity.Netcode.NetworkManager:ShutdownInternal () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:1213)
+Unity.Netcode.NetworkManager:ProcessServerShutdown () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:163)
+Unity.Netcode.NetworkManager:ProcessServerShutdown () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:147)
+Unity.Netcode.NetworkManager:NetworkUpdate (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkManager.cs:89)
+Unity.Netcode.NetworkUpdateLoop:RunNetworkUpdateStage (Unity.Netcode.NetworkUpdateStage) (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:192)
+Unity.Netcode.NetworkUpdateLoop/NetworkPostLateUpdate/<>c:<CreateLoopSystem>b__0_0 () (at ./Library/PackageCache/com.unity.netcode.gameobjects@1.11.0/Runtime/Core/NetworkUpdateLoop.cs:287)
+
+

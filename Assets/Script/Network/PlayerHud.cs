@@ -20,7 +20,6 @@ public class PlayerHud : NetworkBehaviour
     {
         var localPlayerOverlay = gameObject.GetComponentInChildren<TextMeshProUGUI>();
         localPlayerOverlay.text = playerName.Value;
-        Debug.Log(playerName.Value);
     }
 
     private void Update()
