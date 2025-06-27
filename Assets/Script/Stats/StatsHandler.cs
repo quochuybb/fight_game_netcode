@@ -2,6 +2,7 @@ using System;
 using System.Reflection;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StatsHandler : NetworkBehaviour
 {
@@ -14,14 +15,15 @@ public class StatsHandler : NetworkBehaviour
     public NetworkVariable<BulletNetworkSerializable> currentStatsAttackNetworkVariableClient = new NetworkVariable<BulletNetworkSerializable>(new BulletNetworkSerializable());    
     public NetworkVariable<CharacterStatsNetwork> currentStatsNetworkVariableHost = new NetworkVariable<CharacterStatsNetwork>(new CharacterStatsNetwork());
     public NetworkVariable<BulletNetworkSerializable> currentStatsAttackNetworkVariableHost = new NetworkVariable<BulletNetworkSerializable>(new BulletNetworkSerializable());
-    public CharacterStatsNetwork CurrentClient = new CharacterStatsNetwork();
-    public BulletNetworkSerializable CurrentAttackClient = new BulletNetworkSerializable();
-    public CharacterStatsNetwork CurrentHost = new CharacterStatsNetwork();
-    public BulletNetworkSerializable CurrentAttackHost = new BulletNetworkSerializable();
+    private CharacterStatsNetwork CurrentClient = new CharacterStatsNetwork();
+    private BulletNetworkSerializable CurrentAttackClient = new BulletNetworkSerializable();
+    private CharacterStatsNetwork CurrentHost = new CharacterStatsNetwork();
+    private BulletNetworkSerializable CurrentAttackHost = new BulletNetworkSerializable();
     public NetworkVariable<Vector2> networkPosition;
     private const float BuffUpdateInterval = 0.1f;
     private float _lastBuffUpdateTime ;
     private float lastNetworkUpdate;
+    [SerializeField] private GameObject healthSlider;
     
     private void Awake()
     {
@@ -43,6 +45,11 @@ public class StatsHandler : NetworkBehaviour
             currentStatsAttackNetworkVariableHost.Value = statsAttack.Mapping();
             CurrentAttackClient= statsAttack.Mapping();
             CurrentAttackHost = statsAttack.Mapping();
+            healthSlider.GetComponent<Slider>().maxValue = CurrentHost.healthPoint;
+        }
+        else
+        {
+            healthSlider.GetComponent<Slider>().maxValue = CurrentClient.healthPoint;
         }
     }
 
@@ -98,6 +105,7 @@ public class StatsHandler : NetworkBehaviour
         else
         {
             currentStatsNetworkVariableClient.Value.healthPoint -= damage;
+            healthSlider.GetComponent<Slider>().value -= damage;
 
         }        
         if (currentStatsNetworkVariableClient.Value.healthPoint <= 0)
@@ -133,6 +141,7 @@ public class StatsHandler : NetworkBehaviour
         else
         {
             currentStatsNetworkVariableHost.Value.healthPoint -= damage;
+            healthSlider.GetComponent<Slider>().value -= damage;
 
         }
         if (currentStatsNetworkVariableHost.Value.healthPoint <= 0)

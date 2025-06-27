@@ -8,11 +8,9 @@ public class CharacterStatsNetwork : IEquatable<CharacterStatsNetwork>,INetworkS
     public float gut;
     public float speedMove;
     public float armor;
-    public float poison;
-    public float burn;
     public bool Equals(CharacterStatsNetwork other)
     {
-        return healthPoint == other.healthPoint && gut == other.gut && speedMove == other.speedMove && armor == other.armor && poison == other.poison && burn == other.burn && alive == other.alive;
+        return healthPoint == other.healthPoint && gut == other.gut && speedMove == other.speedMove && armor == other.armor && alive == other.alive;
     }
 
     public override bool Equals(object obj)
@@ -25,7 +23,7 @@ public class CharacterStatsNetwork : IEquatable<CharacterStatsNetwork>,INetworkS
     }
     public override int GetHashCode()
     {
-        return HashCode.Combine(healthPoint, gut, speedMove, armor, poison, burn, alive);
+        return HashCode.Combine(healthPoint, gut, speedMove, armor, alive);
     }
 
     public static bool operator ==(CharacterStatsNetwork left, CharacterStatsNetwork right)
@@ -44,7 +42,5 @@ public class CharacterStatsNetwork : IEquatable<CharacterStatsNetwork>,INetworkS
         serializer.SerializeValue(ref gut);
         serializer.SerializeValue(ref speedMove);
         serializer.SerializeValue(ref armor);
-        serializer.SerializeValue(ref poison);
-        serializer.SerializeValue(ref burn);
     }
 }

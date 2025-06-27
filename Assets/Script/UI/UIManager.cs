@@ -1,16 +1,12 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using TMPro;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 using Cursor = UnityEngine.Cursor;
-
 public class UIManager : NetworkBehaviour
 {
     [SerializeField] private Button startClientButton;
@@ -22,13 +18,12 @@ public class UIManager : NetworkBehaviour
     [SerializeField] private TextMeshProUGUI error;
 
 
-
-    
     private void Awake()
     {
-        Cursor.visible = true;
-    }
 
+        Cursor.visible = true;
+
+    }
     private void Update()
     {
         idLobby.text = joinCode;
@@ -36,11 +31,12 @@ public class UIManager : NetworkBehaviour
 
     private void Start()
     {
-        var host = Dns.GetHostEntry(Dns.GetHostName()); // List IP connect Router
-        joinCode = host.AddressList[0].ToString(); // IP private PC User
+        var host = GetLocalIP().ToString().Split('.');
+        var net = $"{host[0]}.{host[1]}.{host[2]}.";
+        joinCode = host[^1];
         startHostButton.onClick.AddListener(() =>
         {
-            if (NetworkManager.Singleton.StartHost()) // Start Host in PC user
+            if (NetworkManager.Singleton.StartHost()) 
             {
                 
             }
@@ -51,7 +47,7 @@ public class UIManager : NetworkBehaviour
         }); 
         startClientButton.onClick.AddListener(() =>
         {
-            if (!IPAddress.TryParse(inputField.text, out var ipAddress))
+            if (!IPAddress.TryParse(net + inputField.text, out var ipAddress))
             {
                 error.text = "Invalid IP address format. Please enter a valid IPv4 or IPv6 address.";
                 return;
@@ -80,5 +76,18 @@ public class UIManager : NetworkBehaviour
         }); 
 
     }
+    private static string GetLocalIP()
+    {
+        var host = Dns.GetHostEntry(Dns.GetHostName());
+        foreach (var ip in host.AddressList)
+        {
+            if (ip.AddressFamily == AddressFamily.InterNetwork &&
+                !IPAddress.IsLoopback(ip))
+                return ip.ToString();
+        }
+
+        return null;
+    }
+
 
 }
