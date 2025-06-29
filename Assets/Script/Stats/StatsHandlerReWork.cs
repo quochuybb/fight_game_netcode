@@ -66,10 +66,9 @@ public class StatsHandlerReWork : NetworkBehaviour
     public void ApplyDamageServerRpc(
          float delta, ServerRpcParams p = default)
     {
-
         var stats = currentStats.Value;
         var attackStats = currentAttackStats.Value;
-        
+
         if (stats.armor > 0)
         {
             stats.armor = Mathf.Max(0, stats.armor - delta);
@@ -78,27 +77,35 @@ public class StatsHandlerReWork : NetworkBehaviour
         else
         {
             stats.healthPoint = Mathf.Max(0, stats.healthPoint - delta);
-            UpdateHealthSliderClientRpc(delta);
             if (stats.healthPoint == 0)
             {
                 RunDieEffectClientRpc(p.Receive.SenderClientId);
-                stats.healthPoint = this.stats.Mapping().healthPoint + 5;
-                healthSlider.maxValue = stats.healthPoint;
-                healthSlider.value = healthSlider.maxValue;
+                stats.healthPoint = this.stats.Mapping().healthPoint + 5*(this.stats.Mapping().alive - stats.alive + 1);
+                UpdateHealthSliderClientRpc(delta, stats.healthPoint);
                 stats.alive -= 1;
                 stats.speedMove += 2;
                 attackStats.damage += 2;
             }
+            UpdateHealthSliderClientRpc(delta, stats.healthPoint);
+
+
+
         }
         currentStats.Value = stats;
         currentAttackStats.Value = attackStats;
     }
     [ClientRpc]
     private void UpdateHealthSliderClientRpc(
-        float delta, ClientRpcParams rpc = default)
+        float delta, float newMaxHP,ClientRpcParams rpc = default)
     {
         if (IsOwner)
         {
+            if (healthSlider.value <= 0)
+            {
+                healthSlider.maxValue = newMaxHP;
+                healthSlider.value = healthSlider.maxValue;
+                return;
+            }
             healthSlider.value -= delta;
 
         }
