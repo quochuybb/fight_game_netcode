@@ -1,6 +1,7 @@
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class CharacterAttack : NetworkBehaviour
 {
@@ -10,7 +11,9 @@ public class CharacterAttack : NetworkBehaviour
         NetworkVariableReadPermission.Everyone, 
         NetworkVariableWritePermission.Owner);
 
-    [SerializeField] private StatsHandler statsHandler;
+    //[SerializeField] private StatsHandler statsHandler;
+    [FormerlySerializedAs("statsHanlderReWork")] [SerializeField] private StatsHandlerReWork statsHandlerReWork;
+
     private BulletManager bulletManager;
     private float lastTimeShoot;
     private bool canShoot;
@@ -46,14 +49,17 @@ public class CharacterAttack : NetworkBehaviour
             return;
         }
         canShoot = false;
-        if (IsServer)
-        {
-            CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableHost.Value);
-        }
-        else
-        {
-            CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableClient.Value);
-        }
+        CreateAngleAndBullet(statsHandlerReWork.currentAttackStats.Value);
+        //if (IsServer)
+        //{
+            //CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableHost.Value);
+
+        //}
+        //else
+        //{
+            //CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableClient.Value);
+
+        //}
 
 
     }
@@ -94,7 +100,8 @@ public class CharacterAttack : NetworkBehaviour
     public void HandleDelayTime()
     {
         lastTimeShoot += Time.deltaTime;
-        if (lastTimeShoot > statsHandler.currentStatsAttackNetworkVariableHost.Value.delay)
+        //if (lastTimeShoot > statsHandler.currentStatsAttackNetworkVariableHost.Value.delay)
+        if (lastTimeShoot > 1f)
         {
             lastTimeShoot = 0f;
             canShoot=true;

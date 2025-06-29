@@ -1,6 +1,7 @@
 using System.Collections;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class CharacterMovement : NetworkBehaviour
 {
@@ -17,7 +18,9 @@ public class CharacterMovement : NetworkBehaviour
     private float lastNetworkUpdate;
     private const float NetworkUpdateInterval = 0.001f; 
     [SerializeField] private Transform spawnTransform;
-    [SerializeField] private StatsHandler statsHandler;
+    //[SerializeField] private StatsHandler statsHandler;
+    [FormerlySerializedAs("statsHanlderReWork")] [SerializeField] private StatsHandlerReWork statsHandlerReWork;
+
     
     private void Awake()
     {
@@ -73,15 +76,16 @@ public class CharacterMovement : NetworkBehaviour
     {
 
         Vector2 moveVelocity;
-        if (IsServer)
-        {
-            moveVelocity = movementVel * statsHandler.currentStatsNetworkVariableHost.Value.speedMove;
+        //if (IsServer)
+        //{
+        //    moveVelocity = movementVel * statsHandler.currentStatsNetworkVariableHost.Value.speedMove;
 
-        }
-        else
-        {
-            moveVelocity = movementVel * statsHandler.currentStatsNetworkVariableClient.Value.speedMove;
-        }
+        //}
+        //else
+        //{
+        //    moveVelocity = movementVel * statsHandler.currentStatsNetworkVariableClient.Value.speedMove;
+        //}
+        moveVelocity = movementVel * statsHandlerReWork.currentStats.Value.speedMove;
         rb.velocity = moveVelocity;
         if (Time.time - lastNetworkUpdate >= NetworkUpdateInterval)
         {

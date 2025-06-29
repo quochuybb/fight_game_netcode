@@ -5399,8 +5399,8 @@ GameObject:
   - component: {fileID: 5491581623398590005}
   - component: {fileID: 3516671142311470187}
   - component: {fileID: 4414767248746112625}
-  - component: {fileID: 2550834758016538152}
   - component: {fileID: 7066863266143438262}
+  - component: {fileID: 2572428898283007839}
   m_Layer: 6
   m_Name: Player 1
   m_TagString: Player
@@ -5697,7 +5697,7 @@ MonoBehaviour:
   rb: {fileID: 5987438281487256932}
   dashTrail: {fileID: 5491581623398590005}
   spawnTransform: {fileID: 0}
-  statsHandler: {fileID: 2550834758016538152}
+  statsHandlerReWork: {fileID: 2572428898283007839}
 --- !u!96 &5491581623398590005
 TrailRenderer:
   serializedVersion: 3
@@ -5837,26 +5837,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1971177049017897011}
-  statsHandler: {fileID: 2550834758016538152}
+  statsHandlerReWork: {fileID: 2572428898283007839}
   bulletPrefab: {fileID: 8904649031339908051, guid: d57af9eb9a7b55d069137b8324bc0b1e, type: 3}
---- !u!114 &2550834758016538152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5729047136385410059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad16511d7a7e85abdbcbd4c20ab11d9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stats: {fileID: 11400000, guid: 61f46c652fba061f4b0d95470bf58495, type: 2}
-  statsAttack: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
-  dieEffect: {fileID: 3950318587349464198}
-  networkPosition:
-    m_InternalValue: {x: 0, y: 0}
-  healthSlider: {fileID: 4933193921579666982}
 --- !u!114 &7066863266143438262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5870,6 +5852,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPrefab: {fileID: 1688683127569052790, guid: 3c22c144c8c336cbc9acae957c7e665d, type: 3}
+--- !u!114 &2572428898283007839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5729047136385410059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a167f6d618bf43f1298559feb115f5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: 61f46c652fba061f4b0d95470bf58495, type: 2}
+  statsAttack: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
+  dieEffect: {fileID: 3950318587349464198}
+  networkPosition:
+    m_InternalValue: {x: 0, y: 0}
+  healthUI: {fileID: 1183549551134958713}
+  healthSlider: {fileID: 5297240878449451859}
 --- !u!1 &5921343974918012442
 GameObject:
   m_ObjectHideFlags: 0
@@ -5902,10 +5903,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 6090652474721591356}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 15, y: 0}
+  m_SizeDelta: {x: 115, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3082180762497573822
 CanvasRenderer:

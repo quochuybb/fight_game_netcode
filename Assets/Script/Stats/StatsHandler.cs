@@ -23,7 +23,6 @@ public class StatsHandler : NetworkBehaviour
     private const float BuffUpdateInterval = 0.1f;
     private float _lastBuffUpdateTime ;
     private float lastNetworkUpdate;
-    [SerializeField] private GameObject healthSlider;
     
     private void Awake()
     {
@@ -35,6 +34,7 @@ public class StatsHandler : NetworkBehaviour
     public override void OnNetworkSpawn()
     {
         base.OnNetworkSpawn();
+
         if (IsServer)
         {
             currentStatsNetworkVariableHost.Value = stats.Mapping();
@@ -45,11 +45,7 @@ public class StatsHandler : NetworkBehaviour
             currentStatsAttackNetworkVariableHost.Value = statsAttack.Mapping();
             CurrentAttackClient= statsAttack.Mapping();
             CurrentAttackHost = statsAttack.Mapping();
-            healthSlider.GetComponent<Slider>().maxValue = CurrentHost.healthPoint;
-        }
-        else
-        {
-            healthSlider.GetComponent<Slider>().maxValue = CurrentClient.healthPoint;
+
         }
     }
 
@@ -61,15 +57,16 @@ public class StatsHandler : NetworkBehaviour
         currentStatsAttackNetworkVariableClient.OnValueChanged += OnStatsAttackClientChanged;
         currentStatsAttackNetworkVariableHost.OnValueChanged += OnStatsAttackHostChanged;
 
-
     }
     private void OnStatsHostChanged(CharacterStatsNetwork previous, CharacterStatsNetwork current)
     {
         CurrentHost = current;
+
+
     }
     private void OnStatsClientChanged(CharacterStatsNetwork previous, CharacterStatsNetwork current)
     {
-        CurrentClient = current;        
+        CurrentClient = current;     
     }
     private void OnStatsAttackHostChanged(BulletNetworkSerializable previous, BulletNetworkSerializable current)
     {
@@ -80,17 +77,19 @@ public class StatsHandler : NetworkBehaviour
         CurrentAttackClient = current;
     }
 
-    public void Injured(float damage)
+    private void Injured(float damage)
     {
         if (IsOwner)
         {
             ChangeHealthServerRpc(damage);
+
         }
         else
         {
             ChangeHealthClient(damage);
 
         }
+
     }
     private void ChangeHealthClient(float damage)
     {
@@ -105,7 +104,6 @@ public class StatsHandler : NetworkBehaviour
         else
         {
             currentStatsNetworkVariableClient.Value.healthPoint -= damage;
-            healthSlider.GetComponent<Slider>().value -= damage;
 
         }        
         if (currentStatsNetworkVariableClient.Value.healthPoint <= 0)
@@ -113,7 +111,7 @@ public class StatsHandler : NetworkBehaviour
             currentStatsNetworkVariableClient.Value.alive -= 1;
             currentStatsNetworkVariableClient.Value.healthPoint = stats.Mapping().healthPoint + 5;
             currentStatsNetworkVariableClient.Value.armor += 2;
-            currentStatsAttackNetworkVariableClient.Value.damage += 2;
+            currentStatsAttackNetworkVariableClient.Value.damage += 1;
             currentStatsAttackNetworkVariableClient.Value.speed += 3;
             RunDieEffectClientRpc();
             if (currentStatsNetworkVariableClient.Value.alive <= 0)
@@ -141,7 +139,6 @@ public class StatsHandler : NetworkBehaviour
         else
         {
             currentStatsNetworkVariableHost.Value.healthPoint -= damage;
-            healthSlider.GetComponent<Slider>().value -= damage;
 
         }
         if (currentStatsNetworkVariableHost.Value.healthPoint <= 0)
@@ -149,7 +146,7 @@ public class StatsHandler : NetworkBehaviour
             currentStatsNetworkVariableHost.Value.alive -= 1;
             currentStatsNetworkVariableHost.Value.healthPoint = stats.Mapping().healthPoint + 5;
             currentStatsNetworkVariableHost.Value.armor += 2;
-            currentStatsAttackNetworkVariableHost.Value.damage += 2;
+            currentStatsAttackNetworkVariableHost.Value.damage += 1;
             currentStatsAttackNetworkVariableHost.Value.speed += 3;
             RunDieEffectClientRpc();
             if (currentStatsNetworkVariableHost.Value.alive <= 0)

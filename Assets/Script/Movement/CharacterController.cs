@@ -56,8 +56,7 @@ public class CharacterController : NetworkBehaviour
     private readonly AttackGunEvent _attackGun = new AttackGunEvent();
     private readonly ThrowEvent _throwEvent = new ThrowEvent();
     private readonly UnityEvent _onDie = new UnityEvent();
-    private readonly UnityEvent _onHealthChanged = new UnityEvent();
-    private readonly UnityEvent<float> _onDamge  = new UnityEvent<float>();
+    private readonly DamageEvent _onDamge  = new DamageEvent();
     private readonly UnityEvent _onDash = new UnityEvent();
     private readonly BuffEvent _onBuff = new BuffEvent();
     
@@ -68,7 +67,6 @@ public class CharacterController : NetworkBehaviour
     public MoveEvent OnMoveEvent => _moveEvent;
     public LookEvent OnLookEvent => _lookEvent;
     public UnityEvent OnDieEvent => _onDie;
-    public UnityEvent OnHealthChangedEvent => _onHealthChanged;
-    public UnityEvent<float> OnDamgeEvent => _onDamge;
+    public DamageEvent OnDamgeEvent => _onDamge;
     public BuffEvent OnBuffEvent => _onBuff;
 }

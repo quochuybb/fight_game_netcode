@@ -29,7 +29,7 @@ public class AnimationController : NetworkBehaviour
         animator.SetBool(isRunning, movement.magnitude > 0.3f); 
     }
 
-    private void Hurt(float damage)
+    private void Hurt(float damage )
     {
         animator.SetBool(isHurt, true);
     }

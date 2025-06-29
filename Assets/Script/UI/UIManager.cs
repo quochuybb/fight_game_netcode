@@ -16,11 +16,12 @@ public class UIManager : NetworkBehaviour
     [SerializeField] private string joinCode;
     [SerializeField] private TMP_InputField inputField;
     [SerializeField] private TextMeshProUGUI error;
+    [SerializeField] private MenuTransition menuTransition;
 
 
     private void Awake()
     {
-
+        menuTransition = GetComponent<MenuTransition>();
         Cursor.visible = true;
 
     }
@@ -47,14 +48,21 @@ public class UIManager : NetworkBehaviour
         }); 
         startClientButton.onClick.AddListener(() =>
         {
+            if (inputField.text == null)
+            {
+                error.text = $"Null input field";
+                return;
+            }
             if (!IPAddress.TryParse(net + inputField.text, out var ipAddress))
             {
-                error.text = "Invalid IP address format. Please enter a valid IPv4 or IPv6 address.";
+                error.text = "Please enter a valid IPv4 or IPv6 address.";
                 return;
             }
             try
             {
-                _transport.SetConnectionData(ipAddress.ToString(), 7777, null);                 
+                menuTransition.JoinGame();
+                _transport.SetConnectionData(ipAddress.ToString(), 7777, null);       
+
 
                 if (!NetworkManager.Singleton.StartClient())
                 {
