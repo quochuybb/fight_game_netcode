@@ -44,24 +44,17 @@ public class CharacterAttack : NetworkBehaviour
 
     private void OnShooting()
     {
+        if (statsHandlerReWork.State.Value != CharacterState.Alive)
+        {
+            return; // Cannot shoot while dead
+        }
+
         if (!canShoot)
         {
             return;
         }
         canShoot = false;
         CreateAngleAndBullet(statsHandlerReWork.currentAttackStats.Value);
-        //if (IsServer)
-        //{
-            //CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableHost.Value);
-
-        //}
-        //else
-        //{
-            //CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableClient.Value);
-
-        //}
-
-
     }
 
     private void CreateAngleAndBullet(BulletNetworkSerializable bullet)

@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Reflection;
 using Unity.Netcode;
 using UnityEngine;
@@ -8,123 +7,170 @@ using UnityEngine.UI;
 
 public class StatsHandlerReWork : NetworkBehaviour
 {
-    public static StatsHandlerReWork Instance;
+    [Header("Base Stats")]
     [SerializeField] public CharacterStats stats;
     [SerializeField] public Bullet statsAttack;
+
+    [Header("Effects & Animator")]
     [SerializeField] public ParticleSystem dieEffect;
-    private CharacterController _characterController;
-    public NetworkVariable<CharacterStatsNetwork> currentStats =
-        new NetworkVariable<CharacterStatsNetwork>(
-            writePerm: NetworkVariableWritePermission.Server);
-    public NetworkVariable<BulletNetworkSerializable> currentAttackStats =
-        new NetworkVariable<BulletNetworkSerializable>(
-            writePerm: NetworkVariableWritePermission.Server);  
-    public NetworkVariable<Vector2> networkPosition;
-    
+    [SerializeField] private Animator animator;
+
+    [Header("State Management")]
+    [SerializeField] private float respawnTime = 5f;
+    public NetworkVariable<CharacterState> State = new NetworkVariable<CharacterState>(CharacterState.Alive, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Server);
+
+    [Header("Ghost Effect")]
+    [SerializeField] private SpriteRenderer[] playerSprites; 
+    [SerializeField] private Color ghostColor = new Color(1f, 1f, 1f, 0.5f);
+
+    [Header("Networked Stats")]
+    public NetworkVariable<CharacterStatsNetwork> currentStats = new NetworkVariable<CharacterStatsNetwork>(writePerm: NetworkVariableWritePermission.Server);
+    public NetworkVariable<BulletNetworkSerializable> currentAttackStats = new NetworkVariable<BulletNetworkSerializable>(writePerm: NetworkVariableWritePermission.Server);
+
     [Header("UI (Owner Only)")]
     [SerializeField] private GameObject healthUI;
     [SerializeField] private Slider healthSlider;
+    private DeathScreenUI deathScreenUI;
+
+    private CharacterController _characterController;
+
     public override void OnNetworkSpawn()
     {
         _characterController = GetComponent<CharacterController>();
+
         _characterController.OnDamgeEvent.AddListener(OnLocalDamaged);
         _characterController.OnBuffEvent.AddListener(OnLocalBuff);
+        State.OnValueChanged += HandleStateChanged;
+
         if (IsServer)
         {
             currentStats.Value = stats.Mapping();
             currentAttackStats.Value = statsAttack.Mapping();
-
+            State.Value = CharacterState.Alive;
         }
 
-        currentStats.OnValueChanged += OnStatsChanged;
-        currentAttackStats.OnValueChanged += OnStatsAttackChanged;
-
-
-        if (healthUI != null)
-            healthUI.SetActive(IsOwner);
-        
-        if (IsOwner && healthSlider != null)
+        if (IsOwner)
         {
-            healthSlider.maxValue = stats.Mapping().healthPoint;
-            healthSlider.value = currentStats.Value.healthPoint;
+            GameObject deathScreenObject = GameObject.FindGameObjectWithTag("DeathScreenUI");
+            if (deathScreenObject != null)
+            {
+                deathScreenUI = deathScreenObject.GetComponent<DeathScreenUI>();
+            }
+
+            if (healthUI != null)
+                healthUI.SetActive(true);
+
+            if (healthSlider != null)
+            {
+                healthSlider.maxValue = stats.Mapping().healthPoint;
+                healthSlider.value = currentStats.Value.healthPoint;
+            }
+        }
+
+        HandleStateChanged(State.Value, State.Value);
+    }
+
+    public override void OnNetworkDespawn()
+    {
+        if (_characterController != null)
+        {
+            _characterController.OnDamgeEvent.RemoveListener(OnLocalDamaged);
+            _characterController.OnBuffEvent.RemoveListener(OnLocalBuff);
+        }
+        if (State != null)
+        {
+            State.OnValueChanged -= HandleStateChanged;
         }
     }
-    private void OnStatsChanged(CharacterStatsNetwork oldValue, CharacterStatsNetwork newValue)
-    {
 
-    }
-    
-    private void OnStatsAttackChanged(BulletNetworkSerializable oldValue, BulletNetworkSerializable newValue)
+    private void HandleStateChanged(CharacterState previousState, CharacterState newState)
     {
+        bool isDead = newState == CharacterState.Dead;
 
+        foreach (var sprite in playerSprites)
+        {
+            if (sprite != null)
+                sprite.color = isDead ? ghostColor : Color.white;
+        }
+
+        // Turn off physics and animations for clients
+        if (GetComponent<Collider2D>() != null)
+            GetComponent<Collider2D>().enabled = !isDead;
+        if (animator != null)
+            animator.SetBool("Death", isDead);
+
+        if (IsOwner)
+        {
+            if (deathScreenUI != null)
+            {
+                if (isDead)
+                    deathScreenUI.Show(respawnTime);
+                else
+                    deathScreenUI.Hide();
+            }
+            if (healthUI != null)
+            {
+                healthUI.SetActive(!isDead);
+            }
+        }
     }
+
     private void OnLocalDamaged(float dmg)
     {
         ApplyDamageServerRpc(dmg);
     }
+
     [ServerRpc(RequireOwnership = false)]
-    public void ApplyDamageServerRpc(
-         float delta, ServerRpcParams p = default)
+    public void ApplyDamageServerRpc(float delta, ServerRpcParams p = default)
     {
+        //make player not take dam when die
+        if (State.Value == CharacterState.Dead) return;
+
         var stats = currentStats.Value;
-        var attackStats = currentAttackStats.Value;
-
-        if (stats.armor > 0)
-        {
-            stats.armor = Mathf.Max(0, stats.armor - delta);
-            
-        }
-        else
-        {
-            stats.healthPoint = Mathf.Max(0, stats.healthPoint - delta);
-            if (stats.healthPoint == 0)
-            {
-                RunDieEffectClientRpc(p.Receive.SenderClientId);
-                stats.healthPoint = this.stats.Mapping().healthPoint + 5*(this.stats.Mapping().alive - stats.alive + 1);
-                UpdateHealthSliderClientRpc(delta, stats.healthPoint);
-                stats.alive -= 1;
-                stats.speedMove += 2;
-                attackStats.damage += 2;
-            }
-            UpdateHealthSliderClientRpc(delta, stats.healthPoint);
-
-
-
-        }
+        stats.healthPoint = Mathf.Max(0, stats.healthPoint - delta);
         currentStats.Value = stats;
-        currentAttackStats.Value = attackStats;
-    }
-    [ClientRpc]
-    private void UpdateHealthSliderClientRpc(
-        float delta, float newMaxHP,ClientRpcParams rpc = default)
-    {
-        if (IsOwner)
-        {
-            if (healthSlider.value <= 0)
-            {
-                healthSlider.maxValue = newMaxHP;
-                healthSlider.value = healthSlider.maxValue;
-                return;
-            }
-            healthSlider.value -= delta;
 
+        UpdateHealthSliderClientRpc(stats.healthPoint);
+
+        if (stats.healthPoint == 0)
+        {
+            //player died
+            State.Value = CharacterState.Dead;
+            if (dieEffect != null) dieEffect.Play();
+            StartCoroutine(RespawnTimerCoroutine()); 
         }
     }
-    [ClientRpc]
-    private void RunDieEffectClientRpc(
-        ulong targetClient, ClientRpcParams rpc = default)
+
+    private IEnumerator RespawnTimerCoroutine()
     {
-        dieEffect.Stop();
-        dieEffect.Play();
+        yield return new WaitForSeconds(respawnTime);
+
+        // respawn logic
+        var stats = currentStats.Value;
+        stats.healthPoint = this.stats.Mapping().healthPoint;
+        currentStats.Value = stats;
+
+        State.Value = CharacterState.Alive;
     }
+
+    [ClientRpc]
+    private void UpdateHealthSliderClientRpc(float newHP, ClientRpcParams rpc = default)
+    {
+        if (IsOwner && healthSlider != null)
+        {
+            healthSlider.maxValue = stats.Mapping().healthPoint;
+            healthSlider.value = newHP;
+        }
+    }
+
     private void OnLocalBuff(ItemNetworkSerializable item, ServerRpcParams rpcParams = default)
     {
         if (!IsOwner) return;
         ApplyBuffServerRpc(item);
     }
+
     [ServerRpc(RequireOwnership = false)]
-    public void ApplyBuffServerRpc(
-        ItemNetworkSerializable item, ServerRpcParams rpcParams = default)
+    public void ApplyBuffServerRpc(ItemNetworkSerializable item, ServerRpcParams rpcParams = default)
     {
         var stats = currentStats.Value;
         var attackStats = currentAttackStats.Value;
@@ -132,32 +178,20 @@ public class StatsHandlerReWork : NetworkBehaviour
             SetFieldByName(stats, item.nameStatsBuff, item.statsBuff);
         else
             SetFieldByName(attackStats, item.nameStatsBuff, item.statsBuff);
-        
+
         currentStats.Value = stats;
         currentAttackStats.Value = attackStats;
     }
+
     public void SetFieldByName(object obj, string targetFieldName, float newValue)
     {
-        if (obj == null || string.IsNullOrEmpty(targetFieldName))
-            return;
-
+        if (obj == null || string.IsNullOrEmpty(targetFieldName)) return;
         Type type = obj.GetType();
-        FieldInfo[] fields = type.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-        foreach (FieldInfo field in fields)
+        FieldInfo field = type.GetField(targetFieldName, BindingFlags.Public | BindingFlags.Instance);
+        if (field != null && field.FieldType == typeof(float))
         {
-
-            if (field.Name.Equals(targetFieldName, StringComparison.Ordinal))
-            {
-                
-                object valueObj = field.GetValue(obj);
-                if (valueObj is float currentValue)
-                {
-                    float value = currentValue + newValue;
-                    field.SetValue(obj, value);
-                }
-            }
+            float currentValue = (float)field.GetValue(obj);
+            field.SetValue(obj, currentValue + newValue);
         }
-        
     }
-
 }
