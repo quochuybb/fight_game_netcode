@@ -51,6 +51,10 @@ public class PlayerInput : CharacterController
 
     public void OnSetting(InputValue value)
     {
-        _transition.onOpenSettings.Invoke();
+        if (value.isPressed)
+        {
+            _transition.onOpenSettings.Invoke();
+
+        }
     }
 }

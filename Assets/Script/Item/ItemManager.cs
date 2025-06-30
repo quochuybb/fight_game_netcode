@@ -11,10 +11,11 @@ public class ItemManager : NetworkBehaviour
     [SerializeField] private GameObject itemPrefab;
     private NetworkObject itemNetworkObject;
     [SerializeField] private List<Item> items;
-    private List<ItemNetworkSerializable> listItemNetworkSerializables = new List<ItemNetworkSerializable>();
+    private readonly List<ItemNetworkSerializable> listItemNetworkSerializables = new List<ItemNetworkSerializable>();
     [SerializeField] private List<ChestController> _listChestController;
     private float timer;
-
+    [SerializeField] private PlayersManager playersManager;
+    private readonly NetworkVariable<bool> canSpawn = new NetworkVariable<bool>(false);
 
     private void Awake()
     {
@@ -32,6 +33,12 @@ public class ItemManager : NetworkBehaviour
         {
             listItemNetworkSerializables.Add(item.Mapping());
         }
+    }
+
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        playersManager.startSpawnItems.AddListener(canSpawnItemServerRpc);
     }
 
     public void RequestDestroyFromItem(NetworkObject networkObject)
@@ -79,13 +86,19 @@ public class ItemManager : NetworkBehaviour
         NetworkPooling.Singleton.ReturnNetworkObject(this.itemNetworkObject,itemPrefab);
     }
     [ServerRpc(RequireOwnership = false)]
-    public void SpawnItemServerRpc(Vector2 startPos, Quaternion rotation, ItemNetworkSerializable itemNetwork)
+    private void SpawnItemServerRpc(Vector2 startPos, Quaternion rotation, ItemNetworkSerializable itemNetwork)
     {
+        if (canSpawn.Value == false) return;
         NetworkObject item = NetworkPooling.Singleton.GetNetworkObject(itemPrefab,startPos, rotation);
         ItemController itemController = item.gameObject.GetComponent<ItemController>(); 
         itemController.Init(itemNetwork);
         item.Spawn();
         itemController.UpdateItemClientRpc(itemNetwork);
+    }
+    [ServerRpc]
+    private void canSpawnItemServerRpc()
+    {
+        canSpawn.Value = true;
     }
 
 

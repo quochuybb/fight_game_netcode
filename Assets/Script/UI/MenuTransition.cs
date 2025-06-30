@@ -19,7 +19,14 @@ public class MenuTransition : NetworkBehaviour
     private void Awake()
     {
         instance = this;
-        onOpenSettings.AddListener(OpenSettingButtonPressed);
+    }
+
+    public override void OnNetworkSpawn()
+    {
+        base.OnNetworkSpawn();
+        onOpenSettings.AddListener(OpenPanelSettings);
+
+
     }
 
     public void OpenOnlineScreen()
@@ -89,27 +96,16 @@ public class MenuTransition : NetworkBehaviour
         Online.DOAnchorPos(new Vector2(0,0), 1, false);
         Setting.gameObject.SetActive(false);
     }
-    public void OpenSettingButtonPressed()
-    {
-        OpenPanelSettingsServerRpc();
-    }
-    [ServerRpc(RequireOwnership = false)]
-    private void OpenPanelSettingsServerRpc(ServerRpcParams rpcParams = default)
-    {
-        OpenPanelSettingsClientRpc();
-    }
 
-    [ClientRpc] private void OpenPanelSettingsClientRpc(ClientRpcParams rpcParams = default)
+    private void OpenPanelSettings()
     {
-        if (Setting.gameObject.activeInHierarchy)
-        {
-            Setting.gameObject.SetActive(false);
+        Setting.gameObject.SetActive(true);
 
-        }
-        else
-        {
-            Setting.gameObject.SetActive(true);
-        }
+    }
+    public void ClosePanelSettings()
+    {
+        Setting.gameObject.SetActive(false);
+
     }
     
 }

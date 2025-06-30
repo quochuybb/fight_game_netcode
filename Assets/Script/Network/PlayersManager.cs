@@ -2,10 +2,12 @@
 using System;
 using Unity.Netcode;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayersManager : Singletons<PlayersManager>
 {
     private NetworkVariable<int> playersInGame = new NetworkVariable<int>();
+    public UnityEvent startSpawnItems = new UnityEvent();
     
     public int PlayersInGame
     {
@@ -27,6 +29,14 @@ public class PlayersManager : Singletons<PlayersManager>
 
                 }
                 playersInGame.Value++;
+                if (playersInGame.Value >= 2)
+                {
+                    if (IsOwner)
+                    {
+                        startSpawnItems.Invoke();
+
+                    }
+                }
             }
         };
         NetworkManager.Singleton.OnClientDisconnectCallback += (id) =>

@@ -4933,7 +4933,7 @@ GameObject:
   - component: {fileID: 2108638293352912806}
   - component: {fileID: 2646573446507892257}
   - component: {fileID: 93005642616463499}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5065,7 +5065,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5642373712882875836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Healthbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5081,7 +5081,7 @@ Transform:
   m_GameObject: {fileID: 2126065079534767534}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 945.9887, y: 456.8737, z: 4.53152}
+  m_LocalPosition: {x: 945.9887, y: 456.8737, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5213,7 +5213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6090652474721591356}
   - component: {fileID: 5297240878449451859}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Healthbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5228,7 +5228,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4933193921579666982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5882,7 +5882,7 @@ GameObject:
   - component: {fileID: 3141962714350982449}
   - component: {fileID: 3082180762497573822}
   - component: {fileID: 3613124400963300887}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5897,7 +5897,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5921343974918012442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15817,7 +15817,7 @@ GameObject:
   - component: {fileID: 7963700829144349520}
   - component: {fileID: 4337816103255053673}
   - component: {fileID: 1499399765271569046}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15832,7 +15832,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7725835420154989206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15864,7 +15864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5943396, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

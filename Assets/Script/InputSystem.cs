@@ -165,8 +165,8 @@ public partial class @InputSystem: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""5c625422-98ed-4f2b-8cea-6839f5a4a658"",
-                    ""path"": ""<Keyboard>/tab"",
-                    ""interactions"": """",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Setting"",

@@ -6,6 +6,11 @@ using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum CharacterState
+{
+    Alive,
+    Dead
+}
 public class StatsHandlerReWork : NetworkBehaviour
 {
     public static StatsHandlerReWork Instance;
@@ -19,7 +24,6 @@ public class StatsHandlerReWork : NetworkBehaviour
     public NetworkVariable<BulletNetworkSerializable> currentAttackStats =
         new NetworkVariable<BulletNetworkSerializable>(
             writePerm: NetworkVariableWritePermission.Server);  
-    public NetworkVariable<Vector2> networkPosition;
     
     [Header("UI (Owner Only)")]
     [SerializeField] private GameObject healthUI;
@@ -33,12 +37,10 @@ public class StatsHandlerReWork : NetworkBehaviour
         {
             currentStats.Value = stats.Mapping();
             currentAttackStats.Value = statsAttack.Mapping();
-
         }
 
         currentStats.OnValueChanged += OnStatsChanged;
         currentAttackStats.OnValueChanged += OnStatsAttackChanged;
-
 
         if (healthUI != null)
             healthUI.SetActive(IsOwner);
@@ -72,7 +74,6 @@ public class StatsHandlerReWork : NetworkBehaviour
         if (stats.armor > 0)
         {
             stats.armor = Mathf.Max(0, stats.armor - delta);
-            
         }
         else
         {
