@@ -1,3 +1,4 @@
+using System;
 using Unity.Netcode;
 using UnityEngine;
 using Cinemachine;
@@ -6,8 +7,16 @@ using UnityEngine.SceneManagement;
 public class CameraFollow : NetworkBehaviour
 {
     [SerializeField] private CinemachineVirtualCamera cameraPrefab;
+    [SerializeField] private GameObject mainCamera;
 
     private CinemachineVirtualCamera _virtualCamera;
+    public static CameraFollow instance;
+
+    private void Awake()
+    {
+        instance = this;
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+    }
 
     public override void OnNetworkSpawn()
     {
@@ -22,22 +31,19 @@ public class CameraFollow : NetworkBehaviour
         _virtualCamera.transform.SetParent(null);
         
     }
+
     public override void OnNetworkDespawn()
     {
+        if (_virtualCamera == null) return;
         base.OnNetworkDespawn();
-        if (!IsOwner || _virtualCamera == null)
-            return;
-        _virtualCamera.Follow.position = Vector3.zero;
-        _virtualCamera.LookAt.position = Vector3.zero;
+        mainCamera.transform.position = Vector3.zero;
+        Destroy(_virtualCamera.gameObject);
+
     }
 
-    private void OnDisable()
+    public void OnResetCamera()
     {
-        if (_virtualCamera != null && IsOwner)
-        {
-            _virtualCamera.Follow.position = Vector3.zero;
-            _virtualCamera.LookAt.position = Vector3.zero;
-        }
     }
+
     
 }

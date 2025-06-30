@@ -13,6 +13,9 @@ public class MenuTransition : NetworkBehaviour
     [SerializeField] private RectTransform MainMenu;
     [SerializeField] private RectTransform Options;
     [SerializeField] private RectTransform Setting;
+    [SerializeField] private RectTransform WinnerScreen;
+    [SerializeField] private RectTransform LoserScreem;
+
     private UnityEvent OnOpenSettings = new UnityEvent();
     public UnityEvent onOpenSettings => OnOpenSettings;
 
@@ -90,13 +93,19 @@ public class MenuTransition : NetworkBehaviour
     {
         MovePanelBackClientRpc();
     }
+    
 
     [ClientRpc]
     private void MovePanelBackClientRpc(ClientRpcParams rpcParams = default)
     {
         NetworkManager.Singleton.Shutdown();
+        CameraFollow.instance.OnResetCamera();
         Online.DOAnchorPos(new Vector2(0,0), 1, false);
         Setting.gameObject.SetActive(false);
+        WinnerScreen.gameObject.SetActive(false);
+        WinnerScreen.gameObject.SetActive(false);
+
+
     }
 
     private void OpenPanelSettings()
@@ -107,6 +116,28 @@ public class MenuTransition : NetworkBehaviour
     public void ClosePanelSettings()
     {
         Setting.gameObject.SetActive(false);
+
+    }
+    public void ShowPanelEndGame(float alive)
+    {
+        if (alive > 0)
+        {
+            MovePanelWinner();
+
+        }
+        else
+        {
+            MovePanelLoser();
+        }
+    }
+    private void MovePanelWinner(ClientRpcParams rpcParams = default)
+    {
+        WinnerScreen.gameObject.SetActive(true);
+
+    }
+    private void MovePanelLoser(ClientRpcParams rpcParams = default)
+    {
+        WinnerScreen.gameObject.SetActive(true);
 
     }
     

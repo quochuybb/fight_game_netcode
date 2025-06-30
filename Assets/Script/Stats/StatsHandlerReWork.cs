@@ -135,6 +135,11 @@ public class StatsHandlerReWork : NetworkBehaviour
                 UpdateHealthSliderClientRpc(delta, stats.healthPoint);
                 stats.alive -= 1;
                 UpdatePointUIClientRpc(stats.alive,p.Receive.SenderClientId);
+                if (stats.alive == 0)
+                {
+                    EndGameClientRpc(stats.alive);
+                    return;
+                }
                 stats.speedMove += 2;
                 attackStats.damage += 2;
                 StartCoroutine(RespawnTimerCoroutine()); 
@@ -151,6 +156,13 @@ public class StatsHandlerReWork : NetworkBehaviour
     {
         yield return new WaitForSeconds(respawnTime);
         State.Value = CharacterState.Alive;
+    }
+    [ClientRpc]
+    public void EndGameClientRpc(
+        float alive, ClientRpcParams rpc = default)
+    {
+        CameraFollow.instance.OnResetCamera();
+        MenuTransition.instance.ShowPanelEndGame(alive);
     }
     [ClientRpc]
     private void UpdateHealthSliderClientRpc(

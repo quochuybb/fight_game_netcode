@@ -113,7 +113,7 @@ public class UIManager : NetworkBehaviour
     }
     public void ShowPoint(float alive)
     {
-        pointUI[5 - (int)alive].SetActive(true);
+        pointUI[4 - (int)alive].SetActive(true);
     }
 
 
