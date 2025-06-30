@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using TMPro;
@@ -9,6 +10,7 @@ using UnityEngine.UI;
 using Cursor = UnityEngine.Cursor;
 public class UIManager : NetworkBehaviour
 {
+    public static UIManager instance;
     [SerializeField] private Button startClientButton;
     [SerializeField] private Button startHostButton; 
     [SerializeField] private TextMeshProUGUI idLobby;
@@ -17,14 +19,27 @@ public class UIManager : NetworkBehaviour
     [SerializeField] private TMP_InputField inputField;
     [SerializeField] private TextMeshProUGUI error;
     [SerializeField] private MenuTransition menuTransition;
+    [SerializeField] private List<GameObject> pointUI;
 
 
     private void Awake()
     {
+
+        instance = this; 
         menuTransition = GetComponent<MenuTransition>();
         Cursor.visible = true;
 
     }
+
+    public override void OnNetworkDespawn()
+    {
+        base.OnNetworkDespawn();
+        foreach (var point in pointUI)
+        {
+            point.SetActive(false);
+        }
+    }
+
     private void Update()
     {
         idLobby.text = joinCode;
@@ -95,6 +110,10 @@ public class UIManager : NetworkBehaviour
         }
 
         return null;
+    }
+    public void ShowPoint(float alive)
+    {
+        pointUI[5 - (int)alive].SetActive(true);
     }
 
 

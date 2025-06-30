@@ -134,6 +134,7 @@ public class StatsHandlerReWork : NetworkBehaviour
                 stats.healthPoint = this.stats.Mapping().healthPoint + 5*(this.stats.Mapping().alive - stats.alive + 1);
                 UpdateHealthSliderClientRpc(delta, stats.healthPoint);
                 stats.alive -= 1;
+                UpdatePointUIClientRpc(stats.alive,p.Receive.SenderClientId);
                 stats.speedMove += 2;
                 attackStats.damage += 2;
                 StartCoroutine(RespawnTimerCoroutine()); 
@@ -165,6 +166,17 @@ public class StatsHandlerReWork : NetworkBehaviour
             }
             healthSlider.value -= delta;
 
+        }
+    }
+    
+    [ClientRpc]
+    public void UpdatePointUIClientRpc(
+        float alive,ulong target, ClientRpcParams rpc = default)
+    {
+
+        if (!IsOwner)
+        {
+            UIManager.instance.ShowPoint(alive);
         }
     }
     [ClientRpc]

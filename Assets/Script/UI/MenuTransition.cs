@@ -77,6 +77,8 @@ public class MenuTransition : NetworkBehaviour
     {
         Online.DOAnchorPos(new Vector2(20000,0), 1.5f, false);
     }
+
+
     
     
     public void QuitGameButtonPressed()
