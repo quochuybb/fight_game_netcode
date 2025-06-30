@@ -14,25 +14,46 @@ public enum CharacterState
 public class StatsHandlerReWork : NetworkBehaviour
 {
     public static StatsHandlerReWork Instance;
+    [Header("Base Stats")]
     [SerializeField] public CharacterStats stats;
     [SerializeField] public Bullet statsAttack;
+    [Header("Effects & Animator")]
+    [SerializeField] private Animator animator;
     [SerializeField] public ParticleSystem dieEffect;
     private CharacterController _characterController;
+    [Header("Networked Stats")]
     public NetworkVariable<CharacterStatsNetwork> currentStats =
         new NetworkVariable<CharacterStatsNetwork>(
             writePerm: NetworkVariableWritePermission.Server);
     public NetworkVariable<BulletNetworkSerializable> currentAttackStats =
         new NetworkVariable<BulletNetworkSerializable>(
             writePerm: NetworkVariableWritePermission.Server);  
-    
+    public NetworkVariable<CharacterState> State =
+        new NetworkVariable<CharacterState>(CharacterState.Alive,
+            NetworkVariableReadPermission.Everyone,
+            NetworkVariableWritePermission.Server);
+    [SerializeField] private float respawnTime = 15f;
+    [Header("Ghost Effect")]
+    [SerializeField] private SpriteRenderer[] playerSprites; 
+    [SerializeField] private Color ghostColor = new Color(1f, 1f, 1f, 0.5f);
+    private Collider2D _collider2D;
+
     [Header("UI (Owner Only)")]
     [SerializeField] private GameObject healthUI;
     [SerializeField] private Slider healthSlider;
+
+    private void Awake()
+    {
+        _collider2D = GetComponent<Collider2D>();
+    }
+
     public override void OnNetworkSpawn()
     {
         _characterController = GetComponent<CharacterController>();
         _characterController.OnDamgeEvent.AddListener(OnLocalDamaged);
         _characterController.OnBuffEvent.AddListener(OnLocalBuff);
+        State.OnValueChanged += HandleStateChanged;
+
         if (IsServer)
         {
             currentStats.Value = stats.Mapping();
@@ -51,6 +72,18 @@ public class StatsHandlerReWork : NetworkBehaviour
             healthSlider.value = currentStats.Value.healthPoint;
         }
     }
+    public override void OnNetworkDespawn()
+    {
+        if (_characterController != null)
+        {
+            _characterController.OnDamgeEvent.RemoveListener(OnLocalDamaged);
+            _characterController.OnBuffEvent.RemoveListener(OnLocalBuff);
+        }
+        if (State != null)
+        {
+            State.OnValueChanged -= HandleStateChanged;
+        }
+    }
     private void OnStatsChanged(CharacterStatsNetwork oldValue, CharacterStatsNetwork newValue)
     {
 
@@ -58,7 +91,23 @@ public class StatsHandlerReWork : NetworkBehaviour
     
     private void OnStatsAttackChanged(BulletNetworkSerializable oldValue, BulletNetworkSerializable newValue)
     {
+        
+    }
+    private void HandleStateChanged(CharacterState previousState, CharacterState newState)
+    {
+        bool isDead = newState == CharacterState.Dead;
 
+        foreach (var sprite in playerSprites)
+        {
+            if (sprite != null)
+                sprite.color = isDead ? ghostColor : Color.white;
+        }
+
+        if (_collider2D != null)
+            _collider2D.enabled = !isDead;
+        if (animator != null)
+            animator.SetBool("Death", isDead);
+        
     }
     private void OnLocalDamaged(float dmg)
     {
@@ -80,12 +129,14 @@ public class StatsHandlerReWork : NetworkBehaviour
             stats.healthPoint = Mathf.Max(0, stats.healthPoint - delta);
             if (stats.healthPoint == 0)
             {
+                State.Value = CharacterState.Dead;
                 RunDieEffectClientRpc(p.Receive.SenderClientId);
                 stats.healthPoint = this.stats.Mapping().healthPoint + 5*(this.stats.Mapping().alive - stats.alive + 1);
                 UpdateHealthSliderClientRpc(delta, stats.healthPoint);
                 stats.alive -= 1;
                 stats.speedMove += 2;
                 attackStats.damage += 2;
+                StartCoroutine(RespawnTimerCoroutine()); 
             }
             UpdateHealthSliderClientRpc(delta, stats.healthPoint);
 
@@ -94,6 +145,11 @@ public class StatsHandlerReWork : NetworkBehaviour
         }
         currentStats.Value = stats;
         currentAttackStats.Value = attackStats;
+    }
+    private IEnumerator RespawnTimerCoroutine()
+    {
+        yield return new WaitForSeconds(respawnTime);
+        State.Value = CharacterState.Alive;
     }
     [ClientRpc]
     private void UpdateHealthSliderClientRpc(

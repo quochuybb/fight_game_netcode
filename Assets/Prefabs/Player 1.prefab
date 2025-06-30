@@ -5866,9 +5866,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 61f46c652fba061f4b0d95470bf58495, type: 2}
   statsAttack: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
+  animator: {fileID: 312448175824387501}
   dieEffect: {fileID: 3950318587349464198}
-  networkPosition:
-    m_InternalValue: {x: 0, y: 0}
+  State:
+    m_InternalValue: 0
+  respawnTime: 5
+  playerSprites:
+  - {fileID: 8454082357777872676}
+  - {fileID: 8669474358381373316}
+  - {fileID: 5512286234902502736}
+  ghostColor: {r: 1, g: 1, b: 1, a: 0.5}
   healthUI: {fileID: 1183549551134958713}
   healthSlider: {fileID: 5297240878449451859}
 --- !u!1 &5921343974918012442

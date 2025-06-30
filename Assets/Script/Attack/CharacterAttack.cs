@@ -44,6 +44,10 @@ public class CharacterAttack : NetworkBehaviour
 
     private void OnShooting()
     {
+        if (statsHandlerReWork.State.Value != CharacterState.Alive)
+        {
+            return;
+        }
         if (!canShoot)
         {
             return;
