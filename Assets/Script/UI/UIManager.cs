@@ -49,7 +49,7 @@ public class UIManager : NetworkBehaviour
     {
         var host = GetLocalIP().ToString().Split('.');
         var net = $"{host[0]}.{host[1]}.{host[2]}.";
-        joinCode = host[^1];
+        joinCode = $"{host[0]}.{host[1]}.{host[2]}.{host[3]}";
         startHostButton.onClick.AddListener(() =>
         {
             if (NetworkManager.Singleton.StartHost()) 

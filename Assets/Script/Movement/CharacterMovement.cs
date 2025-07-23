@@ -18,8 +18,7 @@ public class CharacterMovement : NetworkBehaviour
     private float lastNetworkUpdate;
     private const float NetworkUpdateInterval = 0.001f; 
     [SerializeField] private Transform spawnTransform;
-    //[SerializeField] private StatsHandler statsHandler;
-    [FormerlySerializedAs("statsHanlderReWork")] [SerializeField] private StatsHandlerReWork statsHandlerReWork;
+    [FormerlySerializedAs("statsHandlerReWork")] [SerializeField] private StatsHandlerReWork statsHandlerReWork;
 
     
     private void Awake()
