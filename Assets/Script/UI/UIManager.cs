@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
+using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using TMPro;
 using Unity.Netcode;
@@ -48,7 +50,6 @@ public class UIManager : NetworkBehaviour
     private void Start()
     {
         var host = GetLocalIP().ToString().Split('.');
-        var net = $"{host[0]}.{host[1]}.{host[2]}.";
         joinCode = $"{host[0]}.{host[1]}.{host[2]}.{host[3]}";
         startHostButton.onClick.AddListener(() =>
         {
@@ -68,13 +69,14 @@ public class UIManager : NetworkBehaviour
                 error.text = $"Null input field";
                 return;
             }
-            if (!IPAddress.TryParse(net + inputField.text, out var ipAddress))
+            if (!IPAddress.TryParse(inputField.text, out var ipAddress))
             {
                 error.text = "Please enter a valid IPv4 or IPv6 address.";
                 return;
             }
             try
             {
+                Debug.LogError(ipAddress.ToString());
                 menuTransition.JoinGame();
                 _transport.SetConnectionData(ipAddress.ToString(), 7777, null);       
 
@@ -101,14 +103,24 @@ public class UIManager : NetworkBehaviour
     }
     private static string GetLocalIP()
     {
-        var host = Dns.GetHostEntry(Dns.GetHostName());
-        foreach (var ip in host.AddressList)
-        {
-            if (ip.AddressFamily == AddressFamily.InterNetwork &&
-                !IPAddress.IsLoopback(ip))
-                return ip.ToString();
-        }
+        var interfaces = NetworkInterface.GetAllNetworkInterfaces()        
+            .Where(nic =>
+                nic.Description.ToLower().Contains("tailscale"))
+            .ToList();
 
+        
+        foreach (var nic in interfaces)
+        {
+            foreach (var unicast in nic.GetIPProperties().UnicastAddresses)
+            {
+                if (unicast.Address.AddressFamily == AddressFamily.InterNetwork &&
+                    !IPAddress.IsLoopback(unicast.Address) &&
+                    unicast.Address.ToString().StartsWith("100."))
+                {
+                    return unicast.Address.ToString();
+                }
+            }
+        }
         return null;
     }
     public void ShowPoint(float alive)
