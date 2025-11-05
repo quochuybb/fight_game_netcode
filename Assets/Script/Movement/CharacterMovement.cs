@@ -48,8 +48,6 @@ public class CharacterMovement : NetworkBehaviour
     {
         base.OnNetworkSpawn();
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-        //Random random = new Random();
-        //int map = random.Next(1, 3);
         int map = 1;
         if (IsServer)
         {

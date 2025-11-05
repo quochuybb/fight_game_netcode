@@ -1,132 +1,245 @@
 using System;
-using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Linq;
-using System.Net;
-using System.Net.NetworkInformation;
-using System.Net.Sockets;
-using TMPro;
-using Unity.Netcode;
-using Unity.Netcode.Transports.UTP;
 using UnityEngine;
 using UnityEngine.UI;
-using Cursor = UnityEngine.Cursor;
-public class UIManager : NetworkBehaviour
+using TMPro;
+using Unity.Netcode;
+
+public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
-    [SerializeField] private Button startClientButton;
-    [SerializeField] private Button startHostButton; 
-    [SerializeField] private TextMeshProUGUI idLobby;
-    [SerializeField] private UnityTransport _transport;
-    [SerializeField] private string joinCode;
-    [SerializeField] private TMP_InputField inputField;
-    [SerializeField] private TextMeshProUGUI error;
-    [SerializeField] private MenuTransition menuTransition;
-    [SerializeField] private List<GameObject> pointUI;
 
+    [Header("UI refs")]
+    [SerializeField] private Button startClientButton;
+    [SerializeField] private Button startHostButton;
+    [SerializeField] private Button startGameButton;
+    [SerializeField] private TMP_InputField inputField;       
+    [SerializeField] private TextMeshProUGUI idLobby;         
+    [SerializeField] private TextMeshProUGUI playersListText; 
+    [SerializeField] private TextMeshProUGUI error;
+    [SerializeField] private ConnectionManager connectionManager;
+
+    private CancellationTokenSource _uiPollCts;
 
     private void Awake()
     {
-
-        instance = this; 
-        menuTransition = GetComponent<MenuTransition>();
+        instance = this;
         Cursor.visible = true;
-
-    }
-
-    public override void OnNetworkDespawn()
-    {
-        base.OnNetworkDespawn();
-        foreach (var point in pointUI)
-        {
-            point.SetActive(false);
-        }
-    }
-
-    private void Update()
-    {
-        idLobby.text = joinCode;
     }
 
     private void Start()
     {
-        var host = GetLocalIP().ToString().Split('.');
-        joinCode = $"{host[0]}.{host[1]}.{host[2]}.{host[3]}";
-        startHostButton.onClick.AddListener(() =>
+        if (connectionManager == null)
         {
-            if (NetworkManager.Singleton.StartHost()) 
+            Debug.LogError("[UIManager] ConnectionManager not found in scene!");
+            error.text = "Missing ConnectionManager";
+            DisableAllButtons();
+            return;
+        }
+
+        startHostButton.onClick.AddListener(OnHostClicked);
+        startClientButton.onClick.AddListener(OnJoinClicked);
+        startGameButton.onClick.AddListener(OnStartGameClicked);
+
+        idLobby.text = "";
+        playersListText.text = "";
+        error.text = "";
+        startGameButton.interactable = false;
+
+        connectionManager.OnLobbyUpdated += OnLobbyUpdated;
+    }
+
+    private void OnDestroy()
+    {
+        connectionManager.OnLobbyUpdated -= OnLobbyUpdated;
+        StopUiPolling();
+    }
+
+    private async void OnHostClicked()
+    {
+        SetInteractable(false);
+        error.text = "";
+
+        try
+        {
+            await connectionManager.PrepareLobbyAsync();
+
+            if (connectionManager.lobbyInfo != null)
             {
-                
+                idLobby.text = connectionManager.lobbyInfo.joinCode ?? "";
+                playersListText.text = FormatPlayers(connectionManager.lobbyInfo);
+
+                startGameButton.interactable = true;
+
+                StartUiPolling();
+
+                startClientButton.interactable = false;
+                startHostButton.interactable = false;
             }
             else
             {
-                Debug.Log("Host failed to start");
-            }
-        }); 
-        startClientButton.onClick.AddListener(() =>
-        {
-            if (inputField.text == null)
-            {
-                error.text = $"Null input field";
-                return;
-            }
-            if (!IPAddress.TryParse(inputField.text, out var ipAddress))
-            {
-                error.text = "Please enter a valid IPv4 or IPv6 address.";
-                return;
-            }
-            try
-            {
-                Debug.LogError(ipAddress.ToString());
-                menuTransition.JoinGame();
-                _transport.SetConnectionData(ipAddress.ToString(), 7777, null);       
-
-
-                if (!NetworkManager.Singleton.StartClient())
-                {
-                    error.text = "Network is not ready or already connected.";
-                }
-            }
-            catch (InvalidOperationException)
-            {
-                error.text = "Network is not ready or already connected.";
-            }
-            catch (SocketException)
-            {
-                error.text = "Unable to open network connection.";
-            }
-            catch (Exception ex)
-            {
-                error.text = $"Unexpected error: {ex.Message}";
-            }
-        }); 
-
-    }
-    private static string GetLocalIP()
-    {
-        var interfaces = NetworkInterface.GetAllNetworkInterfaces()        
-            .Where(nic =>
-                nic.Description.ToLower().Contains("tailscale"))
-            .ToList();
-
-        
-        foreach (var nic in interfaces)
-        {
-            foreach (var unicast in nic.GetIPProperties().UnicastAddresses)
-            {
-                if (unicast.Address.AddressFamily == AddressFamily.InterNetwork &&
-                    !IPAddress.IsLoopback(unicast.Address) &&
-                    unicast.Address.ToString().StartsWith("100."))
-                {
-                    return unicast.Address.ToString();
-                }
+                throw new Exception("Failed to create lobby (no lobby info).");
             }
         }
-        return null;
+        catch (OperationCanceledException)
+        {
+            Debug.Log("[UI] Host prepare canceled.");
+            error.text = "Canceled";
+            SetInteractable(true);
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"OnHostClicked failed: {ex}");
+            error.text = "Failed to create lobby: " + ex.Message;
+            SetInteractable(true);
+        }
     }
-    public void ShowPoint(float alive)
+
+
+    private async void OnJoinClicked()
     {
-        pointUI[4 - (int)alive].SetActive(true);
+        SetInteractable(false);
+        error.text = "";
+
+        try
+        {
+            await connectionManager.JoinLobbyAsync(inputField.text);
+
+            if (connectionManager.lobbyInfo != null)
+            {
+                idLobby.text = connectionManager.lobbyInfo.joinCode ?? "";
+                playersListText.text = FormatPlayers(connectionManager.lobbyInfo);
+
+                startGameButton.interactable = true;
+
+                StartUiPolling();
+
+                startClientButton.interactable = false;
+                startHostButton.interactable = false;
+            }
+            else
+            {
+                throw new Exception("Failed to join lobby (no lobby info).");
+            }
+        }
+        catch (OperationCanceledException)
+        {
+            Debug.Log("[UI] Join lobby canceled.");
+            error.text = "Canceled";
+            SetInteractable(true);
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"OnJoinClicked failed: {ex}");
+            error.text = "Failed to create lobby: " + ex.Message;
+            SetInteractable(true);
+        }
+    }
+
+    private async void OnStartGameClicked()
+    {
+        startGameButton.interactable = false;
+        error.text = "";
+
+        try
+        {
+            await connectionManager.StartGameNetworkAsync(localHostPlays: true);
+
+            Debug.Log("Game network started (host).");
+        }
+        catch (OperationCanceledException)
+        {
+            Debug.Log("[UI] StartGame canceled.");
+            error.text = "Canceled";
+            startGameButton.interactable = true;
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"OnStartGameClicked failed: {ex}");
+            error.text = "Failed to start game: " + ex.Message;
+            startGameButton.interactable = true;
+        }
     }
 
 
+    private void OnLobbyUpdated(LobbyInfo info)
+    {
+        if (info == null)
+        {
+            idLobby.text = "";
+            playersListText.text = "(0 players)";
+            return;
+        }
+
+        idLobby.text = info.joinCode ?? "";
+        playersListText.text = FormatPlayers(info);
+        startGameButton.interactable = !string.IsNullOrEmpty(idLobby.text);
+    }
+
+    private void StartUiPolling()
+    {
+        StopUiPolling();
+        _uiPollCts = new CancellationTokenSource();
+        _ = UiPollLoopAsync(_uiPollCts.Token);
+    }
+
+    private void StopUiPolling()
+    {
+        if (_uiPollCts != null)
+        {
+            _uiPollCts.Cancel();
+            _uiPollCts.Dispose();
+            _uiPollCts = null;
+        }
+    }
+
+    private async Task UiPollLoopAsync(CancellationToken ct)
+    {
+        try
+        {
+            while (!ct.IsCancellationRequested)
+            {
+                try
+                {
+                    var lobby = connectionManager.lobbyInfo;
+                    if (lobby != null)
+                    {
+                        idLobby.text = lobby.joinCode ?? "";
+                        playersListText.text = FormatPlayers(lobby);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Debug.LogWarning("UiPollLoop error: " + ex.Message);
+                }
+
+                await Task.Delay(TimeSpan.FromSeconds(1.0), ct);
+            }
+        }
+        catch (OperationCanceledException) { }
+    }
+
+    private string FormatPlayers(LobbyInfo lobby)
+    {
+        if (lobby == null || lobby.Players == null || lobby.Players.Count == 0) return "(0 players)";
+        return string.Join("\n", lobby.Players.Select(p => p.DisplayName ?? p.Id));
+    }
+
+    private void SetInteractable(bool enabled)
+    {
+        startHostButton.interactable = enabled;
+        startClientButton.interactable = enabled;
+        startGameButton.interactable = enabled && !string.IsNullOrEmpty(idLobby.text);
+        inputField.interactable = enabled;
+    }
+
+    private void DisableAllButtons()
+    {
+        startHostButton.interactable = false;
+        startClientButton.interactable = false;
+        startGameButton.interactable = false;
+        inputField.interactable = false;
+    }
 }

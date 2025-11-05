@@ -188,7 +188,7 @@ public class StatsHandlerReWork : NetworkBehaviour
 
         if (!IsOwner)
         {
-            UIManager.instance.ShowPoint(alive);
+            //UIManager.instance.ShowPoint(alive);
         }
     }
     [ClientRpc]
