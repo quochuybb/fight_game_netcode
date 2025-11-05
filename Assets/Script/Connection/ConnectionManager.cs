@@ -8,6 +8,7 @@ using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
+using Unity.Services.Lobbies;
 using Unity.Services.Lobbies.Models;
 using Unity.Services.Relay.Models;
 
@@ -27,6 +28,7 @@ public class ConnectionManager : MonoBehaviour
     private UnityRelayService unityRelayService;
     private TransportConfigurator transportConfigurator;
     private CancellationTokenSource Cts;
+    private ILobbyEvents _lobbyEvents;
     private bool initialized;
 
     private void Start()
@@ -37,7 +39,32 @@ public class ConnectionManager : MonoBehaviour
         unityRelayService = new UnityRelayService();
         Cts = new CancellationTokenSource();
     }
-    
+
+    private async Task SubscribeLobbyEventsAsync(string lobbyId)
+    {
+        var callBacksLobby = new LobbyEventCallbacks();
+        callBacksLobby.LobbyChanged += OnChangedLobby;
+        callBacksLobby.KickedFromLobby += OnKickedMember;
+        try
+        {
+            _lobbyEvents = await LobbyService.Instance.SubscribeToLobbyEventsAsync(lobbyId, callBacksLobby);
+        }
+        catch (Exception e)
+        { 
+            Debug.LogError("Subscribe Lobby Events Fail: " + e.Message);
+            throw;
+        }
+    }
+
+    private void OnChangedLobby(ILobbyChanges changes)
+    {
+        OnLobbyUpdated?.Invoke(lobbyInfo);
+    }
+    private void OnKickedMember()
+    {
+        OnLobbyUpdated?.Invoke(lobbyInfo);
+    }
+
     
     public event Action<LobbyInfo> OnLobbyUpdated;
 
