@@ -59,20 +59,78 @@ public class ConnectionManager : MonoBehaviour
         }
     }
 
-    private void OnChangedLobby(ILobbyChanges changes)
+private void OnChangedLobby(ILobbyChanges changes)
+{
+    if (changes == null)
     {
-        if (changes.PlayerJoined.Changed)
+        Debug.LogWarning("[Lobby] OnChangedLobby called with null changes");
+        return;
+    }
+    try
+    {
+        if (changes.PlayerJoined.Value != null && changes.PlayerJoined.Changed)
         {
             var joinedList = changes.PlayerJoined.Value;
-            foreach (var j in joinedList)
+            if (joinedList != null)
             {
-                Debug.Log($"Player joined: id={j.Player.Id}");
+                foreach (var j in joinedList)
+                {
+
+                    if (j.Player == null)
+                    {
+                        Debug.LogWarning($"[Lobby] PlayerJoined entry had null Player (join info: {j})");
+                        continue;
+                    }
+
+                    Debug.Log($"Player joined: id={j.Player.Id}");
+                }
+            }
+            else
+            {
+                Debug.LogWarning("[Lobby] changes.PlayerJoined.Value is null");
             }
         }
-        changes.ApplyToLobby(_lobby);
-        lobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
-        OnLobbyUpdated?.Invoke(lobbyInfo);
     }
+    catch (Exception ex)
+    {
+        Debug.LogException(ex);
+    }
+
+    if (_lobby == null)
+    {
+        Debug.LogWarning("[Lobby] _lobby is null — skipping changes.ApplyToLobby. Ensure lobby is initialized before subscription.");
+    }
+    else
+    {
+        try
+        {
+            changes.ApplyToLobby(_lobby);
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError("[Lobby] Exception while applying lobby changes. _lobby.Id: " + (_lobby?.Id ?? "<null>"));
+            Debug.LogException(ex);
+        }
+    }
+
+    try
+    {
+        if (_lobby != null)
+        {
+            lobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
+            OnLobbyUpdated?.Invoke(lobbyInfo);
+        }
+        else
+        {
+            Debug.LogWarning("[Lobby] Skipping MapLobbyToLobbyInfo because _lobby is null.");
+        }
+    }
+    catch (Exception ex)
+    {
+        Debug.LogException(ex);
+    }
+}
+
     private void OnKickedMember()
     {
         
