@@ -29,6 +29,7 @@ public class ConnectionManager : MonoBehaviour
     private TransportConfigurator transportConfigurator;
     private CancellationTokenSource Cts;
     private ILobbyEvents _lobbyEvents;
+    private Lobby _lobby;
     private bool initialized;
 
     private void Start()
@@ -60,11 +61,21 @@ public class ConnectionManager : MonoBehaviour
 
     private void OnChangedLobby(ILobbyChanges changes)
     {
-        Debug.Log("OnChangedLobby");
+        if (changes.PlayerJoined.Changed)
+        {
+            var joinedList = changes.PlayerJoined.Value;
+            foreach (var j in joinedList)
+            {
+                Debug.Log($"Player joined: id={j.Player.Id}");
+            }
+        }
+        changes.ApplyToLobby(_lobby);
+        lobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
         OnLobbyUpdated?.Invoke(lobbyInfo);
     }
     private void OnKickedMember()
     {
+        
         OnLobbyUpdated?.Invoke(lobbyInfo);
     }
 

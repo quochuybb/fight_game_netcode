@@ -138,7 +138,7 @@ public class UnityLobbyService : ILobbyService
             Debug.LogError($"LeaveLobby failed: {ex.Message}");
         }
     }
-    private LobbyInfo MapLobbyToLobbyInfo(Lobby lobby)
+    public LobbyInfo MapLobbyToLobbyInfo(Lobby lobby)
     {
         var info = new LobbyInfo
         {
