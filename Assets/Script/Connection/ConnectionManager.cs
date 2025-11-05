@@ -48,6 +48,8 @@ public class ConnectionManager : MonoBehaviour
         try
         {
             _lobbyEvents = await LobbyService.Instance.SubscribeToLobbyEventsAsync(lobbyId, callBacksLobby);
+            Debug.Log("Subscribed to lobby events");
+
         }
         catch (Exception e)
         { 
@@ -58,6 +60,7 @@ public class ConnectionManager : MonoBehaviour
 
     private void OnChangedLobby(ILobbyChanges changes)
     {
+        Debug.Log("OnChangedLobby");
         OnLobbyUpdated?.Invoke(lobbyInfo);
     }
     private void OnKickedMember()
