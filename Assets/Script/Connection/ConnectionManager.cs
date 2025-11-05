@@ -80,6 +80,7 @@ public class ConnectionManager : MonoBehaviour
             Debug.Log($"Lobby created. id={lobbyInfo.lobbyId}, lobbyJoinCode (share to players)={lobbyInfo.joinCode}");
             initialized = true;
             OnLobbyUpdated?.Invoke(lobbyInfo);
+            await SubscribeLobbyEventsAsync(lobbyInfo.lobbyId);
         }
         catch (OperationCanceledException)
         {
