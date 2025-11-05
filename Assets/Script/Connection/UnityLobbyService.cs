@@ -8,7 +8,7 @@ using Unity.Services.Lobbies.Models;
 using UnityEngine;
 public class UnityLobbyService : ILobbyService
 {
-    public async Task<LobbyInfo> CreateLobby(string name, int maxPlayers, CancellationToken ct)
+    public async Task<Lobby> CreateLobby(string name, int maxPlayers, CancellationToken ct)
     {
         ct.ThrowIfCancellationRequested();
         if (!AuthenticationService.Instance.IsSignedIn)
@@ -33,9 +33,8 @@ public class UnityLobbyService : ILobbyService
         {
 
             var lobby = await LobbyService.Instance.CreateLobbyAsync(name, maxPlayers, options);
-            var info = MapLobbyToLobbyInfo(lobby);
-            Debug.Log($"CreateLobby success id={info.lobbyId}, joinCode={info.joinCode}");
-            return info;
+            Debug.Log($"CreateLobby success id={lobby.Id}, joinCode={lobby.LobbyCode}");
+            return lobby;
         }
         catch (Exception ex)
         {
@@ -44,7 +43,7 @@ public class UnityLobbyService : ILobbyService
         }
     }
 
-    public async Task<LobbyInfo> GetLobbyById(string lobbyId, CancellationToken ct)
+    public async Task<Lobby> GetLobbyById(string lobbyId, CancellationToken ct)
     {
         ct.ThrowIfCancellationRequested();
         if (string.IsNullOrEmpty(lobbyId)) throw new ArgumentNullException(nameof(lobbyId));
@@ -52,8 +51,7 @@ public class UnityLobbyService : ILobbyService
         try
         {
             var lobby = await LobbyService.Instance.GetLobbyAsync(lobbyId);
-            var info = MapLobbyToLobbyInfo(lobby);
-            return info;
+            return lobby;
         }
         catch (Exception ex)
         {
@@ -62,7 +60,7 @@ public class UnityLobbyService : ILobbyService
         }
     }
 
-    public async Task<LobbyInfo> JoinLobbyByJoinCode(string joinCode, CancellationToken ct)
+    public async Task<Lobby> JoinLobbyByJoinCode(string joinCode, CancellationToken ct)
     {
         ct.ThrowIfCancellationRequested();
         if (string.IsNullOrWhiteSpace(joinCode)) throw new ArgumentNullException(nameof(joinCode));
@@ -71,9 +69,8 @@ public class UnityLobbyService : ILobbyService
         try
         {
             var lobby = await LobbyService.Instance.JoinLobbyByCodeAsync(joinCode);
-            var info = MapLobbyToLobbyInfo(lobby);
-            Debug.Log($"Join lobby by join code success: id={info.lobbyId}");
-            return info;
+            Debug.Log($"Join lobby by join code success: join code={lobby.LobbyCode}");
+            return lobby;
         }
         catch (Exception ex)
         {

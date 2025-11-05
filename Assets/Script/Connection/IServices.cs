@@ -28,7 +28,7 @@ public class LobbyInfo
 
 public interface ILobbyService
 {
-    Task<LobbyInfo> CreateLobby(string name, int maxPlayers, CancellationToken ct);
+    Task<Lobby> CreateLobby(string name, int maxPlayers, CancellationToken ct);
     Task UpdateLobby(string lobbyId, Dictionary<string,DataObject> metadata, CancellationToken ct);
     Task LeaveLobby(string lobbyId, CancellationToken ct);
 

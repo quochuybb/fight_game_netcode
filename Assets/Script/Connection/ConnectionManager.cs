@@ -148,7 +148,8 @@ private void OnChangedLobby(ILobbyChanges changes)
             Cts.Token.ThrowIfCancellationRequested();
             var playerData = await unityAuthService.SignInAnonymouslyAsync(Cts.Token); 
             Debug.Log("Creating lobby...");
-            lobbyInfo = await unityLobbyService.CreateLobby(playerData.playerId, maxPlayers,Cts.Token);
+            _lobby = await unityLobbyService.CreateLobby(playerData.playerId, maxPlayers,Cts.Token);
+            lobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
             Debug.Log($"Lobby created. id={lobbyInfo.lobbyId}, lobbyJoinCode (share to players)={lobbyInfo.joinCode}");
             initialized = true;
             OnLobbyUpdated?.Invoke(lobbyInfo);
@@ -239,7 +240,8 @@ private void OnChangedLobby(ILobbyChanges changes)
             var ct = localCts.Token;
             var playerData = await unityAuthService.SignInAnonymouslyAsync(ct); 
             Debug.Log("Join lobby...");
-            lobbyInfo = await unityLobbyService.JoinLobbyByJoinCode(lobbyId, ct);
+            _lobby = await unityLobbyService.JoinLobbyByJoinCode(lobbyId, ct);
+            lobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
             Debug.Log($"Join lobby. id={lobbyInfo.lobbyId}, lobbyJoinCode (share to players)={lobbyInfo.joinCode}");
             initialized = true;
             OnLobbyUpdated?.Invoke(lobbyInfo);
