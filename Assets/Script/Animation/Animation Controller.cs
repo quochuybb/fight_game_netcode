@@ -6,22 +6,22 @@ public class AnimationController : NetworkBehaviour
     private Animator animator;
     private readonly int isRunning = Animator.StringToHash("isRunning");
     private readonly int isHurt = Animator.StringToHash("isHurt");
-    private CharacterController CharacterController;
+    private CharacterController _characterController;
     [SerializeField] private ParticleSystem particleSystem;
     private bool createDust = true;
 
     private void Awake()
     {
-        CharacterController = GetComponent<CharacterController>();
+        _characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
         particleSystem = GetComponentInChildren<ParticleSystem>();
     }
 
     private void Start()
     {
-        CharacterController.OnMoveEvent.AddListener(Move);
-        CharacterController.OnMoveEvent.AddListener(Dust);
-        CharacterController.OnDamgeEvent.AddListener(Hurt);
+        _characterController.OnMoveEvent.AddListener(Move);
+        _characterController.OnMoveEvent.AddListener(Dust);
+        _characterController.OnDamgeEvent.AddListener(Hurt);
     }
 
     private void Move(Vector2 movement)

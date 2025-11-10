@@ -22,7 +22,7 @@ public class ConnectionManager : MonoBehaviour
     public UnityTransport unityTransport;
     public LobbyInfo lobbyInfo;
     public string relayCode;
-    public int maxPlayers = 4;
+    public int maxPlayers = 2;
     private UnityAuthService unityAuthService;
     private UnityLobbyService unityLobbyService;
     private UnityRelayService unityRelayService;
@@ -210,8 +210,9 @@ private void OnChangedLobby(ILobbyChanges changes)
                 networkManager.StartServer();
             }
 
-            initialized = true;
             OnLobbyUpdated?.Invoke(lobbyInfo);
+
+            await JoinGameNetworkAsync(externalToken);
         }
         catch (OperationCanceledException)
         {
@@ -229,6 +230,39 @@ private void OnChangedLobby(ILobbyChanges changes)
             localCts.Dispose();
         }
     }
+
+    public async Task JoinGameNetworkAsync(CancellationToken externalToken = default)
+    {
+
+        try
+        {
+            if (lobbyInfo == null)
+            {
+                Debug.LogError("[ConnectionManager] Lobby Info Null");
+                return;
+            };
+            string joinCode = await ReadRelayCode(lobbyInfo.lobbyId);
+            var allocation = await unityRelayService.JoinAllocation(joinCode, externalToken);
+            await transportConfigurator.ApplyClientJoinDataAsync(allocation, externalToken);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"[ConnectionManager] JoinGameNetworkAsync failed: {e}");
+            throw;
+        }
+    }
+
+    public async Task<String> ReadRelayCode(string lobbyId)
+    {
+        var lobbyInfo = await unityLobbyService.GetLobbyById(lobbyId,Cts.Token);
+        if (this.lobbyInfo != null && lobbyInfo.Data.TryGetValue("relayJoinCode", out var value))
+        {
+            return value.Value;
+        }
+
+        return null;
+    }
+    
 
     public async Task JoinLobbyAsync(string lobbyId, CancellationToken externalToken = default)
     {
