@@ -15,6 +15,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button startClientButton;
     [SerializeField] private Button startHostButton;
     [SerializeField] private Button startGameButton;
+    [SerializeField] private Button startGameClientButton;
     [SerializeField] private TMP_InputField inputField;       
     [SerializeField] private TextMeshProUGUI idLobby;         
     [SerializeField] private TextMeshProUGUI playersListText; 
@@ -42,6 +43,7 @@ public class UIManager : MonoBehaviour
         startHostButton.onClick.AddListener(OnHostClicked);
         startClientButton.onClick.AddListener(OnJoinClicked);
         startGameButton.onClick.AddListener(OnStartGameClicked);
+        startGameClientButton.onClick.AddListener(OnStartGameClientClicked);
 
         idLobby.text = "";
         playersListText.text = "";
@@ -66,10 +68,10 @@ public class UIManager : MonoBehaviour
         {
             await connectionManager.PrepareLobbyAsync();
 
-            if (connectionManager.lobbyInfo != null)
+            if (connectionManager.LobbyInfo != null)
             {
-                idLobby.text = connectionManager.lobbyInfo.joinCode ?? "";
-                playersListText.text = FormatPlayers(connectionManager.lobbyInfo);
+                idLobby.text = connectionManager.LobbyInfo.joinCode ?? "";
+                playersListText.text = FormatPlayers(connectionManager.LobbyInfo);
 
                 startGameButton.interactable = true;
 
@@ -107,10 +109,10 @@ public class UIManager : MonoBehaviour
         {
             await connectionManager.JoinLobbyAsync(inputField.text);
 
-            if (connectionManager.lobbyInfo != null)
+            if (connectionManager.LobbyInfo != null)
             {
-                idLobby.text = connectionManager.lobbyInfo.joinCode ?? "";
-                playersListText.text = FormatPlayers(connectionManager.lobbyInfo);
+                idLobby.text = connectionManager.LobbyInfo.joinCode ?? "";
+                playersListText.text = FormatPlayers(connectionManager.LobbyInfo);
 
                 startGameButton.interactable = true;
 
@@ -162,6 +164,30 @@ public class UIManager : MonoBehaviour
             startGameButton.interactable = true;
         }
     }
+    private async void OnStartGameClientClicked()
+    {
+        startClientButton.interactable = false;
+        error.text = "";
+
+        try
+        {
+            await connectionManager.JoinGameNetworkAsync();
+
+            Debug.Log("Game network started (client).");
+        }
+        catch (OperationCanceledException)
+        {
+            Debug.Log("[UI] StartGame canceled.");
+            error.text = "Canceled";
+            startClientButton.interactable = true;
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"OnStartGameClientClicked failed: {ex}");
+            error.text = "Failed to start game: " + ex.Message;
+            startClientButton.interactable = true;
+        }
+    }
 
 
     private void OnLobbyUpdated(LobbyInfo info)
@@ -203,7 +229,7 @@ public class UIManager : MonoBehaviour
             {
                 try
                 {
-                    var lobby = connectionManager.lobbyInfo;
+                    var lobby = connectionManager.LobbyInfo;
                     if (lobby != null)
                     {
                         idLobby.text = lobby.joinCode ?? "";

@@ -20,7 +20,7 @@ public class ConnectionManager : MonoBehaviour
     [Header("References")]
     public NetworkManager networkManager;
     public UnityTransport unityTransport;
-    public LobbyInfo lobbyInfo;
+    public LobbyInfo LobbyInfo;
     public string relayCode;
     public int maxPlayers = 2;
     private UnityAuthService unityAuthService;
@@ -117,8 +117,8 @@ private void OnChangedLobby(ILobbyChanges changes)
     {
         if (_lobby != null)
         {
-            lobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
-            OnLobbyUpdated?.Invoke(lobbyInfo);
+            LobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
+            OnLobbyUpdated?.Invoke(LobbyInfo);
         }
         else
         {
@@ -134,7 +134,7 @@ private void OnChangedLobby(ILobbyChanges changes)
     private void OnKickedMember()
     {
         
-        OnLobbyUpdated?.Invoke(lobbyInfo);
+        OnLobbyUpdated?.Invoke(LobbyInfo);
     }
 
     
@@ -149,11 +149,11 @@ private void OnChangedLobby(ILobbyChanges changes)
             var playerData = await unityAuthService.SignInAnonymouslyAsync(Cts.Token); 
             Debug.Log("Creating lobby...");
             _lobby = await unityLobbyService.CreateLobby(playerData.playerId, maxPlayers,Cts.Token);
-            lobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
-            Debug.Log($"Lobby created. id={lobbyInfo.lobbyId}, lobbyJoinCode (share to players)={lobbyInfo.joinCode}");
+            LobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
+            Debug.Log($"Lobby created. id={LobbyInfo.lobbyId}, lobbyJoinCode (share to players)={LobbyInfo.joinCode}");
             initialized = true;
-            OnLobbyUpdated?.Invoke(lobbyInfo);
-            await SubscribeLobbyEventsAsync(lobbyInfo.lobbyId);
+            OnLobbyUpdated?.Invoke(LobbyInfo);
+            await SubscribeLobbyEventsAsync(LobbyInfo.lobbyId);
         }
         catch (OperationCanceledException)
         {
@@ -169,7 +169,7 @@ private void OnChangedLobby(ILobbyChanges changes)
     }
     public async Task StartGameNetworkAsync(bool localHostPlays = true, CancellationToken externalToken = default)
     {
-        if (lobbyInfo == null)
+        if (LobbyInfo == null)
             throw new InvalidOperationException("Lobby not prepared. Call PrepareLobbyAsync() first.");
         var localCts = CancellationTokenSource.CreateLinkedTokenSource(externalToken);
         var ct = localCts.Token;
@@ -190,10 +190,10 @@ private void OnChangedLobby(ILobbyChanges changes)
                 { "hostId", new DataObject(DataObject.VisibilityOptions.Public, AuthenticationService.Instance.PlayerId) }
             };
 
-            await unityLobbyService.UpdateLobby(lobbyInfo.lobbyId, updateData, ct);
+            await unityLobbyService.UpdateLobby(LobbyInfo.lobbyId, updateData, ct);
 
-            lobbyInfo.Metadata["relayJoinCode"] = joinCode;
-            OnLobbyUpdated?.Invoke(lobbyInfo);
+            LobbyInfo.Metadata["relayJoinCode"] = joinCode;
+            OnLobbyUpdated?.Invoke(LobbyInfo);
 
             await transportConfigurator.ApplyHostAllocationAsync(allocation, ct);
 
@@ -210,9 +210,8 @@ private void OnChangedLobby(ILobbyChanges changes)
                 networkManager.StartServer();
             }
 
-            OnLobbyUpdated?.Invoke(lobbyInfo);
-
-            await JoinGameNetworkAsync(externalToken);
+            OnLobbyUpdated?.Invoke(LobbyInfo);
+            
         }
         catch (OperationCanceledException)
         {
@@ -236,14 +235,15 @@ private void OnChangedLobby(ILobbyChanges changes)
 
         try
         {
-            if (lobbyInfo == null)
+            if (LobbyInfo == null)
             {
                 Debug.LogError("[ConnectionManager] Lobby Info Null");
                 return;
             };
-            string joinCode = await ReadRelayCode(lobbyInfo.lobbyId);
+            string joinCode = await ReadRelayCode(LobbyInfo.lobbyId);
             var allocation = await unityRelayService.JoinAllocation(joinCode, externalToken);
             await transportConfigurator.ApplyClientJoinDataAsync(allocation, externalToken);
+            networkManager.StartClient();
         }
         catch (Exception e)
         {
@@ -255,7 +255,7 @@ private void OnChangedLobby(ILobbyChanges changes)
     public async Task<String> ReadRelayCode(string lobbyId)
     {
         var lobbyInfo = await unityLobbyService.GetLobbyById(lobbyId,Cts.Token);
-        if (this.lobbyInfo != null && lobbyInfo.Data.TryGetValue("relayJoinCode", out var value))
+        if (this.LobbyInfo != null && lobbyInfo.Data.TryGetValue("relayJoinCode", out var value))
         {
             return value.Value;
         }
@@ -275,10 +275,10 @@ private void OnChangedLobby(ILobbyChanges changes)
             var playerData = await unityAuthService.SignInAnonymouslyAsync(ct); 
             Debug.Log("Join lobby...");
             _lobby = await unityLobbyService.JoinLobbyByJoinCode(lobbyId, ct);
-            lobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
-            Debug.Log($"Join lobby. id={lobbyInfo.lobbyId}, lobbyJoinCode (share to players)={lobbyInfo.joinCode}");
+            LobbyInfo = unityLobbyService.MapLobbyToLobbyInfo(_lobby);
+            Debug.Log($"Join lobby. id={LobbyInfo.lobbyId}, lobbyJoinCode (share to players)={LobbyInfo.joinCode}");
             initialized = true;
-            OnLobbyUpdated?.Invoke(lobbyInfo);
+            OnLobbyUpdated?.Invoke(LobbyInfo);
         }
         catch (OperationCanceledException)
         {
@@ -319,10 +319,10 @@ private void OnChangedLobby(ILobbyChanges changes)
 
         try
         {
-            if (lobbyInfo != null && lobbyInfo.lobbyId == AuthenticationService.Instance.PlayerId)
+            if (LobbyInfo != null && LobbyInfo.lobbyId == AuthenticationService.Instance.PlayerId)
             {
-                await unityLobbyService.LeaveLobby(lobbyInfo.lobbyId, CancellationToken.None);
-                Debug.Log($"Deleted lobby {lobbyInfo.lobbyId}");
+                await unityLobbyService.LeaveLobby(LobbyInfo.lobbyId, CancellationToken.None);
+                Debug.Log($"Deleted lobby {LobbyInfo.lobbyId}");
             }
         }
         catch (Exception ex)
@@ -331,7 +331,7 @@ private void OnChangedLobby(ILobbyChanges changes)
         }
 
         initialized = false;
-        lobbyInfo = null;
+        LobbyInfo = null;
         relayCode = null;
         OnLobbyUpdated?.Invoke(null);
     }
