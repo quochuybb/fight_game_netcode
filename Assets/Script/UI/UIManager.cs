@@ -49,6 +49,7 @@ public class UIManager : MonoBehaviour
         playersListText.text = "";
         error.text = "";
         startGameButton.interactable = false;
+        startGameClientButton.interactable = false;
 
         connectionManager.OnLobbyUpdated += OnLobbyUpdated;
     }
@@ -107,6 +108,11 @@ public class UIManager : MonoBehaviour
 
         try
         {
+            if (inputField.text == null)
+            {
+                error.text = "Fill lobby code";
+                SetInteractable(true);
+            }
             await connectionManager.JoinLobbyAsync(inputField.text);
 
             if (connectionManager.LobbyInfo != null)
@@ -114,7 +120,7 @@ public class UIManager : MonoBehaviour
                 idLobby.text = connectionManager.LobbyInfo.joinCode ?? "";
                 playersListText.text = FormatPlayers(connectionManager.LobbyInfo);
 
-                startGameButton.interactable = true;
+                startGameClientButton.interactable = true;
 
                 StartUiPolling();
 
@@ -135,7 +141,7 @@ public class UIManager : MonoBehaviour
         catch (Exception ex)
         {
             Debug.LogError($"OnJoinClicked failed: {ex}");
-            error.text = "Failed to create lobby: " + ex.Message;
+            error.text = "Failed to join lobby: " + ex.Message;
             SetInteractable(true);
         }
     }
@@ -166,7 +172,7 @@ public class UIManager : MonoBehaviour
     }
     private async void OnStartGameClientClicked()
     {
-        startClientButton.interactable = false;
+        startGameClientButton.interactable = false;
         error.text = "";
 
         try
@@ -179,13 +185,13 @@ public class UIManager : MonoBehaviour
         {
             Debug.Log("[UI] StartGame canceled.");
             error.text = "Canceled";
-            startClientButton.interactable = true;
+            startGameClientButton.interactable = true;
         }
         catch (Exception ex)
         {
             Debug.LogError($"OnStartGameClientClicked failed: {ex}");
             error.text = "Failed to start game: " + ex.Message;
-            startClientButton.interactable = true;
+            startGameClientButton.interactable = true;
         }
     }
 
@@ -202,6 +208,8 @@ public class UIManager : MonoBehaviour
         idLobby.text = info.joinCode ?? "";
         playersListText.text = FormatPlayers(info);
         startGameButton.interactable = !string.IsNullOrEmpty(idLobby.text);
+        startGameClientButton.interactable = !string.IsNullOrEmpty(idLobby.text);
+
     }
 
     private void StartUiPolling()
@@ -258,6 +266,7 @@ public class UIManager : MonoBehaviour
         startHostButton.interactable = enabled;
         startClientButton.interactable = enabled;
         startGameButton.interactable = enabled && !string.IsNullOrEmpty(idLobby.text);
+        startGameClientButton.interactable = enabled && !string.IsNullOrEmpty(idLobby.text);
         inputField.interactable = enabled;
     }
 
@@ -266,6 +275,7 @@ public class UIManager : MonoBehaviour
         startHostButton.interactable = false;
         startClientButton.interactable = false;
         startGameButton.interactable = false;
+        startGameClientButton.interactable = false;
         inputField.interactable = false;
     }
 }

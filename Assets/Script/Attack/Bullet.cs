@@ -4,13 +4,13 @@ using UnityEngine;
 public class Bullet : ScriptableObject 
 {
     public float size;
-    public float damage;
-    public float speed;
+    public ushort damage;
+    public ushort speed;
     public float delay;
     public float timeExist;
-    public float bouncing;
+    public byte bouncing;
     public float multipleBulletAngle;
-    public float numberOfBulletsPerShoot;
+    public byte numberOfBulletsPerShoot;
     
     public BulletNetworkSerializable Mapping()
     {

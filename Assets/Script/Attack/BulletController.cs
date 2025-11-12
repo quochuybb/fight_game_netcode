@@ -59,12 +59,18 @@ public class BulletController : NetworkBehaviour
     [ServerRpc]
     private void BouncesChangedServerRpc()
     {
-        bulletConfigNetworkVariable.Value.bouncing--;
+        BulletNetworkSerializable currentConfig = bulletConfigNetworkVariable.Value;
+
+        currentConfig.bouncing--;
+        bulletConfigNetworkVariable.Value = currentConfig;    
     }
 
     private void BouncesChangedClient()
     {
-        bulletConfigNetworkVariable.Value.bouncing--;
+        BulletNetworkSerializable currentConfig = bulletConfigNetworkVariable.Value;
+
+        currentConfig.bouncing--;
+        bulletConfigNetworkVariable.Value = currentConfig;
 
     }
     private void BouncesChanged()

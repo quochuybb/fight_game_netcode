@@ -29804,7 +29804,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6121569540481913352, guid: ef9efb11ae9b866a3a84a665adf487ad, type: 3}
       propertyPath: chestOpenTime
-      value: 30
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 988853008540682434, guid: ef9efb11ae9b866a3a84a665adf487ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30685,7 +30685,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6121569540481913352, guid: ef9efb11ae9b866a3a84a665adf487ad, type: 3}
       propertyPath: chestOpenTime
-      value: 30
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 988853008540682434, guid: ef9efb11ae9b866a3a84a665adf487ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36833,7 +36833,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6121569540481913352, guid: ef9efb11ae9b866a3a84a665adf487ad, type: 3}
       propertyPath: chestOpenTime
-      value: 30
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 988853008540682434, guid: ef9efb11ae9b866a3a84a665adf487ad, type: 3}
       propertyPath: m_LocalPosition.x
