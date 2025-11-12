@@ -267,6 +267,7 @@ private void OnChangedLobby(ILobbyChanges changes)
     public async Task JoinLobbyAsync(string lobbyId, CancellationToken externalToken = default)
     {
         if (initialized) return;
+
         try
         {
             var localCts = CancellationTokenSource.CreateLinkedTokenSource(externalToken);

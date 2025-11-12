@@ -111,11 +111,8 @@ public class StatsHandler : NetworkBehaviour
             currentStatsNetworkVariableClient.Value.alive -= 1;
             currentStatsNetworkVariableClient.Value.healthPoint = stats.Mapping().healthPoint + 5;
             currentStatsNetworkVariableClient.Value.armor += 2;
-            BulletNetworkSerializable currentConfig = currentStatsAttackNetworkVariableClient.Value;
-
-            currentConfig.damage += 1;
-            currentConfig.speed += 3;
-            currentStatsAttackNetworkVariableClient.Value = currentConfig;
+            currentStatsAttackNetworkVariableClient.Value.damage += 1;
+            currentStatsAttackNetworkVariableClient.Value.speed += 3;
             RunDieEffectClientRpc();
             if (currentStatsNetworkVariableClient.Value.alive <= 0)
             {
@@ -149,12 +146,8 @@ public class StatsHandler : NetworkBehaviour
             currentStatsNetworkVariableHost.Value.alive -= 1;
             currentStatsNetworkVariableHost.Value.healthPoint = stats.Mapping().healthPoint + 5;
             currentStatsNetworkVariableHost.Value.armor += 2;
-            BulletNetworkSerializable currentConfig = currentStatsAttackNetworkVariableHost.Value;
-
-            currentConfig.damage += 1;
-            currentConfig.speed += 3;
-            currentStatsAttackNetworkVariableHost.Value = currentConfig;
-            
+            currentStatsAttackNetworkVariableHost.Value.damage += 1;
+            currentStatsAttackNetworkVariableHost.Value.speed += 3;
             RunDieEffectClientRpc();
             if (currentStatsNetworkVariableHost.Value.alive <= 0)
             {
