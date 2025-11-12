@@ -7,7 +7,6 @@ public class BulletManager : NetworkBehaviour
     [SerializeField] private ParticleSystem particleSystem;
     public static BulletManager instance;
     [SerializeField] private GameObject bulletPrefab;
-    private NetworkObject bulletNetworkObject;
 
     private void Awake()
     {
@@ -30,34 +29,32 @@ public class BulletManager : NetworkBehaviour
 
     public void RequestDestroyFromBullet(NetworkObject networkObject,BulletNetworkSerializable bullet)
     {
-        this.bulletNetworkObject = networkObject;
-        DestroyBulletServerRpc(bullet);
+        DestroyBullet(networkObject,bullet);
     }
 
-    [ServerRpc]
-    public void DestroyBulletServerRpc(BulletNetworkSerializable bullet)
+    public void DestroyBullet(NetworkObject networkObject, BulletNetworkSerializable bullet)
     {
-        if (bulletNetworkObject.IsSpawned)
-        {
-            CreateEffectDestroyBulletClientRpc(bulletNetworkObject.transform.position, bullet);
-            bulletNetworkObject.Despawn();
-
-        }
-        if (!bulletNetworkObject.gameObject.activeInHierarchy)
+        if (!IsServer) return; 
+        
+        if (networkObject == null || !networkObject.IsSpawned)
         {
             return;
         }
-        CreateEffectDestroyBulletClientRpc(bulletNetworkObject.transform.position, bullet);
-        NetworkPooling.Singleton.ReturnNetworkObject(this.bulletNetworkObject,bulletPrefab);
+
+        CreateEffectDestroyBulletClientRpc(networkObject.transform.position, bullet);
+
+        networkObject.Despawn(false);
+        
 
     }
     [ServerRpc(RequireOwnership = false)]
     public void ShootBulletServerRpc(Vector2 startPos, Quaternion rotation, BulletNetworkSerializable bulletNetwork, Vector2 direction)
     {
-        
+        if (!IsServer) return;
         NetworkObject bullet = NetworkPooling.Singleton.GetNetworkObject(bulletPrefab,startPos, rotation);
         BulletController bulletController = bullet.gameObject.GetComponent<BulletController>();
-        bulletController.InitConfigBullet(bulletNetwork,direction);
+        bulletController.InitConfigBullet(bulletNetwork,direction); 
+        
         bullet.Spawn();
     }
     

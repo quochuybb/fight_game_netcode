@@ -32,25 +32,41 @@ public class BulletController : NetworkBehaviour
         filter = new ContactFilter2D();
         filter.SetLayerMask(LayerMask.GetMask("Wall"));
         filter.useTriggers = true;   
-
+        bulletConfigNetworkVariable.OnValueChanged += OnBulletConfigChanged;
         base.OnNetworkSpawn();
+    }
+    public override void OnNetworkDespawn()
+    {
+        bulletConfigNetworkVariable.OnValueChanged -= OnBulletConfigChanged;
+        base.OnNetworkDespawn();
+    }
+    private void OnBulletConfigChanged(BulletNetworkSerializable previousValue, BulletNetworkSerializable newValue)
+    {
+        if (previousValue.bouncing != newValue.bouncing)
+        {
+            Debug.Log($"Client: Số lần nảy thay đổi từ {previousValue.bouncing} thành {newValue.bouncing}");
+        }
+        
+        if (previousValue.size != newValue.size)
+        {
+            UpdateSpriteBullet();
+        }
     }
 
     private void Update()
     {
-        if (!isShoot)
+        if (!isShoot) return;
+
+        if (IsServer) 
         {
-            return;
-        }
-        currentDuration += Time.deltaTime;
-        if (currentDuration > bulletConfigNetworkVariable.Value.timeExist)
-        {
-            if (IsOwner)
+            currentDuration += Time.deltaTime;
+            if (currentDuration > bulletConfigNetworkVariable.Value.timeExist)
             {
                 DestroyBulletServerRpc();
+                currentDuration = 0;
             }
-            currentDuration = 0;
         }
+        
         _rigidbody2D.velocity = direction * bulletConfigNetworkVariable.Value.speed;
         lastPosition = _rigidbody2D.position;
 
@@ -64,29 +80,10 @@ public class BulletController : NetworkBehaviour
         currentConfig.bouncing--;
         bulletConfigNetworkVariable.Value = currentConfig;    
     }
-
-    private void BouncesChangedClient()
-    {
-        BulletNetworkSerializable currentConfig = bulletConfigNetworkVariable.Value;
-
-        currentConfig.bouncing--;
-        bulletConfigNetworkVariable.Value = currentConfig;
-
-    }
-    private void BouncesChanged()
-    {
-        if (IsOwner)
-        {
-            BouncesChangedServerRpc();
-        }
-        else
-        {
-            BouncesChangedClient();
-
-        }    
-    }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (!IsServer) return;
         if (!other.gameObject.CompareTag("Bullet"))
         {
 
@@ -94,10 +91,9 @@ public class BulletController : NetworkBehaviour
             {
                 if (other.gameObject.CompareTag("Player"))
                 {
-                    if (IsOwner)
-                    {
-                        DestroyBulletServerRpc();
-                    }                }
+                    DestroyBulletServerRpc();
+                    
+                }
 
                 if (!other.CompareTag("Wall")) return;
 
@@ -116,12 +112,12 @@ public class BulletController : NetworkBehaviour
                     Vector2 normal = hit.normal;             
                     Vector2 incoming = _rigidbody2D.velocity.normalized;
                     Vector2 reflectDir = Vector2.Reflect(incoming, normal);
+                    BulletNetworkSerializable currentConfig = bulletConfigNetworkVariable.Value;
+                    currentConfig.bouncing--;
+                    bulletConfigNetworkVariable.Value = currentConfig;
                     if (incoming == Vector2.zero)
                     {
-                        if (IsOwner)
-                        {
-                            DestroyBulletServerRpc();
-                        }
+                        DestroyBulletServerRpc();
                         return;
                     }
 
@@ -137,15 +133,11 @@ public class BulletController : NetworkBehaviour
                     direction = fallbackDir;
 
                 }
-                BouncesChanged();
 
             }
             else
             {
-                if (IsOwner)
-                {
-                    DestroyBulletServerRpc();
-                }
+                DestroyBulletServerRpc();
             }
 
 
@@ -156,12 +148,18 @@ public class BulletController : NetworkBehaviour
     
     public void InitConfigBullet(BulletNetworkSerializable bulletNetwork, Vector2 direction)
     {
+        if (IsServer)
+        {
+            this.bulletConfigNetworkVariable.Value = bulletNetwork;
+        }
         this.bulletManager = BulletManager.instance;
-        this.bulletConfigNetworkVariable.Value = bulletNetwork;
         this.direction = direction;
-        UpdateSpriteBullet();
+        if (IsServer)
+        {
+            UpdateSpriteBullet();
+            isShoot = true;
+        }
         currentDuration = 0f;
-        isShoot = true;
 
     }
     
@@ -173,7 +171,7 @@ public class BulletController : NetworkBehaviour
     [ServerRpc]
     public void DestroyBulletServerRpc()
     {
-        bulletManager.RequestDestroyFromBullet(this.NetworkObject,bulletConfigNetworkVariable.Value);
+        bulletManager.RequestDestroyFromBullet(this.NetworkObject, bulletConfigNetworkVariable.Value);
     }
 
     public float GetDamage()
