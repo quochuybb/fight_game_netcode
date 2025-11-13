@@ -46,6 +46,8 @@ public class BulletManager : NetworkBehaviour
         CreateEffectDestroyBulletClientRpc(networkObject.transform.position, bullet);
 
         networkObject.Despawn(false);
+        Debug.LogError(networkObject.IsSpawned);
+
         
 
     }
