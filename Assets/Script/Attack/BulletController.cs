@@ -6,10 +6,7 @@ using UnityEngine;
 public class BulletController : NetworkBehaviour
 {
     private BulletManager bulletManager;
-    private BulletNetworkSerializable pendingInit;
-    private Vector2 pendingDirection;
 
-    private bool hasPendingInit = false;
     private NetworkVariable<BulletNetworkSerializable> bulletConfigNetworkVariable = new NetworkVariable<BulletNetworkSerializable>();
     [SerializeField] private Rigidbody2D _rigidbody2D;
     [SerializeField] private SpriteRenderer spriteRenderer;
@@ -38,15 +35,6 @@ public class BulletController : NetworkBehaviour
         filter.useTriggers = true;   
 
         base.OnNetworkSpawn();
-        if (hasPendingInit)
-        {
-            bulletConfigNetworkVariable.Value = pendingInit;
-            hasPendingInit = false;
-            this.direction = pendingDirection;
-            UpdateSpriteBullet();
-            currentDuration = 0f;
-            isShoot = true;
-        }
     }
 
     private void Update()
@@ -169,20 +157,12 @@ public class BulletController : NetworkBehaviour
     public void InitConfigBullet(BulletNetworkSerializable bulletNetwork, Vector2 direction)
     {
         this.bulletManager = BulletManager.instance;
-        if (NetworkObject != null && NetworkObject.IsSpawned && IsServer)
-        {
-            this.bulletConfigNetworkVariable.Value = bulletNetwork;
-            this.direction = direction;
-            UpdateSpriteBullet();
-            currentDuration = 0f;
-            isShoot = true;
-        }
-        else
-        {
-            pendingInit = bulletNetwork;
-            hasPendingInit = true;
-            pendingDirection = direction;
-        }
+        this.bulletConfigNetworkVariable.Value = bulletNetwork;
+        this.direction = direction;
+        UpdateSpriteBullet();
+        currentDuration = 0f;
+        isShoot = true;
+
 
 
 
