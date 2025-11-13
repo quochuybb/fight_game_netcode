@@ -7,6 +7,7 @@ public class BulletManager : NetworkBehaviour
     [SerializeField] private ParticleSystem particleSystem;
     public static BulletManager instance;
     [SerializeField] private GameObject bulletPrefab;
+    private NetworkObject tempBullet;
 
     private void Awake()
     {
@@ -30,26 +31,24 @@ public class BulletManager : NetworkBehaviour
     public void RequestDestroyFromBullet(NetworkObject networkObject,BulletNetworkSerializable bullet)
     {
         Debug.LogError("RequestDestroyFromBullet");
-        DestroyBullet(networkObject,bullet);
+        tempBullet = networkObject;
+        DestroyBulletServerRpc(bullet);
     }
-
-    public void DestroyBullet(NetworkObject networkObject, BulletNetworkSerializable bullet)
+    [ServerRpc]
+    public void DestroyBulletServerRpc(BulletNetworkSerializable bullet)
     {
         if (!IsServer) return; 
         Debug.LogError("DestroyBullet");
 
-        if (networkObject == null || !networkObject.IsSpawned)
+        if (tempBullet == null || !tempBullet.IsSpawned)
         {
             return;
         }
 
-        CreateEffectDestroyBulletClientRpc(networkObject.transform.position, bullet);
+        CreateEffectDestroyBulletClientRpc(tempBullet.transform.position, bullet);
 
-        networkObject.Despawn(false);
-        Debug.LogError(networkObject.IsSpawned);
-
-        
-
+        tempBullet.Despawn(false);
+        Debug.LogError(tempBullet.IsSpawned);
     }
     [ServerRpc(RequireOwnership = false)]
     public void ShootBulletServerRpc(Vector2 startPos, Quaternion rotation, BulletNetworkSerializable bulletNetwork, Vector2 direction)
