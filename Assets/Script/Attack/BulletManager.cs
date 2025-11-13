@@ -53,10 +53,10 @@ public class BulletManager : NetworkBehaviour
         if (!IsServer) return;
         NetworkObject bullet = NetworkPooling.Singleton.GetNetworkObject(bulletPrefab,startPos, rotation);
         BulletController bulletController = bullet.gameObject.GetComponent<BulletController>();
-        bullet.Spawn();
 
         bulletController.InitConfigBullet(bulletNetwork,direction); 
-        
+        bullet.Spawn();
+
     }
     
 }

@@ -163,9 +163,6 @@ public class BulletController : NetworkBehaviour
         currentDuration = 0f;
         isShoot = true;
 
-
-
-
     }
     
     public void UpdateSpriteBullet()
