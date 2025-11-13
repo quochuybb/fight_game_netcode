@@ -76,7 +76,6 @@ public class BulletController : NetworkBehaviour
                 {
                     if (IsOwner)
                     {
-                        Debug.LogError("Call to DestroyBulletServerRpc Bouncing Player");
                         DestroyBulletServerRpc();
                     }                }
 
@@ -101,7 +100,6 @@ public class BulletController : NetworkBehaviour
                     {
                         if (IsOwner)
                         {
-                            Debug.LogError("Call to DestroyBulletServerRpc Bouncing");
                             DestroyBulletServerRpc();
                         }
                         return;
@@ -126,7 +124,6 @@ public class BulletController : NetworkBehaviour
             {
                 if (IsOwner)
                 {
-                    Debug.LogError("Call to DestroyBulletServerRpc not Bouncing");
                     DestroyBulletServerRpc();
                 }
             }
@@ -144,7 +141,6 @@ public class BulletController : NetworkBehaviour
         UpdateSpriteBullet();
         currentDuration = 0f;
         isShoot = true;
-        Debug.LogError("Bullet initialized" + bulletConfigNetworkVariable.Value.numberOfBulletsPerShoot);
 
     }
     
@@ -156,7 +152,6 @@ public class BulletController : NetworkBehaviour
     [ServerRpc]
     public void DestroyBulletServerRpc()
     {
-        Debug.LogError("Destroy in Server");
         bulletManager.RequestDestroyFromBullet(this.NetworkObject,bulletConfigNetworkVariable.Value);
     }
 

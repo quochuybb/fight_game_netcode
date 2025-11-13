@@ -29,13 +29,11 @@ public class BulletManager : NetworkBehaviour
 
     public void RequestDestroyFromBullet(NetworkObject networkObject,BulletNetworkSerializable bullet)
     {
-        Debug.LogError("RequestDestroyFromBullet");
         DestroyBullet(networkObject,bullet);
     }
     public void DestroyBullet(NetworkObject networkObject,BulletNetworkSerializable bullet)
     {
         if (!IsServer) return; 
-        Debug.LogError("DestroyBullet");
 
         if (networkObject == null || !networkObject.IsSpawned)
         {
@@ -45,7 +43,6 @@ public class BulletManager : NetworkBehaviour
         CreateEffectDestroyBulletClientRpc(networkObject.transform.position, bullet);
 
         networkObject.Despawn(true);
-        Debug.LogError(networkObject.IsSpawned);
     }
     [ServerRpc(RequireOwnership = false)]
     public void ShootBulletServerRpc(Vector2 startPos, Quaternion rotation, BulletNetworkSerializable bulletNetwork, Vector2 direction)
