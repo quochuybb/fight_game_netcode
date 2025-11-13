@@ -1,10 +1,8 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using Unity.Netcode;
 using UnityEngine;
 
-public class BulletNetworkSerializable : IEquatable<BulletNetworkSerializable>,INetworkSerializable
+public struct BulletNetworkSerializable : IEquatable<BulletNetworkSerializable>, INetworkSerializable
 {
     public float size;
     public float damage;
@@ -13,38 +11,33 @@ public class BulletNetworkSerializable : IEquatable<BulletNetworkSerializable>,I
     public float timeExist;
     public float bouncing;
     public float multipleBulletAngle;
-    public float numberOfBulletsPerShoot;
+    public byte numberOfBulletsPerShoot; 
+
     public bool Equals(BulletNetworkSerializable other)
     {
-        return size == other.size && damage == other.damage && speed == other.speed && delay == other.delay && timeExist == other.timeExist && bouncing == other.bouncing 
-               && multipleBulletAngle == other.multipleBulletAngle && numberOfBulletsPerShoot==other.numberOfBulletsPerShoot;
+        return size == other.size
+               && damage == other.damage
+               && speed == other.speed
+               && delay == other.delay
+               && timeExist == other.timeExist
+               && bouncing == other.bouncing
+               && multipleBulletAngle == other.multipleBulletAngle
+               && numberOfBulletsPerShoot == other.numberOfBulletsPerShoot;
     }
 
     public override bool Equals(object obj)
     {
-        if (obj is BulletNetworkSerializable other)
-        {
-            return Equals(other);
-        }
-        return false;
+        return obj is BulletNetworkSerializable other && Equals(other);
     }
+
     public override int GetHashCode()
     {
-        return HashCode.Combine(size, damage, speed, delay, timeExist, bouncing,numberOfBulletsPerShoot, multipleBulletAngle);
-    }
-
-    public static bool operator ==(BulletNetworkSerializable left, BulletNetworkSerializable right)
-    {
-        return left.Equals(right);
-    }
-
-    public static bool operator !=(BulletNetworkSerializable left, BulletNetworkSerializable right)
-    {
-        return !(left == right);
+        return HashCode.Combine(size, damage, speed, delay, timeExist, bouncing, multipleBulletAngle, numberOfBulletsPerShoot);
     }
 
     public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
     {
+        // Serialize primitives directly
         serializer.SerializeValue(ref size);
         serializer.SerializeValue(ref damage);
         serializer.SerializeValue(ref speed);

@@ -10,7 +10,7 @@ public class Bullet : ScriptableObject
     public float timeExist;
     public float bouncing;
     public float multipleBulletAngle;
-    public float numberOfBulletsPerShoot;
+    public byte numberOfBulletsPerShoot;
     
     public BulletNetworkSerializable Mapping()
     {
