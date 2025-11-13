@@ -65,27 +65,6 @@ public class BulletController : NetworkBehaviour
         currentConfig.bouncing--;
         bulletConfigNetworkVariable.Value = currentConfig;    
     }
-
-    private void BouncesChangedClient()
-    {
-        BulletNetworkSerializable currentConfig = bulletConfigNetworkVariable.Value;
-
-        currentConfig.bouncing--;
-        bulletConfigNetworkVariable.Value = currentConfig;
-
-    }
-    private void BouncesChanged()
-    {
-        if (IsOwner)
-        {
-            BouncesChangedServerRpc();
-        }
-        else
-        {
-            BouncesChangedClient();
-
-        }    
-    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.gameObject.CompareTag("Bullet"))
@@ -138,8 +117,8 @@ public class BulletController : NetworkBehaviour
                     direction = fallbackDir;
 
                 }
-                BouncesChanged();
 
+                BouncesChangedServerRpc();
             }
             else
             {
