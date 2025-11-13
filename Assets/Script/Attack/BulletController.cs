@@ -7,6 +7,8 @@ public class BulletController : NetworkBehaviour
 {
     private BulletManager bulletManager;
     private BulletNetworkSerializable pendingInit;
+    private Vector2 pendingDirection;
+
     private bool hasPendingInit = false;
     private NetworkVariable<BulletNetworkSerializable> bulletConfigNetworkVariable = new NetworkVariable<BulletNetworkSerializable>();
     [SerializeField] private Rigidbody2D _rigidbody2D;
@@ -40,6 +42,10 @@ public class BulletController : NetworkBehaviour
         {
             bulletConfigNetworkVariable.Value = pendingInit;
             hasPendingInit = false;
+            this.direction = pendingDirection;
+            UpdateSpriteBullet();
+            currentDuration = 0f;
+            isShoot = true;
         }
     }
 
@@ -166,17 +172,19 @@ public class BulletController : NetworkBehaviour
         if (NetworkObject != null && NetworkObject.IsSpawned && IsServer)
         {
             this.bulletConfigNetworkVariable.Value = bulletNetwork;
+            this.direction = direction;
+            UpdateSpriteBullet();
+            currentDuration = 0f;
+            isShoot = true;
         }
         else
         {
             pendingInit = bulletNetwork;
             hasPendingInit = true;
+            pendingDirection = direction;
         }
 
-        this.direction = direction;
-        UpdateSpriteBullet();
-        currentDuration = 0f;
-        isShoot = true;
+
 
     }
     
