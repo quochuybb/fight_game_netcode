@@ -29,13 +29,15 @@ public class BulletManager : NetworkBehaviour
 
     public void RequestDestroyFromBullet(NetworkObject networkObject,BulletNetworkSerializable bullet)
     {
+        Debug.LogError("RequestDestroyFromBullet");
         DestroyBullet(networkObject,bullet);
     }
 
     public void DestroyBullet(NetworkObject networkObject, BulletNetworkSerializable bullet)
     {
         if (!IsServer) return; 
-        
+        Debug.LogError("DestroyBullet");
+
         if (networkObject == null || !networkObject.IsSpawned)
         {
             return;
