@@ -4,9 +4,6 @@ using System.Threading;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-#if TMP_PRESENT
-using TMPro;
-#endif
 
 [DisallowMultipleComponent]
 public class NetworkStatsHUD : MonoBehaviour
@@ -41,9 +38,10 @@ public class NetworkStatsHUD : MonoBehaviour
     float sentPacketsPerSec = 0f;
     float recvPacketsPerSec = 0f;
 
-    // Ping & loss (updated by NetworkPingPong)
+    // Ping & loss & jitter (updated by NetworkPingPong)
     float lastPingMs = 0f;
     float packetLossPercent = 0f;
+    float lastJitterMs = 0f;
 
     // ---------- Public API used by NetworkPingPong ----------
     public static void AddSentBytes(long bytes) => Interlocked.Add(ref s_sentBytes, bytes);
@@ -61,6 +59,12 @@ public class NetworkStatsHUD : MonoBehaviour
     public void SetPacketLossPercent(float percent)
     {
         packetLossPercent = percent;
+    }
+
+    /// <summary>Call this from NetworkPingPong (on main thread) to update jitter (ms)</summary>
+    public void SetJitterMs(float ms)
+    {
+        lastJitterMs = ms;
     }
 
     // For nicer formatting
@@ -116,8 +120,11 @@ public class NetworkStatsHUD : MonoBehaviour
 
     void RefreshText()
     {
+        float totalThroughput = sentBytesPerSec + recvBytesPerSec;
+
         string s = $"FPS: {lastFPS:F1}\n";
-        s += $"Ping: {lastPingMs:F0} ms  Loss: {packetLossPercent:F1}%\n";
+        s += $"Ping: {lastPingMs:F0} ms   Jitter: {lastJitterMs:F1} ms\n";
+        s += $"Loss: {packetLossPercent:F1}%   Throughput: {FormatBytes(totalThroughput)}\n";
 
         if (showSent)
         {
@@ -128,13 +135,6 @@ public class NetworkStatsHUD : MonoBehaviour
             s += $"Recv: {recvPacketsPerSec:F1} pkt/s, {FormatBytes(recvBytesPerSec)}\n";
         }
 
-#if TMP_PRESENT
-        if (tmpText != null)
-        {
-            tmpText.text = s;
-            return;
-        }
-#endif
         if (uiText != null)
         {
             uiText.text = s;
@@ -147,19 +147,18 @@ public class NetworkStatsHUD : MonoBehaviour
     void OnGUI()
     {
         if (!useOnGUIFallback) return;
-#if TMP_PRESENT
-        if (tmpText != null) return;
-#endif
         if (uiText != null) return;
 
         GUIStyle style = new GUIStyle(GUI.skin.label);
         style.fontSize = fontSize;
         style.normal.textColor = Color.white;
-        Rect r = new Rect(anchor.x, anchor.y, 460, 200);
+        Rect r = new Rect(anchor.x, anchor.y, 520, 240);
         string s = $"FPS: {lastFPS:F1}\n";
-        s += $"Ping: {lastPingMs:F0} ms  Loss: {packetLossPercent:F1}%\n";
+        s += $"Ping: {lastPingMs:F0} ms   Jitter: {lastJitterMs:F1} ms\n";
+        s += $"Loss: {packetLossPercent:F1}%   Throughput: {FormatBytes(sentBytesPerSec + recvBytesPerSec)}\n";
         if (showSent) s += $"Sent: {sentPacketsPerSec:F1} pkt/s, {FormatBytes(sentBytesPerSec)}\n";
         if (showRecv) s += $"Recv: {recvPacketsPerSec:F1} pkt/s, {FormatBytes(recvBytesPerSec)}\n";
         GUI.Label(r, s, style);
     }
 }
+

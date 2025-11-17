@@ -1,10 +1,11 @@
 // NetworkPingPong.cs
 // Attach this to a NetworkObject that the client owns (e.g. player prefab).
 // It periodically sends a PingServerRpc and expects a Pong back from server.
-// The script computes RTT and estimates packet loss over a sliding time window.
+// The script computes RTT, jitter (stddev), and estimates packet loss over a sliding time window.
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.Netcode;
 using UnityEngine;
 
@@ -13,6 +14,7 @@ public class NetworkPingPong : NetworkBehaviour
     [Header("Ping Settings")]
     public float pingInterval = 0.5f; // seconds between pings
     public float lossWindowSeconds = 10f; // measure loss over last N seconds
+    public int rttHistorySize = 100; // keep this many recent RTT samples for jitter calc
 
     // sequence number increment
     private int seq = 0;
@@ -23,8 +25,13 @@ public class NetworkPingPong : NetworkBehaviour
     // store recent history entries (sentTime, received)
     private List<PingEntry> history = new List<PingEntry>();
 
+    // keep RTT history for jitter calculation
+    private Queue<float> rttHistory = new Queue<float>();
+
     // reference to HUD (optional) - will find in scene
     private NetworkStatsHUD hud;
+
+    // track throughput: we will query HUD's bytes/sec so no need duplicate here
 
     // struct for history
     private struct PingEntry
@@ -91,8 +98,12 @@ public class NetworkPingPong : NetworkBehaviour
         // compute RTT
         if (pending.TryGetValue(sentSeq, out float sentTime))
         {
-            float rtt = (now - sentTime) * 1000f; // ms
+            float rttMs = (now - sentTime) * 1000f; // ms
             pending.Remove(sentSeq);
+
+            // store RTT sample for jitter calculation
+            rttHistory.Enqueue(rttMs);
+            if (rttHistory.Count > rttHistorySize) rttHistory.Dequeue();
 
             // find in history and mark received
             for (int i = history.Count - 1; i >= 0; --i)
@@ -107,7 +118,7 @@ public class NetworkPingPong : NetworkBehaviour
             }
 
             // prune old history and compute stats
-            PruneAndComputeStats(now, rtt);
+            PruneAndComputeStats(now, rttMs);
         }
     }
 
@@ -128,19 +139,12 @@ public class NetworkPingPong : NetworkBehaviour
             history.RemoveRange(keepIndex, history.Count - keepIndex);
         }
 
-        // compute loss & average RTT from entries in window
+        // compute loss & average RTT & jitter from RTT history
         int totalSent = history.Count;
         int received = 0;
-        float sumRtt = 0f;
-        int rttCount = 0;
         foreach (var e in history)
         {
-            if (e.received)
-            {
-                received++;
-                // We don't store per-entry RTTs, but we can approximate:
-                // For more accuracy, you'd store rtt per entry. For now estimate using lastRttMs for smoothing.
-            }
+            if (e.received) received++;
         }
 
         float lossPercent = 0f;
@@ -149,11 +153,27 @@ public class NetworkPingPong : NetworkBehaviour
             lossPercent = 100f * (totalSent - received) / (float)totalSent;
         }
 
+        // RTT average from recent RTT samples
+        float avgRtt = 0f;
+        float jitter = 0f;
+        if (rttHistory.Count > 0)
+        {
+            avgRtt = 0f;
+            foreach (var v in rttHistory) avgRtt += v;
+            avgRtt /= rttHistory.Count;
+
+            // stddev
+            float sumSq = 0f;
+            foreach (var v in rttHistory) sumSq += (v - avgRtt) * (v - avgRtt);
+            jitter = Mathf.Sqrt(sumSq / rttHistory.Count);
+        }
         // ask HUD to update (main thread) — already on main thread
         if (hud != null)
         {
             hud.SetPacketLossPercent(lossPercent);
-            hud.SetPingMs(lastRttMs);
+            hud.SetPingMs(avgRtt);
+            hud.SetJitterMs(jitter);
+            // HUD computes throughput from bytes counters so nothing to send here
         }
     }
 }
