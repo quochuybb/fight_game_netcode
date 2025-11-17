@@ -5401,6 +5401,7 @@ GameObject:
   - component: {fileID: 4414767248746112625}
   - component: {fileID: 7066863266143438262}
   - component: {fileID: 2572428898283007839}
+  - component: {fileID: -2954232975146916269}
   m_Layer: 6
   m_Name: Player 1
   m_TagString: Player
@@ -5852,6 +5853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPrefab: {fileID: 1688683127569052790, guid: 3c22c144c8c336cbc9acae957c7e665d, type: 3}
+  mainCamera: {fileID: 0}
 --- !u!114 &2572428898283007839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5878,12 +5880,20 @@ MonoBehaviour:
   ghostColor: {r: 1, g: 1, b: 1, a: 0.5}
   healthUI: {fileID: 1183549551134958713}
   healthSlider: {fileID: 5297240878449451859}
-  pointsUI:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+--- !u!114 &-2954232975146916269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5729047136385410059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9697a3725ead41beac2ea390d09ccf0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pingInterval: 0.5
+  lossWindowSeconds: 10
 --- !u!1 &5921343974918012442
 GameObject:
   m_ObjectHideFlags: 0
