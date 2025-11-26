@@ -39,7 +39,6 @@ public class CharacterMovement : NetworkBehaviour
     }
     private void Start()
     {
-        _networkPosition.OnValueChanged += OnNetworkPositionChanged;
         characterController.OnMoveEvent.AddListener(OnMove);
         characterController.OnDash.AddListener(RequestDashServerRpc);
     }
@@ -62,12 +61,6 @@ public class CharacterMovement : NetworkBehaviour
 
         
     }
-
-    private void OnNetworkPositionChanged(Vector2 oldValue, Vector2 newValue)
-    {
-        Debug.LogError("On Pos Changed");
-        //transform.position = newValue;
-    } 
 
     private void HandleOwnerMovement(Vector2 movementVel)
     {
