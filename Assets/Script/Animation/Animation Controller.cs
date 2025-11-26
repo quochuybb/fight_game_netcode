@@ -7,8 +7,8 @@ public class AnimationController : NetworkBehaviour
     private readonly int isRunning = Animator.StringToHash("isRunning");
     private readonly int isHurt = Animator.StringToHash("isHurt");
     private CharacterController _characterController;
-    [SerializeField] private ParticleSystem particleSystem;
-    private bool createDust = true;
+    [SerializeField] private new ParticleSystem particleSystem;
+    private readonly bool createDust = true;
 
     private void Awake()
     {
