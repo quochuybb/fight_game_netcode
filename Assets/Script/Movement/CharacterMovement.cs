@@ -13,24 +13,14 @@ public class CharacterMovement : NetworkBehaviour
     private readonly float dashDuration = 0.25f;
     private readonly float dashPower = 5f;
     [SerializeField] private TrailRenderer dashTrail;
-    private readonly NetworkVariable<Vector2> _networkPosition = new NetworkVariable<Vector2>();
+    private readonly NetworkVariable<Vector2> _networkPosition = new NetworkVariable<Vector2>(); 
     private float lastServerSyncTime;
     private float lastNetworkUpdate;
-    private const float NetworkUpdateInterval = 0.001f;
+    private const float NetworkUpdateInterval = 0.05f; 
     [SerializeField] private Transform spawnTransform;
     [FormerlySerializedAs("statsHandlerReWork")] [SerializeField] private StatsHandlerReWork statsHandlerReWork;
 
-    // --- reconciliation settings (mới) ---
-    [Header("Reconciliation")]
-    [Tooltip("Nếu lệch nhỏ hơn giá trị này thì không cần correction")]
-    [SerializeField] private float reconciliationIgnoreThreshold = 0.05f;
-    [Tooltip("Nếu lệch lớn hơn snap thì nhảy thẳng về server")]
-    [SerializeField] private float reconciliationSnapThreshold = 0.8f;
-    [Tooltip("Số giây để sửa mượt về vị trí server (nếu không snap)")]
-    [SerializeField] private float reconciliationDuration = 0.12f;
-
-    private Coroutine reconcileCoroutine;
-
+    
     private void Awake()
     {
         canDash = true;
@@ -42,8 +32,8 @@ public class CharacterMovement : NetworkBehaviour
         }
         else
         {
-            rb.gravityScale = 0f;
-            rb.constraints = RigidbodyConstraints2D.None;
+            rb.gravityScale = 0f; 
+            rb.constraints = RigidbodyConstraints2D.None; 
         }
 
     }
@@ -61,88 +51,32 @@ public class CharacterMovement : NetworkBehaviour
         int map = 1;
         if (IsServer)
         {
-            var t = GameObject.FindGameObjectWithTag("SpawnHost" + map);
-            if (t != null) spawnTransform = t.transform;
-            if (spawnTransform != null) transform.position = spawnTransform.position;
+            spawnTransform = GameObject.FindGameObjectWithTag("SpawnHost" + map).transform;
+            transform.position = spawnTransform.position;
         }
         else if (IsClient)
         {
-            var t = GameObject.FindGameObjectWithTag("SpawnClient" + map);
-            if (t != null) spawnTransform = t.transform;
-            if (spawnTransform != null) transform.position = spawnTransform.position;
+            spawnTransform = GameObject.FindGameObjectWithTag("SpawnClient"+ map).transform;
+            transform.position = spawnTransform.position;
         }
 
-
+        
     }
 
     private void OnNetworkPositionChanged(Vector2 oldValue, Vector2 newValue)
     {
-        // Nếu không phải owner (remote), set trực tiếp để render (interpolation khác đang dùng)
-        if (!IsOwner)
-        {
-            transform.position = newValue;
-            return;
-        }
-
-        // --- Owner: reconcile prediction với authoritative server position ---
-        // compute distance between local predicted pos and server pos
-        float dist = Vector2.Distance(transform.position, newValue);
-
-        // nhỏ hơn ngưỡng: bỏ qua (local prediction đủ tốt)
-        if (dist <= reconciliationIgnoreThreshold)
-        {
-            return;
-        }
-
-        // quá lớn: snap ngay
-        if (dist >= reconciliationSnapThreshold)
-        {
-            // hủy coroutine nếu đang chạy
-            if (reconcileCoroutine != null)
-            {
-                StopCoroutine(reconcileCoroutine);
-                reconcileCoroutine = null;
-            }
-
-            transform.position = newValue;
-            if (rb != null) rb.position = newValue;
-            return;
-        }
-
-        // trung bình: sửa mượt dần (smooth correction)
-        if (reconcileCoroutine != null) StopCoroutine(reconcileCoroutine);
-        reconcileCoroutine = StartCoroutine(SmoothReconcile(newValue, reconciliationDuration));
-    }
-
-    private IEnumerator SmoothReconcile(Vector2 targetPos, float duration)
-    {
-        float elapsed = 0f;
-        Vector2 startPos = transform.position;
-
-        // If using rb for movement, we set rb.position each frame to avoid physics conflicts
-        while (elapsed < duration)
-        {
-            elapsed += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsed / duration);
-            Vector2 pos = Vector2.Lerp(startPos, targetPos, t);
-            transform.position = pos;
-            if (rb != null) rb.position = pos;
-            yield return null;
-        }
-
-        // ensure final
-        transform.position = targetPos;
-        if (rb != null) rb.position = targetPos;
-        reconcileCoroutine = null;
-    }
+        Debug.LogError("On Pos Changed");
+        transform.position = newValue;
+    } 
 
     private void HandleOwnerMovement(Vector2 movementVel)
     {
+        Debug.LogError("Calculate Movement");
         movementVel = movementVel * statsHandlerReWork.currentStats.Value.speedMove;
         rb.velocity = movementVel;
         if (Time.time - lastNetworkUpdate >= NetworkUpdateInterval)
         {
-
+            Debug.LogError("Call update Server");
             lastNetworkUpdate = Time.time;
             UpdatePositionServerRpc(rb.position);
         }
@@ -150,9 +84,10 @@ public class CharacterMovement : NetworkBehaviour
     }
     private void HandleClientMovement()
     {
+        Debug.LogError("Update NotOwner");
         transform.position = Vector2.Lerp(
-            transform.position,
-            _networkPosition.Value,
+            transform.position, 
+            _networkPosition.Value, 
             Time.deltaTime * 15f
         );
     }
@@ -163,17 +98,20 @@ public class CharacterMovement : NetworkBehaviour
         this.movement = movementInput;
         if (IsOwner)
         {
+            Debug.LogError("IsOwner");
             HandleOwnerMovement(movementInput);
         }
         else
         {
+            Debug.LogError("NotOwner");
             HandleClientMovement();
-        }
+        }  
 
     }
     [ServerRpc]
     private void UpdatePositionServerRpc(Vector2 newPosition)
     {
+        Debug.LogError("Update on Server");
         _networkPosition.Value = newPosition;
         transform.position = newPosition;
         UpdatePositionClientRpc(newPosition);
@@ -181,11 +119,8 @@ public class CharacterMovement : NetworkBehaviour
     [ClientRpc]
     private void UpdatePositionClientRpc(Vector2 newPosition)
     {
-        // nếu là owner ta đã xử lý reconciliation trong NetworkVariable callback
-        if (!IsOwner)
-        {
-            transform.position = newPosition;
-        }
+        Debug.LogError("Update on Client");
+        transform.position = newPosition;
     }
 
 
@@ -213,13 +148,6 @@ public class CharacterMovement : NetworkBehaviour
         isDashing = false;
         canDash = true;
     }
-
-    // Optional: allow external system to force immediate sync (debug)
-    public void ForceSnapToServer()
-    {
-        var sv = _networkPosition.Value;
-        transform.position = sv;
-        if (rb != null) rb.position = sv;
-        if (reconcileCoroutine != null) { StopCoroutine(reconcileCoroutine); reconcileCoroutine = null; }
-    }
+    
 }
+
