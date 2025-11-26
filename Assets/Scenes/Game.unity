@@ -35391,10 +35391,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 87c5b7644a212f5c797627641291d06f, type: 2}
   - {fileID: 11400000, guid: d66fd8ff8478b89279a4acc205bd8473, type: 2}
   - {fileID: 11400000, guid: 664146e948514e8eaafa75353f2c3470, type: 2}
-  _listChestController:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  _listChestController: []
   playersManager: {fileID: 202022731}
 --- !u!114 &1005967727
 MonoBehaviour:
