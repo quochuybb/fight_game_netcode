@@ -11,7 +11,7 @@ public class CharacterMovement : NetworkBehaviour
     private bool canDash;
     private bool isDashing;
     private readonly float dashDuration = 0.25f;
-    private readonly float dashPower = 5f;
+    private readonly float dashPower = 0.2f;
     [SerializeField] private TrailRenderer dashTrail;
     private readonly NetworkVariable<Vector2> _networkPosition = new NetworkVariable<Vector2>(); 
     private float lastServerSyncTime;
@@ -19,7 +19,9 @@ public class CharacterMovement : NetworkBehaviour
     private const float NetworkUpdateInterval = 0.05f; 
     [SerializeField] private Transform spawnTransform;
     [SerializeField] private StatsHandlerReWork statsHandlerReWork;
-
+    private Vector2 preDashVelocity;
+    private Vector2 preDashInput; 
+    [SerializeField] private bool useImpulseDash = true;
     
     private void Awake()
     {
@@ -66,7 +68,10 @@ public class CharacterMovement : NetworkBehaviour
     {
         Debug.LogError("Calculate Movement");
         movementVel = movementVel * statsHandlerReWork.currentStats.Value.speedMove;
-        rb.velocity = movementVel;
+        if (!isDashing)
+        {
+            rb.velocity = movementVel;
+        }
         if (Time.time - lastNetworkUpdate >= NetworkUpdateInterval)
         {
             Debug.LogError("Call update Server");
@@ -87,7 +92,6 @@ public class CharacterMovement : NetworkBehaviour
 
     private void OnMove(Vector2 movementInput)
     {
-
         this.movement = movementInput;
         if (IsOwner)
         {
@@ -124,14 +128,38 @@ public class CharacterMovement : NetworkBehaviour
     }
     private IEnumerator DashCoroutine()
     {
+        if (!canDash) yield break;
+
         canDash = false;
         isDashing = true;
 
-        rb.AddForce(movement * dashPower, ForceMode2D.Force);
+        preDashVelocity = rb.velocity;
+        preDashInput = movement; 
+
+        if (useImpulseDash)
+        {
+            rb.AddForce(movement.normalized * dashPower, ForceMode2D.Impulse);
+        }
+        else
+        {
+            rb.velocity = movement.normalized * dashPower;
+        }
+
         yield return new WaitForSeconds(dashDuration);
 
-        rb.velocity = Vector2.zero;
         isDashing = false;
+
+        Vector2 desiredMovementVelocity = preDashInput.normalized * statsHandlerReWork.currentStats.Value.speedMove;
+        if (preDashInput != Vector2.zero)
+        {
+            rb.velocity = desiredMovementVelocity;
+        }
+        else
+        {
+            rb.velocity = Vector2.zero; 
+        }
+
+        yield return new WaitForSeconds(0.0f); 
         canDash = true;
     }
     
