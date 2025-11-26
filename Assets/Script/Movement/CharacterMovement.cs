@@ -66,7 +66,7 @@ public class CharacterMovement : NetworkBehaviour
     private void OnNetworkPositionChanged(Vector2 oldValue, Vector2 newValue)
     {
         Debug.LogError("On Pos Changed");
-        transform.position = newValue;
+        //transform.position = newValue;
     } 
 
     private void HandleOwnerMovement(Vector2 movementVel)
