@@ -4,7 +4,6 @@ using UnityEngine;
 public class ItemController : NetworkBehaviour, INetworkSerializable
 {
     public SpriteRenderer spriteRenderer; 
-    [SerializeField] private Rigidbody2D rigidbody2D;
     [SerializeField] private CircleCollider2D circleCollider ;
     private ItemNetworkSerializable config;
     private CharacterController characterController;
@@ -14,7 +13,6 @@ public class ItemController : NetworkBehaviour, INetworkSerializable
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        rigidbody2D = GetComponent<Rigidbody2D>();
         spriteManager = FindObjectOfType<SpriteManager>();
     }
 

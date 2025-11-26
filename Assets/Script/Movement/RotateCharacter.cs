@@ -7,7 +7,7 @@ public class RotateCharacter : NetworkBehaviour
     [SerializeField] private List<SpriteRenderer> spriteRenderers = new List<SpriteRenderer>();
     [SerializeField] private SpriteRenderer gun;
     [SerializeField] private Transform spawnBullet;
-    private NetworkVariable<Vector2> networkAimDirection = new NetworkVariable<Vector2>( Vector2.right, 
+    private readonly NetworkVariable<Vector2> networkAimDirection = new NetworkVariable<Vector2>( Vector2.right, 
         NetworkVariableReadPermission.Everyone, 
         NetworkVariableWritePermission.Owner);
     

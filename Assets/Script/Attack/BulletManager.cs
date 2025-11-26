@@ -4,7 +4,7 @@ using UnityEngine;
 public class BulletManager : NetworkBehaviour
 {
 
-    [SerializeField] private ParticleSystem particleSystem;
+    [SerializeField] private new ParticleSystem particleSystem;
     public static BulletManager instance;
     [SerializeField] private GameObject bulletPrefab;
 
