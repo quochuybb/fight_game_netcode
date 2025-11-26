@@ -11,7 +11,6 @@ public class CharacterAttack : NetworkBehaviour
         NetworkVariableReadPermission.Everyone, 
         NetworkVariableWritePermission.Owner);
 
-    //[SerializeField] private StatsHandler statsHandler;
     [FormerlySerializedAs("statsHanlderReWork")] [SerializeField] private StatsHandlerReWork statsHandlerReWork;
 
     private BulletManager bulletManager;
@@ -54,18 +53,6 @@ public class CharacterAttack : NetworkBehaviour
         }
         canShoot = false;
         CreateAngleAndBullet(statsHandlerReWork.currentAttackStats.Value);
-        //if (IsServer)
-        //{
-            //CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableHost.Value);
-
-        //}
-        //else
-        //{
-            //CreateAngleAndBullet(statsHandler.currentStatsAttackNetworkVariableClient.Value);
-
-        //}
-
-
     }
 
     private void CreateAngleAndBullet(BulletNetworkSerializable bullet)
@@ -104,7 +91,6 @@ public class CharacterAttack : NetworkBehaviour
     public void HandleDelayTime()
     {
         lastTimeShoot += Time.deltaTime;
-        //if (lastTimeShoot > statsHandler.currentStatsAttackNetworkVariableHost.Value.delay)
         if (lastTimeShoot > 1f)
         {
             lastTimeShoot = 0f;
