@@ -114,13 +114,6 @@ public class CharacterMovement : NetworkBehaviour
         Debug.LogError("Update on Server");
         _networkPosition.Value = newPosition;
         transform.position = newPosition;
-        UpdatePositionClientRpc(newPosition);
-    }
-    [ClientRpc]
-    private void UpdatePositionClientRpc(Vector2 newPosition)
-    {
-        Debug.LogError("Update on Client");
-        transform.position = newPosition;
     }
 
 
