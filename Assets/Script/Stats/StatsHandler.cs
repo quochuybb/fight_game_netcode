@@ -1,215 +1,221 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Reflection;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.UI;
 
+public enum CharacterState
+{
+    Alive,
+    Dead
+}
 public class StatsHandler : NetworkBehaviour
 {
     public static StatsHandler Instance;
+    [Header("Base Stats")]
     [SerializeField] public CharacterStats stats;
     [SerializeField] public Bullet statsAttack;
+    [Header("Effects & Animator")]
+    [SerializeField] private Animator animator;
     [SerializeField] public ParticleSystem dieEffect;
     private CharacterController _characterController;
-    public NetworkVariable<CharacterStatsNetwork> currentStatsNetworkVariableClient = new NetworkVariable<CharacterStatsNetwork>(new CharacterStatsNetwork());
-    public NetworkVariable<BulletNetworkSerializable> currentStatsAttackNetworkVariableClient = new NetworkVariable<BulletNetworkSerializable>(new BulletNetworkSerializable());    
-    public NetworkVariable<CharacterStatsNetwork> currentStatsNetworkVariableHost = new NetworkVariable<CharacterStatsNetwork>(new CharacterStatsNetwork());
-    public NetworkVariable<BulletNetworkSerializable> currentStatsAttackNetworkVariableHost = new NetworkVariable<BulletNetworkSerializable>(new BulletNetworkSerializable());
-    private CharacterStatsNetwork CurrentClient = new CharacterStatsNetwork();
-    private BulletNetworkSerializable CurrentAttackClient = new BulletNetworkSerializable();
-    private CharacterStatsNetwork CurrentHost = new CharacterStatsNetwork();
-    private BulletNetworkSerializable CurrentAttackHost = new BulletNetworkSerializable();
-    public NetworkVariable<Vector2> networkPosition;
-    private const float BuffUpdateInterval = 0.1f;
-    private float _lastBuffUpdateTime ;
-    private float lastNetworkUpdate;
-    
+    [Header("Networked Stats")]
+    public NetworkVariable<CharacterStatsNetwork> currentStats =
+        new NetworkVariable<CharacterStatsNetwork>(
+            writePerm: NetworkVariableWritePermission.Server);
+    public NetworkVariable<BulletNetworkSerializable> currentAttackStats =
+        new NetworkVariable<BulletNetworkSerializable>(
+            writePerm: NetworkVariableWritePermission.Server);  
+    public NetworkVariable<CharacterState> State =
+        new NetworkVariable<CharacterState>(CharacterState.Alive,
+            NetworkVariableReadPermission.Everyone,
+            NetworkVariableWritePermission.Server);
+    [SerializeField] private float respawnTime = 15f;
+    [Header("Ghost Effect")]
+    [SerializeField] private SpriteRenderer[] playerSprites; 
+    [SerializeField] private Color ghostColor = new Color(1f, 1f, 1f, 0.5f);
+    private Collider2D _collider2D;
+
+    [Header("UI (Owner Only)")]
+    [SerializeField] private GameObject healthUI;
+    [SerializeField] private Slider healthSlider;
+
     private void Awake()
     {
-        _characterController = GetComponent<CharacterController>();
-        _characterController.OnDamgeEvent.AddListener(Injured);
-        _characterController.OnBuffEvent.AddListener(BuffStats);
-
+        _collider2D = GetComponent<Collider2D>();
     }
+
     public override void OnNetworkSpawn()
     {
-        base.OnNetworkSpawn();
+        _characterController = GetComponent<CharacterController>();
+        _characterController.OnDamgeEvent.AddListener(OnLocalDamaged);
+        _characterController.OnBuffEvent.AddListener(OnLocalBuff);
+        State.OnValueChanged += HandleStateChanged;
 
         if (IsServer)
         {
-            currentStatsNetworkVariableHost.Value = stats.Mapping();
-            currentStatsNetworkVariableClient.Value = stats.Mapping();
-            CurrentHost= stats.Mapping();
-            CurrentClient = stats.Mapping();
-            currentStatsAttackNetworkVariableClient.Value = statsAttack.Mapping();
-            currentStatsAttackNetworkVariableHost.Value = statsAttack.Mapping();
-            CurrentAttackClient= statsAttack.Mapping();
-            CurrentAttackHost = statsAttack.Mapping();
+            currentStats.Value = stats.Mapping();
+            currentAttackStats.Value = statsAttack.Mapping();
+        }
 
+        currentStats.OnValueChanged += OnStatsChanged;
+        currentAttackStats.OnValueChanged += OnStatsAttackChanged;
+
+        if (healthUI != null)
+            healthUI.SetActive(IsOwner);
+        
+        if (IsOwner && healthSlider != null)
+        {
+            healthSlider.maxValue = stats.Mapping().healthPoint;
+            healthSlider.value = currentStats.Value.healthPoint;
         }
     }
-
-    private void Start()
+    public override void OnNetworkDespawn()
     {
-        Instance = this;
-        currentStatsNetworkVariableClient.OnValueChanged += OnStatsClientChanged;
-        currentStatsNetworkVariableHost.OnValueChanged += OnStatsHostChanged;
-        currentStatsAttackNetworkVariableClient.OnValueChanged += OnStatsAttackClientChanged;
-        currentStatsAttackNetworkVariableHost.OnValueChanged += OnStatsAttackHostChanged;
+        if (_characterController != null)
+        {
+            _characterController.OnDamgeEvent.RemoveListener(OnLocalDamaged);
+            _characterController.OnBuffEvent.RemoveListener(OnLocalBuff);
+        }
+        if (State != null)
+        {
+            State.OnValueChanged -= HandleStateChanged;
+        }
+    }
+    private void OnStatsChanged(CharacterStatsNetwork oldValue, CharacterStatsNetwork newValue)
+    {
 
     }
-    private void OnStatsHostChanged(CharacterStatsNetwork previous, CharacterStatsNetwork current)
+    
+    private void OnStatsAttackChanged(BulletNetworkSerializable oldValue, BulletNetworkSerializable newValue)
     {
-        CurrentHost = current;
+        
+    }
+    private void HandleStateChanged(CharacterState previousState, CharacterState newState)
+    {
+        bool isDead = newState == CharacterState.Dead;
+
+        foreach (var sprite in playerSprites)
+        {
+            if (sprite != null)
+                sprite.color = isDead ? ghostColor : Color.white;
+        }
+
+        if (_collider2D != null)
+            _collider2D.enabled = !isDead;
+        if (animator != null)
+            animator.SetBool("Death", isDead);
+        
+    }
+    private void OnLocalDamaged(float dmg)
+    {
+        ApplyDamageServerRpc(dmg);
+    }
+    [ServerRpc(RequireOwnership = false)]
+    public void ApplyDamageServerRpc(
+         float delta, ServerRpcParams p = default)
+    {
+        var stats = currentStats.Value;
+        var attackStats = currentAttackStats.Value;
+
+        if (stats.armor > 0)
+        {
+            stats.armor = Mathf.Max(0, stats.armor - delta);
+        }
+        else
+        {
+            stats.healthPoint = Mathf.Max(0, stats.healthPoint - delta);
+            if (stats.healthPoint == 0)
+            {
+                State.Value = CharacterState.Dead;
+                RunDieEffectClientRpc(p.Receive.SenderClientId);
+                stats.healthPoint = this.stats.Mapping().healthPoint + 5*(this.stats.Mapping().alive - stats.alive + 1);
+                UpdateHealthSliderClientRpc(delta, stats.healthPoint);
+                stats.alive -= 1;
+                UpdatePointUIClientRpc(stats.alive,p.Receive.SenderClientId);
+                if (stats.alive == 0)
+                {
+                    EndGameClientRpc(stats.alive);
+                    return;
+                }
+                stats.speedMove += 2;
+                attackStats.damage += 2;
+                StartCoroutine(RespawnTimerCoroutine()); 
+            }
+            UpdateHealthSliderClientRpc(delta, stats.healthPoint);
 
 
-    }
-    private void OnStatsClientChanged(CharacterStatsNetwork previous, CharacterStatsNetwork current)
-    {
-        CurrentClient = current;     
-    }
-    private void OnStatsAttackHostChanged(BulletNetworkSerializable previous, BulletNetworkSerializable current)
-    {
-        CurrentAttackHost = current;
-    }
-    private void OnStatsAttackClientChanged(BulletNetworkSerializable previous, BulletNetworkSerializable current)
-    {
-        CurrentAttackClient = current;
-    }
 
-    private void Injured(float damage)
+        }
+        currentStats.Value = stats;
+        currentAttackStats.Value = attackStats;
+    }
+    private IEnumerator RespawnTimerCoroutine()
+    {
+        yield return new WaitForSeconds(respawnTime);
+        State.Value = CharacterState.Alive;
+    }
+    [ClientRpc]
+    public void EndGameClientRpc(
+        float alive, ClientRpcParams rpc = default)
+    {
+        CameraFollow.instance.OnResetCamera();
+        MenuTransition.instance.ShowPanelEndGame(alive);
+    }
+    [ClientRpc]
+    private void UpdateHealthSliderClientRpc(
+        float delta, float newMaxHP,ClientRpcParams rpc = default)
     {
         if (IsOwner)
         {
-            ChangeHealthServerRpc(damage);
-
-        }
-        else
-        {
-            ChangeHealthClient(damage);
-
-        }
-
-    }
-    private void ChangeHealthClient(float damage)
-    {
-        if (currentStatsNetworkVariableClient.Value.armor > 0)
-        {
-            currentStatsNetworkVariableClient.Value.armor -= damage;
-            if (currentStatsNetworkVariableClient.Value.armor <= 0)
+            if (healthSlider.value <= 0)
             {
-                currentStatsNetworkVariableClient.Value.armor = 0;
+                healthSlider.maxValue = newMaxHP;
+                healthSlider.value = healthSlider.maxValue;
+                return;
             }
-        }
-        else
-        {
-            currentStatsNetworkVariableClient.Value.healthPoint -= damage;
+            healthSlider.value -= delta;
 
-        }        
-        if (currentStatsNetworkVariableClient.Value.healthPoint <= 0)
-        {
-            currentStatsNetworkVariableClient.Value.alive -= 1;
-            currentStatsNetworkVariableClient.Value.healthPoint = stats.Mapping().healthPoint + 5;
-            currentStatsNetworkVariableClient.Value.armor += 2;
-            BulletNetworkSerializable currentConfig = currentStatsAttackNetworkVariableClient.Value;
-
-            currentConfig.damage += 1;
-            currentConfig.speed += 3;
-            currentStatsAttackNetworkVariableClient.Value = currentConfig;
-            RunDieEffectClientRpc();
-            if (currentStatsNetworkVariableClient.Value.alive <= 0)
-            {
-                NetworkManager.Singleton.Shutdown();
-
-            }
         }
     }
     
-
-
-
-    [ServerRpc]
-    public void ChangeHealthServerRpc(float damage)
+    [ClientRpc]
+    public void UpdatePointUIClientRpc(
+        float alive,ulong target, ClientRpcParams rpc = default)
     {
-        if (currentStatsNetworkVariableHost.Value.armor > 0)
-        {
-            currentStatsNetworkVariableHost.Value.armor -= damage;
-            if (currentStatsNetworkVariableHost.Value.armor <= 0)
-            {
-                currentStatsNetworkVariableHost.Value.armor = 0;
-            }
-        }
-        else
-        {
-            currentStatsNetworkVariableHost.Value.healthPoint -= damage;
 
-        }
-        if (currentStatsNetworkVariableHost.Value.healthPoint <= 0)
+        if (!IsOwner)
         {
-            currentStatsNetworkVariableHost.Value.alive -= 1;
-            currentStatsNetworkVariableHost.Value.healthPoint = stats.Mapping().healthPoint + 5;
-            currentStatsNetworkVariableHost.Value.armor += 2;
-            BulletNetworkSerializable currentConfig = currentStatsAttackNetworkVariableHost.Value;
-
-            currentConfig.damage += 1;
-            currentConfig.speed += 3;
-            currentStatsAttackNetworkVariableHost.Value = currentConfig;
-            RunDieEffectClientRpc();
-            if (currentStatsNetworkVariableHost.Value.alive <= 0)
-            {
-                NetworkManager.Singleton.Shutdown();
-
-            }
+            //UIManager.instance.ShowPoint(alive);
         }
     }
-
     [ClientRpc]
-    public void RunDieEffectClientRpc()
+    private void RunDieEffectClientRpc(
+        ulong targetClient, ClientRpcParams rpc = default)
     {
         dieEffect.Stop();
         dieEffect.Play();
     }
-    
-    public void BuffStats(ItemNetworkSerializable item, ServerRpcParams rpcParams = default)
+    private void OnLocalBuff(ItemNetworkSerializable item, ServerRpcParams rpcParams = default)
     {
-        if (IsOwner)
-        {
-            HandleOwnerBuff(item);
-        }
+        if (!IsOwner) return;
+        ApplyBuffServerRpc(item);
+    }
+    [ServerRpc(RequireOwnership = false)]
+    public void ApplyBuffServerRpc(
+        ItemNetworkSerializable item, ServerRpcParams rpcParams = default)
+    {
+        var stats = currentStats.Value;
+        var attackStats = currentAttackStats.Value;
+        if (item.typeBuff == 0)
+            SetFieldByName(stats, item.nameStatsBuff, item.statsBuff);
         else
-        {
-            if (item.typeBuff == 0)
-            {
-                HandleClientBuff();
-
-            }
-            else
-            {
-                HandleClientBuffAttack();
-            }
-        }
-    }
-    private void HandleOwnerBuff(ItemNetworkSerializable item)
-    {
-        if (Time.time - _lastBuffUpdateTime >= BuffUpdateInterval)
-        {
-            _lastBuffUpdateTime = Time.time;
-            if (IsOwner)
-            {
-                UpdateBuffServerRpc(item);
-            }
-        }
-    }
-
-
-    private void HandleClientBuffAttack()
-    {
-        CurrentAttackClient= currentStatsAttackNetworkVariableClient.Value;
-    }
-    private void HandleClientBuff()
-    {
-        CurrentClient= currentStatsNetworkVariableClient.Value;
-
+            SetFieldByName(attackStats, item.nameStatsBuff, item.statsBuff);
+        
+        currentStats.Value = stats;
+        currentAttackStats.Value = attackStats;
     }
     public void SetFieldByName(object obj, string targetFieldName, float newValue)
     {
@@ -233,42 +239,6 @@ public class StatsHandler : NetworkBehaviour
             }
         }
         
-    }
-    [ServerRpc]
-    private void UpdateBuffServerRpc(ItemNetworkSerializable item, ServerRpcParams serverRpcParams = default)
-    {
-        
-        if (serverRpcParams.Receive.SenderClientId == 0)
-        {
-
-            if (item.typeBuff == 1)
-            {
-                SetFieldByName(currentStatsAttackNetworkVariableHost.Value, item.nameStatsBuff, item.statsBuff);
-                SetFieldByName(CurrentAttackHost, item.nameStatsBuff, item.statsBuff);
-            }
-            else
-            {
-                SetFieldByName(currentStatsNetworkVariableHost.Value, item.nameStatsBuff, item.statsBuff);
-                SetFieldByName(CurrentHost, item.nameStatsBuff, item.statsBuff);
-            }
-        }
-        else
-        {
-            if (item.typeBuff == 1)
-            {
-                SetFieldByName(currentStatsAttackNetworkVariableClient.Value, item.nameStatsBuff, item.statsBuff);
-                SetFieldByName(CurrentAttackClient, item.nameStatsBuff, item.statsBuff);
-
-                
-            }
-            else
-            {
-                SetFieldByName(currentStatsNetworkVariableClient.Value, item.nameStatsBuff, item.statsBuff);
-                SetFieldByName(CurrentClient, item.nameStatsBuff, item.statsBuff);
-            }
-
-        }
-
     }
 
 }

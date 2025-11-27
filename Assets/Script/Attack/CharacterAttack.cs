@@ -11,7 +11,7 @@ public class CharacterAttack : NetworkBehaviour
         NetworkVariableReadPermission.Everyone, 
         NetworkVariableWritePermission.Owner);
 
-    [FormerlySerializedAs("statsHanlderReWork")] [SerializeField] private StatsHandlerReWork statsHandlerReWork;
+    [FormerlySerializedAs("statsHandlerReWork")] [FormerlySerializedAs("statsHanlderReWork")] [SerializeField] private StatsHandler statsHandler;
 
     private BulletManager bulletManager;
     private float lastTimeShoot;
@@ -43,7 +43,7 @@ public class CharacterAttack : NetworkBehaviour
 
     private void OnShooting()
     {
-        if (statsHandlerReWork.State.Value != CharacterState.Alive)
+        if (statsHandler.State.Value != CharacterState.Alive)
         {
             return;
         }
@@ -52,7 +52,7 @@ public class CharacterAttack : NetworkBehaviour
             return;
         }
         canShoot = false;
-        CreateAngleAndBullet(statsHandlerReWork.currentAttackStats.Value);
+        CreateAngleAndBullet(statsHandler.currentAttackStats.Value);
     }
 
     private void CreateAngleAndBullet(BulletNetworkSerializable bullet)

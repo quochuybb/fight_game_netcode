@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 3842904577746298531}
   - component: {fileID: 6308064545970914024}
   - component: {fileID: 4211215701518520210}
-  - component: {fileID: 4374207123347795698}
+  - component: {fileID: -3865385327269734079}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Untagged
@@ -274,10 +274,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useGun: 0
-  useMelee: 0
-  isClean: 0
-  canThrow: 0
   _camera: {fileID: 0}
+  _transition: {fileID: 0}
 --- !u!114 &3831490791990018515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 5072447225562995095}
   dashTrail: {fileID: 3771981424342332909}
-  statsHandler: {fileID: 4374207123347795698}
+  spawnTransform: {fileID: 0}
+  statsHandlerReWork: {fileID: 0}
+  useImpulseDash: 1
 --- !u!96 &3771981424342332909
 TrailRenderer:
   serializedVersion: 3
@@ -449,7 +449,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 390785709051878692}
-  statsHandler: {fileID: 4374207123347795698}
+  statsHandlerReWork: {fileID: 0}
+  bulletPrefab: {fileID: 0}
 --- !u!114 &4211215701518520210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,7 +463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b8cdbcc2d5f57876bc00f2088e7540f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4374207123347795698
+--- !u!114 &-3865385327269734079
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -471,11 +472,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 297419481495695145}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad16511d7a7e85abdbcbd4c20ab11d9c, type: 3}
+  m_Script: {fileID: 11500000, guid: a167f6d618bf43f1298559feb115f5b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 11400000, guid: 664f55b7f5755ddeba149c9fa5e7db1d, type: 2}
-  statsAttack: {fileID: 11400000, guid: a3f5df6cafa46c1aeb967d052a1f0a05, type: 2}
+  stats: {fileID: 0}
+  statsAttack: {fileID: 0}
+  animator: {fileID: 0}
+  dieEffect: {fileID: 0}
+  State:
+    m_InternalValue: 0
+  respawnTime: 15
+  playerSprites: []
+  ghostColor: {r: 1, g: 1, b: 1, a: 0.5}
+  healthUI: {fileID: 0}
+  healthSlider: {fileID: 0}
 --- !u!1 &3017111907521831266
 GameObject:
   m_ObjectHideFlags: 0

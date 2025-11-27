@@ -18,10 +18,11 @@ public class CharacterMovement : NetworkBehaviour
     private float lastNetworkUpdate;
     private const float NetworkUpdateInterval = 0.05f; 
     [SerializeField] private Transform spawnTransform;
-    [SerializeField] private StatsHandlerReWork statsHandlerReWork;
+    [FormerlySerializedAs("statsHandlerReWork")] [SerializeField] private StatsHandler statsHandler;
     private Vector2 preDashVelocity;
     private Vector2 preDashInput; 
     [SerializeField] private bool useImpulseDash = true;
+    [SerializeField] private int countMap = 3;
     
     private void Awake()
     {
@@ -49,15 +50,15 @@ public class CharacterMovement : NetworkBehaviour
     {
         base.OnNetworkSpawn();
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-        int map = 1;
+        int map = Random.Range(1, countMap+1);
         if (IsServer)
         {
-            spawnTransform = GameObject.FindGameObjectWithTag("SpawnHost" + map).transform;
+            spawnTransform = GameObject.FindGameObjectWithTag("SpawnHost" + 1).transform;
             transform.position = spawnTransform.position;
         }
         else if (IsClient)
         {
-            spawnTransform = GameObject.FindGameObjectWithTag("SpawnClient"+ map).transform;
+            spawnTransform = GameObject.FindGameObjectWithTag("SpawnClient"+ 1).transform;
             transform.position = spawnTransform.position;
         }
 
@@ -67,7 +68,7 @@ public class CharacterMovement : NetworkBehaviour
     private void HandleOwnerMovement(Vector2 movementVel)
     {
         Debug.LogError("Calculate Movement");
-        movementVel = movementVel * statsHandlerReWork.currentStats.Value.speedMove;
+        movementVel = movementVel * statsHandler.currentStats.Value.speedMove;
         if (!isDashing)
         {
             rb.velocity = movementVel;
@@ -149,7 +150,7 @@ public class CharacterMovement : NetworkBehaviour
 
         isDashing = false;
 
-        Vector2 desiredMovementVelocity = preDashInput.normalized * statsHandlerReWork.currentStats.Value.speedMove;
+        Vector2 desiredMovementVelocity = preDashInput.normalized * statsHandler.currentStats.Value.speedMove;
         if (preDashInput != Vector2.zero)
         {
             rb.velocity = desiredMovementVelocity;

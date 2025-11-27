@@ -5019,9 +5019,8 @@ GameObject:
   - component: {fileID: 5257720553743463972}
   - component: {fileID: 5143143449871142064}
   - component: {fileID: 8372138775479386846}
-  - component: {fileID: 2158123189734009177}
   - component: {fileID: 6051611536794252274}
-  - component: {fileID: 5025293330138381927}
+  - component: {fileID: 5610908903511311583}
   m_Layer: 7
   m_Name: Ghost
   m_TagString: Dirt
@@ -5161,7 +5160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 269854682
+  GlobalObjectIdHash: 3699614021
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -5184,6 +5183,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 4539229842105785517}
   dashTrail: {fileID: 0}
+  spawnTransform: {fileID: 0}
+  statsHandlerReWork: {fileID: 0}
+  useImpulseDash: 1
 --- !u!114 &8372138775479386846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5197,22 +5199,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 1252278932792283697}
---- !u!114 &2158123189734009177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8151856039690206164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c7ed0d30be310799b8e06ac60eee4f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useGun: 0
-  useMelee: 0
-  isClean: 0
-  canThrow: 0
 --- !u!114 &6051611536794252274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5229,7 +5215,7 @@ MonoBehaviour:
   - {fileID: 7871780414041521202}
   gun: {fileID: 1380674059918033706}
   spawnBullet: {fileID: 5550852337664582538}
---- !u!114 &5025293330138381927
+--- !u!114 &5610908903511311583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5238,10 +5224,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 8151856039690206164}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad16511d7a7e85abdbcbd4c20ab11d9c, type: 3}
+  m_Script: {fileID: 11500000, guid: a167f6d618bf43f1298559feb115f5b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 11400000, guid: 7b4af1a0bf0de0a129adb69177f56906, type: 2}
+  stats: {fileID: 0}
+  statsAttack: {fileID: 0}
+  animator: {fileID: 0}
+  dieEffect: {fileID: 0}
+  State:
+    m_InternalValue: 0
+  respawnTime: 15
+  playerSprites: []
+  ghostColor: {r: 1, g: 1, b: 1, a: 0.5}
+  healthUI: {fileID: 0}
+  healthSlider: {fileID: 0}
 --- !u!1 &8415110034768770767
 GameObject:
   m_ObjectHideFlags: 0
