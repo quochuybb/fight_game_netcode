@@ -28,7 +28,7 @@ public class MapManager : NetworkBehaviour
             if (selectedMap.Value == 0)
             {
                 selectedMap.Value = Random.Range(1, 4); // pick 1..3
-                Debug.Log($"[MapManager] server selected map {selectedMap.Value}");
+                Debug.LogError($"[MapManager] server selected map {selectedMap.Value}");
             }
         }
     }

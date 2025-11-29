@@ -50,13 +50,17 @@ public class CharacterMovement : NetworkBehaviour
         base.OnNetworkSpawn();
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         mapManager = MapManager.Instance;
+        if (mapManager == null)
+        {
+            Debug.LogError("Null map manager!");
+        }
         RegisterToMapManager(mapManager);
 
     }
     private void RegisterToMapManager(MapManager mm)
     {
         mm.selectedMap.OnValueChanged += OnSelectedMapChanged;
-
+        Debug.LogError(mm.selectedMap.Value);
         if (mm.selectedMap.Value != 0)
         {
             ApplySelectedMap(mm.selectedMap.Value);
@@ -74,11 +78,14 @@ public class CharacterMovement : NetworkBehaviour
     }
     private void OnSelectedMapChanged(int oldValue, int newValue)
     {
+        Debug.LogError("value change");
+
         ApplySelectedMap(newValue);
     }
 
     private void ApplySelectedMap(int map)
     {
+        Debug.LogError(map);
         string tagToFind;
         if (IsServer)
             tagToFind = "SpawnHost" + map;
