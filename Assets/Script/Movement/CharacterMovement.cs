@@ -53,12 +53,12 @@ public class CharacterMovement : NetworkBehaviour
         int map = Random.Range(1, countMap+1);
         if (IsServer)
         {
-            spawnTransform = GameObject.FindGameObjectWithTag("SpawnHost" + 1).transform;
+            spawnTransform = GameObject.FindGameObjectWithTag("SpawnHost" + map).transform;
             transform.position = spawnTransform.position;
         }
         else if (IsClient)
         {
-            spawnTransform = GameObject.FindGameObjectWithTag("SpawnClient"+ 1).transform;
+            spawnTransform = GameObject.FindGameObjectWithTag("SpawnClient"+ map).transform;
             transform.position = spawnTransform.position;
         }
 

@@ -15,6 +15,9 @@ TagManager:
   - SpawnClient1
   - SpawnHost2
   - SpawnClient2
+  - SpawnHost
+  - SpawnClient3
+  - SpawnHost3
   layers:
   - Default
   - TransparentFX
