@@ -22,10 +22,7 @@ public class CharacterMovement : NetworkBehaviour
     private Vector2 preDashVelocity;
     private Vector2 preDashInput; 
     [SerializeField] private bool useImpulseDash = true;
-    [SerializeField] private int countMap = 3;
-    private NetworkVariable<int> selectedMap = new NetworkVariable<int>(
-        writePerm: NetworkVariableWritePermission.Server);
-
+    [SerializeField] private MapManager mapManager;
     private void Awake()
     {
         canDash = true;
@@ -52,22 +49,41 @@ public class CharacterMovement : NetworkBehaviour
     {
         base.OnNetworkSpawn();
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-        if (IsServer)
+        mapManager = MapManager.Instance;
+        if (mapManager == null)
         {
-            if (selectedMap.Value == 0) 
-            {
-                int map = Random.Range(1, countMap + 1);
-                selectedMap.Value = map;
-                Debug.Log($"[Server] selected map: {map}");
-            }
+            MapManager.OnMapManagerReady += MapManager_OnReady;
         }
-
-        selectedMap.OnValueChanged += OnSelectedMapChanged;
-
-        if (selectedMap.Value != 0)
+        else
         {
-            ApplySelectedMap(selectedMap.Value);
-        }    
+            RegisterToMapManager(mapManager);
+        }
+    }
+    private void MapManager_OnReady(MapManager mm)
+    {
+        MapManager.OnMapManagerReady -= MapManager_OnReady;
+        mapManager = mm;
+        RegisterToMapManager(mm);
+    }
+    private void RegisterToMapManager(MapManager mm)
+    {
+        mm.selectedMap.OnValueChanged += OnSelectedMapChanged;
+
+        if (mm.selectedMap.Value != 0)
+        {
+            ApplySelectedMap(mm.selectedMap.Value);
+        }
+    }
+
+    public override void OnNetworkDespawn()
+    {
+        base.OnNetworkDespawn();
+
+        if (mapManager != null)
+        {
+            try { mapManager.selectedMap.OnValueChanged -= OnSelectedMapChanged; } catch { }
+        }
+        MapManager.OnMapManagerReady -= MapManager_OnReady;
     }
     private void OnSelectedMapChanged(int oldValue, int newValue)
     {
@@ -92,11 +108,6 @@ public class CharacterMovement : NetworkBehaviour
         {
             Debug.LogWarning($"Spawn tag {tagToFind} not found in scene. Map={map}");
         }
-    }
-    public override void OnNetworkDespawn()
-    {
-        base.OnNetworkDespawn();
-        selectedMap.OnValueChanged -= OnSelectedMapChanged;
     }
 
 
