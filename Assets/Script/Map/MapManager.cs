@@ -21,8 +21,9 @@ public class MapManager : NetworkBehaviour
         Instance = this;
     }
 
-    private void Start()
+    public override void OnNetworkSpawn()
     {
+        base.OnNetworkSpawn();
         if (IsServer)
         {
             if (selectedMap.Value == 0)
@@ -32,7 +33,6 @@ public class MapManager : NetworkBehaviour
             }
         }
     }
-
     public Vector3[] GetPositionsForMap(int index)
     {
         switch (index)
