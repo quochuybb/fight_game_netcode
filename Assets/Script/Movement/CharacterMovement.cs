@@ -50,20 +50,8 @@ public class CharacterMovement : NetworkBehaviour
         base.OnNetworkSpawn();
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         mapManager = MapManager.Instance;
-        if (mapManager == null)
-        {
-            MapManager.OnMapManagerReady += MapManager_OnReady;
-        }
-        else
-        {
-            RegisterToMapManager(mapManager);
-        }
-    }
-    private void MapManager_OnReady(MapManager mm)
-    {
-        MapManager.OnMapManagerReady -= MapManager_OnReady;
-        mapManager = mm;
-        RegisterToMapManager(mm);
+        RegisterToMapManager(mapManager);
+
     }
     private void RegisterToMapManager(MapManager mm)
     {
@@ -83,7 +71,6 @@ public class CharacterMovement : NetworkBehaviour
         {
             try { mapManager.selectedMap.OnValueChanged -= OnSelectedMapChanged; } catch { }
         }
-        MapManager.OnMapManagerReady -= MapManager_OnReady;
     }
     private void OnSelectedMapChanged(int oldValue, int newValue)
     {

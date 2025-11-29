@@ -10,7 +10,6 @@ public class MapManager : NetworkBehaviour
     public NetworkVariable<int> selectedMap = new NetworkVariable<int>(
         0, writePerm: NetworkVariableWritePermission.Server);
 
-    public static event Action<MapManager> OnMapManagerReady;
 
     private void Awake()
     {
@@ -24,8 +23,6 @@ public class MapManager : NetworkBehaviour
 
     private void Start()
     {
-        OnMapManagerReady?.Invoke(this);
-
         if (IsServer)
         {
             if (selectedMap.Value == 0)
