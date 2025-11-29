@@ -53259,8 +53259,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 442679447}
-  - component: {fileID: 442679446}
   - component: {fileID: 442679445}
+  - component: {fileID: 442679446}
   m_Layer: 0
   m_Name: MapManager
   m_TagString: Untagged
@@ -53303,27 +53303,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedMap:
     m_InternalValue: 0
-  spawnPoints1:
-  - {x: -147, y: -5, z: 0}
-  - {x: -155, y: -20, z: 0}
-  - {x: -158, y: -9, z: 0}
-  - {x: -170, y: -5, z: 0}
-  - {x: -170, y: -16, z: 0}
-  - {x: -160, y: -15, z: 0}
-  spawnPoints2:
-  - {x: -147, y: -5, z: 0}
-  - {x: -155, y: -20, z: 0}
-  - {x: -158, y: -9, z: 0}
-  - {x: -170, y: -5, z: 0}
-  - {x: -170, y: -16, z: 0}
-  - {x: -160, y: -15, z: 0}
-  spawnPoints3:
-  - {x: -147, y: -5, z: 0}
-  - {x: -155, y: -20, z: 0}
-  - {x: -158, y: -9, z: 0}
-  - {x: -170, y: -5, z: 0}
-  - {x: -170, y: -16, z: 0}
-  - {x: -160, y: -15, z: 0}
 --- !u!4 &442679447
 Transform:
   m_ObjectHideFlags: 0
