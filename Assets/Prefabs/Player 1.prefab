@@ -5698,7 +5698,9 @@ MonoBehaviour:
   rb: {fileID: 5987438281487256932}
   dashTrail: {fileID: 5491581623398590005}
   spawnTransform: {fileID: 0}
-  statsHandlerReWork: {fileID: 2572428898283007839}
+  statsHandler: {fileID: 2572428898283007839}
+  useImpulseDash: 1
+  countMap: 3
 --- !u!96 &5491581623398590005
 TrailRenderer:
   serializedVersion: 3
@@ -5838,7 +5840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1971177049017897011}
-  statsHandlerReWork: {fileID: 2572428898283007839}
+  statsHandler: {fileID: 2572428898283007839}
   bulletPrefab: {fileID: 8904649031339908051, guid: d57af9eb9a7b55d069137b8324bc0b1e, type: 3}
 --- !u!114 &7066863266143438262
 MonoBehaviour:

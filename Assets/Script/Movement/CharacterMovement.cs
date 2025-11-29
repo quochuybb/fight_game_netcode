@@ -18,12 +18,14 @@ public class CharacterMovement : NetworkBehaviour
     private float lastNetworkUpdate;
     private const float NetworkUpdateInterval = 0.05f; 
     [SerializeField] private Transform spawnTransform;
-    [FormerlySerializedAs("statsHandlerReWork")] [SerializeField] private StatsHandler statsHandler;
+    [SerializeField] private StatsHandler statsHandler;
     private Vector2 preDashVelocity;
     private Vector2 preDashInput; 
     [SerializeField] private bool useImpulseDash = true;
     [SerializeField] private int countMap = 3;
-    
+    private NetworkVariable<int> selectedMap = new NetworkVariable<int>(
+        writePerm: NetworkVariableWritePermission.Server);
+
     private void Awake()
     {
         canDash = true;
@@ -50,20 +52,54 @@ public class CharacterMovement : NetworkBehaviour
     {
         base.OnNetworkSpawn();
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-        int map = Random.Range(1, countMap+1);
         if (IsServer)
         {
-            spawnTransform = GameObject.FindGameObjectWithTag("SpawnHost" + map).transform;
-            transform.position = spawnTransform.position;
-        }
-        else if (IsClient)
-        {
-            spawnTransform = GameObject.FindGameObjectWithTag("SpawnClient"+ map).transform;
-            transform.position = spawnTransform.position;
+            if (selectedMap.Value == 0) 
+            {
+                int map = Random.Range(1, countMap + 1);
+                selectedMap.Value = map;
+                Debug.Log($"[Server] selected map: {map}");
+            }
         }
 
-        
+        selectedMap.OnValueChanged += OnSelectedMapChanged;
+
+        if (selectedMap.Value != 0)
+        {
+            ApplySelectedMap(selectedMap.Value);
+        }    
     }
+    private void OnSelectedMapChanged(int oldValue, int newValue)
+    {
+        ApplySelectedMap(newValue);
+    }
+
+    private void ApplySelectedMap(int map)
+    {
+        string tagToFind;
+        if (IsServer)
+            tagToFind = "SpawnHost" + map;
+        else
+            tagToFind = "SpawnClient" + map;
+
+        GameObject spawnObj = GameObject.FindGameObjectWithTag(tagToFind);
+        if (spawnObj != null)
+        {
+            spawnTransform = spawnObj.transform;
+            transform.position = spawnTransform.position;
+        }
+        else
+        {
+            Debug.LogWarning($"Spawn tag {tagToFind} not found in scene. Map={map}");
+        }
+    }
+    public override void OnNetworkDespawn()
+    {
+        base.OnNetworkDespawn();
+        selectedMap.OnValueChanged -= OnSelectedMapChanged;
+    }
+
+
 
     private void HandleOwnerMovement(Vector2 movementVel)
     {
