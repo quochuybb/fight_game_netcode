@@ -5503,24 +5503,10 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 0.2544217, y: 0.50196475}
-      - {x: 0, y: 0.5}
-      - {x: -0.25278234, y: 0.49475855}
-      - {x: -0.39622575, y: 0.38621077}
-      - {x: -0.3948006, y: -0.24541733}
-      - {x: -0.25623918, y: -0.51659}
-      - {x: 0.033810377, y: -0.51954025}
-      - {x: 0.26927114, y: -0.5165429}
-      - {x: 0.37158325, y: -0.25271645}
-      - {x: 0.37476155, y: -0.13946414}
-      - {x: 0.373933, y: -0.05756916}
-      - {x: 0.37413624, y: -0.008711956}
-      - {x: 0.373401, y: 0.05711315}
-      - {x: 0.37477204, y: 0.071245074}
-      - {x: 0.37445092, y: 0.07487426}
-      - {x: 0.3752178, y: 0.09301807}
-      - {x: 0.3780853, y: 0.18436883}
-      - {x: 0.3768048, y: 0.37886763}
-      - {x: 0.37942863, y: 0.37629294}
+      - {x: 0.25442174, y: -0.5004256}
+      - {x: -0.37280312, y: -0.50069416}
+      - {x: -0.37640733, y: -0.49095076}
+      - {x: -0.37891036, y: 0.50344455}
   m_UseDelaunayMesh: 0
 --- !u!95 &312448175824387501
 Animator:
@@ -5555,7 +5541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3315883500
+  GlobalObjectIdHash: 4158436438
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -5700,7 +5686,7 @@ MonoBehaviour:
   spawnTransform: {fileID: 0}
   statsHandler: {fileID: 2572428898283007839}
   useImpulseDash: 1
-  countMap: 3
+  mapManager: {fileID: 0}
 --- !u!96 &5491581623398590005
 TrailRenderer:
   serializedVersion: 3
